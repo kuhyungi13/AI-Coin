@@ -1,0 +1,10 @@
+{
+  "symbol": "BTCUSDT",
+  "start": "2026-10-27",
+  "capital": 1000,
+  "ma": 50,
+  "stop": 0.05,
+  "tp": 0.20,
+  "fee": 0.001,
+  "slippage": 0.0005
+}

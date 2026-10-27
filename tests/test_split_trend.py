@@ -40,3 +40,13 @@ def test_take_profit_sells_a_third():
     qty = (1 / 101 + 1 / 102 + 1 / 103) / 3
     tp_px = (1 / qty) * 1.2               # 평균 매수가의 120%에서 1/3 익절
     assert res["equity"].iloc[-1] == pytest.approx(qty / 3 * tp_px + qty * 2 / 3 * 125)
+
+
+def test_start_blocks_trades_before_and_log_records_them():
+    df = make_df([(100, 100, 100, 100), (100, 101, 100, 101), (101, 102, 101, 102),
+                  (102, 103, 102, 103), (103, 104, 103, 104)])
+    log = []
+    res, _ = run_split(df, SplitParams(stop=0.5, tp=0.5, **P), start="2024-01-04", log=log)
+    assert list(res["trade"]) == [False, False, False, True, True]
+    assert [e["action"] for e in log] == ["매수 1/3", "매수 2/3"]
+    assert log[0]["price"] == 102 and log[0]["amount"] == pytest.approx(1 / 3)
