@@ -30,11 +30,12 @@ class SplitParams:
 
 
 def run_split(df: pd.DataFrame, p: SplitParams = SplitParams(), start=None,
-              log: list | None = None) -> tuple[pd.DataFrame, pd.Series]:
+              log: list | None = None, state: dict | None = None) -> tuple[pd.DataFrame, pd.Series]:
     """날짜별 결과(strategy.summarize와 같은 열)와, 끝난 날짜별 거래 수익률을 돌려준다.
 
     start: 이 날짜 전에는 거래하지 않는다(이동평균 계산용 앞 데이터만 쓴다).
     log: 리스트를 주면 사고판 기록(날짜, 종류, 가격, 수량, 금액)을 하나씩 넣어 준다.
+    state: 딕셔너리를 주면 마지막 캔들 뒤의 포지션 상태(평균가, 손절가, 다음 익절가 등)를 채워 준다.
     """
     ma = df["close"].rolling(p.ma).mean()
     trend = (df["close"] > ma).shift(1, fill_value=False)
@@ -115,6 +116,12 @@ def run_split(df: pd.DataFrame, p: SplitParams = SplitParams(), start=None,
 
         equity.append(cash + qty * c)
         in_pos.append(qty > 0)
+
+    if state is not None:
+        avg = cost / qty if qty > 0 else None
+        state.update(cash=cash, qty=qty, avg=avg, bought=bought, tp_done=tp_done, locked=locked,
+                     stop_px=avg * (1 - p.stop) if avg else None,
+                     tp_px=avg * (1 + p.tp * (tp_done + 1)) if avg and tp_done < 2 else None)
 
     out = df[["open", "high", "low", "close"]].copy()
     out["equity"] = equity

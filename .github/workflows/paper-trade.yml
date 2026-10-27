@@ -1,9 +1,9 @@
 # 모의 투자를 매일 자동으로 돌리고 결과(paper/)를 저장소에 저장한다.
-name: 모의 투자 (매일)
+name: 모의 투자 (자동)
 
 on:
   schedule:
-    - cron: "10 0 * * *"   # 매일 UTC 00:10 = 한국 시간 오전 9시 10분 (일봉이 끝난 직후)
+    - cron: "10 */4 * * *"   # 4시간마다(UTC 0,4,8,...시 10분 = 한국 9,13,17,21,1,5시 10분). 4시간봉이 끝난 직후
   workflow_dispatch:        # Actions 탭에서 "Run workflow" 버튼으로 바로 실행
 
 permissions:

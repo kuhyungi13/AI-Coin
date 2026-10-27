@@ -43,20 +43,29 @@ python run_split_trend.py                          # 분할 추세 전략(분할
 
 ## 모의 투자 (가상 $1,000)
 
-분할 추세 전략(50일 이동평균, 손절 5%, 익절 20%/40%)을 가상의 $1,000로 2026-10-27부터 매일 따라 합니다.
-진짜 돈도, 바이낸스 API 키도 쓰지 않습니다.
+분할 추세 전략을 가상의 $1,000로 2026-10-27부터 따라 합니다. 진짜 돈도, 바이낸스 API 키도 쓰지 않습니다.
+설정이 다른 두 전략을 나란히 돌려 비교합니다 (`paper/config.json`).
 
-- **현황 보기**: [`paper/STATUS.md`](paper/STATUS.md) (잔고, 그냥 보유했을 때와 비교, 최근 거래)
-- 자동 실행: GitHub Actions가 매일 한국 시간 오전 9시 10분에 `python run_paper.py`를 돌리고 결과를 저장합니다
-  (`.github/workflows/paper-trade.yml`). 저장소의 **Actions** 탭 → "모의 투자 (매일)" → **Run workflow**로 바로 돌릴 수도 있습니다.
-- 시작일·금액·설정 바꾸기: `paper/config.json`
+| 전략 | 규칙 | 2023년~ 과거 시험 |
+|---|---|---|
+| 하루 단위 | 일봉 50개 평균 위면 매수, 손절 5%, 익절 20%/40% | +239%, 최대 손실폭 -27% |
+| 4시간 단위 | 4시간봉 200개 평균 위면 매수, 손절 3%, 익절 20%/40% | +149%, 최대 손실폭 -31% |
+
+(같은 기간 그냥 보유 +382%, 최대 손실폭 -53%. 1시간·15분 단위는 수수료 때문에 대부분 손해라 뺐습니다.)
+
+- **현황 보기**: [`paper/STATUS.md`](paper/STATUS.md). GitHub Actions가 4시간마다 `python run_paper.py`를 돌려 저장합니다.
+- **내 컴퓨터에서 실시간으로 보기 (윈도우)**
+  1. https://www.python.org/downloads/ 에서 파이썬을 받아 설치합니다. 첫 화면 아래 **Add python.exe to PATH**에 체크하세요.
+  2. 이 저장소 첫 화면의 초록색 **Code** 버튼 → **Download ZIP**으로 받고 압축을 풉니다.
+  3. 압축 푼 폴더의 `start_live.bat`을 더블클릭합니다. 처음엔 설치에 몇 분 걸리고, 브라우저에 화면이 뜹니다. 검은 창을 닫으면 멈춥니다.
 
 ## 폴더 구성
 
 - `aicoin/data.py` 바이낸스 과거 시세 내려받기
 - `aicoin/strategy.py` 변동성 돌파 전략과 성적 계산
 - `run_backtest.py` 실행 파일
-- `run_paper.py` 모의 투자 실행 파일, `paper/` 모의 투자 설정과 기록
+- `run_paper.py` 모의 투자 실행 파일, `aicoin/paper.py` 모의 투자 계산, `paper/` 설정과 기록
+- `live_paper.py`, `start_live.bat` 내 컴퓨터에서 보는 실시간 화면
 - `tests/` 계산이 맞는지 확인하는 테스트 (`python -m pytest`)
 
 > 백테스트 결과가 좋아도 미래 수익을 보장하지 않습니다. 실전 투자 전에 반드시 모의 투자를 거칩니다.

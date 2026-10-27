@@ -50,3 +50,12 @@ def test_start_blocks_trades_before_and_log_records_them():
     assert list(res["trade"]) == [False, False, False, True, True]
     assert [e["action"] for e in log] == ["매수 1/3", "매수 2/3"]
     assert log[0]["price"] == 102 and log[0]["amount"] == pytest.approx(1 / 3)
+
+
+def test_state_reports_average_and_stop_price():
+    df = make_df([(100, 100, 100, 100), (100, 101, 100, 101), (101, 102, 101, 102)])
+    state = {}
+    run_split(df, SplitParams(stop=0.05, tp=0.2, **P), state=state)
+    assert state["bought"] == 1 and state["avg"] == pytest.approx(101)
+    assert state["stop_px"] == pytest.approx(101 * 0.95)
+    assert state["tp_px"] == pytest.approx(101 * 1.2)
