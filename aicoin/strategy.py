@@ -47,6 +47,17 @@ def run(df: pd.DataFrame, p: Params = Params()) -> pd.DataFrame:
     return out
 
 
+def period(res: pd.DataFrame, start=None, end=None) -> pd.DataFrame:
+    """run() 결과에서 일부 기간만 잘라, 그 기간 첫날을 1로 다시 계산한다.
+
+    전체 데이터로 run()을 먼저 돌리고 자르면 이동평균·전날 범위가 기간 첫날에도 정상 계산된다.
+    """
+    out = res.loc[start:end].copy()
+    out["equity"] = (1 + out["ret"]).cumprod()
+    out["hold_equity"] = out["close"] / out["open"].iloc[0]
+    return out
+
+
 def max_drawdown(equity: pd.Series) -> float:
     return float((equity / equity.cummax() - 1).min())
 
