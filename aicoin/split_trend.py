@@ -29,10 +29,20 @@ class SplitParams:
     slippage: float = 0.0005
 
 
-def run_split(df: pd.DataFrame, p: SplitParams = SplitParams()) -> tuple[pd.DataFrame, pd.Series]:
-    """날짜별 결과(strategy.summarize와 같은 열)와, 끝난 날짜별 거래 수익률을 돌려준다."""
+def run_split(df: pd.DataFrame, p: SplitParams = SplitParams(), start=None,
+              log: list | None = None) -> tuple[pd.DataFrame, pd.Series]:
+    """날짜별 결과(strategy.summarize와 같은 열)와, 끝난 날짜별 거래 수익률을 돌려준다.
+
+    start: 이 날짜 전에는 거래하지 않는다(이동평균 계산용 앞 데이터만 쓴다).
+    log: 리스트를 주면 사고판 기록(날짜, 종류, 가격, 수량, 금액)을 하나씩 넣어 준다.
+    """
     ma = df["close"].rolling(p.ma).mean()
     trend = (df["close"] > ma).shift(1, fill_value=False)
+    if start is not None:
+        start = pd.Timestamp(start)
+        if start.tzinfo is None:
+            start = start.tz_localize(df.index.tz)
+        trend &= df.index >= start
 
     cash, qty = 1.0, 0.0
     cost = 0.0          # 지금 들고 있는 코인에 쓴 돈(수수료 포함)
@@ -47,9 +57,15 @@ def run_split(df: pd.DataFrame, p: SplitParams = SplitParams()) -> tuple[pd.Data
     today = None
     equity, in_pos = [], []
 
-    def sell(q: float, price: float) -> None:
+    def record(action: str, price: float, q: float, amount: float) -> None:
+        if log is not None:
+            log.append({"date": today, "action": action, "price": price,
+                        "qty": q, "amount": amount})
+
+    def sell(q: float, price: float, action: str) -> None:
         nonlocal cash, qty, cost, exit_value
         got = q * price * (1 - p.slippage) * (1 - p.fee)
+        record(action, price, q, got)
         cost -= cost * (q / qty)
         cash += got
         qty -= q
@@ -65,7 +81,7 @@ def run_split(df: pd.DataFrame, p: SplitParams = SplitParams()) -> tuple[pd.Data
             locked = False
         # 시가: 추세가 꺾였으면 정리, 이어지면 한 칸 더 산다.
         if qty > 0 and not up:
-            sell(qty, o)
+            sell(qty, o, "추세이탈 매도")
             close_trade()
         elif up and not locked and bought < p.tranches and tp_done == 0:
             if bought == 0:
@@ -77,6 +93,7 @@ def run_split(df: pd.DataFrame, p: SplitParams = SplitParams()) -> tuple[pd.Data
             cash -= spend
             entry_value += spend
             bought += 1
+            record(f"매수 {bought}/{p.tranches}", o, q, spend)
             base_qty = qty / p.tranches
 
         # 장중: 손절 먼저, 그다음 분할 익절.
@@ -84,14 +101,14 @@ def run_split(df: pd.DataFrame, p: SplitParams = SplitParams()) -> tuple[pd.Data
             avg = cost / qty
             stop_px = avg * (1 - p.stop)
             if l <= stop_px:
-                sell(qty, min(o, stop_px))
+                sell(qty, min(o, stop_px), "손절")
                 close_trade()
                 locked = True
             else:
                 for level in (1, 2):
                     px = avg * (1 + p.tp * level)
                     if tp_done < level and h >= px and qty > 0:
-                        sell(min(base_qty, qty), max(o, px))
+                        sell(min(base_qty, qty), max(o, px), f"익절 {level}")
                         tp_done = level
                 if qty <= 1e-12:
                     close_trade()
