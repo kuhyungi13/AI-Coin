@@ -27,6 +27,7 @@ python run_backtest.py              # 기본: BTC/USDT, 2018년부터, k=0.5
 python run_backtest.py --k 0.4 --ma 5
 python run_backtest.py --sweep      # 여러 설정을 한 번에 비교
 python run_backtest.py --sweep --split 2023-01-01   # 2022년까지로 설정 고르고 2023년부터 검증
+python run_split_trend.py                          # 분할 추세 전략(분할매수·손절·분할익절) 검증
 ```
 
 결과 숫자 읽는 법:
