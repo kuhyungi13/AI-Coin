@@ -19,6 +19,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python run_paper.py
+      - run: python run_screen.py   # 오늘의 코인 순위표 (paper/PICKS.md, 참고용)
       - name: 결과 저장
         run: |
           git config user.name "github-actions[bot]"

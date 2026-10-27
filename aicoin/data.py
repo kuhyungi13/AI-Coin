@@ -35,8 +35,12 @@ def _get(params: dict) -> list:
 
 
 def fetch_klines(symbol: str = "BTCUSDT", interval: str = "1d",
-                 start: str = "2018-01-01", end: str | None = None) -> pd.DataFrame:
-    """start~end 기간의 캔들을 모두 받아 DataFrame(index=UTC 날짜)으로 돌려준다."""
+                 start: str = "2018-01-01", end: str | None = None,
+                 quote_volume: bool = False) -> pd.DataFrame:
+    """start~end 기간의 캔들을 모두 받아 DataFrame(index=UTC 날짜)으로 돌려준다.
+
+    quote_volume=True면 거래대금(USDT 기준) 열 quote_volume도 넣는다.
+    """
     start_ms = int(pd.Timestamp(start, tz="UTC").timestamp() * 1000)
     end_ms = int(pd.Timestamp(end, tz="UTC").timestamp() * 1000) if end else None
 
@@ -56,7 +60,8 @@ def fetch_klines(symbol: str = "BTCUSDT", interval: str = "1d",
 
     df = pd.DataFrame(rows, columns=COLUMNS)
     df["date"] = pd.to_datetime(df["open_time"], unit="ms", utc=True)
-    df = df.set_index("date")[["open", "high", "low", "close", "volume"]].astype(float)
+    cols = ["open", "high", "low", "close", "volume"] + (["quote_volume"] if quote_volume else [])
+    df = df.set_index("date")[cols].astype(float)
     return df[~df.index.duplicated()].sort_index()
 
 
