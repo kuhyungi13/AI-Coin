@@ -1,7 +1,7 @@
 """모의 투자 실행 파일. 진짜 돈과 API 키 없이, 가상의 돈으로 분할 추세 전략을 따라 한다.
 
 하루 한 번(한국 시간 오전 9시 이후) 실행하면 바이낸스 공개 시세를 받아
-paper/config.json 의 시작일부터 어제까지 전략을 그대로 다시 돌리고, 결과를 paper/ 폴더에 적는다.
+paper/config.json 의 시작일부터 지금까지 전략을 그대로 다시 돌리고, 결과를 paper/ 폴더에 적는다.
 매번 시작일부터 다시 계산하므로 하루 빼먹어도 다음 실행 때 자동으로 따라잡는다.
 
 사용법:
@@ -36,11 +36,12 @@ def main() -> None:
     warmup = start - pd.Timedelta(days=p.ma * 3)
     df = fetch_klines(cfg["symbol"], "1d", f"{warmup:%Y-%m-%d}")
     today = pd.Timestamp.now(tz="UTC").normalize()
-    df = df[df.index < today]  # 오늘 캔들은 아직 안 끝났으므로 뺀다
+    # 오늘 캔들은 아직 진행 중이다. 시가 매매와 지금까지의 손절/익절은 반영하고, 잔고는 현재가로 계산한다.
+    done = df[df.index < today]
 
     days = df[df.index >= start]
     if days.empty:
-        print(f"아직 끝난 거래일이 없습니다. {start:%Y-%m-%d} 하루가 끝난 뒤(한국 시간 다음 날 오전 9시) 다시 실행하세요.")
+        print(f"{start:%Y-%m-%d}부터 거래합니다. 아직 시작일이 오지 않았습니다.")
         write_status(cfg, None, pd.DataFrame(), None)
         return
 
@@ -50,7 +51,7 @@ def main() -> None:
 
     balance = pd.DataFrame({
         "date": res.index.strftime("%Y-%m-%d"),
-        "btc_close": res["close"].round(2),
+        "btc_close": res["close"].round(2),  # 오늘 행은 현재가
         "equity_usd": (res["equity"] * capital).round(2),
         "hold_usd": (capital * res["close"] / res["open"].iloc[0]).round(2),
         "in_position": res["trade"],
@@ -65,12 +66,12 @@ def main() -> None:
         trades["amount"] = (trades["amount"] * capital).round(2)
     trades.to_csv(PAPER / "trades.csv", index=False)
 
-    ma = df["close"].rolling(p.ma).mean()
-    signal_up = bool(df["close"].iloc[-1] > ma.iloc[-1])
+    ma = done["close"].rolling(p.ma).mean()
+    signal_up = bool(done["close"].iloc[-1] > ma.iloc[-1])  # 오늘 시가 매매를 정한 신호
     write_status(cfg, balance, trades, signal_up)
 
     last = balance.iloc[-1]
-    print(f"{last['date']} 기준 가상 잔고 {usd(last['equity_usd'])} "
+    print(f"{last['date']} {pd.Timestamp.now(tz='UTC'):%H:%M} UTC 기준 가상 잔고 {usd(last['equity_usd'])} "
           f"(그냥 보유했다면 {usd(last['hold_usd'])}), 거래 {len(trades)}건")
 
 
@@ -83,19 +84,19 @@ def write_status(cfg: dict, balance: pd.DataFrame | None, trades: pd.DataFrame,
              f"- 규칙: {cfg['ma']}일 이동평균 위면 3번 나눠 매수, 평균가 -{cfg['stop']:.0%} 손절, "
              f"+{cfg['tp']:.0%}·+{cfg['tp'] * 2:.0%}에서 1/3씩 익절, 나머지는 추세가 꺾이면 매도", ""]
     if balance is None:
-        lines += ["아직 끝난 거래일이 없습니다. 첫 결과는 시작일 다음 날 나옵니다."]
+        lines += ["아직 시작일이 오지 않았습니다."]
     else:
         last = balance.iloc[-1]
         ret = last["equity_usd"] / cfg["capital"] - 1
         hold = last["hold_usd"] / cfg["capital"] - 1
-        lines += [f"## {last['date']} 기준", "",
+        lines += [f"## {last['date']} {pd.Timestamp.now(tz='UTC') + pd.Timedelta(hours=9):%H:%M} (한국 시간) 기준", "",
                   "| 항목 | 값 |", "|---|---|",
                   f"| 가상 잔고 | {usd(last['equity_usd'])} ({ret:+.1%}) |",
                   f"| 그냥 보유했다면 | {usd(last['hold_usd'])} ({hold:+.1%}) |",
                   f"| 코인 보유 중 | {'예' if last['in_position'] else '아니요'} |",
-                  f"| BTC 종가 | {usd(last['btc_close'])} |",
+                  f"| BTC 가격 | {usd(last['btc_close'])} |",
                   f"| 거래 횟수 | {len(trades)}건 |",
-                  f"| 오늘 추세 | {'이동평균 위 (살 수 있음)' if signal_up else '이동평균 아래 (사지 않음, 들고 있으면 판다)'} |",
+                  f"| 오늘 추세 | {'어제 종가가 이동평균 위 → 오늘 9시에 살 수 있음' if signal_up else '어제 종가가 이동평균 아래 → 오늘은 사지 않음 (들고 있었으면 9시에 판다)'} |",
                   ""]
         if not trades.empty:
             lines += ["## 최근 거래", "", "| 날짜 | 종류 | 가격 | 금액 |", "|---|---|---|---|"]
