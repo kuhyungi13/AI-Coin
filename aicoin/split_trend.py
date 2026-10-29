@@ -30,15 +30,18 @@ class SplitParams:
 
 
 def run_split(df: pd.DataFrame, p: SplitParams = SplitParams(), start=None,
-              log: list | None = None, state: dict | None = None) -> tuple[pd.DataFrame, pd.Series]:
+              log: list | None = None, state: dict | None = None,
+              signal: pd.Series | None = None) -> tuple[pd.DataFrame, pd.Series]:
     """날짜별 결과(strategy.summarize와 같은 열)와, 끝난 날짜별 거래 수익률을 돌려준다.
 
     start: 이 날짜 전에는 거래하지 않는다(이동평균 계산용 앞 데이터만 쓴다).
     log: 리스트를 주면 사고판 기록(날짜, 종류, 가격, 수량, 금액)을 하나씩 넣어 준다.
     state: 딕셔너리를 주면 마지막 캔들 뒤의 포지션 상태(평균가, 손절가, 다음 익절가 등)를 채워 준다.
+    signal: 이동평균 대신 쓸 "상승 추세" 신호(캔들 종가 기준 True/False). 주면 p.ma는 쓰지 않는다.
     """
-    ma = df["close"].rolling(p.ma).mean()
-    trend = (df["close"] > ma).shift(1, fill_value=False)
+    if signal is None:
+        signal = df["close"] > df["close"].rolling(p.ma).mean()
+    trend = signal.reindex(df.index, fill_value=False).astype(bool).shift(1, fill_value=False)
     if start is not None:
         start = pd.Timestamp(start)
         if start.tzinfo is None:
