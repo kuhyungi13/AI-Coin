@@ -1,0 +1,4 @@
+# 코인 분석 TF팀(run_tf_team.py)용
+pandas>=2.0
+requests>=2.28
+anthropic>=2.4

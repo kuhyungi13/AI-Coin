@@ -1,0 +1,68 @@
+# 코인 분석 TF팀: 매일 아침 7명 AI 팀이 회의하고 보고서(paper/TF_REPORT.md)를 저장한다.
+# 저장소 Settings → Secrets and variables → Actions 에 ANTHROPIC_API_KEY 를 넣어야 돈다.
+name: 코인 분석 TF팀
+
+on:
+  schedule:
+    - cron: "20 0 * * *"   # 매일 UTC 0시 20분 = 한국 오전 9시 20분 (일봉 마감 직후)
+  workflow_dispatch:        # Actions 탭에서 "Run workflow"로 바로 실행
+    inputs:
+      coins:
+        description: "분석할 코인 (띄어쓰기로 구분)"
+        default: "BTC ETH"
+      rounds:
+        description: "BULL vs BEAR 토론 라운드 수"
+        default: "2"
+  pull_request:             # 코드가 바뀌면 자료 수집만 시험 (Claude 호출 없음, 비용 없음)
+    paths:
+      - "aicoin/tf_team/**"
+      - "run_tf_team.py"
+      - ".github/workflows/tf-team.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tf-team-${{ github.ref }}
+
+jobs:
+  meeting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-tf.txt pytest
+
+      - name: 테스트
+        run: python -m pytest -q tests/test_tf_team.py
+
+      - name: 자료 수집 시험 (PR)
+        if: github.event_name == 'pull_request'
+        run: python run_tf_team.py --dry-run BTC ETH
+
+      - name: TF팀 회의
+        if: github.event_name != 'pull_request'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+          COINS: ${{ github.event.inputs.coins || 'BTC ETH' }}
+          ROUNDS: ${{ github.event.inputs.rounds || '2' }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::warning::ANTHROPIC_API_KEY 시크릿이 없어 회의를 건너뜁니다."
+            exit 0
+          fi
+          python run_tf_team.py $COINS --rounds "$ROUNDS"
+
+      - name: 보고서 저장
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898732+github-actions[bot]@users.noreply.github.com"
+          git add paper/TF_REPORT.md paper/tf/ 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "TF팀 보고서 $(date -u +%F)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
