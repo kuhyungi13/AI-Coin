@@ -50,7 +50,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898732+github-actions[bot]@users.noreply.github.com"
           git add paper/tf/BRIEF.md paper/tf/SCAN.md paper/tf/SCOREBOARD.md paper/tf/scoreboard.json paper/tf/brief_meta.json
-          git add paper/tf/verdicts.csv 2>/dev/null || true
+          git add paper/tf/verdicts.csv paper/tf/trainer 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -m "TF팀 회의 자료 $(TZ=Asia/Seoul date +'%F %H:%M')"
           git pull --rebase origin "${GITHUB_REF_NAME}"

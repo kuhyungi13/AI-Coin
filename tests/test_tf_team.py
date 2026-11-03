@@ -208,3 +208,65 @@ def test_score_hits_and_summary():
     assert s["ACE"] == {"맞음": 1, "전체": 2, "승률(%)": 50.0}
     assert s["채점 대기"] == 1
     assert "50.0% (1/2)" in score.scoreboard_markdown(s, df, "x")
+
+
+# ---- TRAINER 모의투자 ----
+from aicoin.tf_team import trainer as trainer_mod
+
+
+def _bars(prices):
+    """{(coin, 'YYYY-mm-dd HH'): (open, high, low, close)} 로 가짜 1시간봉."""
+    def klines(coin, start, end):
+        rows = {pd.Timestamp(k[1], tz="UTC"): v for k, v in prices.items() if k[0] == coin}
+        rows = {t: v for t, v in rows.items() if start <= t < end}
+        df = pd.DataFrame(rows.values(), index=list(rows.keys()), columns=["open", "high", "low", "close"])
+        return df.sort_index()
+    return klines
+
+
+def _verdicts(tmp_path, rows):
+    pd.DataFrame(rows, columns=["run_at", "coin", "decision", "confidence"]).to_csv(tmp_path / "verdicts.csv", index=False)
+
+
+def test_trainer_buys_on_confident_buy_and_takes_profit(tmp_path):
+    _verdicts(tmp_path, [["2026-11-03T06:20:00Z", "SOL", "매수", "8"],
+                         ["2026-11-03T06:20:00Z", "BTC", "관망", "6"]])
+    k = _bars({("SOL", "2026-11-03 07:00"): (100, 101, 99, 100),
+               ("SOL", "2026-11-03 08:00"): (100, 111, 99, 110)})
+    sm = trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 09:05", tz="UTC"), k)
+    trades = pd.read_csv(tmp_path / "trainer/trades.csv")
+    assert list(trades["side"]) == ["매수", "매도"]
+    assert trades["reason"].iloc[1] == "익절 +10%"
+    assert float(trades["price"].iloc[0]) == 100
+    # 16% 투자해 10% 수익, 수수료 왕복 0.2% 정도
+    assert 10_140 < sm["총자산"] < 10_160
+    assert sm["보유"] == [] and sm["청산 거래"] == 1
+
+
+def test_trainer_skips_low_confidence_and_stops_out(tmp_path):
+    _verdicts(tmp_path, [["2026-11-03T06:20:00Z", "ETH", "매수", "5"],
+                         ["2026-11-03T06:20:00Z", "SOL", "매수", "6"]])
+    k = _bars({("SOL", "2026-11-03 07:00"): (100, 100, 100, 100),
+               ("SOL", "2026-11-03 08:00"): (100, 112, 94, 95)})  # 한 봉에서 둘 다 닿으면 손절
+    trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 09:05", tz="UTC"), k)
+    trades = pd.read_csv(tmp_path / "trainer/trades.csv")
+    assert list(trades["coin"]) == ["SOL", "SOL"]
+    assert trades["reason"].iloc[1] == "손절 -5%"
+
+
+def test_trainer_waits_for_next_hour_and_is_idempotent(tmp_path):
+    _verdicts(tmp_path, [["2026-11-03T06:20:00Z", "SOL", "매수", "7"]])
+    k = _bars({("SOL", "2026-11-03 07:00"): (50, 51, 49, 50)})
+    trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 06:55", tz="UTC"), k)  # 아직 07시 봉 전
+    assert not (pd.read_csv(tmp_path / "trainer/trades.csv")).shape[0]
+    trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 07:20", tz="UTC"), k)
+    trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 07:40", tz="UTC"), k)
+    trades = pd.read_csv(tmp_path / "trainer/trades.csv")
+    assert list(trades["side"]) == ["매수"]
+    _verdicts(tmp_path, [["2026-11-03T06:20:00Z", "SOL", "매수", "7"],
+                         ["2026-11-03T07:20:00Z", "SOL", "매도", "7"]])
+    k2 = _bars({("SOL", "2026-11-03 07:00"): (50, 51, 49, 50), ("SOL", "2026-11-03 08:00"): (52, 52, 51, 51)})
+    sm = trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 08:30", tz="UTC"), k2)
+    trades = pd.read_csv(tmp_path / "trainer/trades.csv")
+    assert list(trades["side"]) == ["매수", "매도"] and trades["reason"].iloc[1] == "ACE 매도 7/10"
+    assert sm["수익률(%)"] > 0

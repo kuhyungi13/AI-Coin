@@ -1,6 +1,7 @@
 """코인 분석 TF팀 회의 자료 모으기 (무료, API 키 불필요). GitHub Actions가 매시간(하루 24번) 돌린다.
 
 1. 채점: 24시간 지난 지난 의견을 실제 가격으로 채점 → paper/tf/SCOREBOARD.md, scoreboard.json
+   TRAINER: ACE 결정대로 모의투자 (실제 주문 없음) → paper/tf/trainer/TRAINER.md
 2. 스캔: 바이낸스 USDT 코인 전체를 훑어 후보를 고름 → paper/tf/SCAN.md
 3. 자료: BTC·ETH와 후보 코인에 대해 4명분 자료를 모음 → paper/tf/BRIEF.md
 
@@ -23,7 +24,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from aicoin.tf_team import score, sources
+from aicoin.tf_team import score, sources, trainer
 from aicoin.tf_team.brief import build_brief, find_errors
 from aicoin.tf_team.scan import ALWAYS, pick, scan, scan_markdown
 
@@ -53,6 +54,15 @@ def main() -> int:
         extra.append(f"**지금까지 승률** ACE {a['승률(%)'] if a['승률(%)'] is not None else '자료 없음'}% "
                      f"({a['맞음']}/{a['전체']}), 채점 대기 {board['채점 대기']}개 · 자세히는 `paper/tf/SCOREBOARD.md`, "
                      "교훈은 `aicoin/tf_team/LESSONS.md`")
+
+    # 1-2) TRAINER 모의투자 (실제 주문 없음)
+    acct = sources._safe(trainer.run, FOLDER)
+    if "오류" in acct:
+        print(f"TRAINER 실패: {acct['오류']}")
+    else:
+        held = ", ".join(p["코인"] for p in acct["보유"]) or "없음"
+        extra.append(f"**TRAINER 모의 계좌** 총자산 {acct['총자산']:,.2f} USDT ({acct['수익률(%)']:+.2f}%), "
+                     f"보유 {held} · 자세히는 `paper/tf/trainer/TRAINER.md`")
 
     # 2) 전체 스캔과 후보
     coins = [c.upper() for c in args.coins] or list(ALWAYS)
