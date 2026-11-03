@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-04 06:22 KST)
+# TF팀 회의 자료 (2026-11-04 07:22 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1564804193923,
- "완전희석가치 FDV(USD)": 1564804193923,
- "24시간 거래대금(USD)": 25641737071,
+ "시가총액(USD)": 1563934310773,
+ "완전희석가치 FDV(USD)": 1563934310773,
+ "24시간 거래대금(USD)": 25253498138,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -38.26991,
+ "역대 최고가 대비(%)": -38.2994,
  "가격 변화(%)": {
-  "7d": -3.54109,
-  "30d": -9.30572,
-  "1y": -27.16865
+  "7d": -3.752,
+  "30d": -9.36915,
+  "1y": -27.13915
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4126531015
+  "TVL(USD)": 4141753834
  }
 }
 ```
@@ -187,12 +187,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-03 04:48"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze",
-   "요약": "Bulls are watching short positions, exchange withdrawals and key price levels for signs of a rebound after the midterms.",
-   "시각(UTC)": "11-02 18:13"
-  },
-  {
    "출처": "Cointelegraph",
    "제목": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
    "요약": "Markus Thielen sees Bitcoin reaching $90,000 by year-end, questions institutional ETF demand and says Ethereum must do more for holders.",
@@ -215,9 +209,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
    "요약": "Moscow Exchange plans to launch crypto trading on Dec. 1 under Russia’s new law, with annual purchase limits for non-qualified investors.",
    "시각(UTC)": "11-03 13:15"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin price threatens $77.7K support loss with recent buyers underwater",
+   "요약": "Bitcoin fell below the realized price of the one-to-three-month-old buyer cohort in a move that risked flipping it to new resistance.",
+   "시각(UTC)": "11-03 10:04"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
+   "요약": "A group backed by Citadel Securities and other firms sued the U.S. derivatives regulator for opening a path for perps that it argued belong in the SEC's hands.",
+   "시각(UTC)": "11-03 22:14"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
@@ -259,12 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
    "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
    "시각(UTC)": "11-03 14:42"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "CZ warns of more AI-driven hacks following Binance’s historic $6.3 billion heist",
-   "요약": "While investigators found no evidence that AI agents laundered the stolen Binance funds, Zhao stressed that automated tools are lowering the barrier for complex breaches.",
-   "시각(UTC)": "11-03 14:22"
   }
  ]
 }
@@ -296,31 +296,31 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "WEEX (Futures)": 0.0001,
    "Tapbit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 29741897203
+  "미결제약정 합계 USD(상위)": 29624072240
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 67.29,
+  "CoinGecko 이용자 투표 상승(%)": 66.98,
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
    "SNOWMOON",
-   "SP",
    "LIT",
-   "PENGU",
-   "LINK",
-   "AERO",
-   "XMR",
-   "FET",
-   "SOL",
-   "KNTQ",
-   "NEAR",
-   "PEARL",
    "HYPE",
-   "ZEC"
+   "ZEC",
+   "KNTQ",
+   "XMR",
+   "CC",
+   "PUMP",
+   "QNT",
+   "PEARL",
+   "SOL",
+   "NEAR",
+   "ADA",
+   "BTC"
   ],
-  "BTC가 인기 검색에 있음": false
+  "BTC가 인기 검색에 있음": true
  }
 }
 ```
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 280243836669,
- "완전희석가치 FDV(USD)": 280243836669,
- "24시간 거래대금(USD)": 8078627939,
+ "시가총액(USD)": 280070933309,
+ "완전희석가치 FDV(USD)": 280070933309,
+ "24시간 거래대금(USD)": 8089489987,
  "유통량": 122186161.86556138,
  "총발행량": 122186161.86556138,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -53.62592,
+ "역대 최고가 대비(%)": -53.66158,
  "가격 변화(%)": {
-  "7d": -2.0417,
-  "30d": -15.21549,
-  "1y": -36.28221
+  "7d": -2.41457,
+  "30d": -15.16122,
+  "1y": -36.32056
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 44115374006
+  "TVL(USD)": 44134483213
  }
 }
 ```
@@ -486,6 +486,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
+   "요약": "A group backed by Citadel Securities and other firms sued the U.S. derivatives regulator for opening a path for perps that it argued belong in the SEC's hands.",
+   "시각(UTC)": "11-03 22:14"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
    "요약": "The Tron founder says World Liberty failed to disclose its UAE ties until months into his lawsuit over $45 million in WLFI tokens.",
    "시각(UTC)": "11-03 16:55"
@@ -525,12 +531,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "CZ warns of more AI-driven hacks following Binance’s historic $6.3 billion heist",
    "요약": "While investigators found no evidence that AI agents laundered the stolen Binance funds, Zhao stressed that automated tools are lowering the barrier for complex breaches.",
    "시각(UTC)": "11-03 14:22"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
-   "요약": "LO:TECH is betting on round-the-clock tokenized stock trading but didn’t say if it trades them now; a WFE study found stock exchanges still set prices.",
-   "시각(UTC)": "11-03 14:00"
   }
  ]
 }
@@ -561,29 +561,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "CoinW (Futures)": 0.01,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 18604549550
+  "미결제약정 합계 USD(상위)": 18649585886
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 96.0,
+  "CoinGecko 이용자 투표 상승(%)": 92.31,
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
    "SNOWMOON",
-   "SP",
    "LIT",
-   "PENGU",
-   "LINK",
-   "AERO",
-   "XMR",
-   "FET",
-   "SOL",
-   "KNTQ",
-   "NEAR",
-   "PEARL",
    "HYPE",
-   "ZEC"
+   "ZEC",
+   "KNTQ",
+   "XMR",
+   "CC",
+   "PUMP",
+   "QNT",
+   "PEARL",
+   "SOL",
+   "NEAR",
+   "ADA",
+   "BTC"
   ],
   "ETH가 인기 검색에 있음": false
  }
@@ -680,6 +680,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
+   "요약": "A group backed by Citadel Securities and other firms sued the U.S. derivatives regulator for opening a path for perps that it argued belong in the SEC's hands.",
+   "시각(UTC)": "11-03 22:14"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
    "요약": "The Tron founder says World Liberty failed to disclose its UAE ties until months into his lawsuit over $45 million in WLFI tokens.",
    "시각(UTC)": "11-03 16:55"
@@ -719,12 +725,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
    "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
    "시각(UTC)": "11-03 14:42"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "CZ warns of more AI-driven hacks following Binance’s historic $6.3 billion heist",
-   "요약": "While investigators found no evidence that AI agents laundered the stolen Binance funds, Zhao stressed that automated tools are lowering the barrier for complex breaches.",
-   "시각(UTC)": "11-03 14:22"
   }
  ]
 }
@@ -756,7 +756,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Bitunix Futures": 0.005,
    "MEXC (Futures)": 0.005
   },
-  "미결제약정 합계 USD(상위)": 43654279
+  "미결제약정 합계 USD(상위)": 43808838
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -855,19 +855,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2056134276,
- "완전희석가치 FDV(USD)": 2056134276,
- "24시간 거래대금(USD)": 379600301,
+ "시가총액(USD)": 2066611886,
+ "완전희석가치 FDV(USD)": 2066611886,
+ "24시간 거래대금(USD)": 364518964,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.56209,
+ "역대 최고가 대비(%)": -82.47491,
  "가격 변화(%)": {
-  "7d": 8.64977,
-  "30d": 13.75391,
-  "1y": -14.57728
+  "7d": 8.49337,
+  "30d": 13.54619,
+  "1y": -14.46706
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -879,6 +879,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
+   "요약": "A group backed by Citadel Securities and other firms sued the U.S. derivatives regulator for opening a path for perps that it argued belong in the SEC's hands.",
+   "시각(UTC)": "11-03 22:14"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
@@ -920,12 +926,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
    "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
    "시각(UTC)": "11-03 14:42"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "CZ warns of more AI-driven hacks following Binance’s historic $6.3 billion heist",
-   "요약": "While investigators found no evidence that AI agents laundered the stolen Binance funds, Zhao stressed that automated tools are lowering the barrier for complex breaches.",
-   "시각(UTC)": "11-03 14:22"
   }
  ]
 }
@@ -950,14 +950,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "MEXC (Futures)": 0.01,
+   "MEXC (Futures)": 0.0102,
    "Gate (Futures)": 0.01,
    "OKX (Futures)": 0.01,
    "Bitget Futures": 0.01,
    "WhiteBIT Futures": 0.01,
    "KCEX (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 257898153
+  "미결제약정 합계 USD(상위)": 261257955
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -967,19 +967,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
    "SNOWMOON",
-   "SP",
    "LIT",
-   "PENGU",
-   "LINK",
-   "AERO",
-   "XMR",
-   "FET",
-   "SOL",
-   "KNTQ",
-   "NEAR",
-   "PEARL",
    "HYPE",
-   "ZEC"
+   "ZEC",
+   "KNTQ",
+   "XMR",
+   "CC",
+   "PUMP",
+   "QNT",
+   "PEARL",
+   "SOL",
+   "NEAR",
+   "ADA",
+   "BTC"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -1071,19 +1071,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 230,
- "시가총액(USD)": 124272273,
- "완전희석가치 FDV(USD)": 124272273,
- "24시간 거래대금(USD)": 15896547,
- "유통량": 443179.36058215,
- "총발행량": 443179.36058215,
+ "시가총액 순위": 231,
+ "시가총액(USD)": 124814330,
+ "완전희석가치 FDV(USD)": 124814330,
+ "24시간 거래대금(USD)": 15976793,
+ "유통량": 445336.03505928,
+ "총발행량": 445336.03505928,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 383.58,
- "역대 최고가 대비(%)": -26.89687,
+ "역대 최고가 대비(%)": -26.93375,
  "가격 변화(%)": {
-  "7d": -12.90077,
-  "30d": -18.56046,
+  "7d": -12.98895,
+  "30d": -18.60274,
   "1y": null
  },
  "소개": ""
@@ -1096,6 +1096,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "GOOGLB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
+   "요약": "A group backed by Citadel Securities and other firms sued the U.S. derivatives regulator for opening a path for perps that it argued belong in the SEC's hands.",
+   "시각(UTC)": "11-03 22:14"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties",
@@ -1137,12 +1143,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
    "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
    "시각(UTC)": "11-03 14:42"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "CZ warns of more AI-driven hacks following Binance’s historic $6.3 billion heist",
-   "요약": "While investigators found no evidence that AI agents laundered the stolen Binance funds, Zhao stressed that automated tools are lowering the barrier for complex breaches.",
-   "시각(UTC)": "11-03 14:22"
   }
  ]
 }
@@ -1175,19 +1175,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
    "SNOWMOON",
-   "SP",
    "LIT",
-   "PENGU",
-   "LINK",
-   "AERO",
-   "XMR",
-   "FET",
-   "SOL",
-   "KNTQ",
-   "NEAR",
-   "PEARL",
    "HYPE",
-   "ZEC"
+   "ZEC",
+   "KNTQ",
+   "XMR",
+   "CC",
+   "PUMP",
+   "QNT",
+   "PEARL",
+   "SOL",
+   "NEAR",
+   "ADA",
+   "BTC"
   ],
   "GOOGLB가 인기 검색에 있음": false
  }
