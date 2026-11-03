@@ -1,11 +1,11 @@
-# TF팀 회의 자료 (2026-11-03 23:24 KST)
+# TF팀 회의 자료 (2026-11-04 00:23 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
 
 분석 대상: BTC, ETH, BEAMX, PEPE, GOOGLB
 
-**지금까지 승률** ACE 자료 없음% (0/0), 채점 대기 2개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
+**지금까지 승률** ACE 자료 없음% (0/0), 채점 대기 7개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
 **TRAINER 모의 계좌** 총자산 10,000.00 USDT (+0.00%), 보유 없음 · 자세히는 `paper/tf/trainer/TRAINER.md`
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1550927097257,
- "완전희석가치 FDV(USD)": 1550927097257,
- "24시간 거래대금(USD)": 27960008353,
+ "시가총액(USD)": 1554149779086,
+ "완전희석가치 FDV(USD)": 1554149779086,
+ "24시간 거래대금(USD)": 28086574258,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -38.81538,
+ "역대 최고가 대비(%)": -38.68244,
  "가격 변화(%)": {
-  "7d": -3.47235,
-  "30d": -9.4909,
-  "1y": -28.54507
+  "7d": -3.68465,
+  "30d": -9.33136,
+  "1y": -28.43744
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4118994668
+  "TVL(USD)": 4114305698
  }
 }
 ```
@@ -152,7 +152,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
+   "제목": "Live updates: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
    "요약": "A fifth straight weekly decline would mark bitcoin’s joint third-longest losing streak, as oil rebounds and Apple’s margin warning adds to investor caution ahead of the U.S. midterms.",
    "시각(UTC)": "11-03 09:50"
   },
@@ -220,6 +220,30 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
+   "요약": "CFTC Chair Michael Selig said the move gives U.S. traders a regulated alternative to “offshore, and often unregulated, venues.”",
+   "시각(UTC)": "11-03 15:02"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance's $6.3 billion hack began with a fake job interview, exchange says",
+   "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
+   "시각(UTC)": "11-03 14:53"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
+   "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
+   "시각(UTC)": "11-03 14:42"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "CZ warns of more AI-driven hacks following Binance’s historic $6.4 billion heist",
+   "요약": "While investigators found no evidence that AI agents laundered the stolen Binance funds, Zhao stressed that automated tools are lowering the barrier for complex breaches.",
+   "시각(UTC)": "11-03 14:22"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
    "요약": "LO:TECH is betting on round-the-clock tokenized stock trading but didn’t say if it trades them now; a WFE study found stock exchanges still set prices.",
    "시각(UTC)": "11-03 14:00"
@@ -241,30 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor",
    "요약": "The high-profile denial follows FBI alerts identifying North Korean-controlled wallet addresses tied to the largest cryptocurrency exploit in history.",
    "시각(UTC)": "11-03 09:40"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Arbitrum’s council moved $30 million of Binance hack funds without the hacker’s key",
-   "요약": "A 12-person committee briefly rewrote one of Arbitrum’s core contracts to spend from an address it held no key for, then put the code back. It’s the second time this year.",
-   "시각(UTC)": "11-03 05:25"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Big crypto wants the one thing it can’t buy: your vote",
-   "요약": "Our loyalty has been to the technology. This election, the trap is to let the biggest intermediaries claim it for themselves, argues Berkeley Law lecturer Hermine Wong.",
-   "시각(UTC)": "11-02 21:38"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says",
-   "요약": "The unidentified attacker moved funds through ether, instant exchanges and Monero, but the victim and affected exchanges remain unknown.",
-   "시각(UTC)": "11-02 17:21"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "NYSE tokenized stock plans take shape as four more transfer agents join",
-   "요약": "Broadridge, Computershare, Equiniti and Superstate join the exchange's planned blockchain market, bringing shareholder records and voting services onchain.",
-   "시각(UTC)": "11-02 16:41"
   }
  ]
 }
@@ -290,35 +290,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.01,
-   "Bybit (Futures)": 0.0095,
+   "Bybit (Futures)": 0.0074,
    "Gate (Futures)": 0.01,
    "MEXC (Futures)": 0.01,
    "WEEX (Futures)": 0.0001,
    "Tapbit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 29345538422
+  "미결제약정 합계 USD(상위)": 29485489548
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 55.81,
+  "CoinGecko 이용자 투표 상승(%)": 56.35,
   "CoinGecko 인기 검색 코인": [
+   "SP",
    "SI",
    "DACITYCOIN",
+   "LIT",
+   "PEARL",
+   "PEPE",
    "HYPE",
    "BTC",
-   "PENGU",
-   "NEAR",
-   "LIT",
+   "MON",
+   "ONDO",
+   "QTC",
+   "CARDS",
    "SOL",
-   "ZEC",
-   "ETH",
-   "XMR",
-   "ZRO",
-   "LINK",
-   "PEARL",
-   "AERO"
+   "KNTQ",
+   "TAO"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 278839960449,
- "완전희석가치 FDV(USD)": 278839960449,
- "24시간 거래대금(USD)": 9171791157,
+ "시가총액(USD)": 279183337540,
+ "완전희석가치 FDV(USD)": 279183337540,
+ "24시간 거래대금(USD)": 9193300612,
  "유통량": 122186161.86556138,
  "총발행량": 122186161.86556138,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -53.85663,
+ "역대 최고가 대비(%)": -53.79928,
  "가격 변화(%)": {
-  "7d": -1.56372,
-  "30d": -15.4353,
-  "1y": -38.70505
+  "7d": -2.00935,
+  "30d": -15.27526,
+  "1y": -38.70234
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 43983170223
+  "TVL(USD)": 43948426821
  }
 }
 ```
@@ -440,6 +440,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "ETH 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance's $6.3 billion hack began with a fake job interview, exchange says",
+   "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
+   "시각(UTC)": "11-03 14:53"
+  },
   {
    "출처": "CoinDesk",
    "제목": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
@@ -480,6 +486,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
+   "요약": "CFTC Chair Michael Selig said the move gives U.S. traders a regulated alternative to “offshore, and often unregulated, venues.”",
+   "시각(UTC)": "11-03 15:02"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
+   "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
+   "시각(UTC)": "11-03 14:42"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "CZ warns of more AI-driven hacks following Binance’s historic $6.4 billion heist",
+   "요약": "While investigators found no evidence that AI agents laundered the stolen Binance funds, Zhao stressed that automated tools are lowering the barrier for complex breaches.",
+   "시각(UTC)": "11-03 14:22"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
    "요약": "LO:TECH is betting on round-the-clock tokenized stock trading but didn’t say if it trades them now; a WFE study found stock exchanges still set prices.",
    "시각(UTC)": "11-03 14:00"
@@ -507,24 +531,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
    "요약": "A final 250 BTC transfer closed the hole left by September’s bug, but the federation behind the network still hasn’t said who paid to fill it.",
    "시각(UTC)": "11-03 11:12"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
-   "요약": "Ardoino didn’t say where the extra coins sit. Holdings outside USDT reserves, such as Tether’s investments, wouldn’t appear in the report.",
-   "시각(UTC)": "11-03 10:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
-   "요약": "A fifth straight weekly decline would mark bitcoin’s joint third-longest losing streak, as oil rebounds and Apple’s margin warning adds to investor caution ahead of the U.S. midterms.",
-   "시각(UTC)": "11-03 09:50"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor",
-   "요약": "The high-profile denial follows FBI alerts identifying North Korean-controlled wallet addresses tied to the largest cryptocurrency exploit in history.",
-   "시각(UTC)": "11-03 09:40"
   }
  ]
 }
@@ -555,31 +561,31 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Hyperliquid (Futures)": 0.0013,
    "CoinW (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 18368289188
+  "미결제약정 합계 USD(상위)": 18411380547
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 91.67,
+  "CoinGecko 이용자 투표 상승(%)": 95.65,
   "CoinGecko 인기 검색 코인": [
+   "SP",
    "SI",
    "DACITYCOIN",
+   "LIT",
+   "PEARL",
+   "PEPE",
    "HYPE",
    "BTC",
-   "PENGU",
-   "NEAR",
-   "LIT",
+   "MON",
+   "ONDO",
+   "QTC",
+   "CARDS",
    "SOL",
-   "ZEC",
-   "ETH",
-   "XMR",
-   "ZRO",
-   "LINK",
-   "PEARL",
-   "AERO"
+   "KNTQ",
+   "TAO"
   ],
-  "ETH가 인기 검색에 있음": true
+  "ETH가 인기 검색에 있음": false
  }
 }
 ```
@@ -674,6 +680,30 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
+   "요약": "CFTC Chair Michael Selig said the move gives U.S. traders a regulated alternative to “offshore, and often unregulated, venues.”",
+   "시각(UTC)": "11-03 15:02"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance's $6.3 billion hack began with a fake job interview, exchange says",
+   "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
+   "시각(UTC)": "11-03 14:53"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
+   "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
+   "시각(UTC)": "11-03 14:42"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "CZ warns of more AI-driven hacks following Binance’s historic $6.4 billion heist",
+   "요약": "While investigators found no evidence that AI agents laundered the stolen Binance funds, Zhao stressed that automated tools are lowering the barrier for complex breaches.",
+   "시각(UTC)": "11-03 14:22"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
    "요약": "LO:TECH is betting on round-the-clock tokenized stock trading but didn’t say if it trades them now; a WFE study found stock exchanges still set prices.",
    "시각(UTC)": "11-03 14:00"
@@ -695,30 +725,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
    "요약": "But there’s a catch: validators that fail to deliver on their commitments currently face no financial compensation requirement under the service.",
    "시각(UTC)": "11-03 12:01"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
-   "요약": "Bitcoin edged up 0.2% to around $76,900 since midnight UTC as spot ETFs lost $399 million for a second day and Binance customers pulled a net $4.72 billion.",
-   "시각(UTC)": "11-03 11:28"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
-   "요약": "A final 250 BTC transfer closed the hole left by September’s bug, but the federation behind the network still hasn’t said who paid to fill it.",
-   "시각(UTC)": "11-03 11:12"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
-   "요약": "Ardoino didn’t say where the extra coins sit. Holdings outside USDT reserves, such as Tether’s investments, wouldn’t appear in the report.",
-   "시각(UTC)": "11-03 10:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
-   "요약": "A fifth straight weekly decline would mark bitcoin’s joint third-longest losing streak, as oil rebounds and Apple’s margin warning adds to investor caution ahead of the U.S. midterms.",
-   "시각(UTC)": "11-03 09:50"
   }
  ]
 }
@@ -743,14 +749,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.005,
+   "Binance (Futures)": 0.0042,
    "WEEX (Futures)": 0.0001,
-   "XT.COM (Derivatives)": 0.005,
-   "Toobit Futures": 0.005,
-   "Bitunix Futures": 0.005,
-   "MEXC (Futures)": 0.005
+   "XT.COM (Derivatives)": 0.0042,
+   "Toobit Futures": 0.0042,
+   "Bitunix Futures": 0.0042,
+   "MEXC (Futures)": 0.0042
   },
-  "미결제약정 합계 USD(상위)": 43289332
+  "미결제약정 합계 USD(상위)": 45819770
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -849,19 +855,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2024208376,
- "완전희석가치 FDV(USD)": 2024208376,
- "24시간 거래대금(USD)": 407685441,
+ "시가총액(USD)": 2056272627,
+ "완전희석가치 FDV(USD)": 2056272627,
+ "24시간 거래대금(USD)": 426426636,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.83285,
+ "역대 최고가 대비(%)": -82.56583,
  "가격 변화(%)": {
-  "7d": 11.31246,
-  "30d": 12.56465,
-  "1y": -21.3595
+  "7d": 11.19855,
+  "30d": 13.78996,
+  "1y": -20.04317
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -873,6 +879,30 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
+   "요약": "CFTC Chair Michael Selig said the move gives U.S. traders a regulated alternative to “offshore, and often unregulated, venues.”",
+   "시각(UTC)": "11-03 15:02"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance's $6.3 billion hack began with a fake job interview, exchange says",
+   "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
+   "시각(UTC)": "11-03 14:53"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
+   "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
+   "시각(UTC)": "11-03 14:42"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "CZ warns of more AI-driven hacks following Binance’s historic $6.4 billion heist",
+   "요약": "While investigators found no evidence that AI agents laundered the stolen Binance funds, Zhao stressed that automated tools are lowering the barrier for complex breaches.",
+   "시각(UTC)": "11-03 14:22"
+  },
   {
    "출처": "CoinDesk",
    "제목": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
@@ -896,30 +926,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
    "요약": "But there’s a catch: validators that fail to deliver on their commitments currently face no financial compensation requirement under the service.",
    "시각(UTC)": "11-03 12:01"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
-   "요약": "Bitcoin edged up 0.2% to around $76,900 since midnight UTC as spot ETFs lost $399 million for a second day and Binance customers pulled a net $4.72 billion.",
-   "시각(UTC)": "11-03 11:28"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
-   "요약": "A final 250 BTC transfer closed the hole left by September’s bug, but the federation behind the network still hasn’t said who paid to fill it.",
-   "시각(UTC)": "11-03 11:12"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
-   "요약": "Ardoino didn’t say where the extra coins sit. Holdings outside USDT reserves, such as Tether’s investments, wouldn’t appear in the report.",
-   "시각(UTC)": "11-03 10:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
-   "요약": "A fifth straight weekly decline would mark bitcoin’s joint third-longest losing streak, as oil rebounds and Apple’s margin warning adds to investor caution ahead of the U.S. midterms.",
-   "시각(UTC)": "11-03 09:50"
   }
  ]
 }
@@ -951,31 +957,31 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "WhiteBIT Futures": 0.01,
    "BloFin (Futures)": 0.022
   },
-  "미결제약정 합계 USD(상위)": 256464774
+  "미결제약정 합계 USD(상위)": 259904191
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 90.91,
+  "CoinGecko 이용자 투표 상승(%)": 90.48,
   "CoinGecko 인기 검색 코인": [
+   "SP",
    "SI",
    "DACITYCOIN",
+   "LIT",
+   "PEARL",
+   "PEPE",
    "HYPE",
    "BTC",
-   "PENGU",
-   "NEAR",
-   "LIT",
+   "MON",
+   "ONDO",
+   "QTC",
+   "CARDS",
    "SOL",
-   "ZEC",
-   "ETH",
-   "XMR",
-   "ZRO",
-   "LINK",
-   "PEARL",
-   "AERO"
+   "KNTQ",
+   "TAO"
   ],
-  "PEPE가 인기 검색에 있음": false
+  "PEPE가 인기 검색에 있음": true
  }
 }
 ```
@@ -1065,19 +1071,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 234,
- "시가총액(USD)": 118448953,
- "완전희석가치 FDV(USD)": 118448953,
- "24시간 거래대금(USD)": 22478251,
- "유통량": 422328.85364323,
- "총발행량": 422328.85364323,
+ "시가총액 순위": 231,
+ "시가총액(USD)": 122628215,
+ "완전희석가치 FDV(USD)": 122628215,
+ "24시간 거래대금(USD)": 17085680,
+ "유통량": 439911.1660183,
+ "총발행량": 439911.1660183,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 383.58,
- "역대 최고가 대비(%)": -26.88131,
+ "역대 최고가 대비(%)": -27.33334,
  "가격 변화(%)": {
-  "7d": -11.73249,
-  "30d": -18.53688,
+  "7d": -13.01098,
+  "30d": -19.0224,
   "1y": null
  },
  "소개": ""
@@ -1090,6 +1096,30 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "GOOGLB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
+   "요약": "CFTC Chair Michael Selig said the move gives U.S. traders a regulated alternative to “offshore, and often unregulated, venues.”",
+   "시각(UTC)": "11-03 15:02"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance's $6.3 billion hack began with a fake job interview, exchange says",
+   "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
+   "시각(UTC)": "11-03 14:53"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
+   "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
+   "시각(UTC)": "11-03 14:42"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "CZ warns of more AI-driven hacks following Binance’s historic $6.4 billion heist",
+   "요약": "While investigators found no evidence that AI agents laundered the stolen Binance funds, Zhao stressed that automated tools are lowering the barrier for complex breaches.",
+   "시각(UTC)": "11-03 14:22"
+  },
   {
    "출처": "CoinDesk",
    "제목": "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia",
@@ -1113,30 +1143,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
    "요약": "But there’s a catch: validators that fail to deliver on their commitments currently face no financial compensation requirement under the service.",
    "시각(UTC)": "11-03 12:01"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
-   "요약": "Bitcoin edged up 0.2% to around $76,900 since midnight UTC as spot ETFs lost $399 million for a second day and Binance customers pulled a net $4.72 billion.",
-   "시각(UTC)": "11-03 11:28"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
-   "요약": "A final 250 BTC transfer closed the hole left by September’s bug, but the federation behind the network still hasn’t said who paid to fill it.",
-   "시각(UTC)": "11-03 11:12"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says",
-   "요약": "Ardoino didn’t say where the extra coins sit. Holdings outside USDT reserves, such as Tether’s investments, wouldn’t appear in the report.",
-   "시각(UTC)": "11-03 10:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets",
-   "요약": "A fifth straight weekly decline would mark bitcoin’s joint third-longest losing streak, as oil rebounds and Apple’s margin warning adds to investor caution ahead of the U.S. midterms.",
-   "시각(UTC)": "11-03 09:50"
   }
  ]
 }
@@ -1167,21 +1173,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
+   "SP",
    "SI",
    "DACITYCOIN",
+   "LIT",
+   "PEARL",
+   "PEPE",
    "HYPE",
    "BTC",
-   "PENGU",
-   "NEAR",
-   "LIT",
+   "MON",
+   "ONDO",
+   "QTC",
+   "CARDS",
    "SOL",
-   "ZEC",
-   "ETH",
-   "XMR",
-   "ZRO",
-   "LINK",
-   "PEARL",
-   "AERO"
+   "KNTQ",
+   "TAO"
   ],
   "GOOGLB가 인기 검색에 있음": false
  }
