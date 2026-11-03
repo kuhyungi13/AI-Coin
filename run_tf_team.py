@@ -1,4 +1,4 @@
-"""코인 분석 TF팀 회의 자료 모으기 (무료, API 키 불필요). GitHub Actions가 하루 10번 돌린다.
+"""코인 분석 TF팀 회의 자료 모으기 (무료, API 키 불필요). GitHub Actions가 매시간(하루 24번) 돌린다.
 
 1. 채점: 24시간 지난 지난 의견을 실제 가격으로 채점 → paper/tf/SCOREBOARD.md, scoreboard.json
 2. 스캔: 바이낸스 USDT 코인 전체를 훑어 후보를 고름 → paper/tf/SCAN.md
