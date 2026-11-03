@@ -1,12 +1,8 @@
-import json
-
 import numpy as np
 import pandas as pd
 import pytest
 
 from aicoin.tf_team.indicators import last_cross, rsi, technical_snapshot
-from aicoin.tf_team.report import build_report
-from aicoin.tf_team.team import ACE_SCHEMA, ANALYSTS, run_meeting
 
 
 @pytest.fixture(autouse=True)
@@ -53,37 +49,17 @@ def test_snapshot_short_history_has_no_ma60():
     assert snap["MA20>MA60"] is None
 
 
-def fake_llm(calls):
-    def llm(system, user, effort, schema):
-        calls.append((system, user, effort, schema))
-        if schema is ACE_SCHEMA:
-            return json.dumps({"decision": "관망", "confidence": 5, "one_line": "지켜보자",
-                               "reasons": ["a"], "risks": ["b"], "watch": ["c"], "winner": "무승부"},
-                              ensure_ascii=False)
-        name = system.split("당신의 이름은 ")[1].split(",")[0]
-        return f"{name} 의견"
-    return llm
+def test_brief_lists_data_and_failures():
+    from aicoin.tf_team.brief import build_brief
 
-
-def test_meeting_flow_and_report():
-    calls = []
-    data = {k: {"x": 1} for k in ANALYSTS}
-    m = run_meeting("btc", data, fake_llm(calls), rounds=2, log=lambda _: None)
-    # 애널리스트 4 + 토론 2라운드×2 + ACE 1
-    assert len(calls) == 4 + 4 + 1
-    assert set(m.reports) == set(ANALYSTS)
-    assert [w for w, _ in m.debate] == ["BULL", "BEAR", "BULL", "BEAR"]
-    # 2라운드 발언자는 1라운드 발언을 보고 말한다
-    round2 = [u for s, u, *_ in calls if "2라운드" in u]
-    assert round2 and all("BEAR 의견" in u and "BULL 의견" in u for u in round2)
-    # ACE는 보고서와 토론을 모두 본다
-    ace_user = calls[-1][1]
-    assert all(f"{k} 의견" in ace_user for k in ANALYSTS) and "BULL 의견" in ace_user
-    assert m.verdict["decision"] == "관망"
-
-    md = build_report([m], "2026-11-03 09:00 KST", "test-model", {"XRP": "실패"})
-    assert "| BTC | 🟡 관망 | 5/10 | 지켜보자 |" in md
-    assert "투자 조언이 아닙니다" in md and "XRP: 실패" in md
+    data = {"BTC": {"TARO": {"일봉": {"종가": 100}}, "DIANA": {"오류": "429"},
+                    "NOVA": {"BTC 관련 기사": [], "수집 실패": {"Decrypt": "403"}},
+                    "VIBE": {"공포·탐욕 지수": {"오늘": "40 (Fear)"}}}}
+    md = build_brief(data, "2026-11-03 09:20 KST")
+    assert md.startswith("# TF팀 회의 자료 (2026-11-03 09:20 KST)")
+    assert "- DIANA: 429" in md and "- NOVA/Decrypt: 403" in md
+    assert '"종가": 100' in md and "### VIBE 자료" in md
+    assert "PLAYBOOK.md" in md
 
 
 RSS = b"""<?xml version="1.0"?><rss><channel>
