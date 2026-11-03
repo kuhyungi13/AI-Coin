@@ -229,8 +229,8 @@ def _verdicts(tmp_path, rows):
 
 
 def test_trainer_buys_on_confident_buy_and_takes_profit(tmp_path):
-    _verdicts(tmp_path, [["2026-11-03T06:20:00Z", "SOL", "매수", "8"],
-                         ["2026-11-03T06:20:00Z", "BTC", "관망", "6"]])
+    _verdicts(tmp_path, [["2026-11-03T05:40:00Z", "SOL", "매수", "8"],
+                         ["2026-11-03T05:40:00Z", "BTC", "관망", "6"]])
     k = _bars({("SOL", "2026-11-03 07:00"): (100, 101, 99, 100),
                ("SOL", "2026-11-03 08:00"): (100, 111, 99, 110)})
     sm = trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 09:05", tz="UTC"), k)
@@ -244,8 +244,8 @@ def test_trainer_buys_on_confident_buy_and_takes_profit(tmp_path):
 
 
 def test_trainer_skips_low_confidence_and_stops_out(tmp_path):
-    _verdicts(tmp_path, [["2026-11-03T06:20:00Z", "ETH", "매수", "5"],
-                         ["2026-11-03T06:20:00Z", "SOL", "매수", "6"]])
+    _verdicts(tmp_path, [["2026-11-03T05:40:00Z", "ETH", "매수", "5"],
+                         ["2026-11-03T05:40:00Z", "SOL", "매수", "6"]])
     k = _bars({("SOL", "2026-11-03 07:00"): (100, 100, 100, 100),
                ("SOL", "2026-11-03 08:00"): (100, 112, 94, 95)})  # 한 봉에서 둘 다 닿으면 손절
     trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 09:05", tz="UTC"), k)
@@ -255,16 +255,16 @@ def test_trainer_skips_low_confidence_and_stops_out(tmp_path):
 
 
 def test_trainer_waits_for_next_hour_and_is_idempotent(tmp_path):
-    _verdicts(tmp_path, [["2026-11-03T06:20:00Z", "SOL", "매수", "7"]])
+    _verdicts(tmp_path, [["2026-11-03T05:40:00Z", "SOL", "매수", "7"]])
     k = _bars({("SOL", "2026-11-03 07:00"): (50, 51, 49, 50)})
-    trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 06:55", tz="UTC"), k)  # 아직 07시 봉 전
+    trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 06:55", tz="UTC"), k)  # 06시 정각 회의 중, 체결은 07시
     assert not (pd.read_csv(tmp_path / "trainer/trades.csv")).shape[0]
     trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 07:20", tz="UTC"), k)
     trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 07:40", tz="UTC"), k)
     trades = pd.read_csv(tmp_path / "trainer/trades.csv")
     assert list(trades["side"]) == ["매수"]
-    _verdicts(tmp_path, [["2026-11-03T06:20:00Z", "SOL", "매수", "7"],
-                         ["2026-11-03T07:20:00Z", "SOL", "매도", "7"]])
+    _verdicts(tmp_path, [["2026-11-03T05:40:00Z", "SOL", "매수", "7"],
+                         ["2026-11-03T06:40:00Z", "SOL", "매도", "7"]])
     k2 = _bars({("SOL", "2026-11-03 07:00"): (50, 51, 49, 50), ("SOL", "2026-11-03 08:00"): (52, 52, 51, 51)})
     sm = trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 08:30", tz="UTC"), k2)
     trades = pd.read_csv(tmp_path / "trainer/trades.csv")
@@ -287,7 +287,7 @@ def test_certainty_and_leverage_steps():
 
 
 def test_trainer_leverage_magnifies_and_stops_before_liquidation(tmp_path):
-    rows = [["2026-11-03T06:20:00Z", "SOL", "매수", "9", "긍정", "긍정", "긍정", "긍정", "BULL"]]
+    rows = [["2026-11-03T05:40:00Z", "SOL", "매수", "9", "긍정", "긍정", "긍정", "긍정", "BULL"]]
     pd.DataFrame(rows, columns=["run_at", "coin", "decision", "confidence", "TARO", "DIANA", "NOVA", "VIBE",
                                 "winner"]).to_csv(tmp_path / "verdicts.csv", index=False)
     (tmp_path / "scoreboard.json").write_text('{"결정별": {"매수": {"맞음": 8, "전체": 10, "승률(%)": 80.0}}}')

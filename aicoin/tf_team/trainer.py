@@ -19,7 +19,7 @@ paper/tf/verdicts.csv 의 ACE 결정을 시간 순서대로 읽어 가상 계좌
 - 시작 자금 10,000 USDT, 롱만, 수수료는 포지션 크기의 0.1% (펀딩비는 계산하지 않음)
 - 매수: ACE가 "매수"이고 확신도 6 이상일 때. 동시에 최대 5종목
 - 매도: ACE가 "매도"면 들고 있던 코인을 전부 판다. "관망"이면 그대로 둔다.
-- 체결 가격: 회의가 끝난 다음 정시 1시간봉 시가 (자료 수집 시각 + 1시간)
+- 체결 가격: 회의(정각)가 끝난 뒤 첫 정시 1시간봉 시가 = (자료 수집 시각 + 1시간)을 올림한 정시
 - 최대 72시간 보유. 1시간봉 고가·저가로 확인하고, 한 봉에서 손절·익절 둘 다 닿으면 손절로 본다.
 
 파일 (paper/tf/trainer/)
@@ -212,7 +212,7 @@ class Trainer:
             key = f"{v['run_at']}|{v['coin']}"
             if key in done or not v["run_at"]:
                 continue
-            act_at = utc(v["run_at"]).floor("h") + pd.Timedelta(hours=1)
+            act_at = (utc(v["run_at"]) + pd.Timedelta(hours=1)).ceil("h")
             if act_at > now.floor("h"):
                 continue  # 체결할 봉이 아직 안 열림
             rows.append((act_at, key, v))

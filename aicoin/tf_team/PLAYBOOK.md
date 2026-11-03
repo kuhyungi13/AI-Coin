@@ -1,6 +1,6 @@
 # 코인 분석 TF팀 회의 진행표
 
-Claude 프로젝트 "코인 분석 TF팀"의 Claude가 매시간 50분(하루 24번) 이 순서대로 회의를 연다. API 키도 비용도 필요 없다.
+Claude 프로젝트 "코인 분석 TF팀"의 Claude가 매시 정각(하루 24번) 이 순서대로 회의를 연다. API 키도 비용도 필요 없다.
 
 **실제 주문은 Luke가 명시적으로 승인하기 전에는 절대 내지 않는다.** 이 회의는 의견과 기록만 남긴다.
 참고용 분석이며 투자 조언이 아니다.
@@ -9,7 +9,7 @@ Claude 프로젝트 "코인 분석 TF팀"의 Claude가 매시간 50분(하루 24
 
 https://claude.ai/artifact/T8KirqVzg1YwT2kuyEiNxU 는 회의 진행을 실시간으로 보여준다. 각 단계를 **시작할 때와 끝낼 때** ArtifactData 도구로 그 artifact의 db를 갱신한다 (꾸미기가 아니라 실제 진행 상태).
 
-- `meeting/current`: `{status: running|done, phase: brief|analysts|debate|decision|report, run_label: "11/3 15:50 회의", coins: [...], coin, coin_index, note, updated_at}`
+- `meeting/current`: `{status: running|done, phase: brief|analysts|debate|decision|report, run_label: "11/4 00:00 회의", coins: [...], coin, coin_index, note, updated_at}`
 - `agents/<이름>` (TARO DIANA NOVA VIBE BULL BEAR ACE TRAINER): `{state: idle|reading|writing|debating|deciding|done, task: 지금 하는 일 한 줄, output: 방금 낸 결론 한 줄, coin, stance, updated_at}`. ACE가 끝나면 `decision`, `confidence`도 넣는다.
 - `verdicts/<run_at>-<코인>`: `{run_at, run_label, coin, decision, confidence, line, ret_24h, hit}`
 - `board/score`: `paper/tf/scoreboard.json` 내용 그대로
@@ -18,7 +18,7 @@ https://claude.ai/artifact/T8KirqVzg1YwT2kuyEiNxU 는 회의 진행을 실시간
 
 ## 0. 자료 읽기
 
-`paper/tf/BRIEF.md`를 읽는다. GitHub Actions가 매 회의 30분 전에 새로 만든다 (바이낸스 전체 USDT 코인 스캔 → 후보 선정 → 자료 수집).
+`paper/tf/BRIEF.md`를 읽는다. GitHub Actions가 매 회의 20분 전(매시 40분)에 새로 만든다 (바이낸스 전체 USDT 코인 스캔 → 후보 선정 → 자료 수집).
 맨 위 시각이 3시간 넘게 지났으면 보고서 맨 위에 "자료가 N시간 전 것"이라고 적는다.
 
 같이 읽는 것
@@ -66,7 +66,7 @@ ACE 확신도와 별도로 **보고서 확실성**(0~100)을 매긴다. 계산�
 - SCOREBOARD.md에서 그 결정이 10번 넘게 채점됐고 승률 60% 이상이면 +10, 45% 미만이면 -10
 
 TRAINER는 ACE 결정을 가상 매매로 옮긴다. 매매는 GitHub Actions가 매시간 같은 규칙으로 계산한다.
-- 진입: ACE "매수" + 확신도 6 이상 → 다음 정시 시가. 증거금 = 총자산 × 확신도 × 2% (최대 20%), 최대 5종목
+- 진입: ACE "매수" + 확신도 6 이상 → 회의가 끝난 뒤 첫 정시 시가 (정각 회의면 한 시간 뒤 정각). 증거금 = 총자산 × 확신도 × 2% (최대 20%), 최대 5종목
 - 레버리지 (확실성): 60 미만 1배 · 60~69 2배 · 70~79 3배 · 80~89 5배 · 90 이상 10배 (최대 10배)
 - 손절 = min(5%, 30% ÷ 레버리지) 가격 하락, 익절 = 손절의 2배. 10배면 -3% 손절, +6% 익절
 - ACE "매도"면 보유분 청산, "관망"은 유지. 최대 72시간, 수수료 0.1%, 롱만, 펀딩비 미반영

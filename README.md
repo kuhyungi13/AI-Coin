@@ -98,7 +98,7 @@ AI 8명이 팀처럼 회의해서 코인 하나하나에 매수/관망/매도 �
 
 **돈이 들지 않습니다.** 역할을 둘로 나눴습니다.
 
-1. **자료 모으기 (GitHub Actions, 무료)**: 매시간 20분에 바이낸스 전체 코인을 훑고 위 공개 자료를 모아 [`paper/tf/BRIEF.md`](paper/tf/BRIEF.md)에 저장합니다.
+1. **자료 모으기 (GitHub Actions, 무료)**: 매시 40분에 바이낸스 전체 코인을 훑고 위 공개 자료를 모아 [`paper/tf/BRIEF.md`](paper/tf/BRIEF.md)에 저장합니다.
    Actions 탭의 **코인 분석 TF팀 자료 수집 → Run workflow**로 원하는 코인을 바로 모을 수도 있습니다.
 2. **회의 (Claude 프로젝트 "코인 분석 TF팀" 안의 Claude)**: 그 자료를 읽고 [`aicoin/tf_team/PLAYBOOK.md`](aicoin/tf_team/PLAYBOOK.md) 순서대로
    7명 회의를 열어 [`paper/TF_REPORT.md`](paper/TF_REPORT.md)(최신)와 `paper/tf/날짜.md`(기록)에 보고서를 올립니다.
