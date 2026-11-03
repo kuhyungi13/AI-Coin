@@ -29,8 +29,8 @@ def find_errors(obj, path: str = "") -> list[tuple[str, str]]:
                   for e in find_errors(v, f"{path}/{k}" if path else k)]
 
 
-def build_brief(data: dict[str, dict], when: str) -> str:
-    """data: {코인: sources.collect(코인) 결과}"""
+def build_brief(data: dict[str, dict], when: str, extra: str = "") -> str:
+    """data: {코인: sources.collect(코인) 결과}. extra: 스캔·승률 요약처럼 맨 앞에 붙일 마크다운."""
     lines = [
         f"# TF팀 회의 자료 ({when})",
         "",
@@ -40,6 +40,8 @@ def build_brief(data: dict[str, dict], when: str) -> str:
         f"분석 대상: {', '.join(data)}",
         "",
     ]
+    if extra:
+        lines += [extra.strip(), ""]
     for coin, parts in data.items():
         lines += [f"## {coin}", ""]
         errs = find_errors(parts)

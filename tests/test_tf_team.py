@@ -158,3 +158,53 @@ def test_closed_only_drops_unfinished_candle():
     assert list(closed_only(df, pd.Timedelta(days=1), now)["close"]) == [1, 2]
     now = pd.Timestamp("2024-01-04 00:00", tz="UTC")  # 막 마감됨
     assert list(closed_only(df, pd.Timedelta(days=1), now)["close"]) == [1, 2, 3]
+
+
+def test_scan_pick_rules():
+    from aicoin.tf_team.scan import pick
+
+    t = pd.DataFrame({
+        "거래대금 30일 평균(USD)": [9e9, 2e7, 2e7, 2e7, 1e6, 2e7],
+        "추세": ["상승", "상승", "상승", "하락", "상승", "상승"],
+        "RSI14": [60, 65, 75, 25, 60, 55],
+        "14일(%)": [5, 30, 50, -20, 90, 10],
+    }, index=["BTC", "AAA", "HOT", "DIP", "TINY", "BBB"])
+    p = pick(t, n_trend=2, n_oversold=1)
+    assert p["상승 추세"] == ["AAA", "BBB"]   # BTC는 항상 따로, HOT은 과열, TINY는 거래 부족
+    assert p["과매도 반등"] == ["DIP"]
+
+
+def test_scan_metrics():
+    from aicoin.tf_team.scan import metrics
+
+    df = make_df(np.linspace(100, 160, 70))
+    df["quote_volume"] = 1e7
+    m = metrics(df)
+    assert m["추세"] == "상승" and m["14일(%)"] > 0 and m["거래량 배수"] == 1.0
+    assert metrics(df.iloc[:50]) is None
+
+
+def test_score_hits_and_summary():
+    from aicoin.tf_team import score
+
+    assert score.hit("매수", 1.0) and not score.hit("매수", -1.0)
+    assert score.hit("매도", -0.5) and score.hit("관망", 2.9) and not score.hit("관망", -3.5)
+    assert score.hit("약한 부정", -1) and score.hit("", 1) is None
+
+    df = pd.DataFrame([
+        {"run_at": "2026-11-01T00:00:00Z", "coin": "BTC", "decision": "매수", "TARO": "긍정", "VIBE": "부정"},
+        {"run_at": "2026-11-01T00:00:00Z", "coin": "ETH", "decision": "관망", "TARO": "중립"},
+        {"run_at": "2026-11-02T23:00:00Z", "coin": "BTC", "decision": "매도"},  # 아직 24시간 안 됨
+    ]).reindex(columns=score.COLUMNS).fillna("")
+    prices = {("BTC", "2026-11-01 00:00"): 100, ("BTC", "2026-11-02 00:00"): 105,
+              ("ETH", "2026-11-01 00:00"): 100, ("ETH", "2026-11-02 00:00"): 90}
+    n = score.score_pending(df, now=pd.Timestamp("2026-11-03 00:00", tz="UTC"),
+                            price=lambda c, t: prices[(c, f"{t:%Y-%m-%d %H:%M}")])
+    assert n == 2
+    assert list(df["ret_24h"][:2]) == ["5.00", "-10.00"] and df["ret_24h"][2] == ""
+    assert list(df["ace_hit"][:2]) == ["True", "False"]
+    assert df["TARO_hit"][0] == "True" and df["VIBE_hit"][0] == "False"
+    s = score.summary(df)
+    assert s["ACE"] == {"맞음": 1, "전체": 2, "승률(%)": 50.0}
+    assert s["채점 대기"] == 1
+    assert "50.0% (1/2)" in score.scoreboard_markdown(s, df, "x")

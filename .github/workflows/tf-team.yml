@@ -1,15 +1,17 @@
-# 코인 분석 TF팀: 매일 회의 자료(paper/tf/BRIEF.md)를 무료 공개 API로 모아 저장한다.
-# 회의와 보고서(paper/TF_REPORT.md)는 Claude 프로젝트 안의 Claude가 이 자료로 진행한다. API 키·비용 없음.
+# 코인 분석 TF팀: 하루 10번 지난 의견 채점 + 바이낸스 전체 코인 스캔 + 회의 자료(paper/tf/BRIEF.md) 수집.
+# 회의와 보고서(paper/TF_REPORT.md)는 Claude 프로젝트 안의 Claude가 매 수집 30분 뒤 이 자료로 진행한다. API 키·비용 없음.
 name: 코인 분석 TF팀 자료 수집
 
 on:
   schedule:
-    - cron: "20 0 * * *"   # 매일 UTC 0시 20분 = 한국 오전 9시 20분 (일봉 마감 직후)
+    # 하루 10번 (약 2시간 24분 간격). UTC 0,2,5,7,10,12,15,17,19,22시 20분
+    # = 한국 9:20, 11:20, 14:20, 16:20, 19:20, 21:20, 0:20, 2:20, 4:20, 7:20
+    - cron: "20 0,2,5,7,10,12,15,17,19,22 * * *"
   workflow_dispatch:        # Actions 탭에서 "Run workflow"로 바로 실행
     inputs:
       coins:
-        description: "분석할 코인 (띄어쓰기로 구분)"
-        default: "BTC ETH"
+        description: "회의할 코인 (비우면 BTC·ETH + 전체 스캔 후보)"
+        default: ""
   pull_request:             # 코드가 바뀌면 테스트와 자료 수집만 시험 (저장 안 함)
     paths:
       - "aicoin/tf_team/**"
@@ -26,6 +28,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -39,7 +42,7 @@ jobs:
       - name: 자료 수집
         env:
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}   # 없어도 됨 (있으면 요청 한도가 넉넉해짐)
-          COINS: ${{ github.event.inputs.coins || 'BTC ETH' }}
+          COINS: ${{ github.event.inputs.coins || '' }}
         run: python run_tf_team.py $COINS
 
       - name: 회의 자료 저장
@@ -47,8 +50,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898732+github-actions[bot]@users.noreply.github.com"
-          git add paper/tf/BRIEF.md
+          git add paper/tf/BRIEF.md paper/tf/SCAN.md paper/tf/SCOREBOARD.md paper/tf/scoreboard.json paper/tf/brief_meta.json
+          git add paper/tf/verdicts.csv 2>/dev/null || true
           git diff --cached --quiet && exit 0
-          git commit -m "TF팀 회의 자료 $(date -u +%F)"
+          git commit -m "TF팀 회의 자료 $(TZ=Asia/Seoul date +'%F %H:%M')"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
