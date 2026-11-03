@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-04 00:23 KST)
+# TF팀 회의 자료 (2026-11-04 01:29 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -66,22 +66,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-03",
   "등락률(%)": {
-   "1일": 0.36,
-   "7일": -1.29,
-   "30일": -3.82,
-   "90일": -6.37
+   "1일": 0.75,
+   "7일": -0.26,
+   "30일": -5.0,
+   "90일": -5.19
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -0.67,
-   "MA60": -2.6,
-   "MA120": -4.3
+   "MA20": 0.05,
+   "MA60": -1.83,
+   "MA120": -3.55
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 58
+   "며칠 전": 59
   },
-  "RSI14": 39.7
+  "RSI14": 47.3
  }
 }
 ```
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1554149779086,
- "완전희석가치 FDV(USD)": 1554149779086,
- "24시간 거래대금(USD)": 28086574258,
+ "시가총액(USD)": 1555575257755,
+ "완전희석가치 FDV(USD)": 1555575257755,
+ "24시간 거래대금(USD)": 27953365246,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -38.68244,
+ "역대 최고가 대비(%)": -38.63287,
  "가격 변화(%)": {
-  "7d": -3.68465,
-  "30d": -9.33136,
-  "1y": -28.43744
+  "7d": -3.85344,
+  "30d": -9.25012,
+  "1y": -26.87154
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4114305698
+  "TVL(USD)": 4109271168
  }
 }
 ```
@@ -193,10 +193,10 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-02 18:13"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Brazil’s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains",
-   "요약": "The Brazilian exchange paused deposits and withdrawals after wallets on at least 10 chains were emptied, days after the $6.3 billion Binance hack.",
-   "시각(UTC)": "11-02 15:53"
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin price defends $76K lows as analysts see stocks pricing in ‘political gridlock’",
+   "요약": "Bitcoin made modest gains at the start of Wall Street trading on Tuesday as markets awaited cues from the US midterm elections.",
+   "시각(UTC)": "11-03 15:44"
   },
   {
    "출처": "Cointelegraph",
@@ -206,18 +206,30 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
-   "제목": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
-   "요약": "Moscow Exchange plans to launch crypto trading on Dec. 1 under Russia’s new law, with annual purchase limits for non-qualified investors.",
-   "시각(UTC)": "11-03 13:15"
+   "제목": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
+   "요약": "Markus Thielen sees Bitcoin reaching $90,000 by year-end, questions institutional ETF demand and says Ethereum must do more for holders.",
+   "시각(UTC)": "11-03 13:30"
   },
   {
    "출처": "Cointelegraph",
-   "제목": "Bitcoin price threatens $77.7K support loss with recent buyers underwater",
-   "요약": "Bitcoin fell below the realized price of the one-to-three-month-old buyer cohort in a move that risked flipping it to new resistance.",
-   "시각(UTC)": "11-03 10:04"
+   "제목": "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December",
+   "요약": "Moscow Exchange plans to launch crypto trading on Dec. 1 under Russia’s new law, with annual purchase limits for non-qualified investors.",
+   "시각(UTC)": "11-03 13:15"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms",
+   "요약": "Objections have reached 56 companies, with nearly 80% of the venture’s initial stock selection opting out.",
+   "시각(UTC)": "11-03 16:17"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
+   "요약": "Governance group Open Standard will charge a 0.1 basis point management fee on payment volume, capped at at $0.01 per payment.",
+   "시각(UTC)": "11-03 16:12"
+  },
   {
    "출처": "CoinDesk",
    "제목": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
@@ -226,7 +238,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Binance's $6.3 billion hack began with a fake job interview, exchange says",
+   "제목": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
    "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
    "시각(UTC)": "11-03 14:53"
   },
@@ -253,18 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
    "요약": "Nearly $11 billion left the exchange over 46 hours, although CEO Richard Teng said hourly deposits were beginning to exceed withdrawals.",
    "시각(UTC)": "11-03 12:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
-   "요약": "But there’s a catch: validators that fail to deliver on their commitments currently face no financial compensation requirement under the service.",
-   "시각(UTC)": "11-03 12:01"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor",
-   "요약": "The high-profile denial follows FBI alerts identifying North Korean-controlled wallet addresses tied to the largest cryptocurrency exploit in history.",
-   "시각(UTC)": "11-03 09:40"
   }
  ]
 }
@@ -290,37 +290,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.01,
-   "Bybit (Futures)": 0.0074,
-   "Gate (Futures)": 0.01,
+   "Bybit (Futures)": 0.0097,
+   "Gate (Futures)": 0.0098,
    "MEXC (Futures)": 0.01,
    "WEEX (Futures)": 0.0001,
    "Tapbit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 29485489548
+  "미결제약정 합계 USD(상위)": 29594378651
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 56.35,
+  "CoinGecko 이용자 투표 상승(%)": 58.4,
   "CoinGecko 인기 검색 코인": [
    "SP",
    "SI",
    "DACITYCOIN",
    "LIT",
-   "PEARL",
-   "PEPE",
    "HYPE",
-   "BTC",
+   "PEARL",
    "MON",
-   "ONDO",
-   "QTC",
-   "CARDS",
-   "SOL",
+   "ZRO",
+   "XMR",
+   "PENGU",
    "KNTQ",
-   "TAO"
+   "ETH",
+   "VVV",
+   "AERO",
+   "PUMP"
   ],
-  "BTC가 인기 검색에 있음": true
+  "BTC가 인기 검색에 있음": false
  }
 }
 ```
@@ -380,22 +380,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-03",
   "등락률(%)": {
-   "1일": 0.38,
-   "7일": -0.77,
-   "30일": -2.5,
-   "90일": -6.32
+   "1일": 1.42,
+   "7일": 0.56,
+   "30일": -2.94,
+   "90일": -3.96
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 0.08,
-   "MA60": -1.44,
-   "MA120": -3.91
+   "MA20": 1.38,
+   "MA60": -0.04,
+   "MA120": -2.49
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 59
+   "며칠 전": 60
   },
-  "RSI14": 47.6
+  "RSI14": 57.7
  }
 }
 ```
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 279183337540,
- "완전희석가치 FDV(USD)": 279183337540,
- "24시간 거래대금(USD)": 9193300612,
+ "시가총액(USD)": 279373948636,
+ "완전희석가치 FDV(USD)": 279373948636,
+ "24시간 거래대금(USD)": 8933623698,
  "유통량": 122186161.86556138,
  "총발행량": 122186161.86556138,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -53.79928,
+ "역대 최고가 대비(%)": -53.77234,
  "가격 변화(%)": {
-  "7d": -2.00935,
-  "30d": -15.27526,
-  "1y": -38.70234
+  "7d": -2.46786,
+  "30d": -15.2766,
+  "1y": -36.33605
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 43948426821
+  "TVL(USD)": 43929961896
  }
 }
 ```
@@ -442,7 +442,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "ETH 관련 기사": [
   {
    "출처": "CoinDesk",
-   "제목": "Binance's $6.3 billion hack began with a fake job interview, exchange says",
+   "제목": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
    "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
    "시각(UTC)": "11-03 14:53"
   },
@@ -457,6 +457,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says",
    "요약": "The unidentified attacker moved funds through ether, instant exchanges and Monero, but the victim and affected exchanges remain unknown.",
    "시각(UTC)": "11-02 17:21"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
+   "요약": "Markus Thielen sees Bitcoin reaching $90,000 by year-end, questions institutional ETF demand and says Ethereum must do more for holders.",
+   "시각(UTC)": "11-03 13:30"
   },
   {
    "출처": "Cointelegraph",
@@ -484,6 +490,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms",
+   "요약": "Objections have reached 56 companies, with nearly 80% of the venture’s initial stock selection opting out.",
+   "시각(UTC)": "11-03 16:17"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
+   "요약": "Governance group Open Standard will charge a 0.1 basis point management fee on payment volume, capped at at $0.01 per payment.",
+   "시각(UTC)": "11-03 16:12"
+  },
   {
    "출처": "CoinDesk",
    "제목": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
@@ -519,18 +537,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin is breaking a midterm election pattern going back to 2014",
    "요약": "Your day-ahead look for Nov. 3, 2026",
    "시각(UTC)": "11-03 12:30"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
-   "요약": "Bitcoin edged up 0.2% to around $76,900 since midnight UTC as spot ETFs lost $399 million for a second day and Binance customers pulled a net $4.72 billion.",
-   "시각(UTC)": "11-03 11:28"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Liquid’s bitcoin IOUs are fully backed again after a $320 million exploit",
-   "요약": "A final 250 BTC transfer closed the hole left by September’s bug, but the federation behind the network still hasn’t said who paid to fill it.",
-   "시각(UTC)": "11-03 11:12"
   }
  ]
 }
@@ -561,31 +567,31 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Hyperliquid (Futures)": 0.0013,
    "CoinW (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 18411380547
+  "미결제약정 합계 USD(상위)": 18548289008
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 95.65,
+  "CoinGecko 이용자 투표 상승(%)": 95.45,
   "CoinGecko 인기 검색 코인": [
    "SP",
    "SI",
    "DACITYCOIN",
    "LIT",
-   "PEARL",
-   "PEPE",
    "HYPE",
-   "BTC",
+   "PEARL",
    "MON",
-   "ONDO",
-   "QTC",
-   "CARDS",
-   "SOL",
+   "ZRO",
+   "XMR",
+   "PENGU",
    "KNTQ",
-   "TAO"
+   "ETH",
+   "VVV",
+   "AERO",
+   "PUMP"
   ],
-  "ETH가 인기 검색에 있음": false
+  "ETH가 인기 검색에 있음": true
  }
 }
 ```
@@ -647,19 +653,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-03",
   "등락률(%)": {
-   "1일": -2.12,
-   "7일": -17.96,
-   "30일": 20.21,
-   "90일": 41.87
+   "1일": 1.87,
+   "7일": -15.86,
+   "30일": 20.75,
+   "90일": 39.93
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -17.55,
-   "MA60": 2.31,
-   "MA120": 16.12
+   "MA20": -15.2,
+   "MA60": 3.84,
+   "MA120": 17.91
   },
   "MA20>MA60": true,
   "최근 교차": null,
-  "RSI14": 41.2
+  "RSI14": 42.7
  }
 }
 ```
@@ -680,13 +686,25 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms",
+   "요약": "Objections have reached 56 companies, with nearly 80% of the venture’s initial stock selection opting out.",
+   "시각(UTC)": "11-03 16:17"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
+   "요약": "Governance group Open Standard will charge a 0.1 basis point management fee on payment volume, capped at at $0.01 per payment.",
+   "시각(UTC)": "11-03 16:12"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
    "요약": "CFTC Chair Michael Selig said the move gives U.S. traders a regulated alternative to “offshore, and often unregulated, venues.”",
    "시각(UTC)": "11-03 15:02"
   },
   {
    "출처": "CoinDesk",
-   "제목": "Binance's $6.3 billion hack began with a fake job interview, exchange says",
+   "제목": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
    "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
    "시각(UTC)": "11-03 14:53"
   },
@@ -713,18 +731,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
    "요약": "Nearly $11 billion left the exchange over 46 hours, although CEO Richard Teng said hourly deposits were beginning to exceed withdrawals.",
    "시각(UTC)": "11-03 12:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin is breaking a midterm election pattern going back to 2014",
-   "요약": "Your day-ahead look for Nov. 3, 2026",
-   "시각(UTC)": "11-03 12:30"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
-   "요약": "But there’s a catch: validators that fail to deliver on their commitments currently face no financial compensation requirement under the service.",
-   "시각(UTC)": "11-03 12:01"
   }
  ]
 }
@@ -749,14 +755,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0042,
+   "Binance (Futures)": 0.005,
    "WEEX (Futures)": 0.0001,
-   "XT.COM (Derivatives)": 0.0042,
-   "Toobit Futures": 0.0042,
-   "Bitunix Futures": 0.0042,
-   "MEXC (Futures)": 0.0042
+   "XT.COM (Derivatives)": 0.005,
+   "Toobit Futures": 0.005,
+   "Bitunix Futures": 0.0048,
+   "MEXC (Futures)": 0.0046
   },
-  "미결제약정 합계 USD(상위)": 45819770
+  "미결제약정 합계 USD(상위)": 44586580
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -822,22 +828,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-03",
   "등락률(%)": {
-   "1일": 2.13,
-   "7일": -0.62,
-   "30일": -2.64,
-   "90일": 17.11
+   "1일": 2.09,
+   "7일": 0.82,
+   "30일": -11.09,
+   "90일": 18.69
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -1.92,
-   "MA60": 0.94,
-   "MA120": 6.53
+   "MA20": 0.31,
+   "MA60": 2.83,
+   "MA120": 8.58
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 81
+   "며칠 전": 82
   },
-  "RSI14": 47.7
+  "RSI14": 52.0
  }
 }
 ```
@@ -855,19 +861,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2056272627,
- "완전희석가치 FDV(USD)": 2056272627,
- "24시간 거래대금(USD)": 426426636,
+ "시가총액(USD)": 2047578572,
+ "완전희석가치 FDV(USD)": 2047578572,
+ "24시간 거래대금(USD)": 411058868,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.56583,
+ "역대 최고가 대비(%)": -82.63075,
  "가격 변화(%)": {
-  "7d": 11.19855,
-  "30d": 13.78996,
-  "1y": -20.04317
+  "7d": 10.4882,
+  "30d": 13.10317,
+  "1y": -15.14368
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -881,13 +887,25 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms",
+   "요약": "Objections have reached 56 companies, with nearly 80% of the venture’s initial stock selection opting out.",
+   "시각(UTC)": "11-03 16:17"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
+   "요약": "Governance group Open Standard will charge a 0.1 basis point management fee on payment volume, capped at at $0.01 per payment.",
+   "시각(UTC)": "11-03 16:12"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
    "요약": "CFTC Chair Michael Selig said the move gives U.S. traders a regulated alternative to “offshore, and often unregulated, venues.”",
    "시각(UTC)": "11-03 15:02"
   },
   {
    "출처": "CoinDesk",
-   "제목": "Binance's $6.3 billion hack began with a fake job interview, exchange says",
+   "제목": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
    "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
    "시각(UTC)": "11-03 14:53"
   },
@@ -914,18 +932,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
    "요약": "Nearly $11 billion left the exchange over 46 hours, although CEO Richard Teng said hourly deposits were beginning to exceed withdrawals.",
    "시각(UTC)": "11-03 12:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin is breaking a midterm election pattern going back to 2014",
-   "요약": "Your day-ahead look for Nov. 3, 2026",
-   "시각(UTC)": "11-03 12:30"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
-   "요약": "But there’s a catch: validators that fail to deliver on their commitments currently face no financial compensation requirement under the service.",
-   "시각(UTC)": "11-03 12:01"
   }
  ]
 }
@@ -957,31 +963,31 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "WhiteBIT Futures": 0.01,
    "BloFin (Futures)": 0.022
   },
-  "미결제약정 합계 USD(상위)": 259904191
+  "미결제약정 합계 USD(상위)": 258434080
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 90.48,
+  "CoinGecko 이용자 투표 상승(%)": 94.44,
   "CoinGecko 인기 검색 코인": [
    "SP",
    "SI",
    "DACITYCOIN",
    "LIT",
-   "PEARL",
-   "PEPE",
    "HYPE",
-   "BTC",
+   "PEARL",
    "MON",
-   "ONDO",
-   "QTC",
-   "CARDS",
-   "SOL",
+   "ZRO",
+   "XMR",
+   "PENGU",
    "KNTQ",
-   "TAO"
+   "ETH",
+   "VVV",
+   "AERO",
+   "PUMP"
   ],
-  "PEPE가 인기 검색에 있음": true
+  "PEPE가 인기 검색에 있음": false
  }
 }
 ```
@@ -1042,19 +1048,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-03",
   "등락률(%)": {
-   "1일": -0.06,
-   "7일": -1.13,
-   "30일": -3.16,
-   "90일": -18.26
+   "1일": -0.03,
+   "7일": -1.19,
+   "30일": -2.6,
+   "90일": -19.25
   },
   "종가와 이평선 거리(%)": {
    "MA20": -1.01,
-   "MA60": -6.76,
-   "MA120": -12.34
+   "MA60": -6.58,
+   "MA120": -12.19
   },
   "MA20>MA60": false,
   "최근 교차": null,
-  "RSI14": 29.1
+  "RSI14": 28.9
  }
 }
 ```
@@ -1072,18 +1078,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "bStocks Ecosystem"
  ],
  "시가총액 순위": 231,
- "시가총액(USD)": 122628215,
- "완전희석가치 FDV(USD)": 122628215,
- "24시간 거래대금(USD)": 17085680,
- "유통량": 439911.1660183,
- "총발행량": 439911.1660183,
+ "시가총액(USD)": 122709274,
+ "완전희석가치 FDV(USD)": 122709274,
+ "24시간 거래대금(USD)": 16478067,
+ "유통량": 440176.52030049,
+ "총발행량": 440176.52030049,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 383.58,
- "역대 최고가 대비(%)": -27.33334,
+ "역대 최고가 대비(%)": -27.33535,
  "가격 변화(%)": {
-  "7d": -13.01098,
-  "30d": -19.0224,
+  "7d": -13.19023,
+  "30d": -19.0312,
   "1y": null
  },
  "소개": ""
@@ -1098,13 +1104,25 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Amazon, Tesla and SpaceX join OKX–ICE tokenized stock objections as deadline looms",
+   "요약": "Objections have reached 56 companies, with nearly 80% of the venture’s initial stock selection opting out.",
+   "시각(UTC)": "11-03 16:17"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool",
+   "요약": "Governance group Open Standard will charge a 0.1 basis point management fee on payment volume, capped at at $0.01 per payment.",
+   "시각(UTC)": "11-03 16:12"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street",
    "요약": "CFTC Chair Michael Selig said the move gives U.S. traders a regulated alternative to “offshore, and often unregulated, venues.”",
    "시각(UTC)": "11-03 15:02"
   },
   {
    "출처": "CoinDesk",
-   "제목": "Binance's $6.3 billion hack began with a fake job interview, exchange says",
+   "제목": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
    "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
    "시각(UTC)": "11-03 14:53"
   },
@@ -1131,18 +1149,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway",
    "요약": "Nearly $11 billion left the exchange over 46 hours, although CEO Richard Teng said hourly deposits were beginning to exceed withdrawals.",
    "시각(UTC)": "11-03 12:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin is breaking a midterm election pattern going back to 2014",
-   "요약": "Your day-ahead look for Nov. 3, 2026",
-   "시각(UTC)": "11-03 12:30"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations",
-   "요약": "But there’s a catch: validators that fail to deliver on their commitments currently face no financial compensation requirement under the service.",
-   "시각(UTC)": "11-03 12:01"
   }
  ]
 }
@@ -1177,17 +1183,17 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "SI",
    "DACITYCOIN",
    "LIT",
-   "PEARL",
-   "PEPE",
    "HYPE",
-   "BTC",
+   "PEARL",
    "MON",
-   "ONDO",
-   "QTC",
-   "CARDS",
-   "SOL",
+   "ZRO",
+   "XMR",
+   "PENGU",
    "KNTQ",
-   "TAO"
+   "ETH",
+   "VVV",
+   "AERO",
+   "PUMP"
   ],
   "GOOGLB가 인기 검색에 있음": false
  }
