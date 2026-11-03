@@ -13,6 +13,8 @@ from __future__ import annotations
 
 import os
 import re
+import time
+from functools import lru_cache
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from html import unescape
@@ -54,9 +56,13 @@ def _safe(fn, *args, **kwargs):
 
 
 def _get_json(url: str, params: dict | None = None, headers: dict | None = None):
-    resp = requests.get(url, params=params, headers={**UA, **(headers or {})}, timeout=TIMEOUT)
-    resp.raise_for_status()
-    return resp.json()
+    for attempt in range(2):
+        resp = requests.get(url, params=params, headers={**UA, **(headers or {})}, timeout=TIMEOUT)
+        if resp.status_code == 429 and attempt == 0:  # 무료 CoinGecko는 1분에 몇 번만 허용한다. 한 번 쉬었다 다시.
+            time.sleep(min(int(resp.headers.get("Retry-After") or 30), 60))
+            continue
+        resp.raise_for_status()
+        return resp.json()
 
 
 # ---------- TARO: 차트 ----------
@@ -92,11 +98,23 @@ def coingecko_id(coin: str) -> str:
     raise ValueError(f"CoinGecko에서 {coin}을 찾지 못했습니다")
 
 
+@lru_cache(maxsize=32)
+def _coin_detail(coin: str) -> dict:
+    """CoinGecko 코인 상세. DIANA와 VIBE가 같이 쓰므로 한 번만 받는다 (무료 요청 한도 절약)."""
+    return _get_json(f"https://api.coingecko.com/api/v3/coins/{coingecko_id(coin)}",
+                     {"localization": "false", "tickers": "false", "community_data": "false",
+                      "developer_data": "false", "sparkline": "false"}, _coingecko_headers())
+
+
+@lru_cache(maxsize=4)
+def _coingecko_global(path: str, query: str = ""):
+    """여러 코인이 같이 쓰는 CoinGecko 자료(선물 목록, 인기 검색)는 실행당 한 번만 받는다."""
+    params = dict(p.split("=") for p in query.split("&")) if query else None
+    return _get_json(f"https://api.coingecko.com/api/v3/{path}", params, _coingecko_headers())
+
+
 def fundamentals(coin: str) -> dict:
-    cid = coingecko_id(coin)
-    d = _get_json(f"https://api.coingecko.com/api/v3/coins/{cid}",
-                  {"localization": "false", "tickers": "false", "community_data": "false",
-                   "developer_data": "false", "sparkline": "false"}, _coingecko_headers())
+    d = _coin_detail(coin)
     m = d.get("market_data", {})
     usd = lambda k: (m.get(k) or {}).get("usd")  # noqa: E731
     circ, total, mx = m.get("circulating_supply"), m.get("total_supply"), m.get("max_supply")
@@ -191,8 +209,7 @@ def futures_positioning(coin: str) -> dict:
 
 def derivatives_coingecko(coin: str) -> dict:
     """바이낸스 선물 API가 막힌 지역(미국 서버 등)용 대안: CoinGecko에 모인 거래소별 무기한 선물 펀딩비·미결제약정."""
-    rows = _get_json("https://api.coingecko.com/api/v3/derivatives", {"include_tickers": "unexpired"},
-                     _coingecko_headers())
+    rows = _coingecko_global("derivatives", "include_tickers=unexpired")
     perps = [r for r in rows if (r.get("index_id") or "").upper() == coin
              and r.get("contract_type") == "perpetual" and r.get("funding_rate") is not None]
     perps.sort(key=lambda r: r.get("open_interest") or 0, reverse=True)
@@ -208,10 +225,8 @@ def derivatives_coingecko(coin: str) -> dict:
 
 def crowd_coingecko(coin: str) -> dict:
     """레딧이 막혔을 때의 대안: CoinGecko 이용자 투표(오늘 오를까/내릴까)와 지금 많이 검색되는 코인."""
-    d = _get_json(f"https://api.coingecko.com/api/v3/coins/{coingecko_id(coin)}",
-                  {"localization": "false", "tickers": "false", "market_data": "false",
-                   "community_data": "false", "developer_data": "false"}, _coingecko_headers())
-    trend = _get_json("https://api.coingecko.com/api/v3/search/trending", headers=_coingecko_headers())
+    d = _coin_detail(coin)
+    trend = _coingecko_global("search/trending")
     names = [c["item"]["symbol"].upper() for c in trend.get("coins", [])][:15]
     return {
         "CoinGecko 이용자 투표 상승(%)": d.get("sentiment_votes_up_percentage"),

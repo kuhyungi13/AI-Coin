@@ -9,6 +9,14 @@ from aicoin.tf_team.report import build_report
 from aicoin.tf_team.team import ACE_SCHEMA, ANALYSTS, run_meeting
 
 
+@pytest.fixture(autouse=True)
+def clear_caches():
+    from aicoin.tf_team import sources
+    sources._coin_detail.cache_clear()
+    sources._coingecko_global.cache_clear()
+    yield
+
+
 def make_df(closes):
     idx = pd.date_range("2024-01-01", periods=len(closes), freq="D", tz="UTC", name="date")
     c = pd.Series(closes, index=idx, dtype=float)
@@ -144,3 +152,23 @@ def test_futures_falls_back_to_coingecko(monkeypatch):
     assert list(fut["거래소별 펀딩비(%)"]) == ["Bybit", "Binance (Futures)"]
     assert fut["미결제약정 합계 USD(상위)"] == 800
     assert "오류" in out["커뮤니티 인기글(레딧)"]
+
+
+def test_get_json_retries_once_on_429(monkeypatch):
+    from aicoin.tf_team import sources
+
+    class R:
+        def __init__(self, code):
+            self.status_code, self.headers = code, {"Retry-After": "1"}
+
+        def raise_for_status(self):
+            if self.status_code >= 400:
+                raise sources.requests.HTTPError(str(self.status_code))
+
+        def json(self):
+            return {"ok": True}
+
+    seq = [R(429), R(200)]
+    monkeypatch.setattr(sources.requests, "get", lambda *a, **k: seq.pop(0))
+    monkeypatch.setattr(sources.time, "sleep", lambda s: None)
+    assert sources._get_json("http://x") == {"ok": True}
