@@ -117,3 +117,30 @@ def test_collect_survives_network_failure(monkeypatch):
     assert "오류" in data["TARO"] and "오류" in data["DIANA"]
     assert "수집 실패" in data["NOVA"]
     assert "오류" in data["VIBE"]["공포·탐욕 지수"]
+
+
+def test_futures_falls_back_to_coingecko(monkeypatch):
+    from aicoin.tf_team import sources
+
+    rows = [
+        {"market": "Binance (Futures)", "index_id": "BTC", "contract_type": "perpetual",
+         "funding_rate": 0.01, "open_interest": 300},
+        {"market": "Bybit", "index_id": "BTC", "contract_type": "perpetual",
+         "funding_rate": -0.005, "open_interest": 500},
+        {"market": "X", "index_id": "ETH", "contract_type": "perpetual", "funding_rate": 0.02, "open_interest": 900},
+        {"market": "Y", "index_id": "BTC", "contract_type": "futures", "funding_rate": 0.0, "open_interest": 900},
+    ]
+
+    def fake_get_json(url, params=None, headers=None):
+        if "fapi.binance.com" in url:
+            raise sources.requests.HTTPError("451")
+        if url.endswith("/derivatives"):
+            return rows
+        raise sources.requests.ConnectionError("blocked")
+
+    monkeypatch.setattr(sources, "_get_json", fake_get_json)
+    out = sources.sentiment("BTC", fng={"오늘": "50"})
+    fut = out["선물 포지션"]
+    assert list(fut["거래소별 펀딩비(%)"]) == ["Bybit", "Binance (Futures)"]
+    assert fut["미결제약정 합계 USD(상위)"] == 800
+    assert "오류" in out["커뮤니티 인기글(레딧)"]

@@ -189,6 +189,37 @@ def futures_positioning(coin: str) -> dict:
     }
 
 
+def derivatives_coingecko(coin: str) -> dict:
+    """바이낸스 선물 API가 막힌 지역(미국 서버 등)용 대안: CoinGecko에 모인 거래소별 무기한 선물 펀딩비·미결제약정."""
+    rows = _get_json("https://api.coingecko.com/api/v3/derivatives", {"include_tickers": "unexpired"},
+                     _coingecko_headers())
+    perps = [r for r in rows if (r.get("index_id") or "").upper() == coin
+             and r.get("contract_type") == "perpetual" and r.get("funding_rate") is not None]
+    perps.sort(key=lambda r: r.get("open_interest") or 0, reverse=True)
+    if not perps:
+        raise ValueError(f"{coin} 무기한 선물 자료 없음")
+    top = perps[:6]
+    return {
+        "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
+        "거래소별 펀딩비(%)": {r["market"]: round(float(r["funding_rate"]), 4) for r in top},
+        "미결제약정 합계 USD(상위)": round(sum(r.get("open_interest") or 0 for r in top)),
+    }
+
+
+def crowd_coingecko(coin: str) -> dict:
+    """레딧이 막혔을 때의 대안: CoinGecko 이용자 투표(오늘 오를까/내릴까)와 지금 많이 검색되는 코인."""
+    d = _get_json(f"https://api.coingecko.com/api/v3/coins/{coingecko_id(coin)}",
+                  {"localization": "false", "tickers": "false", "market_data": "false",
+                   "community_data": "false", "developer_data": "false"}, _coingecko_headers())
+    trend = _get_json("https://api.coingecko.com/api/v3/search/trending", headers=_coingecko_headers())
+    names = [c["item"]["symbol"].upper() for c in trend.get("coins", [])][:15]
+    return {
+        "CoinGecko 이용자 투표 상승(%)": d.get("sentiment_votes_up_percentage"),
+        "CoinGecko 인기 검색 코인": names,
+        f"{coin}가 인기 검색에 있음": coin in names,
+    }
+
+
 def reddit_hot(coin: str) -> dict:
     subs = {"BTC": "Bitcoin", "ETH": "ethereum", "SOL": "solana", "XRP": "XRP"}
     out = {}
@@ -200,11 +231,14 @@ def reddit_hot(coin: str) -> dict:
 
 
 def sentiment(coin: str, fng: dict | None = None) -> dict:
-    return {
-        "공포·탐욕 지수": fng if fng is not None else _safe(fear_greed),
-        "선물 포지션(바이낸스)": _safe(futures_positioning, coin),
-        "커뮤니티 인기글(레딧)": _safe(reddit_hot, coin),
-    }
+    out = {"공포·탐욕 지수": fng if fng is not None else _safe(fear_greed)}
+    futures = _safe(futures_positioning, coin)
+    if "오류" in futures:  # 미국 서버(GitHub Actions)에서는 바이낸스 선물 API가 451로 막힌다
+        futures = _safe(derivatives_coingecko, coin)
+    out["선물 포지션"] = futures
+    out["커뮤니티 인기글(레딧)"] = _safe(reddit_hot, coin)
+    out["군중 심리(CoinGecko)"] = _safe(crowd_coingecko, coin)
+    return out
 
 
 def collect(coin: str, fng: dict | None = None) -> dict:

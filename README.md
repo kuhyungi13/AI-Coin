@@ -91,7 +91,7 @@ AI 7명이 팀처럼 회의해서 코인 하나하나에 매수/관망/매도 �
 | 애널리스트 | TARO | 기술적 분석 | 바이낸스 일봉·4시간봉: MA20/MA60/MA120, 골든·데드크로스, RSI, 거래량, ATR |
 | 애널리스트 | DIANA | 기본적 분석 | CoinGecko 시총·FDV·유통량, DefiLlama 체인 TVL |
 | 애널리스트 | NOVA | 뉴스 분석 | CoinDesk·Cointelegraph·Decrypt 최근 3일 기사 |
-| 애널리스트 | VIBE | 센티먼트 | 공포·탐욕 지수, 바이낸스 선물 펀딩비·롱숏 비율, 레딧 인기글 |
+| 애널리스트 | VIBE | 센티먼트 | 공포·탐욕 지수, 선물 펀딩비·롱숏 비율(바이낸스, 막히면 CoinGecko), 레딧 인기글, CoinGecko 투표·인기 검색 |
 | 리서치 | BULL / BEAR | 매수 논거 vs 리스크, 2라운드 토론 | 애널리스트 보고서 |
 | 수석 트레이더 | ACE | 최종 의견과 확신도 | 팀 전체 보고와 토론 |
 
@@ -109,7 +109,7 @@ python run_tf_team.py --dry-run           # AI 없이 자료만 모아 보기 (�
 이름 `ANTHROPIC_API_KEY`로 키를 넣으면, GitHub Actions가 매일 오전 9시 20분에 회의를 열어
 [`paper/TF_REPORT.md`](paper/TF_REPORT.md)(최신)와 `paper/tf/날짜.md`(기록)에 저장합니다.
 Actions 탭의 **코인 분석 TF팀 → Run workflow**로 원하는 코인을 바로 분석할 수도 있습니다.
-(GitHub 서버는 미국에 있어 바이낸스 선물 자료가 막힐 수 있습니다. 그때 VIBE는 나머지 자료로만 보고합니다.)
+(GitHub 서버는 미국에 있어 바이낸스 선물·레딧이 막힙니다. 그때 VIBE는 CoinGecko의 거래소별 펀딩비와 이용자 투표로 대신 봅니다.)
 
 ## 폴더 구성
 
