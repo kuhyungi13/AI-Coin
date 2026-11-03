@@ -82,6 +82,37 @@ python run_split_trend.py                          # 분할 추세 전략(분할
   2. 이 저장소 첫 화면의 초록색 **Code** 버튼 → **Download ZIP**으로 받고 압축을 풉니다.
   3. 압축 푼 폴더의 `start_live.bat`을 더블클릭합니다. 처음엔 설치에 몇 분 걸리고, 브라우저에 화면이 뜹니다. 검은 창을 닫으면 멈춥니다.
 
+## 코인 분석 TF팀 (AI 7명, 참고용)
+
+AI 7명이 팀처럼 회의해서 코인 하나하나에 매수/관망/매도 의견을 냅니다. 돈은 넣지 않고 판단 참고용입니다.
+
+| 팀 | 이름 | 하는 일 | 보는 자료 (모두 무료, 키 불필요) |
+|---|---|---|---|
+| 애널리스트 | TARO | 기술적 분석 | 바이낸스 일봉·4시간봉: MA20/MA60/MA120, 골든·데드크로스, RSI, 거래량, ATR |
+| 애널리스트 | DIANA | 기본적 분석 | CoinGecko 시총·FDV·유통량, DefiLlama 체인 TVL |
+| 애널리스트 | NOVA | 뉴스 분석 | CoinDesk·Cointelegraph·Decrypt 최근 3일 기사 |
+| 애널리스트 | VIBE | 센티먼트 | 공포·탐욕 지수, 선물 펀딩비·롱숏 비율(바이낸스, 막히면 CoinGecko), 레딧 인기글, CoinGecko 투표·인기 검색 |
+| 리서치 | BULL / BEAR | 매수 논거 vs 리스크, 2라운드 토론 | 애널리스트 보고서 |
+| 수석 트레이더 | ACE | 최종 의견과 확신도 | 팀 전체 보고와 토론 |
+
+**돈이 들지 않습니다.** 역할을 둘로 나눴습니다.
+
+1. **자료 모으기 (GitHub Actions, 무료)**: 매일 오전 9시 20분에 위 공개 자료를 모아 [`paper/tf/BRIEF.md`](paper/tf/BRIEF.md)에 저장합니다.
+   Actions 탭의 **코인 분석 TF팀 자료 수집 → Run workflow**로 원하는 코인을 바로 모을 수도 있습니다.
+2. **회의 (Claude 프로젝트 "코인 분석 TF팀" 안의 Claude)**: 그 자료를 읽고 [`aicoin/tf_team/PLAYBOOK.md`](aicoin/tf_team/PLAYBOOK.md) 순서대로
+   7명 회의를 열어 [`paper/TF_REPORT.md`](paper/TF_REPORT.md)(최신)와 `paper/tf/날짜.md`(기록)에 보고서를 올립니다.
+   Claude 구독 안에서 돌기 때문에 API 키나 추가 비용이 없습니다.
+
+내 컴퓨터에서 자료만 모아 보려면:
+
+```bash
+pip install -r requirements-tf.txt
+python run_tf_team.py                 # BTC, ETH → paper/tf/BRIEF.md
+python run_tf_team.py BTC SOL XRP --print
+```
+
+(GitHub 서버는 미국에 있어 바이낸스 선물·레딧이 막힙니다. 그때 VIBE는 CoinGecko의 거래소별 펀딩비와 이용자 투표로 대신 봅니다.)
+
 ## 폴더 구성
 
 - `aicoin/data.py` 바이낸스 과거 시세 내려받기
@@ -89,6 +120,7 @@ python run_split_trend.py                          # 분할 추세 전략(분할
 - `run_backtest.py` 실행 파일
 - `run_paper.py` 모의 투자 실행 파일, `aicoin/paper.py` 모의 투자 계산, `paper/` 설정과 기록
 - `live_paper.py`, `start_live.bat` 내 컴퓨터에서 보는 실시간 화면
+- `run_tf_team.py`, `aicoin/tf_team/` 코인 분석 TF팀 (자료 수집 `sources.py`, 지표 `indicators.py`, 회의 자료 `brief.py`, 회의 진행표 `PLAYBOOK.md`)
 - `tests/` 계산이 맞는지 확인하는 테스트 (`python -m pytest`)
 
 > 백테스트 결과가 좋아도 미래 수익을 보장하지 않습니다. 실전 투자 전에 반드시 모의 투자를 거칩니다.

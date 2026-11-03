@@ -1,0 +1,3 @@
+# 코인 분석 TF팀 회의 자료 모으기(run_tf_team.py)용
+pandas>=2.0
+requests>=2.28
