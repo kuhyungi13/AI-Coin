@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-04 07:22 KST)
+# TF팀 회의 자료 (2026-11-04 08:21 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1563934310773,
- "완전희석가치 FDV(USD)": 1563934310773,
- "24시간 거래대금(USD)": 25253498138,
+ "시가총액(USD)": 1564031751242,
+ "완전희석가치 FDV(USD)": 1564031751242,
+ "24시간 거래대금(USD)": 25052021046,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -38.2994,
+ "역대 최고가 대비(%)": -38.3034,
  "가격 변화(%)": {
-  "7d": -3.752,
-  "30d": -9.36915,
-  "1y": -27.13915
+  "7d": -3.74045,
+  "30d": -9.98724,
+  "1y": -26.91699
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4141753834
+  "TVL(USD)": 4142100498
  }
 }
 ```
@@ -188,6 +188,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
+   "제목": "Here’s what happened in crypto today",
+   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+   "시각(UTC)": "11-03 22:39"
+  },
+  {
+   "출처": "Cointelegraph",
    "제목": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
    "요약": "Markus Thielen sees Bitcoin reaching $90,000 by year-end, questions institutional ETF demand and says Ethereum must do more for holders.",
    "시각(UTC)": "11-03 16:47"
@@ -197,12 +203,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin price defends $76K lows as analysts see stocks pricing in ‘political gridlock’",
    "요약": "Bitcoin made modest gains at the start of Wall Street trading on Tuesday as markets awaited cues from the US midterm elections.",
    "시각(UTC)": "11-03 15:44"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Here’s what happened in crypto today",
-   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-   "시각(UTC)": "11-03 13:50"
   },
   {
    "출처": "Cointelegraph",
@@ -218,6 +218,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "What happens if North Korea steals Wall Street's tokenized assets next",
+   "요약": "The $6.3 billion Binance hack showed how quickly cryptocurrencies can disappear on blockchain rails. Tokenized securities may offer better recourse than crypto after a theft, but the markets around them can still break down when stress hits",
+   "시각(UTC)": "11-03 23:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
@@ -259,12 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
    "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
    "시각(UTC)": "11-03 14:53"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
-   "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
-   "시각(UTC)": "11-03 14:42"
   }
  ]
 }
@@ -296,29 +296,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "WEEX (Futures)": 0.0001,
    "Tapbit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 29624072240
+  "미결제약정 합계 USD(상위)": 29643970109
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 66.98,
+  "CoinGecko 이용자 투표 상승(%)": 68.63,
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
-   "SNOWMOON",
+   "PENGU",
+   "AERO",
+   "BTC",
+   "ETH",
+   "NEAR",
+   "POL",
+   "ZEC",
    "LIT",
    "HYPE",
-   "ZEC",
-   "KNTQ",
-   "XMR",
-   "CC",
-   "PUMP",
-   "QNT",
    "PEARL",
-   "SOL",
-   "NEAR",
-   "ADA",
-   "BTC"
+   "XRP",
+   "CC",
+   "CARDS",
+   "SUI"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 280070933309,
- "완전희석가치 FDV(USD)": 280070933309,
- "24시간 거래대금(USD)": 8089489987,
+ "시가총액(USD)": 279647711858,
+ "완전희석가치 FDV(USD)": 279647711858,
+ "24시간 거래대금(USD)": 8015792142,
  "유통량": 122186161.86556138,
  "총발행량": 122186161.86556138,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -53.66158,
+ "역대 최고가 대비(%)": -53.73329,
  "가격 변화(%)": {
-  "7d": -2.41457,
-  "30d": -15.16122,
-  "1y": -36.32056
+  "7d": -2.52045,
+  "30d": -16.18093,
+  "1y": -36.2482
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 44134483213
+  "TVL(USD)": 44199158546
  }
 }
 ```
@@ -486,6 +486,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "What happens if North Korea steals Wall Street's tokenized assets next",
+   "요약": "The $6.3 billion Binance hack showed how quickly cryptocurrencies can disappear on blockchain rails. Tokenized securities may offer better recourse than crypto after a theft, but the markets around them can still break down when stress hits",
+   "시각(UTC)": "11-03 23:00"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
    "요약": "A group backed by Citadel Securities and other firms sued the U.S. derivatives regulator for opening a path for perps that it argued belong in the SEC's hands.",
    "시각(UTC)": "11-03 22:14"
@@ -525,12 +531,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
    "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
    "시각(UTC)": "11-03 14:42"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "CZ warns of more AI-driven hacks following Binance’s historic $6.3 billion heist",
-   "요약": "While investigators found no evidence that AI agents laundered the stolen Binance funds, Zhao stressed that automated tools are lowering the barrier for complex breaches.",
-   "시각(UTC)": "11-03 14:22"
   }
  ]
 }
@@ -561,31 +561,31 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "CoinW (Futures)": 0.01,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 18649585886
+  "미결제약정 합계 USD(상위)": 18675210673
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 92.31,
+  "CoinGecko 이용자 투표 상승(%)": 95.65,
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
-   "SNOWMOON",
+   "PENGU",
+   "AERO",
+   "BTC",
+   "ETH",
+   "NEAR",
+   "POL",
+   "ZEC",
    "LIT",
    "HYPE",
-   "ZEC",
-   "KNTQ",
-   "XMR",
-   "CC",
-   "PUMP",
-   "QNT",
    "PEARL",
-   "SOL",
-   "NEAR",
-   "ADA",
-   "BTC"
+   "XRP",
+   "CC",
+   "CARDS",
+   "SUI"
   ],
-  "ETH가 인기 검색에 있음": false
+  "ETH가 인기 검색에 있음": true
  }
 }
 ```
@@ -680,6 +680,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "What happens if North Korea steals Wall Street's tokenized assets next",
+   "요약": "The $6.3 billion Binance hack showed how quickly cryptocurrencies can disappear on blockchain rails. Tokenized securities may offer better recourse than crypto after a theft, but the markets around them can still break down when stress hits",
+   "시각(UTC)": "11-03 23:00"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
    "요약": "A group backed by Citadel Securities and other firms sued the U.S. derivatives regulator for opening a path for perps that it argued belong in the SEC's hands.",
    "시각(UTC)": "11-03 22:14"
@@ -719,12 +725,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
    "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
    "시각(UTC)": "11-03 14:53"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
-   "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
-   "시각(UTC)": "11-03 14:42"
   }
  ]
 }
@@ -749,14 +749,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.005,
+   "Binance (Futures)": 0.0047,
    "WEEX (Futures)": 0.0,
-   "XT.COM (Derivatives)": 0.005,
-   "Toobit Futures": 0.005,
-   "Bitunix Futures": 0.005,
-   "MEXC (Futures)": 0.005
+   "XT.COM (Derivatives)": 0.0047,
+   "Toobit Futures": 0.0046,
+   "Bitunix Futures": 0.0041,
+   "MEXC (Futures)": 0.0045
   },
-  "미결제약정 합계 USD(상위)": 43808838
+  "미결제약정 합계 USD(상위)": 43809981
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -855,19 +855,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2066611886,
- "완전희석가치 FDV(USD)": 2066611886,
- "24시간 거래대금(USD)": 364518964,
+ "시가총액(USD)": 2058347731,
+ "완전희석가치 FDV(USD)": 2058347731,
+ "24시간 거래대금(USD)": 366171825,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.47491,
+ "역대 최고가 대비(%)": -82.54923,
  "가격 변화(%)": {
-  "7d": 8.49337,
-  "30d": 13.54619,
-  "1y": -14.46706
+  "7d": 7.01001,
+  "30d": 10.97246,
+  "1y": -13.9399
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -879,6 +879,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "What happens if North Korea steals Wall Street's tokenized assets next",
+   "요약": "The $6.3 billion Binance hack showed how quickly cryptocurrencies can disappear on blockchain rails. Tokenized securities may offer better recourse than crypto after a theft, but the markets around them can still break down when stress hits",
+   "시각(UTC)": "11-03 23:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
@@ -920,12 +926,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
    "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
    "시각(UTC)": "11-03 14:53"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
-   "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
-   "시각(UTC)": "11-03 14:42"
   }
  ]
 }
@@ -950,14 +950,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "MEXC (Futures)": 0.0102,
+   "MEXC (Futures)": 0.0149,
    "Gate (Futures)": 0.01,
-   "OKX (Futures)": 0.01,
+   "OKX (Futures)": 0.013,
    "Bitget Futures": 0.01,
    "WhiteBIT Futures": 0.01,
-   "KCEX (Futures)": 0.01
+   "KCEX (Futures)": 0.013
   },
-  "미결제약정 합계 USD(상위)": 261257955
+  "미결제약정 합계 USD(상위)": 259173935
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -966,20 +966,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 86.36,
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
-   "SNOWMOON",
+   "PENGU",
+   "AERO",
+   "BTC",
+   "ETH",
+   "NEAR",
+   "POL",
+   "ZEC",
    "LIT",
    "HYPE",
-   "ZEC",
-   "KNTQ",
-   "XMR",
-   "CC",
-   "PUMP",
-   "QNT",
    "PEARL",
-   "SOL",
-   "NEAR",
-   "ADA",
-   "BTC"
+   "XRP",
+   "CC",
+   "CARDS",
+   "SUI"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -1071,19 +1071,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 231,
- "시가총액(USD)": 124814330,
- "완전희석가치 FDV(USD)": 124814330,
- "24시간 거래대금(USD)": 15976793,
- "유통량": 445336.03505928,
- "총발행량": 445336.03505928,
+ "시가총액 순위": 232,
+ "시가총액(USD)": 124981272,
+ "완전희석가치 FDV(USD)": 124981272,
+ "24시간 거래대금(USD)": 15613171,
+ "유통량": 445670.84353075,
+ "총발행량": 445670.84353075,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 383.58,
- "역대 최고가 대비(%)": -26.93375,
+ "역대 최고가 대비(%)": -26.89005,
  "가격 변화(%)": {
-  "7d": -12.98895,
-  "30d": -18.60274,
+  "7d": -12.90829,
+  "30d": -18.62776,
   "1y": null
  },
  "소개": ""
@@ -1096,6 +1096,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "GOOGLB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "What happens if North Korea steals Wall Street's tokenized assets next",
+   "요약": "The $6.3 billion Binance hack showed how quickly cryptocurrencies can disappear on blockchain rails. Tokenized securities may offer better recourse than crypto after a theft, but the markets around them can still break down when stress hits",
+   "시각(UTC)": "11-03 23:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
@@ -1137,12 +1143,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
    "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
    "시각(UTC)": "11-03 14:53"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "South Korea asks its biggest banks how a major crypto hack would hit them",
-   "요약": "In its first such survey, the BOK also asked about a crypto price crash, losses at another firm, and each firm’s crypto teams, budgets and investments.",
-   "시각(UTC)": "11-03 14:42"
   }
  ]
 }
@@ -1174,20 +1174,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
-   "SNOWMOON",
+   "PENGU",
+   "AERO",
+   "BTC",
+   "ETH",
+   "NEAR",
+   "POL",
+   "ZEC",
    "LIT",
    "HYPE",
-   "ZEC",
-   "KNTQ",
-   "XMR",
-   "CC",
-   "PUMP",
-   "QNT",
    "PEARL",
-   "SOL",
-   "NEAR",
-   "ADA",
-   "BTC"
+   "XRP",
+   "CC",
+   "CARDS",
+   "SUI"
   ],
   "GOOGLB가 인기 검색에 있음": false
  }
