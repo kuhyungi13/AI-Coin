@@ -148,3 +148,13 @@ def test_get_json_retries_once_on_429(monkeypatch):
     monkeypatch.setattr(sources.requests, "get", lambda *a, **k: seq.pop(0))
     monkeypatch.setattr(sources.time, "sleep", lambda s: None)
     assert sources._get_json("http://x") == {"ok": True}
+
+
+def test_closed_only_drops_unfinished_candle():
+    from aicoin.tf_team.sources import closed_only
+
+    df = make_df([1, 2, 3])  # 2024-01-01, 02, 03 일봉
+    now = pd.Timestamp("2024-01-03 15:00", tz="UTC")  # 1월 3일 봉은 아직 진행 중
+    assert list(closed_only(df, pd.Timedelta(days=1), now)["close"]) == [1, 2]
+    now = pd.Timestamp("2024-01-04 00:00", tz="UTC")  # 막 마감됨
+    assert list(closed_only(df, pd.Timedelta(days=1), now)["close"]) == [1, 2, 3]
