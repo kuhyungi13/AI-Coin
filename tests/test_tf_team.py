@@ -270,3 +270,31 @@ def test_trainer_waits_for_next_hour_and_is_idempotent(tmp_path):
     trades = pd.read_csv(tmp_path / "trainer/trades.csv")
     assert list(trades["side"]) == ["매수", "매도"] and trades["reason"].iloc[1] == "ACE 매도 7/10"
     assert sm["수익률(%)"] > 0
+
+
+def test_certainty_and_leverage_steps():
+    full = {"decision": "매수", "confidence": "9", "TARO": "긍정", "DIANA": "약한 긍정", "NOVA": "긍정",
+            "VIBE": "긍정", "winner": "BULL"}
+    s, why = trainer_mod.certainty(full)
+    assert s == 86 and trainer_mod.leverage_for(s) == 5  # 지난 성적 없으면 10배 못 감
+    board = {"결정별": {"매수": {"맞음": 7, "전체": 10, "승률(%)": 70.0}}}
+    s, _ = trainer_mod.certainty(full, board)
+    assert s == 96 and trainer_mod.leverage_for(s) == 10
+    mixed = dict(full, confidence="7", DIANA="부정", VIBE="중립", winner="BEAR")
+    s, _ = trainer_mod.certainty(mixed)
+    assert s == 28 + 10 - 10 - 10 + 10 and trainer_mod.leverage_for(s) == 1
+    assert trainer_mod.stop_distance(10) == 0.03 and trainer_mod.stop_distance(3) == 0.05
+
+
+def test_trainer_leverage_magnifies_and_stops_before_liquidation(tmp_path):
+    rows = [["2026-11-03T06:20:00Z", "SOL", "매수", "9", "긍정", "긍정", "긍정", "긍정", "BULL"]]
+    pd.DataFrame(rows, columns=["run_at", "coin", "decision", "confidence", "TARO", "DIANA", "NOVA", "VIBE",
+                                "winner"]).to_csv(tmp_path / "verdicts.csv", index=False)
+    (tmp_path / "scoreboard.json").write_text('{"결정별": {"매수": {"맞음": 8, "전체": 10, "승률(%)": 80.0}}}')
+    k = _bars({("SOL", "2026-11-03 07:00"): (100, 100, 100, 100),
+               ("SOL", "2026-11-03 08:00"): (100, 101, 96, 96)})  # -4%: 10배면 -3%에서 손절
+    sm = trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 09:05", tz="UTC"), k)
+    t = pd.read_csv(tmp_path / "trainer/trades.csv")
+    assert list(t["leverage"]) == [10, 10] and t["reason"].iloc[1] == "손절 -3%"
+    # 증거금 1,800(18%) × 10배, 가격 -3% → 증거금 -30% + 수수료
+    assert -620 < sm["총자산"] - 10_000 < -560

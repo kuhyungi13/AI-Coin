@@ -94,7 +94,7 @@ AI 8명이 팀처럼 회의해서 코인 하나하나에 매수/관망/매도 �
 | 애널리스트 | VIBE | 센티먼트 | 공포·탐욕 지수, 선물 펀딩비·롱숏 비율(바이낸스, 막히면 CoinGecko), 레딧 인기글, CoinGecko 투표·인기 검색 |
 | 리서치 | BULL / BEAR | 매수 논거 vs 리스크, 2라운드 토론 | 애널리스트 보고서 |
 | 수석 트레이더 | ACE | 최종 의견과 확신도 | 팀 전체 보고와 토론 |
-| 모의투자 | TRAINER | ACE 결정대로 가상 매매 (손절 -5%, 익절 +10%) | 바이낸스 1시간봉, 결과는 [`paper/tf/trainer/TRAINER.md`](paper/tf/trainer/TRAINER.md) |
+| 모의투자 | TRAINER | 보고서 확실성을 매기고 ACE 결정대로 가상 매매 (확실성 높으면 최대 10배 레버리지) | 바이낸스 1시간봉, 결과는 [`paper/tf/trainer/TRAINER.md`](paper/tf/trainer/TRAINER.md) |
 
 **돈이 들지 않습니다.** 역할을 둘로 나눴습니다.
 
