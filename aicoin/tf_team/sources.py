@@ -67,17 +67,24 @@ def _get_json(url: str, params: dict | None = None, headers: dict | None = None)
 
 # ---------- TARO: 차트 ----------
 
+def closed_only(df: pd.DataFrame, period: pd.Timedelta, now: pd.Timestamp | None = None) -> pd.DataFrame:
+    """아직 끝나지 않은 마지막 캔들을 뺀다. 진행 중인 캔들은 거래량·등락률이 실제보다 작게 나와 판단을 흐린다."""
+    now = now or pd.Timestamp.now(tz="UTC")
+    return df[df.index + period <= now]
+
+
 def technical(coin: str) -> dict:
     start = f"{pd.Timestamp.now(tz='UTC') - pd.Timedelta(days=200):%Y-%m-%d}"
-    df = fetch_klines(f"{coin}USDT", "1d", start=start)
+    df = closed_only(fetch_klines(f"{coin}USDT", "1d", start=start), pd.Timedelta(days=1))
     if len(df) < 30:
         return {"오류": f"{coin}USDT 일봉이 {len(df)}개뿐이라 지표를 계산할 수 없습니다"}
     daily = technical_snapshot(df)
+    daily["참고"] = "마감된 캔들만 사용 (일봉은 한국 시간 오전 9시 마감)"
     start4h = f"{pd.Timestamp.now(tz='UTC') - pd.Timedelta(days=25):%Y-%m-%d}"
-    df4h = fetch_klines(f"{coin}USDT", "4h", start=start4h)
+    df4h = closed_only(fetch_klines(f"{coin}USDT", "4h", start=start4h), pd.Timedelta(hours=4))
     four = technical_snapshot(df4h) if len(df4h) >= 30 else None
     if four:
-        four = {k: four[k] for k in ("등락률(%)", "종가와 이평선 거리(%)", "MA20>MA60", "최근 교차", "RSI14")}
+        four = {k: four[k] for k in ("기준일", "등락률(%)", "종가와 이평선 거리(%)", "MA20>MA60", "최근 교차", "RSI14")}
     return {"일봉": daily, "4시간봉(요약)": four}
 
 
