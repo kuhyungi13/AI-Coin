@@ -244,7 +244,7 @@ def test_trainer_buys_on_confident_buy_and_takes_profit(tmp_path):
 
 
 def test_trainer_skips_low_confidence_and_stops_out(tmp_path):
-    _verdicts(tmp_path, [["2026-11-03T05:40:00Z", "ETH", "매수", "5"],
+    _verdicts(tmp_path, [["2026-11-03T05:40:00Z", "ETH", "매수", "3"],
                          ["2026-11-03T05:40:00Z", "SOL", "매수", "6"]])
     k = _bars({("SOL", "2026-11-03 07:00"): (100, 100, 100, 100),
                ("SOL", "2026-11-03 08:00"): (100, 112, 94, 95)})  # 한 봉에서 둘 다 닿으면 손절
@@ -252,6 +252,16 @@ def test_trainer_skips_low_confidence_and_stops_out(tmp_path):
     trades = pd.read_csv(tmp_path / "trainer/trades.csv")
     assert list(trades["coin"]) == ["SOL", "SOL"]
     assert trades["reason"].iloc[1] == "손절 -5%"
+
+
+def test_trainer_probe_entry_is_half_size_and_1x(tmp_path):
+    _verdicts(tmp_path, [["2026-11-03T05:40:00Z", "SOL", "매수", "4"],
+                         ["2026-11-03T05:40:00Z", "BTC", "매수", "5"]])
+    k = _bars({("SOL", "2026-11-03 07:00"): (100, 100, 100, 100), ("BTC", "2026-11-03 07:00"): (100, 100, 100, 100)})
+    trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 07:30", tz="UTC"), k)
+    t = pd.read_csv(tmp_path / "trainer/trades.csv").set_index("coin")
+    assert t.loc["SOL", "leverage"] == 1 and "소액 탐색" in t.loc["SOL", "reason"]
+    assert abs(t.loc["SOL", "margin"] / t.loc["BTC", "margin"] - 0.4) < 0.01  # 4×2%×½ vs 5×2%
 
 
 def test_trainer_waits_for_next_hour_and_is_idempotent(tmp_path):
