@@ -14,6 +14,7 @@ https://claude.ai/artifact/T8KirqVzg1YwT2kuyEiNxU 는 회의 진행을 실시간
 - `verdicts/<run_at>-<코인>`: `{run_at, run_label, coin, decision, confidence, line, ret_24h, hit}`
 - `board/score`: `paper/tf/scoreboard.json` 내용 그대로
 - `board/trainer`: `paper/tf/trainer/summary.json` 내용 그대로
+- `board/market`: `paper/tf/market.json` 내용 그대로 (가운데 모니터의 시세 차트와 총자산 추이). 회의를 시작할 때와 끝낼 때 한 번씩
 - 쓰기 전에 문서를 읽어 version을 확인하고, 여러 개는 batch로 한 번에 쓴다. updated_at은 UTC ISO.
 
 ## 0. 자료 읽기
