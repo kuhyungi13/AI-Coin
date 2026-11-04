@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-04 18:33 KST)
+# TF팀 회의 자료 (2026-11-04 19:45 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -7,7 +7,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 **지금까지 승률** ACE 100.0% (2/2), 채점 대기 20개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,024.65 USDT (+0.25%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,022.15 USDT (+0.22%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: BMT, PEPE · 과매도 반등: GOOGLB
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1573578880480,
- "완전희석가치 FDV(USD)": 1573578880480,
- "24시간 거래대금(USD)": 31086960819,
+ "시가총액(USD)": 1577194646386,
+ "완전희석가치 FDV(USD)": 1577194646386,
+ "24시간 거래대금(USD)": 31400523861,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -37.923,
+ "역대 최고가 대비(%)": -37.78036,
  "가격 변화(%)": {
-  "7d": -3.84454,
-  "30d": -9.20867,
-  "1y": -24.74283
+  "7d": -3.68187,
+  "30d": -8.73178,
+  "1y": -24.36857
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4150951002
+  "TVL(USD)": 4162038815
  }
 }
 ```
@@ -157,10 +157,10 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-03 12:30"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto",
-   "요약": "Bitcoin edged up 0.2% to around $76,900 since midnight UTC as spot ETFs lost $399 million for a second day and Binance customers pulled a net $4.72 billion.",
-   "시각(UTC)": "11-03 11:28"
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin ETFs lose $1.16B as Bitwise calls selling ‘short-term’",
+   "요약": "Bitwise’s André Dragosch attributed Bitcoin ETF outflows to weaker market sentiment, saying institutions have largely maintained their exposure.",
+   "시각(UTC)": "11-04 09:38"
   },
   {
    "출처": "Cointelegraph",
@@ -212,12 +212,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Decrypt",
-   "제목": "Tether Holds 150,000 Bitcoin, CEO Says—About 50,000 More Than Its Reserve Report Shows",
-   "요약": "Paolo Ardoino told the Plan ₿ Forum in Lugano the company owns “give or take 150,000 Bitcoin,” but its Q3 reserve report implies just 100,060.",
-   "시각(UTC)": "11-03 22:46"
+   "제목": "Judge Orders Bitcoin Wallet Returned to Family of Convicted Canadian Killer",
+   "요약": "A Nova Scotia judge found prosecutors failed to link William Sandeson's Bitcoin to the 2015 murder of fellow student Taylor Samson.",
+   "시각(UTC)": "11-04 10:35"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft",
+   "요약": "Blockchain sleuth ZachXBT says the French bank may have lost more than $133 million from crypto exchange accounts. Crypto.com confirms it has blocked funds linked to the theft.",
+   "시각(UTC)": "11-04 10:18"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade",
+   "요약": "Texas election result raises fears of data centre restrictions, while Musk and Palihapitiya draw attention to the space economy.",
+   "시각(UTC)": "11-04 10:03"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Morgan Stanley says it is among the first banks to tokenize real world assets",
@@ -244,7 +256,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Crypto's election gamble falters as Democratic victories usher in a 'blue wave'",
+   "제목": "Live updates: Rep. Garcia vows to investigate Trump after 'blue wave' defeats crypto election gamble",
    "요약": "Voters are choosing who will represent them in the House, Senate and state-wide seats.",
    "시각(UTC)": "11-04 00:00"
   },
@@ -253,18 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "What voters said about their views on crypto",
    "요약": "A CoinDesk-commissioned poll from April sheds light on how voters — who aren't necessarily part of the crypto sector — view this industry.",
    "시각(UTC)": "11-03 23:19"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "What happens if North Korea steals Wall Street's tokenized assets next",
-   "요약": "The $6.3 billion Binance hack showed how quickly cryptocurrencies can disappear on blockchain rails. Tokenized securities may offer better recourse than crypto after a theft, but the markets around them can still break down when stress hits",
-   "시각(UTC)": "11-03 23:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "CFTC gets into legal clash over stock perps after having cleared path for crypto version",
-   "요약": "A group backed by Citadel Securities and other firms sued the U.S. derivatives regulator for opening a path for perps that it argued belong in the SEC's hands.",
-   "시각(UTC)": "11-03 22:14"
   }
  ]
 }
@@ -291,34 +291,34 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.01,
    "Bybit (Futures)": 0.01,
-   "Gate (Futures)": 0.0013,
+   "Gate (Futures)": 0.0022,
    "MEXC (Futures)": 0.01,
    "Tapbit (Futures)": 0.01,
    "WEEX (Futures)": 0.0001
   },
-  "미결제약정 합계 USD(상위)": 31055278455
+  "미결제약정 합계 USD(상위)": 31176813927
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 63.91,
+  "CoinGecko 이용자 투표 상승(%)": 63.83,
   "CoinGecko 인기 검색 코인": [
-   "PENGU",
-   "ZEC",
-   "LIT",
-   "PEPE",
-   "TRUMP",
-   "UAI",
-   "NEAR",
+   "DACITYCOIN",
    "BTC",
-   "HYPE",
-   "AERO",
+   "TAO",
+   "PENGU",
+   "PEARL",
+   "LIT",
    "KNTQ",
-   "DOGE",
-   "ETH",
-   "UNI",
-   "ZRO"
+   "TRUMP",
+   "ZEC",
+   "NEAR",
+   "HYPE",
+   "POL",
+   "AXIS",
+   "SUI",
+   "PEPE"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 283148065769,
- "완전희석가치 FDV(USD)": 283148065769,
- "24시간 거래대금(USD)": 10914343890,
+ "시가총액(USD)": 284110067686,
+ "완전희석가치 FDV(USD)": 284110067686,
+ "24시간 거래대금(USD)": 11436816893,
  "유통량": 122189135.08807562,
  "총발행량": 122189135.08807562,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -53.14856,
+ "역대 최고가 대비(%)": -52.98939,
  "가격 변화(%)": {
-  "7d": -2.19404,
-  "30d": -14.82562,
-  "1y": -33.66796
+  "7d": -1.89103,
+  "30d": -14.41323,
+  "1y": -33.36168
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 44333911542
+  "TVL(USD)": 44494941799
  }
 }
 ```
@@ -445,12 +445,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months'",
    "요약": "North Korea-linked attackers spent months compromising Binance employees and internal systems before exploiting its hot-wallet signing infrastructure through Ethereum's EIP-7702 mechanism.",
    "시각(UTC)": "11-03 14:53"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "ETHGas wants to bring Wall Street to public Ethereum with institutional controls",
-   "요약": "The proposed service would offer sanctions screening and qualified validators, but current compensation for failed commitments is set at zero.",
-   "시각(UTC)": "11-03 12:01"
   },
   {
    "출처": "Cointelegraph",
@@ -498,6 +492,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft",
+   "요약": "Blockchain sleuth ZachXBT says the French bank may have lost more than $133 million from crypto exchange accounts. Crypto.com confirms it has blocked funds linked to the theft.",
+   "시각(UTC)": "11-04 10:18"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade",
+   "요약": "Texas election result raises fears of data centre restrictions, while Musk and Palihapitiya draw attention to the space economy.",
+   "시각(UTC)": "11-04 10:03"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Morgan Stanley says it is among the first banks to tokenize real world assets",
    "요약": "The bank's announcement follows the launch of the Depository Trust & Clearing Corporation’s Tokenization Service, or DTS, on Oct. 28.",
    "시각(UTC)": "11-04 09:22"
@@ -531,18 +537,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "South Korea's ruling party wants to delay its crypto tax again",
    "요약": "South Korea's ruling party wants to delay crypto tax by about two years, as it waits for global tax-sharing rules and new digital assets law.",
    "시각(UTC)": "11-04 05:09"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
-   "요약": "The dominance of Republicans in all three government branches has been broken by the midterms, and the industry will feel the result as Congress changes hands.",
-   "시각(UTC)": "11-04 04:55"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets",
-   "요약": "Stock futures and the dollar slid and Treasuries rallied as early U.S. midterm returns pointed to Democrats taking both chambers of Congress.",
-   "시각(UTC)": "11-04 04:48"
   }
  ]
 }
@@ -573,31 +567,31 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Hyperliquid (Futures)": 0.0013,
    "CoinW (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 18673604245
+  "미결제약정 합계 USD(상위)": 18742172516
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 93.55,
+  "CoinGecko 이용자 투표 상승(%)": 93.1,
   "CoinGecko 인기 검색 코인": [
-   "PENGU",
-   "ZEC",
-   "LIT",
-   "PEPE",
-   "TRUMP",
-   "UAI",
-   "NEAR",
+   "DACITYCOIN",
    "BTC",
-   "HYPE",
-   "AERO",
+   "TAO",
+   "PENGU",
+   "PEARL",
+   "LIT",
    "KNTQ",
-   "DOGE",
-   "ETH",
-   "UNI",
-   "ZRO"
+   "TRUMP",
+   "ZEC",
+   "NEAR",
+   "HYPE",
+   "POL",
+   "AXIS",
+   "SUI",
+   "PEPE"
   ],
-  "ETH가 인기 검색에 있음": true
+  "ETH가 인기 검색에 있음": false
  }
 }
 ```
@@ -689,20 +683,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Binance HODLer Airdrops",
   "Binance Wallet IDO"
  ],
- "시가총액 순위": 777,
- "시가총액(USD)": 22750602,
- "완전희석가치 FDV(USD)": 29914265,
- "24시간 거래대금(USD)": 118337421,
+ "시가총액 순위": 763,
+ "시가총액(USD)": 23329720,
+ "완전희석가치 FDV(USD)": 30675734,
+ "24시간 거래대금(USD)": 123923098,
  "유통량": 760526861.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 76.1,
  "역대 최고가(USD)": 0.317341,
- "역대 최고가 대비(%)": -90.57345,
+ "역대 최고가 대비(%)": -90.3335,
  "가격 변화(%)": {
-  "7d": 8.33003,
-  "30d": 52.832,
-  "1y": -6.19069
+  "7d": 6.57894,
+  "30d": 55.95688,
+  "1y": -4.06291
  },
  "소개": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient —allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding ma"
 }
@@ -714,6 +708,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "BMT 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft",
+   "요약": "Blockchain sleuth ZachXBT says the French bank may have lost more than $133 million from crypto exchange accounts. Crypto.com confirms it has blocked funds linked to the theft.",
+   "시각(UTC)": "11-04 10:18"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade",
+   "요약": "Texas election result raises fears of data centre restrictions, while Musk and Palihapitiya draw attention to the space economy.",
+   "시각(UTC)": "11-04 10:03"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Morgan Stanley says it is among the first banks to tokenize real world assets",
@@ -749,18 +755,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "South Korea's ruling party wants to delay its crypto tax again",
    "요약": "South Korea's ruling party wants to delay crypto tax by about two years, as it waits for global tax-sharing rules and new digital assets law.",
    "시각(UTC)": "11-04 05:09"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
-   "요약": "The dominance of Republicans in all three government branches has been broken by the midterms, and the industry will feel the result as Congress changes hands.",
-   "시각(UTC)": "11-04 04:55"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets",
-   "요약": "Stock futures and the dollar slid and Treasuries rallied as early U.S. midterm returns pointed to Democrats taking both chambers of Congress.",
-   "시각(UTC)": "11-04 04:48"
   }
  ]
 }
@@ -785,14 +779,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.6673,
-   "Toobit Futures": -0.6673,
-   "Ourbit (Futures)": -0.6672,
-   "Bybit (Futures)": -0.8166,
-   "Gate (Futures)": -0.7226,
-   "KCEX (Futures)": -0.6672
+   "Binance (Futures)": -0.833,
+   "Toobit Futures": -0.8299,
+   "Ourbit (Futures)": -0.8299,
+   "Bybit (Futures)": -0.9848,
+   "Gate (Futures)": -0.8782,
+   "KCEX (Futures)": -0.8299
   },
-  "미결제약정 합계 USD(상위)": 26149327
+  "미결제약정 합계 USD(상위)": 28667402
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -800,21 +794,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 60.0,
   "CoinGecko 인기 검색 코인": [
-   "PENGU",
-   "ZEC",
-   "LIT",
-   "PEPE",
-   "TRUMP",
-   "UAI",
-   "NEAR",
+   "DACITYCOIN",
    "BTC",
-   "HYPE",
-   "AERO",
+   "TAO",
+   "PENGU",
+   "PEARL",
+   "LIT",
    "KNTQ",
-   "DOGE",
-   "ETH",
-   "UNI",
-   "ZRO"
+   "TRUMP",
+   "ZEC",
+   "NEAR",
+   "HYPE",
+   "POL",
+   "AXIS",
+   "SUI",
+   "PEPE"
   ],
   "BMT가 인기 검색에 있음": false
  }
@@ -909,19 +903,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2132849508,
- "완전희석가치 FDV(USD)": 2132849508,
- "24시간 거래대금(USD)": 487151153,
+ "시가총액(USD)": 2135401235,
+ "완전희석가치 FDV(USD)": 2135401235,
+ "24시간 거래대금(USD)": 496594911,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -81.91148,
+ "역대 최고가 대비(%)": -81.88984,
  "가격 변화(%)": {
-  "7d": 2.46276,
-  "30d": 12.12086,
-  "1y": -9.94015
+  "7d": 1.2936,
+  "30d": 12.07676,
+  "1y": -10.47881
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -933,6 +927,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft",
+   "요약": "Blockchain sleuth ZachXBT says the French bank may have lost more than $133 million from crypto exchange accounts. Crypto.com confirms it has blocked funds linked to the theft.",
+   "시각(UTC)": "11-04 10:18"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade",
+   "요약": "Texas election result raises fears of data centre restrictions, while Musk and Palihapitiya draw attention to the space economy.",
+   "시각(UTC)": "11-04 10:03"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Morgan Stanley says it is among the first banks to tokenize real world assets",
@@ -968,18 +974,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "South Korea's ruling party wants to delay its crypto tax again",
    "요약": "South Korea's ruling party wants to delay crypto tax by about two years, as it waits for global tax-sharing rules and new digital assets law.",
    "시각(UTC)": "11-04 05:09"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
-   "요약": "The dominance of Republicans in all three government branches has been broken by the midterms, and the industry will feel the result as Congress changes hands.",
-   "시각(UTC)": "11-04 04:55"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets",
-   "요약": "Stock futures and the dollar slid and Treasuries rallied as early U.S. midterm returns pointed to Democrats taking both chambers of Congress.",
-   "시각(UTC)": "11-04 04:48"
   }
  ]
 }
@@ -1004,36 +998,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "MEXC (Futures)": 0.0336,
+   "MEXC (Futures)": 0.0308,
    "Gate (Futures)": 0.01,
-   "OKX (Futures)": 0.0132,
+   "OKX (Futures)": 0.01,
    "Bitget Futures": 0.01,
    "WhiteBIT Futures": 0.01,
-   "KCEX (Futures)": 0.013
+   "KCEX (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 277442369
+  "미결제약정 합계 USD(상위)": 284209471
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 84.0,
+  "CoinGecko 이용자 투표 상승(%)": 83.33,
   "CoinGecko 인기 검색 코인": [
-   "PENGU",
-   "ZEC",
-   "LIT",
-   "PEPE",
-   "TRUMP",
-   "UAI",
-   "NEAR",
+   "DACITYCOIN",
    "BTC",
-   "HYPE",
-   "AERO",
+   "TAO",
+   "PENGU",
+   "PEARL",
+   "LIT",
    "KNTQ",
-   "DOGE",
-   "ETH",
-   "UNI",
-   "ZRO"
+   "TRUMP",
+   "ZEC",
+   "NEAR",
+   "HYPE",
+   "POL",
+   "AXIS",
+   "SUI",
+   "PEPE"
   ],
   "PEPE가 인기 검색에 있음": true
  }
@@ -1126,18 +1120,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "bStocks Ecosystem"
  ],
  "시가총액 순위": 228,
- "시가총액(USD)": 126991341,
- "완전희석가치 FDV(USD)": 126991341,
- "24시간 거래대금(USD)": 20936561,
+ "시가총액(USD)": 128700059,
+ "완전희석가치 FDV(USD)": 128700059,
+ "24시간 거래대금(USD)": 22240258,
  "유통량": 454316.07070649,
  "총발행량": 454316.07070649,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 383.58,
- "역대 최고가 대비(%)": -27.12857,
+ "역대 최고가 대비(%)": -26.14806,
  "가격 변화(%)": {
-  "7d": -13.82754,
-  "30d": -18.50606,
+  "7d": -12.97077,
+  "30d": -17.35645,
   "1y": null
  },
  "소개": ""
@@ -1150,6 +1144,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "GOOGLB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "ZachXBT names French bank Crédit Mutuel Arkéa as suspected victim of $133 million crypto theft",
+   "요약": "Blockchain sleuth ZachXBT says the French bank may have lost more than $133 million from crypto exchange accounts. Crypto.com confirms it has blocked funds linked to the theft.",
+   "시각(UTC)": "11-04 10:18"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade",
+   "요약": "Texas election result raises fears of data centre restrictions, while Musk and Palihapitiya draw attention to the space economy.",
+   "시각(UTC)": "11-04 10:03"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Morgan Stanley says it is among the first banks to tokenize real world assets",
@@ -1185,18 +1191,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "South Korea's ruling party wants to delay its crypto tax again",
    "요약": "South Korea's ruling party wants to delay crypto tax by about two years, as it waits for global tax-sharing rules and new digital assets law.",
    "시각(UTC)": "11-04 05:09"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Democrats surge toward Senate, House majorities, with crypto braced for new direction",
-   "요약": "The dominance of Republicans in all three government branches has been broken by the midterms, and the industry will feel the result as Congress changes hands.",
-   "시각(UTC)": "11-04 04:55"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets",
-   "요약": "Stock futures and the dollar slid and Treasuries rallied as early U.S. midterm returns pointed to Democrats taking both chambers of Congress.",
-   "시각(UTC)": "11-04 04:48"
   }
  ]
 }
@@ -1227,21 +1221,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
-   "PENGU",
-   "ZEC",
-   "LIT",
-   "PEPE",
-   "TRUMP",
-   "UAI",
-   "NEAR",
+   "DACITYCOIN",
    "BTC",
-   "HYPE",
-   "AERO",
+   "TAO",
+   "PENGU",
+   "PEARL",
+   "LIT",
    "KNTQ",
-   "DOGE",
-   "ETH",
-   "UNI",
-   "ZRO"
+   "TRUMP",
+   "ZEC",
+   "NEAR",
+   "HYPE",
+   "POL",
+   "AXIS",
+   "SUI",
+   "PEPE"
   ],
   "GOOGLB가 인기 검색에 있음": false
  }
