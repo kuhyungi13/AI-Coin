@@ -253,14 +253,14 @@ def summary(state: dict, trades: pd.DataFrame) -> dict:
         px = p.get("last", p["entry"])
         v = Trainer.value(p, px)
         total += v
-        pos.append({"코인": c, "레버리지": p["leverage"], "확실성": p["certainty"], "진입가": round(p["entry"], 6),
-                    "현재가": round(px, 6), "증거금": round(p["margin"], 2), "평가액": round(v, 2),
-                    "수익률(%)": round((v / p["margin"] - 1) * 100, 2), "손절": round(p["stop"], 6),
+        pos.append({"코인": c, "레버리지": p["leverage"], "확실성": p["certainty"], "진입가": float(f"{p['entry']:.6g}"),
+                    "현재가": float(f"{px:.6g}"), "증거금": round(p["margin"], 2), "평가액": round(v, 2),
+                    "수익률(%)": round((v / p["margin"] - 1) * 100, 2), "손절": float(f"{p['stop']:.6g}"),
                     "진입": p["entry_at"]})
     equity = state["cash"] + total
     closed = trades[trades["pnl"] != ""] if len(trades) else trades
     wins = int((closed["pnl"].astype(float) > 0).sum()) if len(closed) else 0
-    return {"총자산": round(equity, 2), "현금": round(state["cash"], 2), "수익률(%)":
+    return {"총자산": round(equity, 2), "시작 자금": state["start_cash"], "현금": round(state["cash"], 2), "수익률(%)":
             round((equity / state["start_cash"] - 1) * 100, 2), "보유": pos, "청산 거래": len(closed),
             "이긴 거래": wins, "승률(%)": round(wins / len(closed) * 100, 1) if len(closed) else None,
             "규칙": RULES, "updated_at": state["updated_at"]}
