@@ -308,3 +308,38 @@ def test_trainer_leverage_magnifies_and_losscut_is_same_pct_of_margin(tmp_path):
     assert list(t["leverage"]) == [10, 10] and t["reason"].iloc[1] == "로스컷 가격 -1% (증거금 -10%)"
     # 증거금 1,800(18%) × 10배, 가격 -1% → 증거금 -10%(-180) + 수수료 약 -36
     assert -230 < sm["총자산"] - 10_000 < -200
+
+
+# ---- 백테스트 연구실 ----
+from aicoin.tf_team import research as research_mod
+
+
+def _daily(n=300, drift=0.001, seed=1):
+    import numpy as np
+    rng = np.random.default_rng(seed)
+    close = 100 * np.exp(np.cumsum(rng.normal(drift, 0.02, n)))
+    idx = pd.date_range("2024-01-01", periods=n, freq="D", tz="UTC")
+    df = pd.DataFrame({"open": close * 0.999, "high": close * 1.01, "low": close * 0.99, "close": close,
+                       "volume": 1.0, "quote_volume": 5e6}, index=idx)
+    return df
+
+
+def test_simulate_losscut_scales_with_leverage():
+    idx = pd.date_range("2025-01-01", periods=12, freq="D", tz="UTC")
+    df = pd.DataFrame({"open": 100.0, "high": 101.0, "low": 99.5, "close": 100.0}, index=idx)
+    df.loc[idx[3], "low"] = 96.0  # 진입(1일차 시가 100) 뒤 -4%
+    sig = pd.Series(False, index=idx)
+    sig.iloc[0] = True
+    r1 = research_mod.simulate(df, sig, lev=1)["ret"].iloc[0]
+    r3 = research_mod.simulate(df, sig, lev=3)["ret"].iloc[0]
+    assert -0.5 < r1 < 0.1  # 1배는 -4%라 로스컷(-10%)에 안 걸리고 만료 종가 수익률(≈0)이 나온다
+    assert abs(r3 - (-10 - 0.6)) < 0.01  # 3배: 가격 -3.33%에서 로스컷 → 증거금 -10% − 수수료 0.6%
+
+
+def test_research_run_and_markdown():
+    frames = {"AAAUSDT": _daily(seed=1), "BBBUSDT": _daily(seed=2, drift=-0.001)}
+    res = research_mod.run(frames, lev=1, split="2024-09-01")
+    base = "기준선(아무 날이나)"
+    assert base in res and res[base]["train"]["n"] > 0 and res[base]["test"]["n"] > 0
+    md = research_mod.markdown({1: res}, "2026-11-04", 2)
+    assert "레버리지 1배" in md and "검증" in md
