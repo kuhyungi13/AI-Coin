@@ -17,7 +17,7 @@ paper/tf/verdicts.csv 의 ACE 결정을 시간 순서대로 읽어 가상 계좌
 
 매매 규칙
 - 시작 자금 10,000 USDT, 롱만, 수수료는 포지션 크기의 0.1% (펀딩비는 계산하지 않음)
-- 매수: ACE가 "매수"이고 확신도 6 이상일 때. 동시에 최대 5종목
+- 매수: ACE가 "매수"이고 확신도 5 이상이면 정상 진입. 확신도 4는 "소액 탐색"으로 증거금 절반·1배만. 동시에 최대 5종목
 - 매도: ACE가 "매도"면 들고 있던 코인을 전부 판다. "관망"이면 그대로 둔다.
 - 체결 가격: 회의(정각)가 끝난 뒤 첫 정시 1시간봉 시가 = (자료 수집 시각 + 1시간)을 올림한 정시
 - 최대 72시간 보유. 1시간봉 고가·저가로 확인하고, 한 봉에서 손절·익절 둘 다 닿으면 손절로 본다.
@@ -40,7 +40,9 @@ from ..data import fetch_klines
 
 START_CASH = 10_000.0
 FEE = 0.001
-MIN_CONF = 6
+MIN_CONF = 5
+PROBE_CONF = 4  # 소액 탐색: 증거금 절반, 레버리지 1배
+PROBE_SIZE = 0.5
 SIZE_PER_CONF = 0.02
 MAX_SIZE = 0.20
 MAX_POSITIONS = 5
@@ -52,7 +54,7 @@ MAX_HOLD = pd.Timedelta(hours=72)
 ANALYSTS = ["TARO", "DIANA", "NOVA", "VIBE"]
 TRADE_COLUMNS = ["time", "coin", "side", "price", "qty", "value", "fee", "reason", "pnl", "pnl_pct", "run_at",
                  "certainty", "leverage", "margin"]
-RULES = (f"시작 {START_CASH:,.0f} USDT · ACE 매수+확신도 {MIN_CONF} 이상이면 진입 · 증거금 총자산×확신도×2%(최대 20%) · "
+RULES = (f"시작 {START_CASH:,.0f} USDT · ACE 매수+확신도 {MIN_CONF} 이상이면 진입(확신도 {PROBE_CONF}는 증거금 절반·1배 탐색) · 증거금 총자산×확신도×2%(최대 20%) · "
          "레버리지는 확실성 60↓1배 60 2배 70 3배 80 5배 90 10배 · 손절 min(5%, 30%÷레버리지), 익절 손절×2 · "
          f"최대 {MAX_POSITIONS}종목 · 최대 72시간 · 수수료 0.1%")
 
@@ -153,8 +155,9 @@ class Trainer:
                             "certainty": p["certainty"], "leverage": p["leverage"], "margin": f"{p['margin']:.2f}"})
 
     def buy(self, t, coin, price, confidence, score, run_at):
-        lev = leverage_for(score)
-        margin = self.equity() * min(MAX_SIZE, confidence * SIZE_PER_CONF)
+        probe = confidence < MIN_CONF
+        lev = 1 if probe else leverage_for(score)
+        margin = self.equity() * min(MAX_SIZE, confidence * SIZE_PER_CONF) * (PROBE_SIZE if probe else 1)
         margin = min(margin, self.s["cash"] / (1 + lev * FEE))
         if margin < 10:
             return
@@ -166,7 +169,7 @@ class Trainer:
              "confidence": confidence, "run_at": run_at, "last": price}
         self.s["cash"] -= margin + p["fee_in"]
         self.s["positions"][coin] = p
-        self._record(t, coin, "매수", price, p, f"ACE 매수 {confidence}/10 · 확실성 {score} · {lev}배")
+        self._record(t, coin, "매수", price, p, f"ACE 매수 {confidence}/10{' (소액 탐색)' if probe else ''} · 확실성 {score} · {lev}배")
 
     def sell(self, t, coin, price, reason):
         p = self.s["positions"].pop(coin)
@@ -224,7 +227,7 @@ class Trainer:
             except (TypeError, ValueError):
                 conf = 0
             held = coin in self.s["positions"]
-            want_buy = decision == "매수" and conf >= MIN_CONF and not held \
+            want_buy = decision == "매수" and conf >= PROBE_CONF and not held \
                 and len(self.s["positions"]) < MAX_POSITIONS
             if want_buy or (decision == "매도" and held):
                 try:
@@ -290,7 +293,7 @@ def markdown(sm: dict, trades: pd.DataFrame) -> str:
             out.append(f"| {t['time'][:16]} | {t['coin']} | {t['side']} | {t['price']} | {t['leverage']}배 | "
                        f"{t['reason']} | {pnl} |")
     else:
-        out.append("아직 거래 없음. ACE가 확신도 6 이상으로 매수를 내면 다음 정시에 삽니다.")
+        out.append("아직 거래 없음. ACE가 확신도 5 이상(4는 소액 탐색)으로 매수를 내면 다음 정시에 삽니다.")
     return "\n".join(out) + "\n"
 
 
