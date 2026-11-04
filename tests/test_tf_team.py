@@ -228,30 +228,30 @@ def _verdicts(tmp_path, rows):
     pd.DataFrame(rows, columns=["run_at", "coin", "decision", "confidence"]).to_csv(tmp_path / "verdicts.csv", index=False)
 
 
-def test_trainer_buys_on_confident_buy_and_takes_profit(tmp_path):
+def test_trainer_buys_on_confident_buy_and_holds_without_take_profit(tmp_path):
     _verdicts(tmp_path, [["2026-11-03T05:40:00Z", "SOL", "매수", "8"],
                          ["2026-11-03T05:40:00Z", "BTC", "관망", "6"]])
     k = _bars({("SOL", "2026-11-03 07:00"): (100, 101, 99, 100),
                ("SOL", "2026-11-03 08:00"): (100, 111, 99, 110)})
     sm = trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 09:05", tz="UTC"), k)
     trades = pd.read_csv(tmp_path / "trainer/trades.csv")
-    assert list(trades["side"]) == ["매수", "매도"]
-    assert trades["reason"].iloc[1] == "익절 +10%"
+    # 익절은 없다: 10% 올라도 팔지 않고 계속 들고 있는다
+    assert list(trades["side"]) == ["매수"]
     assert float(trades["price"].iloc[0]) == 100
-    # 16% 투자해 10% 수익, 수수료 왕복 0.2% 정도
+    assert len(sm["보유"]) == 1 and sm["청산 거래"] == 0
+    # 16% 투자해 10% 평가이익 (수수료 0.1%)
     assert 10_140 < sm["총자산"] < 10_160
-    assert sm["보유"] == [] and sm["청산 거래"] == 1
 
 
 def test_trainer_skips_low_confidence_and_stops_out(tmp_path):
     _verdicts(tmp_path, [["2026-11-03T05:40:00Z", "ETH", "매수", "3"],
                          ["2026-11-03T05:40:00Z", "SOL", "매수", "6"]])
     k = _bars({("SOL", "2026-11-03 07:00"): (100, 100, 100, 100),
-               ("SOL", "2026-11-03 08:00"): (100, 112, 94, 95)})  # 한 봉에서 둘 다 닿으면 손절
+               ("SOL", "2026-11-03 08:00"): (100, 112, 89, 95)})  # 저가가 -10%를 건드리면 로스컷
     trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 09:05", tz="UTC"), k)
     trades = pd.read_csv(tmp_path / "trainer/trades.csv")
     assert list(trades["coin"]) == ["SOL", "SOL"]
-    assert trades["reason"].iloc[1] == "손절 -5%"
+    assert trades["reason"].iloc[1] == "로스컷 가격 -10% (증거금 -10%)"
 
 
 def test_trainer_probe_entry_is_half_size_and_1x(tmp_path):
@@ -293,18 +293,18 @@ def test_certainty_and_leverage_steps():
     mixed = dict(full, confidence="7", DIANA="부정", VIBE="중립", winner="BEAR")
     s, _ = trainer_mod.certainty(mixed)
     assert s == 28 + 10 - 10 - 10 + 10 and trainer_mod.leverage_for(s) == 1
-    assert trainer_mod.stop_distance(10) == 0.03 and trainer_mod.stop_distance(3) == 0.05
+    assert trainer_mod.stop_distance(10) == 0.01 and trainer_mod.stop_distance(1) == 0.10
 
 
-def test_trainer_leverage_magnifies_and_stops_before_liquidation(tmp_path):
+def test_trainer_leverage_magnifies_and_losscut_is_same_pct_of_margin(tmp_path):
     rows = [["2026-11-03T05:40:00Z", "SOL", "매수", "9", "긍정", "긍정", "긍정", "긍정", "BULL"]]
     pd.DataFrame(rows, columns=["run_at", "coin", "decision", "confidence", "TARO", "DIANA", "NOVA", "VIBE",
                                 "winner"]).to_csv(tmp_path / "verdicts.csv", index=False)
     (tmp_path / "scoreboard.json").write_text('{"결정별": {"매수": {"맞음": 8, "전체": 10, "승률(%)": 80.0}}}')
     k = _bars({("SOL", "2026-11-03 07:00"): (100, 100, 100, 100),
-               ("SOL", "2026-11-03 08:00"): (100, 101, 96, 96)})  # -4%: 10배면 -3%에서 손절
+               ("SOL", "2026-11-03 08:00"): (100, 101, 98, 98)})  # -2%: 10배면 -1%에서 로스컷
     sm = trainer_mod.run(tmp_path, pd.Timestamp("2026-11-03 09:05", tz="UTC"), k)
     t = pd.read_csv(tmp_path / "trainer/trades.csv")
-    assert list(t["leverage"]) == [10, 10] and t["reason"].iloc[1] == "손절 -3%"
-    # 증거금 1,800(18%) × 10배, 가격 -3% → 증거금 -30% + 수수료
-    assert -620 < sm["총자산"] - 10_000 < -560
+    assert list(t["leverage"]) == [10, 10] and t["reason"].iloc[1] == "로스컷 가격 -1% (증거금 -10%)"
+    # 증거금 1,800(18%) × 10배, 가격 -1% → 증거금 -10%(-180) + 수수료 약 -36
+    assert -230 < sm["총자산"] - 10_000 < -200

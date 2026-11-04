@@ -12,15 +12,15 @@ paper/tf/verdicts.csv 의 ACE 결정을 시간 순서대로 읽어 가상 계좌
 레버리지 (확실성으로 정함, 최대 10배)
 - 60 미만 1배 · 60~69 2배 · 70~79 3배 · 80~89 5배 · 90 이상 10배
 - 증거금 = 총자산 × 확신도 × 2% (최대 20%), 포지션 크기 = 증거금 × 레버리지
-- 손절 거리 = min(5%, 30% ÷ 레버리지) → 10배면 가격 -3% (증거금 -30%)에서 손절해 청산(-10%) 전에 끊는다
-- 익절 거리 = 손절 거리 × 2
+- 로스컷 = 증거금 -10% (레버리지와 상관없이 같은 비율) → 가격 하락폭 = 10% ÷ 레버리지. 1배 -10%, 10배 -1%
+- 익절은 걸지 않는다. 보유 코인은 로스컷, ACE 매도, 72시간 만료로만 정리한다
 
 매매 규칙
 - 시작 자금 10,000 USDT, 롱만, 수수료는 포지션 크기의 0.1% (펀딩비는 계산하지 않음)
 - 매수: ACE가 "매수"이고 확신도 5 이상이면 정상 진입. 확신도 4는 "소액 탐색"으로 증거금 절반·1배만. 동시에 최대 5종목
 - 매도: ACE가 "매도"면 들고 있던 코인을 전부 판다. "관망"이면 그대로 둔다.
 - 체결 가격: 회의(정각)가 끝난 뒤 첫 정시 1시간봉 시가 = (자료 수집 시각 + 1시간)을 올림한 정시
-- 최대 72시간 보유. 1시간봉 고가·저가로 확인하고, 한 봉에서 손절·익절 둘 다 닿으면 손절로 본다.
+- 최대 72시간 보유. 1시간봉 고가·저가로 확인하고, 로스컷은 1시간봉 저가로 확인한다.
 
 파일 (paper/tf/trainer/)
 - state.json: 현금, 보유 코인, 처리한 결정
@@ -46,8 +46,7 @@ PROBE_SIZE = 0.5
 SIZE_PER_CONF = 0.02
 MAX_SIZE = 0.20
 MAX_POSITIONS = 5
-BASE_STOP = 0.05
-MARGIN_STOP = 0.30
+LOSSCUT = 0.10  # 증거금 대비 손실 한도. 가격 하락폭 = LOSSCUT ÷ 레버리지
 MAX_LEVERAGE = 10
 LEVERAGE_STEPS = [(90, 10), (80, 5), (70, 3), (60, 2), (0, 1)]
 MAX_HOLD = pd.Timedelta(hours=72)
@@ -55,7 +54,7 @@ ANALYSTS = ["TARO", "DIANA", "NOVA", "VIBE"]
 TRADE_COLUMNS = ["time", "coin", "side", "price", "qty", "value", "fee", "reason", "pnl", "pnl_pct", "run_at",
                  "certainty", "leverage", "margin"]
 RULES = (f"시작 {START_CASH:,.0f} USDT · ACE 매수+확신도 {MIN_CONF} 이상이면 진입(확신도 {PROBE_CONF}는 증거금 절반·1배 탐색) · 증거금 총자산×확신도×2%(최대 20%) · "
-         "레버리지는 확실성 60↓1배 60 2배 70 3배 80 5배 90 10배 · 손절 min(5%, 30%÷레버리지), 익절 손절×2 · "
+         "레버리지는 확실성 60↓1배 60 2배 70 3배 80 5배 90 10배 · 로스컷 증거금 -10%(가격 -10%÷레버리지), 익절 없음 · "
          f"최대 {MAX_POSITIONS}종목 · 최대 72시간 · 수수료 0.1%")
 
 
@@ -126,7 +125,7 @@ def leverage_for(score: int) -> int:
 
 
 def stop_distance(lev: int) -> float:
-    return min(BASE_STOP, MARGIN_STOP / lev)
+    return LOSSCUT / lev
 
 
 def new_state() -> dict:
@@ -165,7 +164,7 @@ class Trainer:
         stop = stop_distance(lev)
         p = {"qty": notional / price, "entry": price, "margin": margin, "leverage": lev, "certainty": score,
              "fee_in": notional * FEE, "entry_at": utc(t).isoformat(), "checked_to": utc(t).isoformat(),
-             "stop": price * (1 - stop), "target": price * (1 + 2 * stop), "stop_pct": stop,
+             "stop": price * (1 - stop), "stop_pct": stop,
              "confidence": confidence, "run_at": run_at, "last": price}
         self.s["cash"] -= margin + p["fee_in"]
         self.s["positions"][coin] = p
@@ -199,10 +198,7 @@ class Trainer:
                     self.sell(t, coin, float(row["open"]), "보유 72시간 만료")
                     break
                 if float(row["low"]) <= p["stop"]:
-                    self.sell(t, coin, p["stop"], f"손절 -{sp:g}%")
-                    break
-                if float(row["high"]) >= p["target"]:
-                    self.sell(t, coin, p["target"], f"익절 +{2 * sp:g}%")
+                    self.sell(t, coin, p["stop"], f"로스컷 가격 -{sp:g}% (증거금 -{LOSSCUT * 100:g}%)")
                     break
                 p["last"] = float(row["close"])
                 p["checked_to"] = (t + pd.Timedelta(hours=1)).isoformat()
@@ -260,7 +256,7 @@ def summary(state: dict, trades: pd.DataFrame) -> dict:
         pos.append({"코인": c, "레버리지": p["leverage"], "확실성": p["certainty"], "진입가": round(p["entry"], 6),
                     "현재가": round(px, 6), "증거금": round(p["margin"], 2), "평가액": round(v, 2),
                     "수익률(%)": round((v / p["margin"] - 1) * 100, 2), "손절": round(p["stop"], 6),
-                    "익절": round(p["target"], 6), "진입": p["entry_at"]})
+                    "진입": p["entry_at"]})
     equity = state["cash"] + total
     closed = trades[trades["pnl"] != ""] if len(trades) else trades
     wins = int((closed["pnl"].astype(float) > 0).sum()) if len(closed) else 0
@@ -279,10 +275,10 @@ def markdown(sm: dict, trades: pd.DataFrame) -> str:
            f"청산 {sm['청산 거래']}건, 승률 {sm['승률(%)'] if sm['승률(%)'] is not None else '자료 없음'}%", "",
            "## 보유 코인", ""]
     if sm["보유"]:
-        out += ["| 코인 | 레버리지 | 확실성 | 진입가 | 현재가 | 증거금 수익률 | 손절 | 익절 | 진입(UTC) |",
-                "|---|---|---|---|---|---|---|---|---|"]
+        out += ["| 코인 | 레버리지 | 확실성 | 진입가 | 현재가 | 증거금 수익률 | 로스컷 | 진입(UTC) |",
+                "|---|---|---|---|---|---|---|---|"]
         out += [f"| {p['코인']} | {p['레버리지']}배 | {p['확실성']} | {p['진입가']:g} | {p['현재가']:g} | "
-                f"{p['수익률(%)']:+.2f}% | {p['손절']:g} | {p['익절']:g} | {p['진입'][:16]} |" for p in sm["보유"]]
+                f"{p['수익률(%)']:+.2f}% | {p['손절']:g} | {p['진입'][:16]} |" for p in sm["보유"]]
     else:
         out.append("없음 (현금 100%)")
     out += ["", "## 최근 거래 20건", ""]
