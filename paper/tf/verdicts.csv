@@ -1,11 +1,11 @@
 run_at,coin,decision,confidence,TARO,DIANA,NOVA,VIBE,winner,entry,exit,ret_24h,ace_hit,TARO_hit,DIANA_hit,NOVA_hit,VIBE_hit
 2026-11-03T06:20:00Z,BTC,관망,6,부정,중립,부정,중립,무승부,76656.7,77748.1,1.42,True,False,True,False,True
 2026-11-03T06:20:00Z,ETH,관망,6,부정,중립,부정,약한 부정,BEAR,2248.49,2293.06,1.98,True,False,True,False,False
-2026-11-03T14:24:00Z,BTC,관망,6,부정,중립,부정,중립,BEAR,,,,,,,,
-2026-11-03T14:24:00Z,ETH,관망,5,부정,중립,중립,중립,BEAR,,,,,,,,
-2026-11-03T14:24:00Z,BEAMX,관망,4,중립,중립,중립,중립,BEAR,,,,,,,,
-2026-11-03T14:24:00Z,PEPE,관망,5,긍정,중립,중립,중립,무승부,,,,,,,,
-2026-11-03T14:24:00Z,GOOGLB,관망,5,중립,중립,부정,중립,BEAR,,,,,,,,
+2026-11-03T14:24:00Z,BTC,관망,6,부정,중립,부정,중립,BEAR,77400,78364,1.25,True,False,True,False,True
+2026-11-03T14:24:00Z,ETH,관망,5,부정,중립,중립,중립,BEAR,2286.8,2319.21,1.42,True,False,True,True,True
+2026-11-03T14:24:00Z,BEAMX,관망,4,중립,중립,중립,중립,BEAR,0.004001,0.004511,12.75,False,False,False,False,False
+2026-11-03T14:24:00Z,PEPE,관망,5,긍정,중립,중립,중립,무승부,4.84e-06,4.93e-06,1.86,True,True,True,True,True
+2026-11-03T14:24:00Z,GOOGLB,관망,5,중립,중립,부정,중립,BEAR,280.5,284.13,1.29,True,True,True,False,True
 2026-11-03T23:21:00Z,BTC,관망,6,부정,중립,부정,중립,BEAR,,,,,,,,
 2026-11-03T23:21:00Z,ETH,관망,5,부정,중립,중립,중립,BEAR,,,,,,,,
 2026-11-03T23:21:00Z,BEAMX,관망,4,중립,중립,중립,중립,BEAR,,,,,,,,
