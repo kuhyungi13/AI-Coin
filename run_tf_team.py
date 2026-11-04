@@ -24,7 +24,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from aicoin.tf_team import score, sources, trainer
+from aicoin.tf_team import market, score, sources, trainer
 from aicoin.tf_team.brief import build_brief, find_errors
 from aicoin.tf_team.scan import ALWAYS, pick, scan, scan_markdown
 
@@ -96,6 +96,11 @@ def main() -> int:
         (FOLDER / "brief_meta.json").write_text(json.dumps({"collected_at": when, "coins": coins}, ensure_ascii=False),
                                                 encoding="utf-8")
         print(f"회의 자료 저장: {FOLDER / 'BRIEF.md'} ({', '.join(coins)})")
+        # 오피스 화면 가운데 모니터용 시세 (회의 코인 + 보유 코인)
+        held = [p["코인"] for p in acct.get("보유", [])] if "오류" not in acct else []
+        mk = sources._safe(market.write, coins + held, FOLDER)
+        if "오류" in mk:
+            print(f"모니터 시세 실패: {mk['오류']}")
 
     # 차트 자료가 하나도 없으면 회의를 열 수 없으므로 실패로 알린다
     return 0 if any("오류" not in d["TARO"] for d in data.values()) else 1

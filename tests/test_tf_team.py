@@ -343,3 +343,23 @@ def test_research_run_and_markdown():
     assert base in res and res[base]["train"]["n"] > 0 and res[base]["test"]["n"] > 0
     md = research_mod.markdown({1: res}, "2026-11-04", 2)
     assert "레버리지 1배" in md and "검증" in md
+
+
+def test_market_json(tmp_path):
+    from aicoin.tf_team import market
+    (tmp_path / "trainer").mkdir()
+    (tmp_path / "trainer" / "equity.csv").write_text("time,equity,cash,positions\n2026-11-04T00:00:00+00:00,10000.0,10000.0,0\n")
+    now = pd.Timestamp("2026-11-04T05:00:00Z")
+
+    def fake(coin, start, end):
+        if coin == "BAD":
+            raise ValueError("없음")
+        idx = pd.date_range(start, periods=30, freq="h", tz="UTC")
+        return pd.DataFrame({"close": [1e-06 * (1 + i / 100) for i in range(30)]}, index=idx)
+
+    data = market.build(["pepe", "PEPE", "BAD"], tmp_path, now=now, klines=fake)
+    pepe = data["coins"]["PEPE"]
+    assert len(pepe["closes"]) == 30 and pepe["price"] == pytest.approx(1.29e-06)
+    assert pepe["chg_24h"] == pytest.approx((1.29 / 1.05 - 1) * 100, abs=0.01)
+    assert "오류" in data["coins"]["BAD"]
+    assert data["equity"] == [["2026-11-04T00:00:00+00:00", 10000.0]]
