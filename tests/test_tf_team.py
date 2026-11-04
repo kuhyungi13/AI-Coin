@@ -363,3 +363,49 @@ def test_market_json(tmp_path):
     assert pepe["chg_24h"] == pytest.approx((1.29 / 1.05 - 1) * 100, abs=0.01)
     assert "오류" in data["coins"]["BAD"]
     assert data["equity"] == [["2026-11-04T00:00:00+00:00", 10000.0]]
+
+
+# ---- 로스컷 1분 감시 ----
+def _bars_1m(rows):
+    """rows: {coin: [(분 'YYYY-mm-dd HH:MM', open, high, low, close), ...]}"""
+    def klines(coin, start, end):
+        data = {pd.Timestamp(t, tz="UTC"): (o, h, l, c) for t, o, h, l, c in rows.get(coin, [])}
+        data = {t: v for t, v in data.items() if start <= t < end}
+        return pd.DataFrame(list(data.values()), index=list(data.keys()), columns=["open", "high", "low", "close"]).sort_index()
+    return klines
+
+
+def _state_with_position(tmp_path, stop_pct=0.10):
+    pos = {"qty": 10.0, "entry": 100.0, "margin": 1000.0, "leverage": 1, "certainty": 40, "fee_in": 1.0,
+           "entry_at": "2026-11-04T03:00:00+00:00", "checked_to": "2026-11-04T04:00:00+00:00",
+           "stop": 100 * (1 - stop_pct), "stop_pct": stop_pct, "confidence": 6, "run_at": "x", "last": 100.0}
+    st = trainer_mod.new_state()
+    st["cash"] = 9000.0
+    st["positions"]["SOL"] = pos
+    d = tmp_path / "trainer"
+    d.mkdir()
+    (d / "state.json").write_text(__import__("json").dumps(st))
+    return d
+
+
+def test_watch_sells_at_losscut_price_between_meetings(tmp_path):
+    d = _state_with_position(tmp_path)
+    k = _bars_1m({"SOL": [("2026-11-04 04:10", 99, 99, 98, 98), ("2026-11-04 04:11", 98, 98, 89, 90)]})
+    sm = trainer_mod.watch(tmp_path, pd.Timestamp("2026-11-04 04:20", tz="UTC"), k)
+    t = pd.read_csv(d / "trades.csv")
+    assert sm is not None and list(t["side"]) == ["매도"]
+    assert float(t["price"].iloc[0]) == 90.0 and "1분봉 감시" in t["reason"].iloc[0]
+    assert t["time"].iloc[0].startswith("2026-11-04T04:11")  # 회의·정시를 기다리지 않고 그 분에 청산
+
+
+def test_watch_gap_down_fills_at_open_and_quiet_does_nothing(tmp_path):
+    d = _state_with_position(tmp_path)
+    quiet = _bars_1m({"SOL": [("2026-11-04 04:10", 99, 100, 98, 99)]})
+    assert trainer_mod.watch(tmp_path, pd.Timestamp("2026-11-04 04:20", tz="UTC"), quiet) is None
+    assert not (d / "trades.csv").exists()
+    st = __import__("json").loads((d / "state.json").read_text())
+    assert st["positions"]["SOL"]["watched_to"].startswith("2026-11-04T04:11")  # 본 데까지 기록
+    gap = _bars_1m({"SOL": [("2026-11-04 04:12", 85, 86, 84, 85)]})
+    trainer_mod.watch(tmp_path, pd.Timestamp("2026-11-04 04:20", tz="UTC"), gap)
+    t = pd.read_csv(d / "trades.csv")
+    assert float(t["price"].iloc[0]) == 85.0  # 갭 하락이면 로스컷 가격이 아니라 시가
