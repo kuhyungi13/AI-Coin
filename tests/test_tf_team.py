@@ -403,8 +403,7 @@ def test_watch_gap_down_fills_at_open_and_quiet_does_nothing(tmp_path):
     quiet = _bars_1m({"SOL": [("2026-11-04 04:10", 99, 100, 98, 99)]})
     assert trainer_mod.watch(tmp_path, pd.Timestamp("2026-11-04 04:20", tz="UTC"), quiet) is None
     assert not (d / "trades.csv").exists()
-    st = __import__("json").loads((d / "state.json").read_text())
-    assert st["positions"]["SOL"]["watched_to"].startswith("2026-11-04T04:11")  # 본 데까지 기록
+    assert "watched_to" not in __import__("json").loads((d / "state.json").read_text())["positions"]["SOL"]  # 조용하면 상태 파일 그대로
     gap = _bars_1m({"SOL": [("2026-11-04 04:12", 85, 86, 84, 85)]})
     trainer_mod.watch(tmp_path, pd.Timestamp("2026-11-04 04:20", tz="UTC"), gap)
     t = pd.read_csv(d / "trades.csv")

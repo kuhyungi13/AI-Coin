@@ -50,6 +50,7 @@ LOSSCUT = 0.10  # 증거금 대비 손실 한도. 가격 하락폭 = LOSSCUT ÷ 
 MAX_LEVERAGE = 10
 LEVERAGE_STEPS = [(90, 10), (80, 5), (70, 3), (60, 2), (0, 1)]
 MAX_HOLD = pd.Timedelta(hours=72)
+WATCH_LOOKBACK = pd.Timedelta(minutes=45)  # 로스컷 감시가 한 번에 거슬러 보는 길이 (5분 간격이 몇 번 늦어도 안 놓침)
 ANALYSTS = ["TARO", "DIANA", "NOVA", "VIBE"]
 TRADE_COLUMNS = ["time", "coin", "side", "price", "qty", "value", "fee", "reason", "pnl", "pnl_pct", "run_at",
                  "certainty", "leverage", "margin"]
@@ -219,7 +220,9 @@ class Trainer:
         """
         for coin in list(self.s["positions"]):
             p = self.s["positions"][coin]
-            start = utc(p.get("watched_to") or p["entry_at"])
+            # 상태 파일을 매번 바꾸지 않으려고(5분마다 커밋이 쌓임) 최근 WATCH_LOOKBACK만 겹쳐 본다.
+            # 그보다 오래 놓친 구간은 매시 시간봉 확인(check_exits)이 잡는다.
+            start = max(utc(p["entry_at"]), now - WATCH_LOOKBACK)
             if start >= now:
                 continue
             try:
@@ -232,8 +235,6 @@ class Trainer:
                     price = min(p["stop"], float(row["open"]))
                     self.sell(t, coin, price, f"로스컷 가격 -{sp:g}% (증거금 -{LOSSCUT * 100:g}%) · 1분봉 감시")
                     break
-                p["last"] = float(row["close"])
-                p["watched_to"] = (t + pd.Timedelta(minutes=1)).isoformat()
 
     # ---- ACE 결정 처리 ----
     def apply(self, verdicts: pd.DataFrame, now: pd.Timestamp):
@@ -356,8 +357,7 @@ def watch(folder: Path, now: pd.Timestamp | None = None, klines=klines_1m) -> di
     tr = Trainer(state, klines)
     tr.watch_losscut(now, klines)
     if not tr.trades:
-        sp.write_text(json.dumps(state, ensure_ascii=False, indent=1))  # watched_to만 갱신
-        return None
+        return None  # 아무 일 없으면 파일을 건드리지 않는다
     return _save(d, state, tr, now)
 
 
