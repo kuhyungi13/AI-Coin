@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-05 03:30 KST)
+# TF팀 회의 자료 (2026-11-05 04:38 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -7,7 +7,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 **지금까지 승률** ACE 85.7% (6/7), 채점 대기 15개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,021.31 USDT (+0.21%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,015.47 USDT (+0.15%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: BMT, PEPE · 과매도 반등: GOOGLB
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1620446989243,
- "완전희석가치 FDV(USD)": 1620446989243,
- "24시간 거래대금(USD)": 38925023392,
+ "시가총액(USD)": 1611582999114,
+ "완전희석가치 FDV(USD)": 1611582999114,
+ "24시간 거래대금(USD)": 39435963228,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -36.07407,
+ "역대 최고가 대비(%)": -36.45176,
  "가격 변화(%)": {
-  "7d": -0.25965,
-  "30d": -5.64126,
-  "1y": -20.17332
+  "7d": -1.02254,
+  "30d": -6.44678,
+  "1y": -20.90817
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4275732623
+  "TVL(USD)": 4281279133
  }
 }
 ```
@@ -182,6 +182,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
+   "제목": "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms",
+   "요약": "The official Trump and World Liberty Financial tokens were the two biggest losers among the top 100 cryptocurrencies on Wednesday even as Bitcoin and Ether rallied.",
+   "시각(UTC)": "11-04 19:15"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss",
+   "요약": "Bitcoin miner Riot sold BTC to finance its AI expansion, while Hut 8 reported falling revenue and rising costs before its major data center leases generate income.",
+   "시각(UTC)": "11-04 18:47"
+  },
+  {
+   "출처": "Cointelegraph",
    "제목": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
    "요약": "Bitcoin climbed toward $80,500 as risk assets rallied on Democrats’ midterm election gains and oil prices fell.",
    "시각(UTC)": "11-04 15:29"
@@ -203,18 +215,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress",
    "요약": "Bitcoin price downside reached a seven-week-low of $75,618 as 24-hour crypto long liquidations neared $300 million.",
    "시각(UTC)": "11-04 07:25"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "RUNE rallies 15% as THORChain restarts most swaps after halt",
-   "요약": "THORChain has restored trading on Bitcoin, Ethereum and several other networks following a refund bug, while three chains remain paused.",
-   "시각(UTC)": "11-03 23:56"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
-   "요약": "Markus Thielen sees Bitcoin reaching $90,000 by year-end, questions institutional ETF demand and says Ethereum must do more for holders.",
-   "시각(UTC)": "11-03 16:47"
   }
  ],
  "시장 전반 기사": [
@@ -289,36 +289,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.01,
-   "Bybit (Futures)": -0.0007,
-   "Gate (Futures)": 0.0005,
-   "MEXC (Futures)": 0.01,
+   "Binance (Futures)": 0.0071,
+   "Bybit (Futures)": -0.0005,
+   "Gate (Futures)": 0.0026,
+   "MEXC (Futures)": 0.007,
    "WEEX (Futures)": 0.0001,
-   "Tapbit (Futures)": 0.01
+   "Tapbit (Futures)": 0.0077
   },
-  "미결제약정 합계 USD(상위)": 29926770966
+  "미결제약정 합계 USD(상위)": 29790822637
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 72.07,
+  "CoinGecko 이용자 투표 상승(%)": 72.43,
   "CoinGecko 인기 검색 코인": [
-   "DACITYCOIN",
-   "TRUMP",
-   "PENGU",
+   "FOCO",
    "PEARL",
-   "BTC",
-   "WLFI",
+   "DACITYCOIN",
    "ETH",
-   "SOL",
-   "PONS",
-   "LIT",
    "NEAR",
-   "ZEC",
-   "KNTQ",
+   "SOL",
+   "TRUMP",
+   "BTC",
+   "PENGU",
+   "FIGR_HELOC",
+   "CLANKER",
    "HYPE",
-   "LINK"
+   "WLFI",
+   "XMR",
+   "KNTQ"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 297255352337,
- "완전희석가치 FDV(USD)": 297255352337,
- "24시간 거래대금(USD)": 16533417648,
+ "시가총액(USD)": 295358294277,
+ "완전희석가치 FDV(USD)": 295358294277,
+ "24시간 거래대금(USD)": 16782803728,
  "유통량": 122189135.08807562,
  "총발행량": 122189135.08807562,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -50.81428,
+ "역대 최고가 대비(%)": -51.12818,
  "가격 변화(%)": {
-  "7d": 3.76217,
-  "30d": -10.07009,
-  "1y": -27.77582
+  "7d": 2.73694,
+  "30d": -10.80942,
+  "1y": -26.80822
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 46013240310
+  "TVL(USD)": 45982857031
  }
 }
 ```
@@ -445,6 +445,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot",
    "요약": "North Korea’s TraderTraitor is routing Binance hack proceeds through THORChain, swapping ether for bitcoin after an earlier wave of conversions from Tron.",
    "시각(UTC)": "11-04 12:49"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms",
+   "요약": "The official Trump and World Liberty Financial tokens were the two biggest losers among the top 100 cryptocurrencies on Wednesday even as Bitcoin and Ether rallied.",
+   "시각(UTC)": "11-04 19:15"
   },
   {
    "출처": "Cointelegraph",
@@ -558,32 +564,32 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Binance (Futures)": 0.01,
    "WEEX (Futures)": 0.0001,
    "Hyperliquid (Futures)": 0.0013,
-   "MEXC (Futures)": 0.01,
+   "MEXC (Futures)": 0.0099,
    "Toobit Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 19274199669
+  "미결제약정 합계 USD(상위)": 19187304810
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 87.8,
+  "CoinGecko 이용자 투표 상승(%)": 88.64,
   "CoinGecko 인기 검색 코인": [
-   "DACITYCOIN",
-   "TRUMP",
-   "PENGU",
+   "FOCO",
    "PEARL",
-   "BTC",
-   "WLFI",
+   "DACITYCOIN",
    "ETH",
-   "SOL",
-   "PONS",
-   "LIT",
    "NEAR",
-   "ZEC",
-   "KNTQ",
+   "SOL",
+   "TRUMP",
+   "BTC",
+   "PENGU",
+   "FIGR_HELOC",
+   "CLANKER",
    "HYPE",
-   "LINK"
+   "WLFI",
+   "XMR",
+   "KNTQ"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -677,20 +683,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Binance HODLer Airdrops",
   "Binance Wallet IDO"
  ],
- "시가총액 순위": 795,
- "시가총액(USD)": 22274263,
- "완전희석가치 FDV(USD)": 29263170,
- "24시간 거래대금(USD)": 102015339,
+ "시가총액 순위": 804,
+ "시가총액(USD)": 21716679,
+ "완전희석가치 FDV(USD)": 28530635,
+ "24시간 거래대금(USD)": 98965968,
  "유통량": 761170523.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 76.1,
  "역대 최고가(USD)": 0.317341,
- "역대 최고가 대비(%)": -90.77863,
+ "역대 최고가 대비(%)": -91.00718,
  "가격 변화(%)": {
-  "7d": 0.34492,
-  "30d": 52.68971,
-  "1y": -7.11116
+  "7d": -0.94973,
+  "30d": 48.11496,
+  "1y": -8.3289
  },
  "소개": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient —allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding ma"
 }
@@ -773,14 +779,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.2793,
-   "Toobit Futures": -0.2793,
-   "Bybit (Futures)": -0.2764,
-   "Ourbit (Futures)": -0.2793,
-   "KCEX (Futures)": -0.2793,
-   "Gate (Futures)": -0.2751
+   "Toobit Futures": -0.2774,
+   "Binance (Futures)": -0.2755,
+   "Bybit (Futures)": -0.2074,
+   "Ourbit (Futures)": -0.2774,
+   "KCEX (Futures)": -0.2774,
+   "Gate (Futures)": -0.2559
   },
-  "미결제약정 합계 USD(상위)": 24393877
+  "미결제약정 합계 USD(상위)": 21867756
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -788,21 +794,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 66.67,
   "CoinGecko 인기 검색 코인": [
-   "DACITYCOIN",
-   "TRUMP",
-   "PENGU",
+   "FOCO",
    "PEARL",
-   "BTC",
-   "WLFI",
+   "DACITYCOIN",
    "ETH",
-   "SOL",
-   "PONS",
-   "LIT",
    "NEAR",
-   "ZEC",
-   "KNTQ",
+   "SOL",
+   "TRUMP",
+   "BTC",
+   "PENGU",
+   "FIGR_HELOC",
+   "CLANKER",
    "HYPE",
-   "LINK"
+   "WLFI",
+   "XMR",
+   "KNTQ"
   ],
   "BMT가 인기 검색에 있음": false
  }
@@ -897,19 +903,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2117647392,
- "완전희석가치 FDV(USD)": 2117647392,
- "24시간 거래대금(USD)": 537497008,
+ "시가총액(USD)": 2090253890,
+ "완전희석가치 FDV(USD)": 2090253890,
+ "24시간 거래대금(USD)": 535464598,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.04041,
+ "역대 최고가 대비(%)": -82.27273,
  "가격 변화(%)": {
-  "7d": 2.43756,
-  "30d": 14.78746,
-  "1y": -8.46233
+  "7d": 2.34159,
+  "30d": 13.0607,
+  "1y": -9.16231
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -999,29 +1005,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 281640994
+  "미결제약정 합계 USD(상위)": 278068274
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 92.86,
+  "CoinGecko 이용자 투표 상승(%)": 89.29,
   "CoinGecko 인기 검색 코인": [
-   "DACITYCOIN",
-   "TRUMP",
-   "PENGU",
+   "FOCO",
    "PEARL",
-   "BTC",
-   "WLFI",
+   "DACITYCOIN",
    "ETH",
-   "SOL",
-   "PONS",
-   "LIT",
    "NEAR",
-   "ZEC",
-   "KNTQ",
+   "SOL",
+   "TRUMP",
+   "BTC",
+   "PENGU",
+   "FIGR_HELOC",
+   "CLANKER",
    "HYPE",
-   "LINK"
+   "WLFI",
+   "XMR",
+   "KNTQ"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -1113,19 +1119,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 225,
- "시가총액(USD)": 136061382,
- "완전희석가치 FDV(USD)": 136061382,
- "24시간 거래대금(USD)": 37706104,
- "유통량": 466590.35936772,
- "총발행량": 466590.35936772,
+ "시가총액 순위": 217,
+ "시가총액(USD)": 139825219,
+ "완전희석가치 FDV(USD)": 139825219,
+ "24시간 거래대금(USD)": 37822090,
+ "유통량": 479542.52571017,
+ "총발행량": 479542.52571017,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 383.58,
- "역대 최고가 대비(%)": -23.97781,
+ "역대 최고가 대비(%)": -23.98494,
  "가격 변화(%)": {
-  "7d": -10.21936,
-  "30d": -15.98759,
+  "7d": -10.31524,
+  "30d": -16.06591,
   "1y": null
  },
  "소개": ""
@@ -1215,21 +1221,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
-   "DACITYCOIN",
-   "TRUMP",
-   "PENGU",
+   "FOCO",
    "PEARL",
-   "BTC",
-   "WLFI",
+   "DACITYCOIN",
    "ETH",
-   "SOL",
-   "PONS",
-   "LIT",
    "NEAR",
-   "ZEC",
-   "KNTQ",
+   "SOL",
+   "TRUMP",
+   "BTC",
+   "PENGU",
+   "FIGR_HELOC",
+   "CLANKER",
    "HYPE",
-   "LINK"
+   "WLFI",
+   "XMR",
+   "KNTQ"
   ],
   "GOOGLB가 인기 검색에 있음": false
  }
