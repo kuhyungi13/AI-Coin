@@ -72,6 +72,15 @@ def klines_1h(coin: str, start: pd.Timestamp, end: pd.Timestamp) -> pd.DataFrame
     return df[(df.index >= start) & (df.index < end)]
 
 
+def klines_1m(coin: str, start: pd.Timestamp, end: pd.Timestamp) -> pd.DataFrame:
+    """[start, end) 사이에 시작한 1분봉 (로스컷 감시용). 한 번에 최대 1000개."""
+    df = fetch_klines(f"{coin}USDT", "1m", start=str(start), end=str(end))
+    if df.empty:
+        return df
+    df.index = [utc(i) for i in df.index]
+    return df[(df.index >= start) & (df.index < end)]
+
+
 # ---- 보고서 확실성과 레버리지 ----
 def direction(view) -> int:
     """긍정/매수 +1, 부정/매도 -1, 중립/관망·모름 0."""
@@ -203,6 +212,29 @@ class Trainer:
                 p["last"] = float(row["close"])
                 p["checked_to"] = (t + pd.Timedelta(hours=1)).isoformat()
 
+    def watch_losscut(self, now: pd.Timestamp, klines=klines_1m):
+        """회의·시간봉과 상관없이 보유 코인의 1분봉 저가를 보고 로스컷에 닿았으면 바로 판다.
+
+        체결가는 로스컷 가격. 다만 그 분이 로스컷보다 낮게 시작(갭 하락)했으면 시가에 판다.
+        """
+        for coin in list(self.s["positions"]):
+            p = self.s["positions"][coin]
+            start = utc(p.get("watched_to") or p["entry_at"])
+            if start >= now:
+                continue
+            try:
+                df = klines(coin, start, now)
+            except Exception:
+                continue  # 다음 감시 때 다시
+            sp = p["stop_pct"] * 100
+            for t, row in df.iterrows():
+                if float(row["low"]) <= p["stop"]:
+                    price = min(p["stop"], float(row["open"]))
+                    self.sell(t, coin, price, f"로스컷 가격 -{sp:g}% (증거금 -{LOSSCUT * 100:g}%) · 1분봉 감시")
+                    break
+                p["last"] = float(row["close"])
+                p["watched_to"] = (t + pd.Timedelta(minutes=1)).isoformat()
+
     # ---- ACE 결정 처리 ----
     def apply(self, verdicts: pd.DataFrame, now: pd.Timestamp):
         done = set(self.s["processed"])
@@ -308,8 +340,30 @@ def run(folder: Path, now: pd.Timestamp | None = None, klines=klines_1h) -> dict
 
     tr = Trainer(state, klines, board)
     tr.apply(verdicts, now)
-    state["updated_at"] = now.isoformat()
+    return _save(d, state, tr, now)
 
+
+def watch(folder: Path, now: pd.Timestamp | None = None, klines=klines_1m) -> dict | None:
+    """로스컷 감시만 한다 (신규 매매 없음). 보유 코인이 없거나 아무 일도 없으면 파일을 건드리지 않고 None."""
+    now = utc(now or pd.Timestamp.now(tz="UTC"))
+    d = folder / "trainer"
+    sp = d / "state.json"
+    if not sp.exists():
+        return None
+    state = json.loads(sp.read_text())
+    if not state["positions"]:
+        return None
+    tr = Trainer(state, klines)
+    tr.watch_losscut(now, klines)
+    if not tr.trades:
+        sp.write_text(json.dumps(state, ensure_ascii=False, indent=1))  # watched_to만 갱신
+        return None
+    return _save(d, state, tr, now)
+
+
+def _save(d: Path, state: dict, tr: "Trainer", now: pd.Timestamp) -> dict:
+    state["updated_at"] = now.isoformat()
+    sp = d / "state.json"
     tp = d / "trades.csv"
     old = pd.read_csv(tp, dtype=str).fillna("") if tp.exists() else pd.DataFrame(columns=TRADE_COLUMNS)
     trades = pd.concat([old, pd.DataFrame(tr.trades, columns=TRADE_COLUMNS)], ignore_index=True).fillna("")
