@@ -1,10 +1,10 @@
 # TRAINER 로스컷 감시: 보유 코인의 1분봉 저가가 로스컷(증거금 -10%)에 닿으면 회의를 기다리지 않고 모의 청산한다.
-# GitHub Actions의 최소 간격은 5분이고, 부하가 몰리면 몇 분 늦게 시작될 수 있다. 실제 주문 없음.
+# 5분마다 확인한다 (공개 저장소라 Actions 무료). GitHub Actions의 최소 간격은 5분이고, 부하가 몰리면 몇 분 늦게 시작될 수 있다. 실제 주문 없음.
 name: 코인 분석 TF팀 로스컷 감시
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
