@@ -1,13 +1,13 @@
-# TF팀 회의 자료 (2026-11-04 10:42 KST)
+# TF팀 회의 자료 (2026-11-04 12:27 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
 
 분석 대상: BTC, ETH, BMT, PEPE, GOOGLB
 
-**지금까지 승률** ACE 자료 없음% (0/0), 채점 대기 12개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
+**지금까지 승률** ACE 자료 없음% (0/0), 채점 대기 17개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,000.00 USDT (+0.00%), 보유 없음 · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 9,999.60 USDT (-0.00%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: BMT, PEPE · 과매도 반등: GOOGLB
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1545840354623,
- "완전희석가치 FDV(USD)": 1545840354623,
- "24시간 거래대금(USD)": 25635561750,
+ "시가총액(USD)": 1531551899462,
+ "완전희석가치 FDV(USD)": 1531551899462,
+ "24시간 거래대금(USD)": 25878729270,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -39.01727,
+ "역대 최고가 대비(%)": -39.59873,
  "가격 변화(%)": {
-  "7d": -4.65382,
-  "30d": -11.25276,
-  "1y": -27.834
+  "7d": -5.80043,
+  "30d": -11.96383,
+  "1y": -28.51458
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4131656387
+  "TVL(USD)": 4096980427
  }
 }
 ```
@@ -220,7 +220,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: 2026 U.S. midterm elections and results as first polls close",
+   "제목": "Live updates: Crypto's big election gamble faces voters as Democrats gain ground",
    "요약": "Voters are choosing who will represent them in the House, Senate and state-wide seats.",
    "시각(UTC)": "11-04 00:00"
   },
@@ -296,29 +296,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Tapbit (Futures)": 0.01,
    "WEEX (Futures)": 0.0001
   },
-  "미결제약정 합계 USD(상위)": 29783393886
+  "미결제약정 합계 USD(상위)": 29384577507
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 66.36,
+  "CoinGecko 이용자 투표 상승(%)": 63.56,
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
-   "BTC",
    "PENGU",
-   "XMR",
    "NEAR",
    "HYPE",
-   "BNB",
+   "LIT",
+   "BTC",
+   "SOL",
+   "PONS",
    "PEARL",
-   "CC",
+   "QTC",
+   "XRP",
+   "PEPE",
+   "XPL",
    "PUMP",
-   "ADA",
-   "QNT",
-   "ETH",
-   "KNTQ",
-   "PEPE"
+   "XLM"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 276094835361,
- "완전희석가치 FDV(USD)": 276094835361,
- "24시간 거래대금(USD)": 8362802224,
- "유통량": 122186161.86556138,
- "총발행량": 122186161.86556138,
+ "시가총액(USD)": 273999360030,
+ "완전희석가치 FDV(USD)": 273999360090,
+ "24시간 거래대금(USD)": 8810002832,
+ "유통량": 122189135.08807562,
+ "총발행량": 122189135.11493899,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -54.32505,
+ "역대 최고가 대비(%)": -54.67263,
  "가격 변화(%)": {
-  "7d": -3.58227,
-  "30d": -17.21451,
-  "1y": -37.56672
+  "7d": -4.78066,
+  "30d": -17.89382,
+  "1y": -38.3243
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 44025484829
+  "TVL(USD)": 43763902846
  }
 }
 ```
@@ -492,7 +492,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: 2026 U.S. midterm elections and results as first polls close",
+   "제목": "Live updates: Crypto's big election gamble faces voters as Democrats gain ground",
    "요약": "Voters are choosing who will represent them in the House, Senate and state-wide seats.",
    "시각(UTC)": "11-04 00:00"
   },
@@ -561,37 +561,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0098,
+   "Binance (Futures)": 0.0092,
    "WEEX (Futures)": 0.0001,
-   "MEXC (Futures)": 0.0069,
-   "CoinW (Futures)": 0.0073,
-   "Hyperliquid (Futures)": 0.0013
+   "MEXC (Futures)": 0.0029,
+   "Hyperliquid (Futures)": 0.0013,
+   "CoinW (Futures)": 0.0028
   },
-  "미결제약정 합계 USD(상위)": 18502532829
+  "미결제약정 합계 USD(상위)": 18063971078
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 92.59,
+  "CoinGecko 이용자 투표 상승(%)": 92.31,
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
-   "BTC",
    "PENGU",
-   "XMR",
    "NEAR",
    "HYPE",
-   "BNB",
+   "LIT",
+   "BTC",
+   "SOL",
+   "PONS",
    "PEARL",
-   "CC",
+   "QTC",
+   "XRP",
+   "PEPE",
+   "XPL",
    "PUMP",
-   "ADA",
-   "QNT",
-   "ETH",
-   "KNTQ",
-   "PEPE"
+   "XLM"
   ],
-  "ETH가 인기 검색에 있음": true
+  "ETH가 인기 검색에 있음": false
  }
 }
 ```
@@ -683,20 +683,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Binance HODLer Airdrops",
   "Binance Wallet IDO"
  ],
- "시가총액 순위": 744,
- "시가총액(USD)": 23788319,
- "완전희석가치 FDV(USD)": 31278736,
- "24시간 거래대금(USD)": 62816121,
+ "시가총액 순위": 759,
+ "시가총액(USD)": 23108447,
+ "완전희석가치 FDV(USD)": 30384788,
+ "24시간 거래대금(USD)": 124498714,
  "유통량": 760526861.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 76.1,
  "역대 최고가(USD)": 0.317341,
- "역대 최고가 대비(%)": -90.18222,
+ "역대 최고가 대비(%)": -90.42518,
  "가격 변화(%)": {
-  "7d": 11.24442,
-  "30d": 59.66869,
-  "1y": -5.51969
+  "7d": 9.03652,
+  "30d": 56.21451,
+  "1y": -7.6716
  },
  "소개": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient —allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding ma"
 }
@@ -710,7 +710,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: 2026 U.S. midterm elections and results as first polls close",
+   "제목": "Live updates: Crypto's big election gamble faces voters as Democrats gain ground",
    "요약": "Voters are choosing who will represent them in the House, Senate and state-wide seats.",
    "시각(UTC)": "11-04 00:00"
   },
@@ -779,14 +779,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -1.5066,
-   "Toobit Futures": -1.5045,
-   "Bybit (Futures)": -2.5,
-   "Ourbit (Futures)": -1.5045,
-   "Gate (Futures)": -1.9119,
-   "Variational Omni": -1.897
+   "Binance (Futures)": -1.3691,
+   "Toobit Futures": -1.3691,
+   "Bybit (Futures)": -1.6594,
+   "Ourbit (Futures)": -1.369,
+   "Gate (Futures)": -1.2941,
+   "Variational Omni": -1.65
   },
-  "미결제약정 합계 USD(상위)": 22662575
+  "미결제약정 합계 USD(상위)": 22627249
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -795,20 +795,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 60.0,
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
-   "BTC",
    "PENGU",
-   "XMR",
    "NEAR",
    "HYPE",
-   "BNB",
+   "LIT",
+   "BTC",
+   "SOL",
+   "PONS",
    "PEARL",
-   "CC",
+   "QTC",
+   "XRP",
+   "PEPE",
+   "XPL",
    "PUMP",
-   "ADA",
-   "QNT",
-   "ETH",
-   "KNTQ",
-   "PEPE"
+   "XLM"
   ],
   "BMT가 인기 검색에 있음": false
  }
@@ -903,19 +903,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2010011060,
- "완전희석가치 FDV(USD)": 2010011060,
- "24시간 거래대금(USD)": 367364626,
+ "시가총액(USD)": 2011230048,
+ "완전희석가치 FDV(USD)": 2011230048,
+ "24시간 거래대금(USD)": 370389989,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.95326,
+ "역대 최고가 대비(%)": -82.94292,
  "가격 변화(%)": {
-  "7d": 3.99216,
-  "30d": 8.14078,
-  "1y": -16.7172
+  "7d": -1.24337,
+  "30d": 7.47913,
+  "1y": -17.32865
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -929,7 +929,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: 2026 U.S. midterm elections and results as first polls close",
+   "제목": "Live updates: Crypto's big election gamble faces voters as Democrats gain ground",
    "요약": "Voters are choosing who will represent them in the House, Senate and state-wide seats.",
    "시각(UTC)": "11-04 00:00"
   },
@@ -998,14 +998,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "MEXC (Futures)": 0.0121,
+   "MEXC (Futures)": 0.01,
    "Gate (Futures)": 0.01,
-   "OKX (Futures)": 0.011,
+   "OKX (Futures)": 0.01,
    "Bitget Futures": 0.01,
    "WhiteBIT Futures": 0.01,
-   "KCEX (Futures)": 0.0111
+   "KCEX (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 255314506
+  "미결제약정 합계 USD(상위)": 252964316
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -1014,20 +1014,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 85.0,
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
-   "BTC",
    "PENGU",
-   "XMR",
    "NEAR",
    "HYPE",
-   "BNB",
+   "LIT",
+   "BTC",
+   "SOL",
+   "PONS",
    "PEARL",
-   "CC",
+   "QTC",
+   "XRP",
+   "PEPE",
+   "XPL",
    "PUMP",
-   "ADA",
-   "QNT",
-   "ETH",
-   "KNTQ",
-   "PEPE"
+   "XLM"
   ],
   "PEPE가 인기 검색에 있음": true
  }
@@ -1119,19 +1119,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 232,
- "시가총액(USD)": 121754657,
- "완전희석가치 FDV(USD)": 121754657,
- "24시간 거래대금(USD)": 17408808,
- "유통량": 441365.43818862,
- "총발행량": 441365.43818862,
+ "시가총액 순위": 231,
+ "시가총액(USD)": 121188445,
+ "완전희석가치 FDV(USD)": 121414320,
+ "24시간 거래대금(USD)": 19149377,
+ "유통량": 441217.05197589996,
+ "총발행량": 442039.40876172,
  "최대발행량": null,
- "유통 비율(%)": 100.0,
+ "유통 비율(%)": 99.8,
  "역대 최고가(USD)": 383.58,
- "역대 최고가 대비(%)": -28.0835,
+ "역대 최고가 대비(%)": -28.39387,
  "가격 변화(%)": {
-  "7d": -15.26546,
-  "30d": -20.04818,
+  "7d": -15.80569,
+  "30d": -20.24249,
   "1y": null
  },
  "소개": ""
@@ -1146,7 +1146,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: 2026 U.S. midterm elections and results as first polls close",
+   "제목": "Live updates: Crypto's big election gamble faces voters as Democrats gain ground",
    "요약": "Voters are choosing who will represent them in the House, Senate and state-wide seats.",
    "시각(UTC)": "11-04 00:00"
   },
@@ -1222,20 +1222,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "DACITYCOIN",
-   "BTC",
    "PENGU",
-   "XMR",
    "NEAR",
    "HYPE",
-   "BNB",
+   "LIT",
+   "BTC",
+   "SOL",
+   "PONS",
    "PEARL",
-   "CC",
+   "QTC",
+   "XRP",
+   "PEPE",
+   "XPL",
    "PUMP",
-   "ADA",
-   "QNT",
-   "ETH",
-   "KNTQ",
-   "PEPE"
+   "XLM"
   ],
   "GOOGLB가 인기 검색에 있음": false
  }
