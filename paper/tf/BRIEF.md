@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-06 05:26 KST)
+# TF팀 회의 자료 (2026-11-06 06:24 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1527778433507,
- "완전희석가치 FDV(USD)": 1527778433507,
- "24시간 거래대금(USD)": 40524863434,
+ "시가총액(USD)": 1524615270151,
+ "완전희석가치 FDV(USD)": 1524615270151,
+ "24시간 거래대금(USD)": 41421120883,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -39.7298,
+ "역대 최고가 대비(%)": -39.85459,
  "가격 변화(%)": {
-  "7d": -5.91866,
-  "30d": -11.23946,
-  "1y": -26.96039
+  "7d": -3.72282,
+  "30d": -11.42726,
+  "1y": -26.86412
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4024249847
+  "TVL(USD)": 4042596601
  }
 }
 ```
@@ -170,8 +170,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin plunges as Nasdaq falls 5% in panicky selloff",
-   "요약": "There's been no letup in the selling of the AI chip stocks, with Micron and AMD among those suffering double-digit percentage declines; Nvidia is down 8%.",
+   "제목": "Live updates: Bitcoin tumbles more than 5% as stocks close out worst day since April 2025",
+   "요약": "The continued blowup of the AI trade led markets lower, with Nvidia losing 9.3% and many other chip names down double-digit percentages.",
    "시각(UTC)": "11-05 10:57"
   },
   {
@@ -226,7 +226,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist",
+   "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
    "요약": "The hacking group has been behind some of the crypto industry's most recent high-profile thefts.",
    "시각(UTC)": "11-05 16:58"
   },
@@ -290,35 +290,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.01,
-   "Bybit (Futures)": 0.0087,
+   "Bybit (Futures)": 0.01,
    "MEXC (Futures)": 0.01,
    "Gate (Futures)": 0.01,
    "WEEX (Futures)": 0.0001,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 28715019445
+  "미결제약정 합계 USD(상위)": 28772131863
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 64.22,
+  "CoinGecko 이용자 투표 상승(%)": 62.56,
   "CoinGecko 인기 검색 코인": [
    "BTC",
-   "ZEC",
-   "TRUMP",
-   "PENGU",
    "SOL",
-   "HYPE",
    "NEAR",
-   "INJ",
+   "ZEC",
    "ETH",
-   "AAVE",
-   "LINK",
-   "PEARL",
+   "CC",
+   "TRUMP",
+   "HYPE",
+   "KNTQ",
+   "VVV",
    "LIT",
-   "AERO",
-   "SUI"
+   "ZRO",
+   "ADA",
+   "PEARL",
+   "AERO"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 274440340339,
- "완전희석가치 FDV(USD)": 274440340339,
- "24시간 거래대금(USD)": 15735796468,
+ "시가총액(USD)": 272398530061,
+ "완전희석가치 FDV(USD)": 272398530061,
+ "24시간 거래대금(USD)": 16076928853,
  "유통량": 122192071.85523713,
  "총발행량": 122192071.85523713,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -54.59049,
+ "역대 최고가 대비(%)": -54.92833,
  "가격 변화(%)": {
-  "7d": -3.79397,
-  "30d": -16.55907,
-  "1y": -35.00111
+  "7d": -1.19226,
+  "30d": -17.38326,
+  "1y": -35.27594
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 43479492511
+  "TVL(USD)": 43461992587
  }
 }
 ```
@@ -486,7 +486,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist",
+   "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
    "요약": "The hacking group has been behind some of the crypto industry's most recent high-profile thefts.",
    "시각(UTC)": "11-05 16:58"
   },
@@ -543,35 +543,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.0038,
+   "Binance (Futures)": -0.0026,
    "WEEX (Futures)": 0.0001,
-   "CoinW (Futures)": 0.0082,
-   "MEXC (Futures)": 0.0082,
-   "Hyperliquid (Futures)": 0.0008
+   "CoinW (Futures)": 0.009,
+   "MEXC (Futures)": 0.0091,
+   "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 18678796122
+  "미결제약정 합계 USD(상위)": 18610650270
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 83.33,
+  "CoinGecko 이용자 투표 상승(%)": 84.21,
   "CoinGecko 인기 검색 코인": [
    "BTC",
-   "ZEC",
-   "TRUMP",
-   "PENGU",
    "SOL",
-   "HYPE",
    "NEAR",
-   "INJ",
+   "ZEC",
    "ETH",
-   "AAVE",
-   "LINK",
-   "PEARL",
+   "CC",
+   "TRUMP",
+   "HYPE",
+   "KNTQ",
+   "VVV",
    "LIT",
-   "AERO",
-   "SUI"
+   "ZRO",
+   "ADA",
+   "PEARL",
+   "AERO"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -665,20 +665,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Binance HODLer Airdrops",
   "Binance Wallet IDO"
  ],
- "시가총액 순위": 856,
- "시가총액(USD)": 19035452,
- "완전희석가치 FDV(USD)": 24987002,
- "24시간 거래대금(USD)": 31619499,
+ "시가총액 순위": 853,
+ "시가총액(USD)": 18859191,
+ "완전희석가치 FDV(USD)": 24755631,
+ "24시간 거래대금(USD)": 33079247,
  "유통량": 761814186.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 76.2,
  "역대 최고가(USD)": 0.317341,
- "역대 최고가 대비(%)": -92.12613,
+ "역대 최고가 대비(%)": -92.19904,
  "가격 변화(%)": {
-  "7d": -2.84425,
-  "30d": 28.95991,
-  "1y": -23.70744
+  "7d": 0.7412,
+  "30d": 27.17973,
+  "1y": -24.70374
  },
  "소개": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient —allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding ma"
 }
@@ -704,7 +704,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist",
+   "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
    "요약": "The hacking group has been behind some of the crypto industry's most recent high-profile thefts.",
    "시각(UTC)": "11-05 16:58"
   },
@@ -761,14 +761,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.0608,
-   "Bybit (Futures)": -0.0423,
-   "Toobit Futures": -0.0608,
-   "Ourbit (Futures)": -0.0607,
-   "KCEX (Futures)": -0.0607,
-   "Gate (Futures)": -0.0625
+   "Binance (Futures)": -0.0621,
+   "Bybit (Futures)": 0.005,
+   "Toobit Futures": -0.0618,
+   "KCEX (Futures)": -0.0618,
+   "Ourbit (Futures)": -0.0618,
+   "Gate (Futures)": -0.0718
   },
-  "미결제약정 합계 USD(상위)": 12367365
+  "미결제약정 합계 USD(상위)": 11193501
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -777,20 +777,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 33.33,
   "CoinGecko 인기 검색 코인": [
    "BTC",
-   "ZEC",
-   "TRUMP",
-   "PENGU",
    "SOL",
-   "HYPE",
    "NEAR",
-   "INJ",
+   "ZEC",
    "ETH",
-   "AAVE",
-   "LINK",
-   "PEARL",
+   "CC",
+   "TRUMP",
+   "HYPE",
+   "KNTQ",
+   "VVV",
    "LIT",
-   "AERO",
-   "SUI"
+   "ZRO",
+   "ADA",
+   "PEARL",
+   "AERO"
   ],
   "BMT가 인기 검색에 있음": false
  }
@@ -885,19 +885,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2027631484,
- "완전희석가치 FDV(USD)": 2027631484,
- "24시간 거래대금(USD)": 440527080,
+ "시가총액(USD)": 2017702764,
+ "완전희석가치 FDV(USD)": 2017702764,
+ "24시간 거래대금(USD)": 439897060,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.80382,
+ "역대 최고가 대비(%)": -82.88803,
  "가격 변화(%)": {
-  "7d": -8.1055,
-  "30d": 12.97641,
-  "1y": -16.42838
+  "7d": -2.38402,
+  "30d": 12.5789,
+  "1y": -16.76073
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -923,7 +923,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist",
+   "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
    "요약": "The hacking group has been behind some of the crypto industry's most recent high-profile thefts.",
    "시각(UTC)": "11-05 16:58"
   },
@@ -983,33 +983,33 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MEXC (Futures)": 0.01,
    "Gate (Futures)": -0.0022,
    "Bitget Futures": 0.01,
-   "OKX (Futures)": 0.0028,
-   "KCEX (Futures)": 0.0029,
+   "OKX (Futures)": 0.0055,
+   "KCEX (Futures)": 0.0053,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 289136302
+  "미결제약정 합계 USD(상위)": 290685773
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 86.36,
+  "CoinGecko 이용자 투표 상승(%)": 85.0,
   "CoinGecko 인기 검색 코인": [
    "BTC",
-   "ZEC",
-   "TRUMP",
-   "PENGU",
    "SOL",
-   "HYPE",
    "NEAR",
-   "INJ",
+   "ZEC",
    "ETH",
-   "AAVE",
-   "LINK",
-   "PEARL",
+   "CC",
+   "TRUMP",
+   "HYPE",
+   "KNTQ",
+   "VVV",
    "LIT",
-   "AERO",
-   "SUI"
+   "ZRO",
+   "ADA",
+   "PEARL",
+   "AERO"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -1104,19 +1104,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 355,
- "시가총액(USD)": 65932944,
- "완전희석가치 FDV(USD)": 65932944,
- "24시간 거래대금(USD)": 16550185,
- "유통량": 1229226.47214099,
- "총발행량": 1229226.47214099,
+ "시가총액 순위": 361,
+ "시가총액(USD)": 64004395,
+ "완전희석가치 FDV(USD)": 64004395,
+ "24시간 거래대금(USD)": 16369256,
+ "유통량": 1229346.1037398698,
+ "총발행량": 1229346.1037398698,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 130.12,
- "역대 최고가 대비(%)": -58.77895,
+ "역대 최고가 대비(%)": -59.98856,
  "가격 변화(%)": {
-  "7d": -41.71842,
-  "30d": -52.31994,
+  "7d": -32.00664,
+  "30d": -53.84488,
   "1y": null
  },
  "소개": ""
@@ -1143,7 +1143,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist",
+   "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
    "요약": "The hacking group has been behind some of the crypto industry's most recent high-profile thefts.",
    "시각(UTC)": "11-05 16:58"
   },
@@ -1207,20 +1207,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "BTC",
-   "ZEC",
-   "TRUMP",
-   "PENGU",
    "SOL",
-   "HYPE",
    "NEAR",
-   "INJ",
+   "ZEC",
    "ETH",
-   "AAVE",
-   "LINK",
-   "PEARL",
+   "CC",
+   "TRUMP",
+   "HYPE",
+   "KNTQ",
+   "VVV",
    "LIT",
-   "AERO",
-   "SUI"
+   "ZRO",
+   "ADA",
+   "PEARL",
+   "AERO"
   ],
   "INTCB가 인기 검색에 있음": false
  }
