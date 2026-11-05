@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-05 15:42 KST)
+# TF팀 회의 자료 (2026-11-05 17:39 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -7,7 +7,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 **지금까지 승률** ACE 40.9% (9/22), 채점 대기 0개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,013.80 USDT (+0.14%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,012.13 USDT (+0.12%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: BMT, PEPE · 과매도 반등: INTCB
 
@@ -66,22 +66,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-05",
   "등락률(%)": {
-   "1일": 0.05,
-   "7일": 3.99,
-   "30일": 4.37,
-   "90일": -2.65
+   "1일": -0.23,
+   "7일": 5.05,
+   "30일": 3.88,
+   "90일": -3.36
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 3.09,
-   "MA60": 2.1,
-   "MA120": 0.28
+   "MA20": 2.73,
+   "MA60": 1.86,
+   "MA120": 0.07
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 68
+   "며칠 전": 69
   },
-  "RSI14": 66.5
+  "RSI14": 64.6
  }
 }
 ```
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1617089793677,
- "완전희석가치 FDV(USD)": 1617089793677,
- "24시간 거래대금(USD)": 35102082994,
+ "시가총액(USD)": 1619974959665,
+ "완전희석가치 FDV(USD)": 1619974959665,
+ "24시간 거래대금(USD)": 35146534361,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -36.20942,
+ "역대 최고가 대비(%)": -36.09269,
  "가격 변화(%)": {
-  "7d": 0.34455,
-  "30d": -5.92604,
-  "1y": -20.95358
+  "7d": 0.99258,
+  "30d": -5.84031,
+  "1y": -20.85049
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4271899040
+  "TVL(USD)": 4267783873
  }
 }
 ```
@@ -169,18 +169,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-04 06:16"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50%",
-   "요약": "The proposed agreement would resolve a federal anti-money-laundering investigation, while lower Cash App trading fees halved Block's quarterly bitcoin gross profit.",
-   "시각(UTC)": "11-04 06:06"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
-   "요약": "Russia’s main bourse wants back the crypto trading Russians do abroad, and one of the coins it's listing is issued by a company that freezes wallets on the U.S. sanctions list.",
-   "시각(UTC)": "11-04 05:14"
-  },
-  {
    "출처": "Cointelegraph",
    "제목": "Here’s what happened in crypto today",
    "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
@@ -215,9 +203,33 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
    "요약": "Bitcoin climbed toward $80,500 as risk assets rallied on Democrats’ midterm election gains and oil prices fell.",
    "시각(UTC)": "11-04 15:29"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin ETFs lose $1.16B as Bitwise calls selling ‘short-term’",
+   "요약": "Bitwise’s André Dragosch attributed Bitcoin ETF outflows to weaker market sentiment, saying institutions have largely maintained their exposure.",
+   "시각(UTC)": "11-04 09:38"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress",
+   "요약": "Bitcoin price downside reached a seven-week-low of $75,618 as 24-hour crypto long liquidations neared $300 million.",
+   "시각(UTC)": "11-04 07:25"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
+   "요약": "Crypto firms must collect customer and transaction data from 2027, with Hong Kong sharing the information with overseas tax authorities from 2028.",
+   "시각(UTC)": "11-05 08:35"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "OpenAI says its AI can break into Linux at scale. Here's what it means for crypto",
+   "요약": "OpenAI says its AI found 948 Linux flaws and wrote a working attack for each one. Crypto security voices say decentralization leaves the industry better placed than most to cope.",
+   "시각(UTC)": "11-05 08:26"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Zcash is about to freeze $16 million in its oldest privacy pool",
@@ -253,18 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
    "요약": "The industry's primary campaign arm had cultivated a reputation as an unstoppable force, but more than a third of its spending failed to hit the mark, especially in Ohio.",
    "시각(UTC)": "11-04 20:29"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
-   "요약": "Industry experts warn the Clarity Act is likely dead in its current form as incoming Democratic majorities eye tighter scrutiny of crypto markets and tokenized stocks.",
-   "시각(UTC)": "11-04 16:11"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto Long & Short: ICE is betting on retail’s appetite for quick outcomes",
-   "요약": "Retail traders increasingly want trades that resolve fast, from prediction markets to same-day options. Andy Baehr of GSR argues perpetual futures belong in that group, and that ICE’s deal to bring Trade[XYZ]’s Hyperliquid markets onshore i",
-   "시각(UTC)": "11-04 15:27"
   }
  ]
 }
@@ -289,36 +289,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0099,
+   "Binance (Futures)": 0.01,
    "Bybit (Futures)": 0.01,
-   "MEXC (Futures)": 0.0098,
+   "MEXC (Futures)": 0.01,
    "Gate (Futures)": 0.01,
-   "Tapbit (Futures)": 0.01,
-   "WEEX (Futures)": 0.0001
+   "WEEX (Futures)": 0.0,
+   "Tapbit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 29932828336
+  "미결제약정 합계 USD(상위)": 29938379208
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 79.35,
+  "CoinGecko 이용자 투표 상승(%)": 80.65,
   "CoinGecko 인기 검색 코인": [
-   "CARDS",
-   "ZEC",
-   "PEARL",
-   "TRUMP",
-   "LIT",
    "PENGU",
-   "TAO",
-   "ZAMA",
+   "CARDS",
+   "TRUMP",
+   "PEARL",
+   "KNTQ",
+   "MON",
    "BTC",
+   "BP",
+   "DRV",
+   "VVV",
+   "SOL",
+   "INJ",
    "NEAR",
-   "AERO",
-   "HYPE",
-   "QNT",
-   "PUMP",
-   "KNTQ"
+   "QTC",
+   "ETH"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -380,22 +380,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-05",
   "등락률(%)": {
-   "1일": -0.01,
-   "7일": 6.58,
-   "30일": 8.23,
-   "90일": -0.81
+   "1일": -0.34,
+   "7일": 7.42,
+   "30일": 7.67,
+   "90일": -1.63
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 5.09,
-   "MA60": 5.36,
-   "MA120": 3.03
+   "MA20": 4.41,
+   "MA60": 4.93,
+   "MA120": 2.69
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 0
+   "며칠 전": 1
   },
-  "RSI14": 70.5
+  "RSI14": 68.3
  }
 }
 ```
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 296235428673,
- "완전희석가치 FDV(USD)": 296235428673,
- "24시간 거래대금(USD)": 15530515702,
+ "시가총액(USD)": 296337320314,
+ "완전희석가치 FDV(USD)": 296337320314,
+ "24시간 거래대금(USD)": 15255268436,
  "유통량": 122192071.85523713,
  "총발행량": 122192071.85523713,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -50.98423,
+ "역대 최고가 대비(%)": -50.96737,
  "가격 변화(%)": {
-  "7d": 4.45887,
-  "30d": -10.17421,
-  "1y": -27.05386
+  "7d": 5.07437,
+  "30d": -10.46631,
+  "1y": -27.00971
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 45867832575
+  "TVL(USD)": 45857373645
  }
 }
 ```
@@ -471,12 +471,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-03 23:56"
   },
   {
-   "출처": "Cointelegraph",
-   "제목": "Wall Street killed Bitcoin’s wild rallies: 10x’s Markus Thielen",
-   "요약": "Markus Thielen sees Bitcoin reaching $90,000 by year-end, questions institutional ETF demand and says Ethereum must do more for holders.",
-   "시각(UTC)": "11-03 16:47"
-  },
-  {
    "출처": "Decrypt",
    "제목": "Ethereum Privacy Network Aztec Rolls Out Major Security and Speed Upgrade",
    "요약": "The “Tierra” upgrade resolves a critical bug from the prior version, adds formal verification, and an AI-powered testing harness.",
@@ -490,6 +484,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
+   "요약": "Crypto firms must collect customer and transaction data from 2027, with Hong Kong sharing the information with overseas tax authorities from 2028.",
+   "시각(UTC)": "11-05 08:35"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "OpenAI says its AI can break into Linux at scale. Here's what it means for crypto",
+   "요약": "OpenAI says its AI found 948 Linux flaws and wrote a working attack for each one. Crypto security voices say decentralization leaves the industry better placed than most to cope.",
+   "시각(UTC)": "11-05 08:26"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Zcash is about to freeze $16 million in its oldest privacy pool",
@@ -525,18 +531,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead",
    "요약": "The asset manager says global demand and institutional adoption will sustain the industry despite a political setback, while BlackRock sees little impact on its crypto business.",
    "시각(UTC)": "11-04 22:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
-   "요약": "The industry's primary campaign arm had cultivated a reputation as an unstoppable force, but more than a third of its spending failed to hit the mark, especially in Ohio.",
-   "시각(UTC)": "11-04 20:29"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
-   "요약": "Industry experts warn the Clarity Act is likely dead in its current form as incoming Democratic majorities eye tighter scrutiny of crypto markets and tokenized stocks.",
-   "시각(UTC)": "11-04 16:11"
   }
  ]
 }
@@ -561,37 +555,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0088,
-   "WEEX (Futures)": 0.0001,
+   "Binance (Futures)": 0.01,
+   "WEEX (Futures)": -0.0,
    "Hyperliquid (Futures)": 0.0013,
-   "MEXC (Futures)": 0.0022,
-   "Bitget Futures": 0.0011
+   "MEXC (Futures)": 0.009,
+   "CoinW (Futures)": 0.0079
   },
-  "미결제약정 합계 USD(상위)": 19010820798
+  "미결제약정 합계 USD(상위)": 19128544438
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 87.3,
+  "CoinGecko 이용자 투표 상승(%)": 87.5,
   "CoinGecko 인기 검색 코인": [
-   "CARDS",
-   "ZEC",
-   "PEARL",
-   "TRUMP",
-   "LIT",
    "PENGU",
-   "TAO",
-   "ZAMA",
+   "CARDS",
+   "TRUMP",
+   "PEARL",
+   "KNTQ",
+   "MON",
    "BTC",
+   "BP",
+   "DRV",
+   "VVV",
+   "SOL",
+   "INJ",
    "NEAR",
-   "AERO",
-   "HYPE",
-   "QNT",
-   "PUMP",
-   "KNTQ"
+   "QTC",
+   "ETH"
   ],
-  "ETH가 인기 검색에 있음": false
+  "ETH가 인기 검색에 있음": true
  }
 }
 ```
@@ -651,22 +645,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-05",
   "등락률(%)": {
-   "1일": -5.46,
-   "7일": 2.41,
-   "30일": 17.93,
-   "90일": 32.81
+   "1일": -4.53,
+   "7일": -13.19,
+   "30일": 15.76,
+   "90일": 29.33
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 8.66,
-   "MA60": 6.28,
-   "MA120": 11.75
+   "MA20": 2.92,
+   "MA60": 1.89,
+   "MA120": 6.39
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 36
+   "며칠 전": 37
   },
-  "RSI14": 55.6
+  "RSI14": 50.5
  }
 }
 ```
@@ -683,20 +677,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Binance HODLer Airdrops",
   "Binance Wallet IDO"
  ],
- "시가총액 순위": 834,
- "시가총액(USD)": 20416644,
- "완전희석가치 FDV(USD)": 26822694,
- "24시간 거래대금(USD)": 66657615,
+ "시가총액 순위": 855,
+ "시가총액(USD)": 19898183,
+ "완전희석가치 FDV(USD)": 26141557,
+ "24시간 거래대금(USD)": 56015987,
  "유통량": 761170523.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 76.1,
  "역대 최고가(USD)": 0.317341,
- "역대 최고가 대비(%)": -91.54767,
+ "역대 최고가 대비(%)": -91.7623,
  "가격 변화(%)": {
-  "7d": -1.58657,
-  "30d": 37.38909,
-  "1y": -14.46221
+  "7d": -1.56076,
+  "30d": 33.54021,
+  "1y": -18.42753
  },
  "소개": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient —allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding ma"
 }
@@ -708,6 +702,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "BMT 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
+   "요약": "Crypto firms must collect customer and transaction data from 2027, with Hong Kong sharing the information with overseas tax authorities from 2028.",
+   "시각(UTC)": "11-05 08:35"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "OpenAI says its AI can break into Linux at scale. Here's what it means for crypto",
+   "요약": "OpenAI says its AI found 948 Linux flaws and wrote a working attack for each one. Crypto security voices say decentralization leaves the industry better placed than most to cope.",
+   "시각(UTC)": "11-05 08:26"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Zcash is about to freeze $16 million in its oldest privacy pool",
@@ -743,18 +749,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
    "요약": "Wall Street's push to bring finance onto blockchain rails may continue under existing laws, though the SEC and CFTC face tougher oversight and questions over how long their rules will last, experts said.",
    "시각(UTC)": "11-04 22:55"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead",
-   "요약": "The asset manager says global demand and institutional adoption will sustain the industry despite a political setback, while BlackRock sees little impact on its crypto business.",
-   "시각(UTC)": "11-04 22:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
-   "요약": "The industry's primary campaign arm had cultivated a reputation as an unstoppable force, but more than a third of its spending failed to hit the mark, especially in Ohio.",
-   "시각(UTC)": "11-04 20:29"
   }
  ]
 }
@@ -779,14 +773,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.4799,
-   "Toobit Futures": -0.4799,
-   "Bybit (Futures)": -0.3456,
-   "Ourbit (Futures)": -0.4827,
-   "KCEX (Futures)": -0.4827,
-   "Gate (Futures)": -0.4301
+   "Binance (Futures)": -0.2473,
+   "Bybit (Futures)": -0.1772,
+   "Toobit Futures": -0.2487,
+   "Ourbit (Futures)": -0.2486,
+   "KCEX (Futures)": -0.2486,
+   "Gate (Futures)": -0.209
   },
-  "미결제약정 합계 USD(상위)": 18025511
+  "미결제약정 합계 USD(상위)": 15806945
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -794,21 +788,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 33.33,
   "CoinGecko 인기 검색 코인": [
-   "CARDS",
-   "ZEC",
-   "PEARL",
-   "TRUMP",
-   "LIT",
    "PENGU",
-   "TAO",
-   "ZAMA",
+   "CARDS",
+   "TRUMP",
+   "PEARL",
+   "KNTQ",
+   "MON",
    "BTC",
+   "BP",
+   "DRV",
+   "VVV",
+   "SOL",
+   "INJ",
    "NEAR",
-   "AERO",
-   "HYPE",
-   "QNT",
-   "PUMP",
-   "KNTQ"
+   "QTC",
+   "ETH"
   ],
   "BMT가 인기 검색에 있음": false
  }
@@ -870,19 +864,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-05",
   "등락률(%)": {
-   "1일": 0.4,
-   "7일": 2.46,
-   "30일": 1.22,
-   "90일": 10.89
+   "1일": -1.0,
+   "7일": 2.49,
+   "30일": -2.56,
+   "90일": 8.1
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 2.46,
-   "MA60": 3.12,
-   "MA120": 9.14
+   "MA20": 1.37,
+   "MA60": 1.9,
+   "MA120": 7.89
   },
   "MA20>MA60": true,
   "최근 교차": null,
-  "RSI14": 53.8
+  "RSI14": 51.5
  }
 }
 ```
@@ -900,19 +894,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2088216775,
- "완전희석가치 FDV(USD)": 2088216775,
- "24시간 거래대금(USD)": 521675069,
+ "시가총액(USD)": 2121896568,
+ "완전희석가치 FDV(USD)": 2121896568,
+ "24시간 거래대금(USD)": 515267415,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.28878,
+ "역대 최고가 대비(%)": -81.9972,
  "가격 변화(%)": {
-  "7d": -1.59981,
-  "30d": 14.99001,
-  "1y": -12.48577
+  "7d": 2.84794,
+  "30d": 16.43325,
+  "1y": -10.72333
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -924,6 +918,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
+   "요약": "Crypto firms must collect customer and transaction data from 2027, with Hong Kong sharing the information with overseas tax authorities from 2028.",
+   "시각(UTC)": "11-05 08:35"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "OpenAI says its AI can break into Linux at scale. Here's what it means for crypto",
+   "요약": "OpenAI says its AI found 948 Linux flaws and wrote a working attack for each one. Crypto security voices say decentralization leaves the industry better placed than most to cope.",
+   "시각(UTC)": "11-05 08:26"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Zcash is about to freeze $16 million in its oldest privacy pool",
@@ -959,18 +965,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
    "요약": "Wall Street's push to bring finance onto blockchain rails may continue under existing laws, though the SEC and CFTC face tougher oversight and questions over how long their rules will last, experts said.",
    "시각(UTC)": "11-04 22:55"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead",
-   "요약": "The asset manager says global demand and institutional adoption will sustain the industry despite a political setback, while BlackRock sees little impact on its crypto business.",
-   "시각(UTC)": "11-04 22:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
-   "요약": "The industry's primary campaign arm had cultivated a reputation as an unstoppable force, but more than a third of its spending failed to hit the mark, especially in Ohio.",
-   "시각(UTC)": "11-04 20:29"
   }
  ]
 }
@@ -995,36 +989,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "MEXC (Futures)": 0.0014,
-   "Gate (Futures)": 0.0037,
+   "MEXC (Futures)": 0.0059,
+   "Gate (Futures)": 0.01,
    "OKX (Futures)": 0.01,
    "Bitget Futures": 0.01,
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 292360440
+  "미결제약정 합계 USD(상위)": 295730117
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 89.66,
+  "CoinGecko 이용자 투표 상승(%)": 90.32,
   "CoinGecko 인기 검색 코인": [
-   "CARDS",
-   "ZEC",
-   "PEARL",
-   "TRUMP",
-   "LIT",
    "PENGU",
-   "TAO",
-   "ZAMA",
+   "CARDS",
+   "TRUMP",
+   "PEARL",
+   "KNTQ",
+   "MON",
    "BTC",
+   "BP",
+   "DRV",
+   "VVV",
+   "SOL",
+   "INJ",
    "NEAR",
-   "AERO",
-   "HYPE",
-   "QNT",
-   "PUMP",
-   "KNTQ"
+   "QTC",
+   "ETH"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -1087,22 +1081,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-05",
   "등락률(%)": {
-   "1일": -1.33,
-   "7일": -5.97,
-   "30일": -11.83,
-   "90일": -39.64
+   "1일": -0.91,
+   "7일": -1.8,
+   "30일": -12.12,
+   "90일": -40.23
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -6.34,
-   "MA60": -22.77,
-   "MA120": -30.03
+   "MA20": -6.47,
+   "MA60": -22.96,
+   "MA120": -30.39
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 34
+   "며칠 전": 35
   },
-  "RSI14": 28.9
+  "RSI14": 27.9
  }
 }
 ```
@@ -1119,19 +1113,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 359,
- "시가총액(USD)": 68237263,
- "완전희석가치 FDV(USD)": 68237263,
- "24시간 거래대금(USD)": 17977075,
- "유통량": 1208750.34880486,
- "총발행량": 1208750.34880486,
+ "시가총액 순위": 356,
+ "시가총액(USD)": 68982184,
+ "완전희석가치 FDV(USD)": 68982184,
+ "24시간 거래대금(USD)": 18182378,
+ "유통량": 1210366.80979207,
+ "총발행량": 1210366.80979207,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 130.12,
- "역대 최고가 대비(%)": -56.61561,
+ "역대 최고가 대비(%)": -56.20057,
  "가격 변화(%)": {
-  "7d": -39.11322,
-  "30d": -51.51882,
+  "7d": -37.97356,
+  "30d": -51.05232,
   "1y": null
  },
  "소개": ""
@@ -1144,6 +1138,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INTCB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
+   "요약": "Crypto firms must collect customer and transaction data from 2027, with Hong Kong sharing the information with overseas tax authorities from 2028.",
+   "시각(UTC)": "11-05 08:35"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "OpenAI says its AI can break into Linux at scale. Here's what it means for crypto",
+   "요약": "OpenAI says its AI found 948 Linux flaws and wrote a working attack for each one. Crypto security voices say decentralization leaves the industry better placed than most to cope.",
+   "시각(UTC)": "11-05 08:26"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Zcash is about to freeze $16 million in its oldest privacy pool",
@@ -1179,18 +1185,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
    "요약": "Wall Street's push to bring finance onto blockchain rails may continue under existing laws, though the SEC and CFTC face tougher oversight and questions over how long their rules will last, experts said.",
    "시각(UTC)": "11-04 22:55"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead",
-   "요약": "The asset manager says global demand and institutional adoption will sustain the industry despite a political setback, while BlackRock sees little impact on its crypto business.",
-   "시각(UTC)": "11-04 22:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
-   "요약": "The industry's primary campaign arm had cultivated a reputation as an unstoppable force, but more than a third of its spending failed to hit the mark, especially in Ohio.",
-   "시각(UTC)": "11-04 20:29"
   }
  ]
 }
@@ -1221,21 +1215,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
-   "CARDS",
-   "ZEC",
-   "PEARL",
-   "TRUMP",
-   "LIT",
    "PENGU",
-   "TAO",
-   "ZAMA",
+   "CARDS",
+   "TRUMP",
+   "PEARL",
+   "KNTQ",
+   "MON",
    "BTC",
+   "BP",
+   "DRV",
+   "VVV",
+   "SOL",
+   "INJ",
    "NEAR",
-   "AERO",
-   "HYPE",
-   "QNT",
-   "PUMP",
-   "KNTQ"
+   "QTC",
+   "ETH"
   ],
   "INTCB가 인기 검색에 있음": false
  }
