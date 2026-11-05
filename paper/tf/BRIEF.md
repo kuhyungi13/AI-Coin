@@ -1,13 +1,13 @@
-# TF팀 회의 자료 (2026-11-05 14:39 KST)
+# TF팀 회의 자료 (2026-11-05 15:42 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
 
 분석 대상: BTC, ETH, BMT, PEPE, INTCB
 
-**지금까지 승률** ACE 52.9% (9/17), 채점 대기 5개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
+**지금까지 승률** ACE 40.9% (9/22), 채점 대기 0개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,017.97 USDT (+0.18%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,013.80 USDT (+0.14%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: BMT, PEPE · 과매도 반등: INTCB
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1617757333813,
- "완전희석가치 FDV(USD)": 1617757333813,
- "24시간 거래대금(USD)": 35971893399,
+ "시가총액(USD)": 1617089793677,
+ "완전희석가치 FDV(USD)": 1617089793677,
+ "24시간 거래대금(USD)": 35102082994,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -36.18018,
+ "역대 최고가 대비(%)": -36.20942,
  "가격 변화(%)": {
-  "7d": 0.37208,
-  "30d": -5.99719,
-  "1y": -21.09032
+  "7d": 0.34455,
+  "30d": -5.92604,
+  "1y": -20.95358
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4274050970
+  "TVL(USD)": 4271899040
  }
 }
 ```
@@ -182,15 +182,15 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
-   "제목": "Mercado Bitcoin says phased reopening to begin Monday, will cover losses",
-   "요약": "Customers will initially be able to view their holdings, while withdrawals and trading remain suspended pending security checks.",
-   "시각(UTC)": "11-04 23:20"
+   "제목": "Here’s what happened in crypto today",
+   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+   "시각(UTC)": "11-05 06:21"
   },
   {
    "출처": "Cointelegraph",
-   "제목": "Here’s what happened in crypto today",
-   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-   "시각(UTC)": "11-04 22:54"
+   "제목": "Mercado Bitcoin says phased reopening to begin Monday, will cover losses",
+   "요약": "Customers will initially be able to view their holdings, while withdrawals and trading remain suspended pending security checks.",
+   "시각(UTC)": "11-04 23:20"
   },
   {
    "출처": "Cointelegraph",
@@ -220,13 +220,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Zcash is about to freeze $16 million in its oldest privacy pool",
+   "요약": "About 12,200 ZEC remains in Sprout, the privacy pool Zcash launched in 2016. Roughly 10,000 coins have left over the past week, but only about 40 moved out Wednesday.",
+   "시각(UTC)": "11-05 05:47"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "The pile of lawsuits against Kalshi just grew by one",
    "요약": "Arkansas has accused the prediction market of running illegal gambling, joining Utah and several other U.S. states that have filed criminal or civil charges.",
    "시각(UTC)": "11-05 05:28"
   },
   {
    "출처": "CoinDesk",
-   "제목": "XRP Ledger closes bug that let approved token burners create new tokens",
+   "제목": "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens",
    "요약": "The fix went live Wednesday after validator support reset the activation clock in October. XRP itself was unaffected.",
    "시각(UTC)": "11-05 05:25"
   },
@@ -259,12 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Crypto Long & Short: ICE is betting on retail’s appetite for quick outcomes",
    "요약": "Retail traders increasingly want trades that resolve fast, from prediction markets to same-day options. Andy Baehr of GSR argues perpetual futures belong in that group, and that ICE’s deal to bring Trade[XYZ]’s Hyperliquid markets onshore i",
    "시각(UTC)": "11-04 15:27"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "The election changes Washington. The work on crypto continues",
-   "요약": "The next Congress inherits an unfinished assignment: establishing clear, lasting rules for digital assets that protect consumers and ensure American innovation continues to thrive, writes Blockchain Association's Lindsay Fraser.",
-   "시각(UTC)": "11-04 14:25"
   }
  ]
 }
@@ -289,36 +289,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.009,
+   "Binance (Futures)": 0.0099,
    "Bybit (Futures)": 0.01,
-   "MEXC (Futures)": 0.0089,
+   "MEXC (Futures)": 0.0098,
    "Gate (Futures)": 0.01,
-   "Tapbit (Futures)": 0.0088,
+   "Tapbit (Futures)": 0.01,
    "WEEX (Futures)": 0.0001
   },
-  "미결제약정 합계 USD(상위)": 29902690128
+  "미결제약정 합계 USD(상위)": 29932828336
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 78.07,
+  "CoinGecko 이용자 투표 상승(%)": 79.35,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "PENGU",
+   "CARDS",
+   "ZEC",
    "PEARL",
    "TRUMP",
-   "ZEC",
+   "LIT",
+   "PENGU",
+   "TAO",
+   "ZAMA",
+   "BTC",
    "NEAR",
    "AERO",
-   "STONK",
-   "CLANKER",
-   "SOL",
-   "PI",
-   "ONDO",
-   "XMR",
-   "WLFI",
-   "ALGO"
+   "HYPE",
+   "QNT",
+   "PUMP",
+   "KNTQ"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 296314178931,
- "완전희석가치 FDV(USD)": 296314178931,
- "24시간 거래대금(USD)": 15960087797,
+ "시가총액(USD)": 296235428673,
+ "완전희석가치 FDV(USD)": 296235428673,
+ "24시간 거래대금(USD)": 15530515702,
  "유통량": 122192071.85523713,
  "총발행량": 122192071.85523713,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -50.97463,
+ "역대 최고가 대비(%)": -50.98423,
  "가격 변화(%)": {
-  "7d": 4.55308,
-  "30d": -10.2505,
-  "1y": -27.1451
+  "7d": 4.45887,
+  "30d": -10.17421,
+  "1y": -27.05386
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 45932330828
+  "TVL(USD)": 45867832575
  }
 }
 ```
@@ -492,13 +492,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Zcash is about to freeze $16 million in its oldest privacy pool",
+   "요약": "About 12,200 ZEC remains in Sprout, the privacy pool Zcash launched in 2016. Roughly 10,000 coins have left over the past week, but only about 40 moved out Wednesday.",
+   "시각(UTC)": "11-05 05:47"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "The pile of lawsuits against Kalshi just grew by one",
    "요약": "Arkansas has accused the prediction market of running illegal gambling, joining Utah and several other U.S. states that have filed criminal or civil charges.",
    "시각(UTC)": "11-05 05:28"
   },
   {
    "출처": "CoinDesk",
-   "제목": "XRP Ledger closes bug that let approved token burners create new tokens",
+   "제목": "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens",
    "요약": "The fix went live Wednesday after validator support reset the activation clock in October. XRP itself was unaffected.",
    "시각(UTC)": "11-05 05:25"
   },
@@ -531,12 +537,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
    "요약": "Industry experts warn the Clarity Act is likely dead in its current form as incoming Democratic majorities eye tighter scrutiny of crypto markets and tokenized stocks.",
    "시각(UTC)": "11-04 16:11"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Wall Street rethinks AI data center boom as Texas election raises new risks",
-   "요약": "Bitcoin miners pivoting to AI face new uncertainty over power access and construction permits, while companies with approved projects could benefit from tighter supply.",
-   "시각(UTC)": "11-04 16:08"
   }
  ]
 }
@@ -561,13 +561,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0086,
+   "Binance (Futures)": 0.0088,
    "WEEX (Futures)": 0.0001,
    "Hyperliquid (Futures)": 0.0013,
-   "MEXC (Futures)": 0.0034,
-   "Bitget Futures": 0.0003
+   "MEXC (Futures)": 0.0022,
+   "Bitget Futures": 0.0011
   },
-  "미결제약정 합계 USD(상위)": 18986868034
+  "미결제약정 합계 USD(상위)": 19010820798
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -575,21 +575,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 87.3,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "PENGU",
+   "CARDS",
+   "ZEC",
    "PEARL",
    "TRUMP",
-   "ZEC",
+   "LIT",
+   "PENGU",
+   "TAO",
+   "ZAMA",
+   "BTC",
    "NEAR",
    "AERO",
-   "STONK",
-   "CLANKER",
-   "SOL",
-   "PI",
-   "ONDO",
-   "XMR",
-   "WLFI",
-   "ALGO"
+   "HYPE",
+   "QNT",
+   "PUMP",
+   "KNTQ"
   ],
   "ETH가 인기 검색에 있음": false
  }
@@ -683,20 +683,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Binance HODLer Airdrops",
   "Binance Wallet IDO"
  ],
- "시가총액 순위": 830,
- "시가총액(USD)": 20757165,
- "완전희석가치 FDV(USD)": 27270059,
- "24시간 거래대금(USD)": 73395553,
+ "시가총액 순위": 834,
+ "시가총액(USD)": 20416644,
+ "완전희석가치 FDV(USD)": 26822694,
+ "24시간 거래대금(USD)": 66657615,
  "유통량": 761170523.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 76.1,
  "역대 최고가(USD)": 0.317341,
- "역대 최고가 대비(%)": -91.39598,
+ "역대 최고가 대비(%)": -91.54767,
  "가격 변화(%)": {
-  "7d": -1.4064,
-  "30d": 40.84676,
-  "1y": -12.95114
+  "7d": -1.58657,
+  "30d": 37.38909,
+  "1y": -14.46221
  },
  "소개": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient —allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding ma"
 }
@@ -710,13 +710,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Zcash is about to freeze $16 million in its oldest privacy pool",
+   "요약": "About 12,200 ZEC remains in Sprout, the privacy pool Zcash launched in 2016. Roughly 10,000 coins have left over the past week, but only about 40 moved out Wednesday.",
+   "시각(UTC)": "11-05 05:47"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "The pile of lawsuits against Kalshi just grew by one",
    "요약": "Arkansas has accused the prediction market of running illegal gambling, joining Utah and several other U.S. states that have filed criminal or civil charges.",
    "시각(UTC)": "11-05 05:28"
   },
   {
    "출처": "CoinDesk",
-   "제목": "XRP Ledger closes bug that let approved token burners create new tokens",
+   "제목": "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens",
    "요약": "The fix went live Wednesday after validator support reset the activation clock in October. XRP itself was unaffected.",
    "시각(UTC)": "11-05 05:25"
   },
@@ -749,12 +755,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
    "요약": "The industry's primary campaign arm had cultivated a reputation as an unstoppable force, but more than a third of its spending failed to hit the mark, especially in Ohio.",
    "시각(UTC)": "11-04 20:29"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
-   "요약": "Industry experts warn the Clarity Act is likely dead in its current form as incoming Democratic majorities eye tighter scrutiny of crypto markets and tokenized stocks.",
-   "시각(UTC)": "11-04 16:11"
   }
  ]
 }
@@ -779,14 +779,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.6047,
-   "Toobit Futures": -0.6047,
-   "Bybit (Futures)": -0.5841,
-   "Ourbit (Futures)": -0.6047,
-   "KCEX (Futures)": -0.6047,
-   "Gate (Futures)": -0.5858
+   "Binance (Futures)": -0.4799,
+   "Toobit Futures": -0.4799,
+   "Bybit (Futures)": -0.3456,
+   "Ourbit (Futures)": -0.4827,
+   "KCEX (Futures)": -0.4827,
+   "Gate (Futures)": -0.4301
   },
-  "미결제약정 합계 USD(상위)": 18041620
+  "미결제약정 합계 USD(상위)": 18025511
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -794,21 +794,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 33.33,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "PENGU",
+   "CARDS",
+   "ZEC",
    "PEARL",
    "TRUMP",
-   "ZEC",
+   "LIT",
+   "PENGU",
+   "TAO",
+   "ZAMA",
+   "BTC",
    "NEAR",
    "AERO",
-   "STONK",
-   "CLANKER",
-   "SOL",
-   "PI",
-   "ONDO",
-   "XMR",
-   "WLFI",
-   "ALGO"
+   "HYPE",
+   "QNT",
+   "PUMP",
+   "KNTQ"
   ],
   "BMT가 인기 검색에 있음": false
  }
@@ -900,19 +900,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2083784113,
- "완전희석가치 FDV(USD)": 2083784113,
- "24시간 거래대금(USD)": 536372304,
+ "시가총액(USD)": 2088216775,
+ "완전희석가치 FDV(USD)": 2088216775,
+ "24시간 거래대금(USD)": 521675069,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.3276,
+ "역대 최고가 대비(%)": -82.28878,
  "가격 변화(%)": {
-  "7d": -1.77529,
-  "30d": 14.83229,
-  "1y": -12.62751
+  "7d": -1.59981,
+  "30d": 14.99001,
+  "1y": -12.48577
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -926,13 +926,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Zcash is about to freeze $16 million in its oldest privacy pool",
+   "요약": "About 12,200 ZEC remains in Sprout, the privacy pool Zcash launched in 2016. Roughly 10,000 coins have left over the past week, but only about 40 moved out Wednesday.",
+   "시각(UTC)": "11-05 05:47"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "The pile of lawsuits against Kalshi just grew by one",
    "요약": "Arkansas has accused the prediction market of running illegal gambling, joining Utah and several other U.S. states that have filed criminal or civil charges.",
    "시각(UTC)": "11-05 05:28"
   },
   {
    "출처": "CoinDesk",
-   "제목": "XRP Ledger closes bug that let approved token burners create new tokens",
+   "제목": "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens",
    "요약": "The fix went live Wednesday after validator support reset the activation clock in October. XRP itself was unaffected.",
    "시각(UTC)": "11-05 05:25"
   },
@@ -965,12 +971,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
    "요약": "The industry's primary campaign arm had cultivated a reputation as an unstoppable force, but more than a third of its spending failed to hit the mark, especially in Ohio.",
    "시각(UTC)": "11-04 20:29"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
-   "요약": "Industry experts warn the Clarity Act is likely dead in its current form as incoming Democratic majorities eye tighter scrutiny of crypto markets and tokenized stocks.",
-   "시각(UTC)": "11-04 16:11"
   }
  ]
 }
@@ -995,36 +995,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "MEXC (Futures)": 0.0045,
-   "Gate (Futures)": -0.0016,
+   "MEXC (Futures)": 0.0014,
+   "Gate (Futures)": 0.0037,
    "OKX (Futures)": 0.01,
    "Bitget Futures": 0.01,
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 290824341
+  "미결제약정 합계 USD(상위)": 292360440
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 86.21,
+  "CoinGecko 이용자 투표 상승(%)": 89.66,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "PENGU",
+   "CARDS",
+   "ZEC",
    "PEARL",
    "TRUMP",
-   "ZEC",
+   "LIT",
+   "PENGU",
+   "TAO",
+   "ZAMA",
+   "BTC",
    "NEAR",
    "AERO",
-   "STONK",
-   "CLANKER",
-   "SOL",
-   "PI",
-   "ONDO",
-   "XMR",
-   "WLFI",
-   "ALGO"
+   "HYPE",
+   "QNT",
+   "PUMP",
+   "KNTQ"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -1119,19 +1119,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 358,
- "시가총액(USD)": 68314236,
- "완전희석가치 FDV(USD)": 68314236,
- "24시간 거래대금(USD)": 17489675,
- "유통량": 1200887.31715173,
- "총발행량": 1200887.31715173,
+ "시가총액 순위": 359,
+ "시가총액(USD)": 68237263,
+ "완전희석가치 FDV(USD)": 68237263,
+ "24시간 거래대금(USD)": 17977075,
+ "유통량": 1208750.34880486,
+ "총발행량": 1208750.34880486,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 130.12,
- "역대 최고가 대비(%)": -56.28228,
+ "역대 최고가 대비(%)": -56.61561,
  "가격 변화(%)": {
-  "7d": -38.50081,
-  "30d": -51.00225,
+  "7d": -39.11322,
+  "30d": -51.51882,
   "1y": null
  },
  "소개": ""
@@ -1146,13 +1146,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Zcash is about to freeze $16 million in its oldest privacy pool",
+   "요약": "About 12,200 ZEC remains in Sprout, the privacy pool Zcash launched in 2016. Roughly 10,000 coins have left over the past week, but only about 40 moved out Wednesday.",
+   "시각(UTC)": "11-05 05:47"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "The pile of lawsuits against Kalshi just grew by one",
    "요약": "Arkansas has accused the prediction market of running illegal gambling, joining Utah and several other U.S. states that have filed criminal or civil charges.",
    "시각(UTC)": "11-05 05:28"
   },
   {
    "출처": "CoinDesk",
-   "제목": "XRP Ledger closes bug that let approved token burners create new tokens",
+   "제목": "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens",
    "요약": "The fix went live Wednesday after validator support reset the activation clock in October. XRP itself was unaffected.",
    "시각(UTC)": "11-05 05:25"
   },
@@ -1185,12 +1191,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
    "요약": "The industry's primary campaign arm had cultivated a reputation as an unstoppable force, but more than a third of its spending failed to hit the mark, especially in Ohio.",
    "시각(UTC)": "11-04 20:29"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
-   "요약": "Industry experts warn the Clarity Act is likely dead in its current form as incoming Democratic majorities eye tighter scrutiny of crypto markets and tokenized stocks.",
-   "시각(UTC)": "11-04 16:11"
   }
  ]
 }
@@ -1221,21 +1221,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "PENGU",
+   "CARDS",
+   "ZEC",
    "PEARL",
    "TRUMP",
-   "ZEC",
+   "LIT",
+   "PENGU",
+   "TAO",
+   "ZAMA",
+   "BTC",
    "NEAR",
    "AERO",
-   "STONK",
-   "CLANKER",
-   "SOL",
-   "PI",
-   "ONDO",
-   "XMR",
-   "WLFI",
-   "ALGO"
+   "HYPE",
+   "QNT",
+   "PUMP",
+   "KNTQ"
   ],
   "INTCB가 인기 검색에 있음": false
  }

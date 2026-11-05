@@ -16,8 +16,8 @@ run_at,coin,decision,confidence,TARO,DIANA,NOVA,VIBE,winner,entry,exit,ret_24h,a
 2026-11-04T01:42:00Z,BMT,관망,4,긍정,중립,중립,중립,BEAR,0.02929,0.02976,1.60,True,True,True,True,True
 2026-11-04T01:42:00Z,PEPE,매수,4,긍정,중립,중립,중립,BULL,4.88e-06,4.97e-06,1.84,True,True,True,True,True
 2026-11-04T01:42:00Z,GOOGLB,관망,5,중립,중립,중립,중립,무승부,278.74,290.49,4.22,False,False,False,False,False
-2026-11-04T06:38:00Z,BTC,매도,4,부정,중립,중립,중립,BEAR,,,,,,,,
-2026-11-04T06:38:00Z,ETH,매도,4,부정,중립,부정,부정,BEAR,,,,,,,,
-2026-11-04T06:38:00Z,BMT,관망,4,긍정,중립,중립,긍정,BEAR,,,,,,,,
-2026-11-04T06:38:00Z,PEPE,매수,4,긍정,중립,중립,중립,BULL,,,,,,,,
-2026-11-04T06:38:00Z,GOOGLB,관망,4,중립,중립,중립,중립,무승부,,,,,,,,
+2026-11-04T06:38:00Z,BTC,매도,4,부정,중립,중립,중립,BEAR,77748.1,80400,3.41,False,False,False,False,False
+2026-11-04T06:38:00Z,ETH,매도,4,부정,중립,부정,부정,BEAR,2293.06,2419,5.49,False,False,False,False,False
+2026-11-04T06:38:00Z,BMT,관망,4,긍정,중립,중립,긍정,BEAR,0.03004,0.02745,-8.62,False,False,False,False,False
+2026-11-04T06:38:00Z,PEPE,매수,4,긍정,중립,중립,중립,BULL,4.95e-06,4.95e-06,0.00,False,False,True,True,True
+2026-11-04T06:38:00Z,GOOGLB,관망,4,중립,중립,중립,중립,무승부,277.71,287.97,3.69,False,False,False,False,False
