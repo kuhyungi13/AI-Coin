@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-05 21:34 KST)
+# TF팀 회의 자료 (2026-11-05 22:53 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -7,7 +7,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 **지금까지 승률** ACE 40.9% (9/22), 채점 대기 0개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,013.80 USDT (+0.14%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,009.62 USDT (+0.10%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: BMT, PEPE · 과매도 반등: INTCB
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1607767926380,
- "완전희석가치 FDV(USD)": 1607767926380,
- "24시간 거래대금(USD)": 34794389729,
+ "시가총액(USD)": 1604043950928,
+ "완전희석가치 FDV(USD)": 1604043950928,
+ "24시간 거래대금(USD)": 35506712320,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -36.59926,
+ "역대 최고가 대비(%)": -36.71807,
  "가격 변화(%)": {
-  "7d": -0.18966,
-  "30d": -7.31399,
-  "1y": -21.66451
+  "7d": -0.23233,
+  "30d": -7.41695,
+  "1y": -22.26451
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4268867723
+  "TVL(USD)": 4263171762
  }
 }
 ```
@@ -126,6 +126,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+   "요약": "A $19 billion data-center agreement includes an unusual provision allowing Google to acquire part of the project if Anthropic fails to pay its rent.",
+   "시각(UTC)": "11-05 13:29"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin is resilient, but leverage is missing and demand still tepid",
@@ -152,7 +158,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin steady around $80,000 as markets cool following yesterday's rally",
+   "제목": "Live updates: Bitcoin edges lower as markets cool following yesterday's rally",
    "요약": "There's been no letup in selling of the AI chip stocks, sending Nasdaq 100 futures nearly 1% lower.",
    "시각(UTC)": "11-05 10:57"
   },
@@ -193,12 +199,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-04 14:00"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot",
-   "요약": "North Korea’s TraderTraitor is routing Binance hack proceeds through THORChain, swapping ether for bitcoin after an earlier wave of conversions from Tron.",
-   "시각(UTC)": "11-04 12:49"
-  },
-  {
    "출처": "Cointelegraph",
    "제목": "Bitcoin win rate vs. S&P 500 recovers as post-midterm history favors stocks",
    "요약": "Bitcoin outperformed the S&P 500 in half of the past 90 US trading sessions, while historical midterm data highlights gains for stocks.",
@@ -218,6 +218,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance cuts SignalPlus access after security warning, urges users to check accounts",
+   "요약": "The exchange says its systems are unaffected but has removed trading connections to the third-party platform as a precaution.",
+   "시각(UTC)": "11-05 12:55"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ukraine’s central bank opposes crypto bill, citing monetary sovereignty concerns",
+   "요약": "Ukraine’s central bank won’t back a crypto legalization bill in its current form and wants lawmakers to revise it before a final vote.",
+   "시각(UTC)": "11-05 12:50"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
@@ -253,18 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
    "요약": "Wall Street's push to bring finance onto blockchain rails may continue under existing laws, though the SEC and CFTC face tougher oversight and questions over how long their rules will last, experts said.",
    "시각(UTC)": "11-04 22:55"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead",
-   "요약": "The asset manager says global demand and institutional adoption will sustain the industry despite a political setback, while BlackRock sees little impact on its crypto business.",
-   "시각(UTC)": "11-04 22:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
-   "요약": "The industry's primary campaign arm had cultivated a reputation as an unstoppable force, but more than a third of its spending failed to hit the mark, especially in Ohio.",
-   "시각(UTC)": "11-04 20:29"
   }
  ]
 }
@@ -296,29 +296,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Tapbit (Futures)": 0.01,
    "WEEX (Futures)": 0.0
   },
-  "미결제약정 합계 USD(상위)": 30179659577
+  "미결제약정 합계 USD(상위)": 29505524244
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 79.1,
+  "CoinGecko 이용자 투표 상승(%)": 78.98,
   "CoinGecko 인기 검색 코인": [
-   "PEARL",
    "TRUMP",
+   "PEARL",
+   "SOL",
    "CARDS",
-   "KNTQ",
    "PENGU",
-   "INJ",
-   "BTC",
    "ETH",
-   "CCD",
+   "DOT",
+   "BTC",
    "HYPE",
+   "INJ",
    "AERO",
-   "NEAR",
-   "XTZ",
-   "MON",
-   "QTC"
+   "SUI",
+   "PI",
+   "PUMP",
+   "LIT"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 294059462489,
- "완전희석가치 FDV(USD)": 294059462489,
- "24시간 거래대금(USD)": 14861828831,
+ "시가총액(USD)": 291988202370,
+ "완전희석가치 FDV(USD)": 291988202370,
+ "24시간 거래대금(USD)": 15261203395,
  "유통량": 122192071.85523713,
  "총발행량": 122192071.85523713,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -51.3916,
+ "역대 최고가 대비(%)": -51.68698,
  "가격 변화(%)": {
-  "7d": 3.49379,
-  "30d": -11.42198,
-  "1y": -27.59993
+  "7d": 2.9799,
+  "30d": -11.97406,
+  "1y": -28.51767
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 45739456407
+  "TVL(USD)": 45651414034
  }
 }
 ```
@@ -447,12 +447,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-05 05:13"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot",
-   "요약": "North Korea’s TraderTraitor is routing Binance hack proceeds through THORChain, swapping ether for bitcoin after an earlier wave of conversions from Tron.",
-   "시각(UTC)": "11-04 12:49"
-  },
-  {
    "출처": "Cointelegraph",
    "제목": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
    "요약": "Fidelity led Bitcoin ETF inflows, while BlackRock’s IBIT shed another $201 million, extending its outflow streak to four trading sessions.",
@@ -465,25 +459,31 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-04 19:15"
   },
   {
-   "출처": "Cointelegraph",
-   "제목": "Ethereum dev targets 2028 for quantum resistance, a year early",
-   "요약": "Ethereum researcher Justin Drake said it is their “hope” that Ethereum will achieve its post-quantum and post-AI transition by December 2028.",
-   "시각(UTC)": "11-04 05:46"
-  },
-  {
    "출처": "Decrypt",
    "제목": "Ethereum Privacy Network Aztec Rolls Out Major Security and Speed Upgrade",
    "요약": "The “Tierra” upgrade resolves a critical bug from the prior version, adds formal verification, and an AI-powered testing harness.",
    "시각(UTC)": "11-03 14:01"
-  },
-  {
-   "출처": "Decrypt",
-   "제목": "Morning Minute: Tom Lee Calls the Binance Hack Bullish for Ethereum",
-   "요약": "Meanwhile, both the BTC ETFs and ETH ETFs bleed outflows in the Binance hack aftermath, dragging down prices.",
-   "시각(UTC)": "11-03 13:11"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+   "요약": "A $19 billion data-center agreement includes an unusual provision allowing Google to acquire part of the project if Anthropic fails to pay its rent.",
+   "시각(UTC)": "11-05 13:29"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance cuts SignalPlus access after security warning, urges users to check accounts",
+   "요약": "The exchange says its systems are unaffected but has removed trading connections to the third-party platform as a precaution.",
+   "시각(UTC)": "11-05 12:55"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ukraine’s central bank opposes crypto bill, citing monetary sovereignty concerns",
+   "요약": "Ukraine’s central bank won’t back a crypto legalization bill in its current form and wants lawmakers to revise it before a final vote.",
+   "시각(UTC)": "11-05 12:50"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin is resilient, but leverage is missing and demand still tepid",
@@ -510,27 +510,9 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin steady around $80,000 as markets cool following yesterday's rally",
+   "제목": "Live updates: Bitcoin edges lower as markets cool following yesterday's rally",
    "요약": "There's been no letup in selling of the AI chip stocks, sending Nasdaq 100 futures nearly 1% lower.",
    "시각(UTC)": "11-05 10:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds",
-   "요약": "The same attacker took about $391,000, mostly from wallets Bitquery ties to BitMart, whose founder confirmed a Nov. 2 hack and suspects a link.",
-   "시각(UTC)": "11-05 10:44"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal",
-   "요약": "Riot has sold most of its bitcoin to fund its move into data centers. Its latest agreement gives Anthropic a way to finance part of the build and collect interest through rent deductions.",
-   "시각(UTC)": "11-05 09:36"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
-   "요약": "Crypto firms must collect customer and transaction data from 2027, with Hong Kong sharing the information with overseas tax authorities from 2028.",
-   "시각(UTC)": "11-05 08:35"
   }
  ]
 }
@@ -561,29 +543,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MEXC (Futures)": 0.01,
    "CoinW (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 19289076717
+  "미결제약정 합계 USD(상위)": 19278106410
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 86.57,
+  "CoinGecko 이용자 투표 상승(%)": 86.36,
   "CoinGecko 인기 검색 코인": [
-   "PEARL",
    "TRUMP",
+   "PEARL",
+   "SOL",
    "CARDS",
-   "KNTQ",
    "PENGU",
-   "INJ",
-   "BTC",
    "ETH",
-   "CCD",
+   "DOT",
+   "BTC",
    "HYPE",
+   "INJ",
    "AERO",
-   "NEAR",
-   "XTZ",
-   "MON",
-   "QTC"
+   "SUI",
+   "PI",
+   "PUMP",
+   "LIT"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -677,20 +659,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Binance HODLer Airdrops",
   "Binance Wallet IDO"
  ],
- "시가총액 순위": 860,
- "시가총액(USD)": 19642488,
- "완전희석가치 FDV(USD)": 25783831,
- "24시간 거래대금(USD)": 48153078,
+ "시가총액 순위": 840,
+ "시가총액(USD)": 20106141,
+ "완전희석가치 FDV(USD)": 26392447,
+ "24시간 거래대금(USD)": 43528936,
  "유통량": 761814186.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 76.2,
  "역대 최고가(USD)": 0.317341,
- "역대 최고가 대비(%)": -91.88074,
+ "역대 최고가 대비(%)": -91.68324,
  "가격 변화(%)": {
-  "7d": -1.7025,
-  "30d": 28.9432,
-  "1y": -19.1362
+  "7d": 0.26421,
+  "30d": 33.86145,
+  "1y": -17.27008
  },
  "소개": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient —allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding ma"
 }
@@ -702,6 +684,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "BMT 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+   "요약": "A $19 billion data-center agreement includes an unusual provision allowing Google to acquire part of the project if Anthropic fails to pay its rent.",
+   "시각(UTC)": "11-05 13:29"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance cuts SignalPlus access after security warning, urges users to check accounts",
+   "요약": "The exchange says its systems are unaffected but has removed trading connections to the third-party platform as a precaution.",
+   "시각(UTC)": "11-05 12:55"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ukraine’s central bank opposes crypto bill, citing monetary sovereignty concerns",
+   "요약": "Ukraine’s central bank won’t back a crypto legalization bill in its current form and wants lawmakers to revise it before a final vote.",
+   "시각(UTC)": "11-05 12:50"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin is resilient, but leverage is missing and demand still tepid",
@@ -728,27 +728,9 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin steady around $80,000 as markets cool following yesterday's rally",
+   "제목": "Live updates: Bitcoin edges lower as markets cool following yesterday's rally",
    "요약": "There's been no letup in selling of the AI chip stocks, sending Nasdaq 100 futures nearly 1% lower.",
    "시각(UTC)": "11-05 10:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds",
-   "요약": "The same attacker took about $391,000, mostly from wallets Bitquery ties to BitMart, whose founder confirmed a Nov. 2 hack and suspects a link.",
-   "시각(UTC)": "11-05 10:44"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal",
-   "요약": "Riot has sold most of its bitcoin to fund its move into data centers. Its latest agreement gives Anthropic a way to finance part of the build and collect interest through rent deductions.",
-   "시각(UTC)": "11-05 09:36"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
-   "요약": "Crypto firms must collect customer and transaction data from 2027, with Hong Kong sharing the information with overseas tax authorities from 2028.",
-   "시각(UTC)": "11-05 08:35"
   }
  ]
 }
@@ -773,14 +755,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.1372,
-   "Bybit (Futures)": -0.238,
-   "Toobit Futures": -0.1372,
-   "Ourbit (Futures)": -0.1368,
-   "KCEX (Futures)": -0.1368,
-   "Gate (Futures)": -0.2169
+   "Binance (Futures)": -0.1822,
+   "Bybit (Futures)": -0.1559,
+   "Toobit Futures": -0.1822,
+   "Ourbit (Futures)": -0.1822,
+   "KCEX (Futures)": -0.1822,
+   "Gate (Futures)": -0.1713
   },
-  "미결제약정 합계 USD(상위)": 14953456
+  "미결제약정 합계 USD(상위)": 14511658
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -788,21 +770,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 33.33,
   "CoinGecko 인기 검색 코인": [
-   "PEARL",
    "TRUMP",
+   "PEARL",
+   "SOL",
    "CARDS",
-   "KNTQ",
    "PENGU",
-   "INJ",
-   "BTC",
    "ETH",
-   "CCD",
+   "DOT",
+   "BTC",
    "HYPE",
+   "INJ",
    "AERO",
-   "NEAR",
-   "XTZ",
-   "MON",
-   "QTC"
+   "SUI",
+   "PI",
+   "PUMP",
+   "LIT"
   ],
   "BMT가 인기 검색에 있음": false
  }
@@ -894,19 +876,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2064997200,
- "완전희석가치 FDV(USD)": 2064997200,
- "24시간 거래대금(USD)": 474681372,
+ "시가총액(USD)": 2066940293,
+ "완전희석가치 FDV(USD)": 2066940293,
+ "24시간 거래대금(USD)": 475583629,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.5286,
+ "역대 최고가 대비(%)": -82.47045,
  "가격 변화(%)": {
-  "7d": -0.3342,
-  "30d": 12.27139,
-  "1y": -13.2426
+  "7d": 0.49509,
+  "30d": 12.98134,
+  "1y": -13.39087
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -918,6 +900,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+   "요약": "A $19 billion data-center agreement includes an unusual provision allowing Google to acquire part of the project if Anthropic fails to pay its rent.",
+   "시각(UTC)": "11-05 13:29"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance cuts SignalPlus access after security warning, urges users to check accounts",
+   "요약": "The exchange says its systems are unaffected but has removed trading connections to the third-party platform as a precaution.",
+   "시각(UTC)": "11-05 12:55"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ukraine’s central bank opposes crypto bill, citing monetary sovereignty concerns",
+   "요약": "Ukraine’s central bank won’t back a crypto legalization bill in its current form and wants lawmakers to revise it before a final vote.",
+   "시각(UTC)": "11-05 12:50"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin is resilient, but leverage is missing and demand still tepid",
@@ -944,27 +944,9 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin steady around $80,000 as markets cool following yesterday's rally",
+   "제목": "Live updates: Bitcoin edges lower as markets cool following yesterday's rally",
    "요약": "There's been no letup in selling of the AI chip stocks, sending Nasdaq 100 futures nearly 1% lower.",
    "시각(UTC)": "11-05 10:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds",
-   "요약": "The same attacker took about $391,000, mostly from wallets Bitquery ties to BitMart, whose founder confirmed a Nov. 2 hack and suspects a link.",
-   "시각(UTC)": "11-05 10:44"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal",
-   "요약": "Riot has sold most of its bitcoin to fund its move into data centers. Its latest agreement gives Anthropic a way to finance part of the build and collect interest through rent deductions.",
-   "시각(UTC)": "11-05 09:36"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
-   "요약": "Crypto firms must collect customer and transaction data from 2027, with Hong Kong sharing the information with overseas tax authorities from 2028.",
-   "시각(UTC)": "11-05 08:35"
   }
  ]
 }
@@ -991,34 +973,34 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "거래소별 펀딩비(%)": {
    "MEXC (Futures)": 0.01,
    "Gate (Futures)": 0.01,
-   "OKX (Futures)": 0.01,
    "Bitget Futures": 0.01,
+   "OKX (Futures)": 0.01,
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 298292907
+  "미결제약정 합계 USD(상위)": 299531092
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 88.89,
+  "CoinGecko 이용자 투표 상승(%)": 87.5,
   "CoinGecko 인기 검색 코인": [
-   "PEARL",
    "TRUMP",
+   "PEARL",
+   "SOL",
    "CARDS",
-   "KNTQ",
    "PENGU",
-   "INJ",
-   "BTC",
    "ETH",
-   "CCD",
+   "DOT",
+   "BTC",
    "HYPE",
+   "INJ",
    "AERO",
-   "NEAR",
-   "XTZ",
-   "MON",
-   "QTC"
+   "SUI",
+   "PI",
+   "PUMP",
+   "LIT"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -1114,18 +1096,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "bStocks Ecosystem"
  ],
  "시가총액 순위": 352,
- "시가총액(USD)": 69407395,
- "완전희석가치 FDV(USD)": 69407395,
- "24시간 거래대금(USD)": 17635076,
- "유통량": 1219140.37262185,
- "총발행량": 1219140.37262185,
+ "시가총액(USD)": 69319217,
+ "완전희석가치 FDV(USD)": 69319217,
+ "24시간 거래대금(USD)": 16928475,
+ "유통량": 1220081.53142126,
+ "총발행량": 1220081.53142126,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 130.12,
- "역대 최고가 대비(%)": -56.24773,
+ "역대 최고가 대비(%)": -56.32655,
  "가격 변화(%)": {
-  "7d": -38.4071,
-  "30d": -51.42311,
+  "7d": -38.75075,
+  "30d": -51.41082,
   "1y": null
  },
  "소개": ""
@@ -1138,6 +1120,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INTCB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+   "요약": "A $19 billion data-center agreement includes an unusual provision allowing Google to acquire part of the project if Anthropic fails to pay its rent.",
+   "시각(UTC)": "11-05 13:29"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance cuts SignalPlus access after security warning, urges users to check accounts",
+   "요약": "The exchange says its systems are unaffected but has removed trading connections to the third-party platform as a precaution.",
+   "시각(UTC)": "11-05 12:55"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ukraine’s central bank opposes crypto bill, citing monetary sovereignty concerns",
+   "요약": "Ukraine’s central bank won’t back a crypto legalization bill in its current form and wants lawmakers to revise it before a final vote.",
+   "시각(UTC)": "11-05 12:50"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin is resilient, but leverage is missing and demand still tepid",
@@ -1164,27 +1164,9 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin steady around $80,000 as markets cool following yesterday's rally",
+   "제목": "Live updates: Bitcoin edges lower as markets cool following yesterday's rally",
    "요약": "There's been no letup in selling of the AI chip stocks, sending Nasdaq 100 futures nearly 1% lower.",
    "시각(UTC)": "11-05 10:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds",
-   "요약": "The same attacker took about $391,000, mostly from wallets Bitquery ties to BitMart, whose founder confirmed a Nov. 2 hack and suspects a link.",
-   "시각(UTC)": "11-05 10:44"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal",
-   "요약": "Riot has sold most of its bitcoin to fund its move into data centers. Its latest agreement gives Anthropic a way to finance part of the build and collect interest through rent deductions.",
-   "시각(UTC)": "11-05 09:36"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
-   "요약": "Crypto firms must collect customer and transaction data from 2027, with Hong Kong sharing the information with overseas tax authorities from 2028.",
-   "시각(UTC)": "11-05 08:35"
   }
  ]
 }
@@ -1215,21 +1197,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
-   "PEARL",
    "TRUMP",
+   "PEARL",
+   "SOL",
    "CARDS",
-   "KNTQ",
    "PENGU",
-   "INJ",
-   "BTC",
    "ETH",
-   "CCD",
+   "DOT",
+   "BTC",
    "HYPE",
+   "INJ",
    "AERO",
-   "NEAR",
-   "XTZ",
-   "MON",
-   "QTC"
+   "SUI",
+   "PI",
+   "PUMP",
+   "LIT"
   ],
   "INTCB가 인기 검색에 있음": false
  }
