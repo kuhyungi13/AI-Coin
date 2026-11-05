@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-05 10:50 KST)
+# TF팀 회의 자료 (2026-11-05 12:29 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -7,7 +7,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 **지금까지 승률** ACE 52.9% (9/17), 채점 대기 5개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,014.63 USDT (+0.15%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,023.82 USDT (+0.24%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: BMT, PEPE · 과매도 반등: INTCB
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1622669141051,
- "완전희석가치 FDV(USD)": 1622669141051,
- "24시간 거래대금(USD)": 39934313069,
+ "시가총액(USD)": 1621267826994,
+ "완전희석가치 FDV(USD)": 1621267826994,
+ "24시간 거래대금(USD)": 37776627806,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -35.99296,
+ "역대 최고가 대비(%)": -36.04169,
  "가격 변화(%)": {
-  "7d": -0.40351,
-  "30d": -6.06507,
-  "1y": -19.52523
+  "7d": 0.94292,
+  "30d": -5.71241,
+  "1y": -20.6361
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4270909659
+  "TVL(USD)": 4283135317
  }
 }
 ```
@@ -289,36 +289,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0038,
-   "Bybit (Futures)": 0.0058,
-   "Gate (Futures)": 0.01,
-   "MEXC (Futures)": 0.0038,
+   "Binance (Futures)": 0.0068,
+   "Bybit (Futures)": 0.0092,
+   "Gate (Futures)": 0.0099,
+   "MEXC (Futures)": 0.0062,
    "WEEX (Futures)": 0.0001,
-   "Tapbit (Futures)": 0.0038
+   "Tapbit (Futures)": 0.0066
   },
-  "미결제약정 합계 USD(상위)": 29767531365
+  "미결제약정 합계 USD(상위)": 29765489252
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 73.85,
+  "CoinGecko 이용자 투표 상승(%)": 76.44,
   "CoinGecko 인기 검색 코인": [
-   "TRUMP",
    "PENGU",
+   "TRUMP",
    "BTC",
-   "MON",
+   "LINK",
    "NEAR",
-   "VVV",
+   "ENA",
+   "HYPE",
+   "DASH",
+   "JUP",
+   "ICP",
+   "LIT",
    "SOL",
-   "PEPE",
-   "XRP",
-   "QTC",
-   "PUMP",
-   "ELSA",
-   "AIN",
-   "RUNE",
-   "FORM"
+   "ZEC",
+   "ETH",
+   "PEPE"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 296452802198,
- "완전희석가치 FDV(USD)": 296452802198,
- "24시간 거래대금(USD)": 17034070635,
- "유통량": 122189135.08807562,
- "총발행량": 122189135.08807562,
+ "시가총액(USD)": 296846830602,
+ "완전희석가치 FDV(USD)": 296846830602,
+ "24시간 거래대금(USD)": 16564564002,
+ "유통량": 122192071.85523713,
+ "총발행량": 122192071.85523713,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -50.95422,
+ "역대 최고가 대비(%)": -50.88306,
  "가격 변화(%)": {
-  "7d": 3.12878,
-  "30d": -10.75252,
-  "1y": -24.7592
+  "7d": 5.21081,
+  "30d": -10.09292,
+  "1y": -26.87733
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 45943556033
+  "TVL(USD)": 45887545103
  }
 }
 ```
@@ -555,37 +555,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.006,
+   "Binance (Futures)": 0.0077,
    "WEEX (Futures)": 0.0001,
    "Hyperliquid (Futures)": 0.0013,
-   "MEXC (Futures)": -0.0019,
-   "Toobit Futures": -0.002
+   "MEXC (Futures)": 0.0013,
+   "Bybit (Futures)": 0.0047
   },
-  "미결제약정 합계 USD(상위)": 18913426277
+  "미결제약정 합계 USD(상위)": 18898394995
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 89.83,
+  "CoinGecko 이용자 투표 상승(%)": 90.16,
   "CoinGecko 인기 검색 코인": [
-   "TRUMP",
    "PENGU",
+   "TRUMP",
    "BTC",
-   "MON",
+   "LINK",
    "NEAR",
-   "VVV",
+   "ENA",
+   "HYPE",
+   "DASH",
+   "JUP",
+   "ICP",
+   "LIT",
    "SOL",
-   "PEPE",
-   "XRP",
-   "QTC",
-   "PUMP",
-   "ELSA",
-   "AIN",
-   "RUNE",
-   "FORM"
+   "ZEC",
+   "ETH",
+   "PEPE"
   ],
-  "ETH가 인기 검색에 있음": false
+  "ETH가 인기 검색에 있음": true
  }
 }
 ```
@@ -677,20 +677,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Binance HODLer Airdrops",
   "Binance Wallet IDO"
  ],
- "시가총액 순위": 791,
- "시가총액(USD)": 22396703,
- "완전희석가치 FDV(USD)": 29424028,
- "24시간 거래대금(USD)": 86388823,
+ "시가총액 순위": 837,
+ "시가총액(USD)": 20596883,
+ "완전희석가치 FDV(USD)": 27059486,
+ "24시간 거래대금(USD)": 76450803,
  "유통량": 761170523.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 76.1,
  "역대 최고가(USD)": 0.317341,
- "역대 최고가 대비(%)": -90.73881,
+ "역대 최고가 대비(%)": -91.47305,
  "가격 변화(%)": {
-  "7d": 6.25335,
-  "30d": 51.76918,
-  "1y": -4.75292
+  "7d": -1.87416,
+  "30d": 41.43635,
+  "1y": -14.0027
  },
  "소개": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient —allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding ma"
 }
@@ -773,14 +773,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.914,
-   "Toobit Futures": -0.914,
-   "Bybit (Futures)": -1.5009,
-   "Ourbit (Futures)": -0.914,
-   "Gate (Futures)": -1.1854,
-   "KCEX (Futures)": -0.914
+   "Binance (Futures)": -0.8475,
+   "Toobit Futures": -0.8475,
+   "Ourbit (Futures)": -0.8533,
+   "Bybit (Futures)": -0.7932,
+   "Gate (Futures)": -0.854,
+   "KCEX (Futures)": -0.8533
   },
-  "미결제약정 합계 USD(상위)": 22551049
+  "미결제약정 합계 USD(상위)": 20944701
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -788,21 +788,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 33.33,
   "CoinGecko 인기 검색 코인": [
-   "TRUMP",
    "PENGU",
+   "TRUMP",
    "BTC",
-   "MON",
+   "LINK",
    "NEAR",
-   "VVV",
+   "ENA",
+   "HYPE",
+   "DASH",
+   "JUP",
+   "ICP",
+   "LIT",
    "SOL",
-   "PEPE",
-   "XRP",
-   "QTC",
-   "PUMP",
-   "ELSA",
-   "AIN",
-   "RUNE",
-   "FORM"
+   "ZEC",
+   "ETH",
+   "PEPE"
   ],
   "BMT가 인기 검색에 있음": false
  }
@@ -894,19 +894,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2118357368,
- "완전희석가치 FDV(USD)": 2118357368,
- "24시간 거래대금(USD)": 560286997,
+ "시가총액(USD)": 2125446569,
+ "완전희석가치 FDV(USD)": 2125446569,
+ "24시간 거래대금(USD)": 559462026,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.03452,
+ "역대 최고가 대비(%)": -81.97426,
  "가격 변화(%)": {
-  "7d": -0.33497,
-  "30d": 15.23374,
-  "1y": -8.72058
+  "7d": 1.32914,
+  "30d": 17.92963,
+  "1y": -10.95251
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -990,35 +990,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "MEXC (Futures)": 0.01,
-   "Gate (Futures)": -0.011,
+   "Gate (Futures)": 0.0039,
    "OKX (Futures)": 0.01,
    "Bitget Futures": 0.01,
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 288083955
+  "미결제약정 합계 USD(상위)": 293708168
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 86.67,
+  "CoinGecko 이용자 투표 상승(%)": 87.1,
   "CoinGecko 인기 검색 코인": [
-   "TRUMP",
    "PENGU",
+   "TRUMP",
    "BTC",
-   "MON",
+   "LINK",
    "NEAR",
-   "VVV",
+   "ENA",
+   "HYPE",
+   "DASH",
+   "JUP",
+   "ICP",
+   "LIT",
    "SOL",
-   "PEPE",
-   "XRP",
-   "QTC",
-   "PUMP",
-   "ELSA",
-   "AIN",
-   "RUNE",
-   "FORM"
+   "ZEC",
+   "ETH",
+   "PEPE"
   ],
   "PEPE가 인기 검색에 있음": true
  }
@@ -1113,19 +1113,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 304,
- "시가총액(USD)": 85747029,
- "완전희석가치 FDV(USD)": 85747029,
- "24시간 거래대금(USD)": 18299660,
- "유통량": 1489126.0091468801,
- "총발행량": 1489126.0091468801,
+ "시가총액 순위": 303,
+ "시가총액(USD)": 85815116,
+ "완전희석가치 FDV(USD)": 85815116,
+ "24시간 거래대금(USD)": 17400783,
+ "유통량": 1490382.84470443,
+ "총발행량": 1490382.84470443,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 130.12,
- "역대 최고가 대비(%)": -55.74767,
+ "역대 최고가 대비(%)": -55.73294,
  "가격 변화(%)": {
-  "7d": -38.12564,
-  "30d": -50.68236,
+  "7d": -37.22657,
+  "30d": -50.34241,
   "1y": null
  },
  "소개": ""
@@ -1215,21 +1215,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
-   "TRUMP",
    "PENGU",
+   "TRUMP",
    "BTC",
-   "MON",
+   "LINK",
    "NEAR",
-   "VVV",
+   "ENA",
+   "HYPE",
+   "DASH",
+   "JUP",
+   "ICP",
+   "LIT",
    "SOL",
-   "PEPE",
-   "XRP",
-   "QTC",
-   "PUMP",
-   "ELSA",
-   "AIN",
-   "RUNE",
-   "FORM"
+   "ZEC",
+   "ETH",
+   "PEPE"
   ],
   "INTCB가 인기 검색에 있음": false
  }
