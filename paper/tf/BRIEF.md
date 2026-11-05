@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-06 06:24 KST)
+# TF팀 회의 자료 (2026-11-06 07:26 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1524615270151,
- "완전희석가치 FDV(USD)": 1524615270151,
- "24시간 거래대금(USD)": 41421120883,
+ "시가총액(USD)": 1526596067575,
+ "완전희석가치 FDV(USD)": 1526596067575,
+ "24시간 거래대금(USD)": 42056525894,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -39.85459,
+ "역대 최고가 대비(%)": -39.78072,
  "가격 변화(%)": {
-  "7d": -3.72282,
-  "30d": -11.42726,
-  "1y": -26.86412
+  "7d": -3.79669,
+  "30d": -11.30017,
+  "1y": -26.75964
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4042596601
+  "TVL(USD)": 4033302635
  }
 }
 ```
@@ -126,12 +126,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'",
-   "요약": "The post-election rally quickly reversed as AI stocks plunged, but cryptocurrencies held up relatively better despite a $1 billion liquidation wave.",
-   "시각(UTC)": "11-05 18:48"
-  },
   {
    "출처": "CoinDesk",
    "제목": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
@@ -170,7 +164,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin tumbles more than 5% as stocks close out worst day since April 2025",
+   "제목": "Live updates: Bitcoin drops more than 5% as stocks close out worst day since April 2025",
    "요약": "The continued blowup of the AI trade led markets lower, with Nvidia losing 9.3% and many other chip names down double-digit percentages.",
    "시각(UTC)": "11-05 10:57"
   },
@@ -215,6 +209,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin win rate vs. S&P 500 recovers as post-midterm history favors stocks",
    "요약": "Bitcoin outperformed the S&P 500 in half of the past 90 US trading sessions, while historical midterm data highlights gains for stocks.",
    "시각(UTC)": "11-05 10:28"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
+   "요약": "Fidelity led Bitcoin ETF inflows, while BlackRock’s IBIT shed another $201 million, extending its outflow streak to four trading sessions.",
+   "시각(UTC)": "11-05 08:22"
   }
  ],
  "시장 전반 기사": [
@@ -223,6 +223,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "U.S. Justice Department assembles force to shield against foreign AI threats",
    "요약": "The new DOJ task force will aid the recently designated U.S. \"SI Force\" by warding off bad actors backed by other nations, criminal groups or corporate fraud.",
    "시각(UTC)": "11-05 18:59"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+   "요약": "The post-election rally quickly reversed as AI stocks plunged, but cryptocurrencies held up relatively better despite a $1 billion liquidation wave.",
+   "시각(UTC)": "11-05 18:48"
   },
   {
    "출처": "CoinDesk",
@@ -259,12 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Ukraine’s central bank opposes crypto bill, citing monetary sovereignty concerns",
    "요약": "Ukraine’s central bank won’t back a crypto legalization bill in its current form and wants lawmakers to revise it before a final vote.",
    "시각(UTC)": "11-05 12:50"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
-   "요약": "Crypto firms must collect customer and transaction data from 2027, with Hong Kong sharing the information with overseas tax authorities from 2028.",
-   "시각(UTC)": "11-05 08:35"
   }
  ]
 }
@@ -296,29 +296,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "WEEX (Futures)": 0.0001,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 28772131863
+  "미결제약정 합계 USD(상위)": 28723099683
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 62.56,
+  "CoinGecko 이용자 투표 상승(%)": 62.69,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "SOL",
-   "NEAR",
-   "ZEC",
-   "ETH",
-   "CC",
-   "TRUMP",
-   "HYPE",
-   "KNTQ",
-   "VVV",
-   "LIT",
-   "ZRO",
-   "ADA",
    "PEARL",
-   "AERO"
+   "ETH",
+   "BTC",
+   "INJ",
+   "HYPE",
+   "SOL",
+   "ZEC",
+   "LIT",
+   "VVV",
+   "TRUMP",
+   "TAO",
+   "AERO",
+   "SUI",
+   "ONDO",
+   "MON"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 272398530061,
- "완전희석가치 FDV(USD)": 272398530061,
- "24시간 거래대금(USD)": 16076928853,
+ "시가총액(USD)": 273005904412,
+ "완전희석가치 FDV(USD)": 273005904412,
+ "24시간 거래대금(USD)": 16565383841,
  "유통량": 122192071.85523713,
  "총발행량": 122192071.85523713,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -54.92833,
+ "역대 최고가 대비(%)": -54.82419,
  "가격 변화(%)": {
-  "7d": -1.19226,
-  "30d": -17.38326,
-  "1y": -35.27594
+  "7d": -1.61911,
+  "30d": -17.17023,
+  "1y": -35.12618
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 43461992587
+  "TVL(USD)": 43383818541
  }
 }
 ```
@@ -480,7 +480,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'",
+   "제목": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
    "요약": "The post-election rally quickly reversed as AI stocks plunged, but cryptocurrencies held up relatively better despite a $1 billion liquidation wave.",
    "시각(UTC)": "11-05 18:48"
   },
@@ -543,35 +543,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.0026,
+   "Binance (Futures)": -0.0003,
    "WEEX (Futures)": 0.0001,
-   "CoinW (Futures)": 0.009,
-   "MEXC (Futures)": 0.0091,
+   "CoinW (Futures)": 0.01,
+   "MEXC (Futures)": 0.01,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 18610650270
+  "미결제약정 합계 USD(상위)": 18505340335
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 84.21,
+  "CoinGecko 이용자 투표 상승(%)": 82.76,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "SOL",
-   "NEAR",
-   "ZEC",
-   "ETH",
-   "CC",
-   "TRUMP",
-   "HYPE",
-   "KNTQ",
-   "VVV",
-   "LIT",
-   "ZRO",
-   "ADA",
    "PEARL",
-   "AERO"
+   "ETH",
+   "BTC",
+   "INJ",
+   "HYPE",
+   "SOL",
+   "ZEC",
+   "LIT",
+   "VVV",
+   "TRUMP",
+   "TAO",
+   "AERO",
+   "SUI",
+   "ONDO",
+   "MON"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -665,20 +665,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Binance HODLer Airdrops",
   "Binance Wallet IDO"
  ],
- "시가총액 순위": 853,
- "시가총액(USD)": 18859191,
- "완전희석가치 FDV(USD)": 24755631,
- "24시간 거래대금(USD)": 33079247,
+ "시가총액 순위": 845,
+ "시가총액(USD)": 19120389,
+ "완전희석가치 FDV(USD)": 25098494,
+ "24시간 거래대금(USD)": 33651834,
  "유통량": 761814186.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 76.2,
  "역대 최고가(USD)": 0.317341,
- "역대 최고가 대비(%)": -92.19904,
+ "역대 최고가 대비(%)": -92.09129,
  "가격 변화(%)": {
-  "7d": 0.7412,
-  "30d": 27.17973,
-  "1y": -24.70374
+  "7d": 2.51533,
+  "30d": 28.09048,
+  "1y": -25.42422
  },
  "소개": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient —allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding ma"
 }
@@ -698,7 +698,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'",
+   "제목": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
    "요약": "The post-election rally quickly reversed as AI stocks plunged, but cryptocurrencies held up relatively better despite a $1 billion liquidation wave.",
    "시각(UTC)": "11-05 18:48"
   },
@@ -761,14 +761,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.0621,
-   "Bybit (Futures)": 0.005,
-   "Toobit Futures": -0.0618,
-   "KCEX (Futures)": -0.0618,
-   "Ourbit (Futures)": -0.0618,
-   "Gate (Futures)": -0.0718
+   "Binance (Futures)": -0.0765,
+   "Bybit (Futures)": -0.0395,
+   "Toobit Futures": -0.0757,
+   "KCEX (Futures)": -0.0756,
+   "Gate (Futures)": -0.0844,
+   "Ourbit (Futures)": -0.0756
   },
-  "미결제약정 합계 USD(상위)": 11193501
+  "미결제약정 합계 USD(상위)": 11267809
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -776,21 +776,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 33.33,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "SOL",
-   "NEAR",
-   "ZEC",
-   "ETH",
-   "CC",
-   "TRUMP",
-   "HYPE",
-   "KNTQ",
-   "VVV",
-   "LIT",
-   "ZRO",
-   "ADA",
    "PEARL",
-   "AERO"
+   "ETH",
+   "BTC",
+   "INJ",
+   "HYPE",
+   "SOL",
+   "ZEC",
+   "LIT",
+   "VVV",
+   "TRUMP",
+   "TAO",
+   "AERO",
+   "SUI",
+   "ONDO",
+   "MON"
   ],
   "BMT가 인기 검색에 있음": false
  }
@@ -885,19 +885,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2017702764,
- "완전희석가치 FDV(USD)": 2017702764,
- "24시간 거래대금(USD)": 439897060,
+ "시가총액(USD)": 2019872726,
+ "완전희석가치 FDV(USD)": 2019872726,
+ "24시간 거래대금(USD)": 437815158,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.88803,
+ "역대 최고가 대비(%)": -82.89713,
  "가격 변화(%)": {
-  "7d": -2.38402,
-  "30d": 12.5789,
-  "1y": -16.76073
+  "7d": 2.78711,
+  "30d": 12.42524,
+  "1y": -16.84841
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -917,7 +917,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'",
+   "제목": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
    "요약": "The post-election rally quickly reversed as AI stocks plunged, but cryptocurrencies held up relatively better despite a $1 billion liquidation wave.",
    "시각(UTC)": "11-05 18:48"
   },
@@ -981,13 +981,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "MEXC (Futures)": 0.01,
-   "Gate (Futures)": -0.0022,
+   "Gate (Futures)": 0.0048,
    "Bitget Futures": 0.01,
-   "OKX (Futures)": 0.0055,
-   "KCEX (Futures)": 0.0053,
+   "OKX (Futures)": 0.01,
+   "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 290685773
+  "미결제약정 합계 USD(상위)": 290822163
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -995,21 +995,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 85.0,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "SOL",
-   "NEAR",
-   "ZEC",
-   "ETH",
-   "CC",
-   "TRUMP",
-   "HYPE",
-   "KNTQ",
-   "VVV",
-   "LIT",
-   "ZRO",
-   "ADA",
    "PEARL",
-   "AERO"
+   "ETH",
+   "BTC",
+   "INJ",
+   "HYPE",
+   "SOL",
+   "ZEC",
+   "LIT",
+   "VVV",
+   "TRUMP",
+   "TAO",
+   "AERO",
+   "SUI",
+   "ONDO",
+   "MON"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -1104,19 +1104,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 361,
- "시가총액(USD)": 64004395,
- "완전희석가치 FDV(USD)": 64004395,
- "24시간 거래대금(USD)": 16369256,
- "유통량": 1229346.1037398698,
- "총발행량": 1229346.1037398698,
+ "시가총액 순위": 362,
+ "시가총액(USD)": 63753442,
+ "완전희석가치 FDV(USD)": 63753442,
+ "24시간 거래대금(USD)": 16705065,
+ "유통량": 1230150.66655027,
+ "총발행량": 1230150.66655027,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 130.12,
- "역대 최고가 대비(%)": -59.98856,
+ "역대 최고가 대비(%)": -60.17151,
  "가격 변화(%)": {
-  "7d": -32.00664,
-  "30d": -53.84488,
+  "7d": -28.49379,
+  "30d": -54.14568,
   "1y": null
  },
  "소개": ""
@@ -1137,7 +1137,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full'",
+   "제목": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
    "요약": "The post-election rally quickly reversed as AI stocks plunged, but cryptocurrencies held up relatively better despite a $1 billion liquidation wave.",
    "시각(UTC)": "11-05 18:48"
   },
@@ -1206,21 +1206,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "SOL",
-   "NEAR",
-   "ZEC",
-   "ETH",
-   "CC",
-   "TRUMP",
-   "HYPE",
-   "KNTQ",
-   "VVV",
-   "LIT",
-   "ZRO",
-   "ADA",
    "PEARL",
-   "AERO"
+   "ETH",
+   "BTC",
+   "INJ",
+   "HYPE",
+   "SOL",
+   "ZEC",
+   "LIT",
+   "VVV",
+   "TRUMP",
+   "TAO",
+   "AERO",
+   "SUI",
+   "ONDO",
+   "MON"
   ],
   "INTCB가 인기 검색에 있음": false
  }
