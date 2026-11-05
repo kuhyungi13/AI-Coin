@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-05 18:39 KST)
+# TF팀 회의 자료 (2026-11-05 19:41 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -7,7 +7,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 **지금까지 승률** ACE 40.9% (9/22), 채점 대기 0개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,018.81 USDT (+0.19%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,015.47 USDT (+0.15%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: BMT, PEPE · 과매도 반등: INTCB
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1614161229361,
- "완전희석가치 FDV(USD)": 1614161229361,
- "24시간 거래대금(USD)": 34946406780,
+ "시가총액(USD)": 1614840487157,
+ "완전희석가치 FDV(USD)": 1614840487157,
+ "24시간 거래대금(USD)": 35545650908,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -36.31957,
+ "역대 최고가 대비(%)": -36.29524,
  "가격 변화(%)": {
-  "7d": 0.38749,
-  "30d": -6.649,
-  "1y": -21.07051
+  "7d": 0.25262,
+  "30d": -6.573,
+  "1y": -21.16779
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4275159548
+  "TVL(USD)": 4269759820
  }
 }
 ```
@@ -126,6 +126,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal",
+   "요약": "Riot has sold most of its bitcoin to fund its move into data centers. Its latest agreement gives Anthropic a way to finance part of the build and collect interest through rent deductions.",
+   "시각(UTC)": "11-05 09:36"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound",
@@ -163,10 +169,10 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-04 10:38"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin rises to $78,300 in V-shaped comeback as midterm election uncertainty fades",
-   "요약": "Crypto prices reversed overnight losses following the Blue Wave landslide for the Democratic Party.",
-   "시각(UTC)": "11-04 06:16"
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin win rate vs. S&P 500 recovers as post-midterm history favors stocks",
+   "요약": "Bitcoin outperformed the S&P 500 in half of the past 90 US trading sessions, while historical midterm data highlights gains for stocks.",
+   "시각(UTC)": "11-05 10:28"
   },
   {
    "출처": "Cointelegraph",
@@ -209,12 +215,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin hits $80.5K as US stocks rally on midterm election results",
    "요약": "Bitcoin climbed toward $80,500 as risk assets rallied on Democrats’ midterm election gains and oil prices fell.",
    "시각(UTC)": "11-04 15:29"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Bitcoin ETFs lose $1.16B as Bitwise calls selling ‘short-term’",
-   "요약": "Bitwise’s André Dragosch attributed Bitcoin ETF outflows to weaker market sentiment, saying institutions have largely maintained their exposure.",
-   "시각(UTC)": "11-04 09:38"
   }
  ],
  "시장 전반 기사": [
@@ -296,29 +296,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "WEEX (Futures)": 0.0,
    "Tapbit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 29841569076
+  "미결제약정 합계 USD(상위)": 29854080889
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 79.68,
+  "CoinGecko 이용자 투표 상승(%)": 79.44,
   "CoinGecko 인기 검색 코인": [
+   "PENGU",
+   "INJ",
    "TRUMP",
-   "PEARL",
+   "CARDS",
    "BTC",
    "ETH",
-   "INJ",
-   "MON",
-   "CARDS",
-   "FET",
-   "WLFI",
-   "QNT",
-   "LIT",
    "ZEC",
-   "ELSA",
+   "PEARL",
+   "SOL",
+   "HYPE",
+   "QTC",
+   "LIT",
+   "TAO",
    "AERO",
-   "PENGU"
+   "AKE"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 294951132920,
- "완전희석가치 FDV(USD)": 294951132920,
- "24시간 거래대금(USD)": 15063112474,
+ "시가총액(USD)": 295323394092,
+ "완전희석가치 FDV(USD)": 295323394092,
+ "24시간 거래대금(USD)": 15152006006,
  "유통량": 122192071.85523713,
  "총발행량": 122192071.85523713,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -51.19975,
+ "역대 최고가 대비(%)": -51.13513,
  "가격 변화(%)": {
-  "7d": 4.17874,
-  "30d": -11.12411,
-  "1y": -26.90025
+  "7d": 4.22873,
+  "30d": -10.80948,
+  "1y": -26.81657
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 45847780224
+  "TVL(USD)": 45801987272
  }
 }
 ```
@@ -471,12 +471,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-04 05:46"
   },
   {
-   "출처": "Cointelegraph",
-   "제목": "RUNE rallies 15% as THORChain restarts most swaps after halt",
-   "요약": "THORChain has restored trading on Bitcoin, Ethereum and several other networks following a refund bug, while three chains remain paused.",
-   "시각(UTC)": "11-03 23:56"
-  },
-  {
    "출처": "Decrypt",
    "제목": "Ethereum Privacy Network Aztec Rolls Out Major Security and Speed Upgrade",
    "요약": "The “Tierra” upgrade resolves a critical bug from the prior version, adds formal verification, and an AI-powered testing harness.",
@@ -490,6 +484,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal",
+   "요약": "Riot has sold most of its bitcoin to fund its move into data centers. Its latest agreement gives Anthropic a way to finance part of the build and collect interest through rent deductions.",
+   "시각(UTC)": "11-05 09:36"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
@@ -531,12 +531,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
    "요약": "Wall Street's push to bring finance onto blockchain rails may continue under existing laws, though the SEC and CFTC face tougher oversight and questions over how long their rules will last, experts said.",
    "시각(UTC)": "11-04 22:55"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead",
-   "요약": "The asset manager says global demand and institutional adoption will sustain the industry despite a political setback, while BlackRock sees little impact on its crypto business.",
-   "시각(UTC)": "11-04 22:51"
   }
  ]
 }
@@ -567,29 +561,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MEXC (Futures)": 0.01,
    "CoinW (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 19167455795
+  "미결제약정 합계 USD(상위)": 19277539958
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 87.5,
+  "CoinGecko 이용자 투표 상승(%)": 88.06,
   "CoinGecko 인기 검색 코인": [
+   "PENGU",
+   "INJ",
    "TRUMP",
-   "PEARL",
+   "CARDS",
    "BTC",
    "ETH",
-   "INJ",
-   "MON",
-   "CARDS",
-   "FET",
-   "WLFI",
-   "QNT",
-   "LIT",
    "ZEC",
-   "ELSA",
+   "PEARL",
+   "SOL",
+   "HYPE",
+   "QTC",
+   "LIT",
+   "TAO",
    "AERO",
-   "PENGU"
+   "AKE"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -684,19 +678,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Binance Wallet IDO"
  ],
  "시가총액 순위": 855,
- "시가총액(USD)": 19834313,
- "완전희석가치 FDV(USD)": 26057648,
- "24시간 거래대금(USD)": 57500935,
+ "시가총액(USD)": 19781646,
+ "완전희석가치 FDV(USD)": 25988455,
+ "24시간 거래대금(USD)": 51777950,
  "유통량": 761170523.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 76.1,
  "역대 최고가(USD)": 0.317341,
- "역대 최고가 대비(%)": -91.78963,
+ "역대 최고가 대비(%)": -91.81055,
  "가격 변화(%)": {
-  "7d": -1.05285,
-  "30d": 32.8607,
-  "1y": -17.18417
+  "7d": -1.89789,
+  "30d": 33.30981,
+  "1y": -17.73753
  },
  "소개": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient —allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding ma"
 }
@@ -708,6 +702,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "BMT 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal",
+   "요약": "Riot has sold most of its bitcoin to fund its move into data centers. Its latest agreement gives Anthropic a way to finance part of the build and collect interest through rent deductions.",
+   "시각(UTC)": "11-05 09:36"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
@@ -749,12 +749,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
    "요약": "A wallet supposedly linked to Trump Media has made a large BTC transfer to Crypto.com, data tracked by Arkham show.",
    "시각(UTC)": "11-05 04:11"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
-   "요약": "Wall Street's push to bring finance onto blockchain rails may continue under existing laws, though the SEC and CFTC face tougher oversight and questions over how long their rules will last, experts said.",
-   "시각(UTC)": "11-04 22:55"
   }
  ]
 }
@@ -779,14 +773,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.2135,
-   "Bybit (Futures)": -0.1142,
-   "Toobit Futures": -0.2135,
-   "Ourbit (Futures)": -0.214,
-   "KCEX (Futures)": -0.214,
-   "Gate (Futures)": -0.2146
+   "Binance (Futures)": -0.1831,
+   "Bybit (Futures)": -0.1171,
+   "Toobit Futures": -0.184,
+   "Ourbit (Futures)": -0.184,
+   "KCEX (Futures)": -0.184,
+   "Gate (Futures)": -0.1812
   },
-  "미결제약정 합계 USD(상위)": 15740507
+  "미결제약정 합계 USD(상위)": 15180123
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -794,21 +788,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 33.33,
   "CoinGecko 인기 검색 코인": [
+   "PENGU",
+   "INJ",
    "TRUMP",
-   "PEARL",
+   "CARDS",
    "BTC",
    "ETH",
-   "INJ",
-   "MON",
-   "CARDS",
-   "FET",
-   "WLFI",
-   "QNT",
-   "LIT",
    "ZEC",
-   "ELSA",
+   "PEARL",
+   "SOL",
+   "HYPE",
+   "QTC",
+   "LIT",
+   "TAO",
    "AERO",
-   "PENGU"
+   "AKE"
   ],
   "BMT가 인기 검색에 있음": false
  }
@@ -900,19 +894,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2107594943,
- "완전희석가치 FDV(USD)": 2107594943,
- "24시간 거래대금(USD)": 491464436,
+ "시가총액(USD)": 2086816104,
+ "완전희석가치 FDV(USD)": 2086816104,
+ "24시간 거래대금(USD)": 485388309,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.12388,
+ "역대 최고가 대비(%)": -82.30188,
  "가격 변화(%)": {
-  "7d": 0.13371,
-  "30d": 15.24573,
-  "1y": -10.06674
+  "7d": -0.01862,
+  "30d": 14.41497,
+  "1y": -11.46313
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -924,6 +918,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal",
+   "요약": "Riot has sold most of its bitcoin to fund its move into data centers. Its latest agreement gives Anthropic a way to finance part of the build and collect interest through rent deductions.",
+   "시각(UTC)": "11-05 09:36"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
@@ -965,12 +965,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
    "요약": "A wallet supposedly linked to Trump Media has made a large BTC transfer to Crypto.com, data tracked by Arkham show.",
    "시각(UTC)": "11-05 04:11"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
-   "요약": "Wall Street's push to bring finance onto blockchain rails may continue under existing laws, though the SEC and CFTC face tougher oversight and questions over how long their rules will last, experts said.",
-   "시각(UTC)": "11-04 22:55"
   }
  ]
 }
@@ -1002,29 +996,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 297078574
+  "미결제약정 합계 USD(상위)": 298487469
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 89.66,
+  "CoinGecko 이용자 투표 상승(%)": 89.29,
   "CoinGecko 인기 검색 코인": [
+   "PENGU",
+   "INJ",
    "TRUMP",
-   "PEARL",
+   "CARDS",
    "BTC",
    "ETH",
-   "INJ",
-   "MON",
-   "CARDS",
-   "FET",
-   "WLFI",
-   "QNT",
-   "LIT",
    "ZEC",
-   "ELSA",
+   "PEARL",
+   "SOL",
+   "HYPE",
+   "QTC",
+   "LIT",
+   "TAO",
    "AERO",
-   "PENGU"
+   "AKE"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -1119,19 +1113,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 353,
- "시가총액(USD)": 69608455,
- "완전희석가치 FDV(USD)": 69608455,
- "24시간 거래대금(USD)": 17900342,
- "유통량": 1215722.94167526,
- "총발행량": 1215722.94167526,
+ "시가총액 순위": 352,
+ "시가총액(USD)": 69797622,
+ "완전희석가치 FDV(USD)": 69797622,
+ "24시간 거래대금(USD)": 17832737,
+ "유통량": 1217008.1624306699,
+ "총발행량": 1218916.09594961,
  "최대발행량": null,
- "유통 비율(%)": 100.0,
+ "유통 비율(%)": 99.8,
  "역대 최고가(USD)": 130.12,
- "역대 최고가 대비(%)": -55.99157,
+ "역대 최고가 대비(%)": -55.92576,
  "가격 변화(%)": {
-  "7d": -37.66105,
-  "30d": -50.61618,
+  "7d": -37.53109,
+  "30d": -50.76994,
   "1y": null
  },
  "소개": ""
@@ -1144,6 +1138,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INTCB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal",
+   "요약": "Riot has sold most of its bitcoin to fund its move into data centers. Its latest agreement gives Anthropic a way to finance part of the build and collect interest through rent deductions.",
+   "시각(UTC)": "11-05 09:36"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Hong Kong passes law requiring crypto exchanges to report customer transactions to tax authorities",
@@ -1185,12 +1185,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
    "요약": "A wallet supposedly linked to Trump Media has made a large BTC transfer to Crypto.com, data tracked by Arkham show.",
    "시각(UTC)": "11-05 04:11"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
-   "요약": "Wall Street's push to bring finance onto blockchain rails may continue under existing laws, though the SEC and CFTC face tougher oversight and questions over how long their rules will last, experts said.",
-   "시각(UTC)": "11-04 22:55"
   }
  ]
 }
@@ -1221,21 +1215,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
+   "PENGU",
+   "INJ",
    "TRUMP",
-   "PEARL",
+   "CARDS",
    "BTC",
    "ETH",
-   "INJ",
-   "MON",
-   "CARDS",
-   "FET",
-   "WLFI",
-   "QNT",
-   "LIT",
    "ZEC",
-   "ELSA",
+   "PEARL",
+   "SOL",
+   "HYPE",
+   "QTC",
+   "LIT",
+   "TAO",
    "AERO",
-   "PENGU"
+   "AKE"
   ],
   "INTCB가 인기 검색에 있음": false
  }
