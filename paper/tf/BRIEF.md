@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-06 09:18 KST)
+# TF팀 회의 자료 (2026-11-06 10:50 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -7,7 +7,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 **지금까지 승률** ACE 40.9% (9/22), 채점 대기 0개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,000.44 USDT (+0.00%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,006.28 USDT (+0.06%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: PEPE, INJ · 과매도 반등: INTCB
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1529747542115,
- "완전희석가치 FDV(USD)": 1529747542115,
- "24시간 거래대금(USD)": 43982098554,
+ "시가총액(USD)": 1529490389216,
+ "완전희석가치 FDV(USD)": 1529490389216,
+ "24시간 거래대금(USD)": 42712993932,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -39.62454,
+ "역대 최고가 대비(%)": -39.67009,
  "가격 변화(%)": {
-  "7d": -2.20648,
-  "30d": -11.01095,
-  "1y": -26.72112
+  "7d": -1.283,
+  "30d": -11.06435,
+  "1y": -26.58141
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4033276935
+  "TVL(USD)": 4029089047
  }
 }
 ```
@@ -126,6 +126,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
+   "요약": "Anyone trying to move vulnerable bitcoin would have to put up matching collateral, giving prepared owners a chance to take both.",
+   "시각(UTC)": "11-06 01:30"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
@@ -194,6 +200,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
+   "제목": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
+   "요약": "The former Bitcoin mining heavyweight plans to become a pure-play data center provider in 2027, with mining now accounting for just 7.5% of quarterly revenue.",
+   "시각(UTC)": "11-06 00:19"
+  },
+  {
+   "출처": "Cointelegraph",
    "제목": "Here’s what happened in crypto today",
    "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
    "시각(UTC)": "11-05 23:03"
@@ -203,18 +215,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "American Bitcoin’s $126M profit masks mining pressure as rivals turn to AI",
    "요약": "The Eric Trump-backed miner reported $126 million in quarterly net income, largely driven by gains on its Bitcoin holdings, despite rising mining costs and shrinking margins.",
    "시각(UTC)": "11-05 22:43"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Bitcoin crashes 6% to 7-week low as US stocks erase election gains",
-   "요약": "Bitcoin saw sudden downside at the Wall Street open as stocks witnessed a snap sell-off, reversing post-election gains.",
-   "시각(UTC)": "11-05 16:48"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Bitcoin win rate vs. S&P 500 recovers as post-midterm history favors stocks",
-   "요약": "Bitcoin outperformed the S&P 500 in half of the past 90 US trading sessions, while historical midterm data highlights gains for stocks.",
-   "시각(UTC)": "11-05 10:28"
   }
  ],
  "시장 전반 기사": [
@@ -289,36 +289,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.01,
-   "Bybit (Futures)": 0.0013,
-   "MEXC (Futures)": 0.01,
-   "Gate (Futures)": 0.0023,
+   "Binance (Futures)": 0.0081,
+   "Bybit (Futures)": 0.0005,
+   "MEXC (Futures)": 0.0077,
+   "Gate (Futures)": -0.0036,
    "WEEX (Futures)": 0.0001,
-   "Tapbit (Futures)": 0.01
+   "Tapbit (Futures)": 0.0078
   },
-  "미결제약정 합계 USD(상위)": 28616522776
+  "미결제약정 합계 USD(상위)": 28684243754
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 63.41,
+  "CoinGecko 이용자 투표 상승(%)": 62.12,
   "CoinGecko 인기 검색 코인": [
    "BTC",
    "NEAR",
-   "HYPE",
-   "DRV",
-   "PENGU",
-   "ETH",
    "LIT",
-   "AERO",
+   "ENA",
+   "ETH",
+   "VVV",
    "SOL",
-   "PEARL",
-   "LINK",
    "ZEC",
-   "PI",
+   "HYPE",
+   "PENGU",
+   "PUMP",
    "FET",
-   "HBAR"
+   "AERO",
+   "TAO",
+   "PEARL"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 273478925925,
- "완전희석가치 FDV(USD)": 273478925925,
- "24시간 거래대금(USD)": 17315353662,
+ "시가총액(USD)": 273426965378,
+ "완전희석가치 FDV(USD)": 273426965378,
+ "24시간 거래대금(USD)": 17385754961,
  "유통량": 122192071.85523713,
  "총발행량": 122192071.85523713,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -54.74957,
+ "역대 최고가 대비(%)": -54.76351,
  "가격 변화(%)": {
-  "7d": -0.50544,
-  "30d": -17.02025,
-  "1y": -34.67231
+  "7d": 0.9002,
+  "30d": -17.02711,
+  "1y": -34.31862
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 43205785009
+  "TVL(USD)": 43361274738
  }
 }
 ```
@@ -474,6 +474,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
+   "요약": "Anyone trying to move vulnerable bitcoin would have to put up matching collateral, giving prepared owners a chance to take both.",
+   "시각(UTC)": "11-06 01:30"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "U.S. Justice Department assembles force to shield against foreign AI threats",
    "요약": "The new DOJ task force will aid the recently designated U.S. \"SI Force\" by warding off bad actors backed by other nations, criminal groups or corporate fraud.",
    "시각(UTC)": "11-05 18:59"
@@ -513,12 +519,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
    "요약": "A $19 billion data-center agreement includes an unusual provision allowing Google to acquire part of the project if Anthropic fails to pay its rent.",
    "시각(UTC)": "11-05 13:29"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Binance cuts SignalPlus access after security warning, urges users to check accounts",
-   "요약": "The exchange says its systems are unaffected but has removed trading connections to the third-party platform as a precaution.",
-   "시각(UTC)": "11-05 12:55"
   }
  ]
 }
@@ -543,35 +543,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0057,
+   "Binance (Futures)": 0.0061,
    "WEEX (Futures)": 0.0001,
-   "CoinW (Futures)": 0.01,
-   "MEXC (Futures)": 0.01,
+   "CoinW (Futures)": 0.0086,
+   "MEXC (Futures)": 0.0089,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 18550346248
+  "미결제약정 합계 USD(상위)": 18605346929
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 80.7,
+  "CoinGecko 이용자 투표 상승(%)": 78.43,
   "CoinGecko 인기 검색 코인": [
    "BTC",
    "NEAR",
-   "HYPE",
-   "DRV",
-   "PENGU",
-   "ETH",
    "LIT",
-   "AERO",
+   "ENA",
+   "ETH",
+   "VVV",
    "SOL",
-   "PEARL",
-   "LINK",
    "ZEC",
-   "PI",
+   "HYPE",
+   "PENGU",
+   "PUMP",
    "FET",
-   "HBAR"
+   "AERO",
+   "TAO",
+   "PEARL"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -666,19 +666,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2023639518,
- "완전희석가치 FDV(USD)": 2023639518,
- "24시간 거래대금(USD)": 436230597,
+ "시가총액(USD)": 2060399966,
+ "완전희석가치 FDV(USD)": 2060399966,
+ "24시간 거래대금(USD)": 442109528,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.83768,
+ "역대 최고가 대비(%)": -82.52592,
  "가격 변화(%)": {
-  "7d": 5.60419,
-  "30d": 12.29449,
-  "1y": -16.5079
+  "7d": 6.725,
+  "30d": 14.60379,
+  "1y": -14.36731
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -690,6 +690,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
+   "요약": "Anyone trying to move vulnerable bitcoin would have to put up matching collateral, giving prepared owners a chance to take both.",
+   "시각(UTC)": "11-06 01:30"
+  },
   {
    "출처": "CoinDesk",
    "제목": "U.S. Justice Department assembles force to shield against foreign AI threats",
@@ -731,12 +737,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push",
    "요약": "The investment follows talks first reported by CoinDesk in June that included a proposed equity stake in Aave Group.",
    "시각(UTC)": "11-05 14:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-   "요약": "A $19 billion data-center agreement includes an unusual provision allowing Google to acquire part of the project if Anthropic fails to pay its rent.",
-   "시각(UTC)": "11-05 13:29"
   }
  ]
 }
@@ -762,35 +762,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "MEXC (Futures)": 0.01,
-   "Gate (Futures)": 0.01,
+   "Gate (Futures)": 0.0014,
    "Bitget Futures": 0.01,
-   "OKX (Futures)": 0.008,
-   "KCEX (Futures)": 0.0081,
+   "OKX (Futures)": 0.01,
+   "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 289156323
+  "미결제약정 합계 USD(상위)": 290011703
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 84.21,
+  "CoinGecko 이용자 투표 상승(%)": 85.0,
   "CoinGecko 인기 검색 코인": [
    "BTC",
    "NEAR",
-   "HYPE",
-   "DRV",
-   "PENGU",
-   "ETH",
    "LIT",
-   "AERO",
+   "ENA",
+   "ETH",
+   "VVV",
    "SOL",
-   "PEARL",
-   "LINK",
    "ZEC",
-   "PI",
+   "HYPE",
+   "PENGU",
+   "PUMP",
    "FET",
-   "HBAR"
+   "AERO",
+   "TAO",
+   "PEARL"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -885,24 +885,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Solana Ecosystem"
  ],
  "시가총액 순위": 81,
- "시가총액(USD)": 819573380,
- "완전희석가치 FDV(USD)": 819573380,
- "24시간 거래대금(USD)": 164688433,
+ "시가총액(USD)": 824722662,
+ "완전희석가치 FDV(USD)": 824722662,
+ "24시간 거래대금(USD)": 170258244,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.42488,
+ "역대 최고가 대비(%)": -84.32702,
  "가격 변화(%)": {
-  "7d": 11.87054,
-  "30d": 1.26171,
-  "1y": 24.35296
+  "7d": 16.1908,
+  "30d": 3.64876,
+  "1y": 26.18744
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 22398780
+  "TVL(USD)": 22662377
  }
 }
 ```
@@ -913,6 +913,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INJ 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
+   "요약": "Anyone trying to move vulnerable bitcoin would have to put up matching collateral, giving prepared owners a chance to take both.",
+   "시각(UTC)": "11-06 01:30"
+  },
   {
    "출처": "CoinDesk",
    "제목": "U.S. Justice Department assembles force to shield against foreign AI threats",
@@ -954,12 +960,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push",
    "요약": "The investment follows talks first reported by CoinDesk in June that included a proposed equity stake in Aave Group.",
    "시각(UTC)": "11-05 14:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-   "요약": "A $19 billion data-center agreement includes an unusual provision allowing Google to acquire part of the project if Anthropic fails to pay its rent.",
-   "시각(UTC)": "11-05 13:29"
   }
  ]
 }
@@ -985,35 +985,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
-   "OrangeX Futures": -0.0234,
+   "OrangeX Futures": -0.0201,
    "Binance (Futures)": 0.01,
-   "Gate (Futures)": 0.01,
+   "Gate (Futures)": 0.0006,
    "MEXC (Futures)": 0.0288,
    "Bybit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 320388647
+  "미결제약정 합계 USD(상위)": 335418563
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 92.0,
+  "CoinGecko 이용자 투표 상승(%)": 92.31,
   "CoinGecko 인기 검색 코인": [
    "BTC",
    "NEAR",
-   "HYPE",
-   "DRV",
-   "PENGU",
-   "ETH",
    "LIT",
-   "AERO",
+   "ENA",
+   "ETH",
+   "VVV",
    "SOL",
-   "PEARL",
-   "LINK",
    "ZEC",
-   "PI",
+   "HYPE",
+   "PENGU",
+   "PUMP",
    "FET",
-   "HBAR"
+   "AERO",
+   "TAO",
+   "PEARL"
   ],
   "INJ가 인기 검색에 있음": false
  }
@@ -1108,19 +1108,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 356,
- "시가총액(USD)": 64890011,
- "완전희석가치 FDV(USD)": 64890011,
- "24시간 거래대금(USD)": 18548993,
- "유통량": 1232715.12451582,
- "총발행량": 1232715.12451582,
+ "시가총액 순위": 360,
+ "시가총액(USD)": 64577563,
+ "완전희석가치 FDV(USD)": 64577563,
+ "24시간 거래대금(USD)": 19263572,
+ "유통량": 1208348.5088658899,
+ "총발행량": 1208348.5088658899,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 130.12,
- "역대 최고가 대비(%)": -59.5458,
+ "역대 최고가 대비(%)": -58.92875,
  "가격 변화(%)": {
-  "7d": -26.13768,
-  "30d": -53.33807,
+  "7d": -24.68323,
+  "30d": -52.72912,
   "1y": null
  },
  "소개": ""
@@ -1133,6 +1133,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INTCB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
+   "요약": "Anyone trying to move vulnerable bitcoin would have to put up matching collateral, giving prepared owners a chance to take both.",
+   "시각(UTC)": "11-06 01:30"
+  },
   {
    "출처": "CoinDesk",
    "제목": "U.S. Justice Department assembles force to shield against foreign AI threats",
@@ -1174,12 +1180,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push",
    "요약": "The investment follows talks first reported by CoinDesk in June that included a proposed equity stake in Aave Group.",
    "시각(UTC)": "11-05 14:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-   "요약": "A $19 billion data-center agreement includes an unusual provision allowing Google to acquire part of the project if Anthropic fails to pay its rent.",
-   "시각(UTC)": "11-05 13:29"
   }
  ]
 }
@@ -1212,19 +1212,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 인기 검색 코인": [
    "BTC",
    "NEAR",
-   "HYPE",
-   "DRV",
-   "PENGU",
-   "ETH",
    "LIT",
-   "AERO",
+   "ENA",
+   "ETH",
+   "VVV",
    "SOL",
-   "PEARL",
-   "LINK",
    "ZEC",
-   "PI",
+   "HYPE",
+   "PENGU",
+   "PUMP",
    "FET",
-   "HBAR"
+   "AERO",
+   "TAO",
+   "PEARL"
   ],
   "INTCB가 인기 검색에 있음": false
  }
