@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-07 05:25 KST)
+# TF팀 회의 자료 (2026-11-07 06:20 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -7,7 +7,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 **지금까지 승률** ACE 40.9% (9/22), 채점 대기 0개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,022.98 USDT (+0.23%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,021.31 USDT (+0.21%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: PEPE, INJ · 과매도 반등: INTCB
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1522799443771,
- "완전희석가치 FDV(USD)": 1522825724618,
- "24시간 거래대금(USD)": 32726648951,
- "유통량": 20106331.0,
- "총발행량": 20106678.0,
+ "시가총액(USD)": 1524447928010,
+ "완전희석가치 FDV(USD)": 1524447928010,
+ "24시간 거래대금(USD)": 32179557664,
+ "유통량": 20107040.0,
+ "총발행량": 20107040.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -39.92911,
+ "역대 최고가 대비(%)": -39.8662,
  "가격 변화(%)": {
-  "7d": -1.44225,
-  "30d": -9.18495,
-  "1y": -25.34532
+  "7d": -1.33064,
+  "30d": -9.08091,
+  "1y": -24.86983
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4025671213
+  "TVL(USD)": 4029076455
  }
 }
 ```
@@ -128,8 +128,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "BTC 관련 기사": [
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
-   "요약": "Chip stocks were leading a rebound in the broader market on Friday following yesterday's washout.",
+   "제목": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+   "요약": "The Nasdaq gained just 1.1%, while the S&P 500 only edged higher, and the DJIA lost more ground.",
    "시각(UTC)": "11-06 11:58"
   },
   {
@@ -290,35 +290,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.01,
-   "Bybit (Futures)": 0.01,
+   "Bybit (Futures)": 0.0099,
    "MEXC (Futures)": 0.01,
    "Gate (Futures)": 0.01,
    "WEEX (Futures)": 0.0001,
    "Tapbit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 28942799487
+  "미결제약정 합계 USD(상위)": 28840636088
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 54.86,
+  "CoinGecko 이용자 투표 상승(%)": 56.4,
   "CoinGecko 인기 검색 코인": [
    "PENGU",
    "REBOOT",
    "DENIM",
-   "BTC",
-   "PEARL",
    "HYPE",
-   "INJ",
-   "XRP",
-   "ETH",
-   "LIT",
-   "AERO",
+   "PEARL",
    "SOL",
-   "PEPE",
-   "KNTQ",
-   "DOGE"
+   "INJ",
+   "ZEC",
+   "QTC",
+   "BTC",
+   "NEAR",
+   "VVV",
+   "TRUMP",
+   "ZRO",
+   "XMR"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 272285311830,
- "완전희석가치 FDV(USD)": 272285311830,
- "24시간 거래대금(USD)": 12464614193,
+ "시가총액(USD)": 272349878243,
+ "완전희석가치 FDV(USD)": 272349878243,
+ "24시간 거래대금(USD)": 11981527022,
  "유통량": 122194930.21672837,
  "총발행량": 122194930.21672837,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -54.94812,
+ "역대 최고가 대비(%)": -54.93744,
  "가격 변화(%)": {
-  "7d": -0.37615,
-  "30d": -13.28963,
-  "1y": -33.08066
+  "7d": -0.36547,
+  "30d": -13.38794,
+  "1y": -32.53064
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 42984071437
+  "TVL(USD)": 42981717694
  }
 }
 ```
@@ -516,8 +516,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
-   "요약": "Chip stocks were leading a rebound in the broader market on Friday following yesterday's washout.",
+   "제목": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+   "요약": "The Nasdaq gained just 1.1%, while the S&P 500 only edged higher, and the DJIA lost more ground.",
    "시각(UTC)": "11-06 11:58"
   },
   {
@@ -549,37 +549,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0034,
-   "CoinW (Futures)": 0.0057,
+   "Binance (Futures)": 0.005,
+   "CoinW (Futures)": 0.0073,
    "WEEX (Futures)": 0.0001,
-   "MEXC (Futures)": 0.0057,
+   "MEXC (Futures)": 0.0073,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 19234182140
+  "미결제약정 합계 USD(상위)": 19155606531
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 82.5,
+  "CoinGecko 이용자 투표 상승(%)": 81.58,
   "CoinGecko 인기 검색 코인": [
    "PENGU",
    "REBOOT",
    "DENIM",
-   "BTC",
-   "PEARL",
    "HYPE",
-   "INJ",
-   "XRP",
-   "ETH",
-   "LIT",
-   "AERO",
+   "PEARL",
    "SOL",
-   "PEPE",
-   "KNTQ",
-   "DOGE"
+   "INJ",
+   "ZEC",
+   "QTC",
+   "BTC",
+   "NEAR",
+   "VVV",
+   "TRUMP",
+   "ZRO",
+   "XMR"
   ],
-  "ETH가 인기 검색에 있음": true
+  "ETH가 인기 검색에 있음": false
  }
 }
 ```
@@ -672,19 +672,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 44,
- "시가총액(USD)": 2124251340,
- "완전희석가치 FDV(USD)": 2124251340,
- "24시간 거래대금(USD)": 428165028,
+ "시가총액(USD)": 2125006976,
+ "완전희석가치 FDV(USD)": 2125006976,
+ "24시간 거래대금(USD)": 432349883,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -81.9844,
+ "역대 최고가 대비(%)": -81.97799,
  "가격 변화(%)": {
-  "7d": -0.13643,
-  "30d": 24.53896,
-  "1y": -8.57972
+  "7d": 2.07392,
+  "30d": 23.70604,
+  "1y": -8.24013
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -734,8 +734,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
-   "요약": "Chip stocks were leading a rebound in the broader market on Friday following yesterday's washout.",
+   "제목": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+   "요약": "The Nasdaq gained just 1.1%, while the S&P 500 only edged higher, and the DJIA lost more ground.",
    "시각(UTC)": "11-06 11:58"
   },
   {
@@ -767,38 +767,38 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "MEXC (Futures)": 0.0263,
+   "MEXC (Futures)": 0.0235,
    "Gate (Futures)": 0.01,
    "OKX (Futures)": 0.01,
    "Bitget Futures": 0.01,
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 323164862
+  "미결제약정 합계 USD(상위)": 317203089
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 82.76,
+  "CoinGecko 이용자 투표 상승(%)": 83.87,
   "CoinGecko 인기 검색 코인": [
    "PENGU",
    "REBOOT",
    "DENIM",
-   "BTC",
-   "PEARL",
    "HYPE",
-   "INJ",
-   "XRP",
-   "ETH",
-   "LIT",
-   "AERO",
+   "PEARL",
    "SOL",
-   "PEPE",
-   "KNTQ",
-   "DOGE"
+   "INJ",
+   "ZEC",
+   "QTC",
+   "BTC",
+   "NEAR",
+   "VVV",
+   "TRUMP",
+   "ZRO",
+   "XMR"
   ],
-  "PEPE가 인기 검색에 있음": true
+  "PEPE가 인기 검색에 있음": false
  }
 }
 ```
@@ -891,24 +891,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Solana Ecosystem"
  ],
  "시가총액 순위": 80,
- "시가총액(USD)": 841412114,
- "완전희석가치 FDV(USD)": 841412114,
- "24시간 거래대금(USD)": 120360130,
+ "시가총액(USD)": 849054755,
+ "완전희석가치 FDV(USD)": 849054755,
+ "24시간 거래대금(USD)": 116497232,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.00986,
+ "역대 최고가 대비(%)": -83.86267,
  "가격 변화(%)": {
-  "7d": 18.73284,
-  "30d": 11.96753,
-  "1y": 33.09599
+  "7d": 19.24792,
+  "30d": 13.11057,
+  "1y": 34.88398
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 22993996
+  "TVL(USD)": 23257913
  }
 }
 ```
@@ -957,8 +957,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
-   "요약": "Chip stocks were leading a rebound in the broader market on Friday following yesterday's washout.",
+   "제목": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+   "요약": "The Nasdaq gained just 1.1%, while the S&P 500 only edged higher, and the DJIA lost more ground.",
    "시각(UTC)": "11-06 11:58"
   },
   {
@@ -991,13 +991,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
-   "OrangeX Futures": -0.0334,
+   "OrangeX Futures": -0.0314,
    "Binance (Futures)": 0.01,
-   "Gate (Futures)": 0.0039,
+   "Gate (Futures)": 0.0073,
    "MEXC (Futures)": 0.0206,
-   "Bybit (Futures)": 0.0072
+   "Bybit (Futures)": 0.0065
   },
-  "미결제약정 합계 USD(상위)": 313293672
+  "미결제약정 합계 USD(상위)": 318482714
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -1008,18 +1008,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "PENGU",
    "REBOOT",
    "DENIM",
-   "BTC",
-   "PEARL",
    "HYPE",
-   "INJ",
-   "XRP",
-   "ETH",
-   "LIT",
-   "AERO",
+   "PEARL",
    "SOL",
-   "PEPE",
-   "KNTQ",
-   "DOGE"
+   "INJ",
+   "ZEC",
+   "QTC",
+   "BTC",
+   "NEAR",
+   "VVV",
+   "TRUMP",
+   "ZRO",
+   "XMR"
   ],
   "INJ가 인기 검색에 있음": true
  }
@@ -1114,19 +1114,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 345,
- "시가총액(USD)": 70532748,
- "완전희석가치 FDV(USD)": 70532748,
- "24시간 거래대금(USD)": 17027068,
- "유통량": 1240028.6056339901,
- "총발행량": 1240028.6056339901,
+ "시가총액 순위": 346,
+ "시가총액(USD)": 70307373,
+ "완전희석가치 FDV(USD)": 70307373,
+ "24시간 거래대금(USD)": 15855460,
+ "유통량": 1242225.64411696,
+ "총발행량": 1242225.64411696,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 130.12,
- "역대 최고가 대비(%)": -56.2873,
+ "역대 최고가 대비(%)": -56.504,
  "가격 변화(%)": {
-  "7d": -13.3498,
-  "30d": -49.68216,
+  "7d": -13.37335,
+  "30d": -49.99387,
   "1y": null
  },
  "소개": ""
@@ -1177,8 +1177,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report",
-   "요약": "Chip stocks were leading a rebound in the broader market on Friday following yesterday's washout.",
+   "제목": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
+   "요약": "The Nasdaq gained just 1.1%, while the S&P 500 only edged higher, and the DJIA lost more ground.",
    "시각(UTC)": "11-06 11:58"
   },
   {
@@ -1219,18 +1219,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "PENGU",
    "REBOOT",
    "DENIM",
-   "BTC",
-   "PEARL",
    "HYPE",
-   "INJ",
-   "XRP",
-   "ETH",
-   "LIT",
-   "AERO",
+   "PEARL",
    "SOL",
-   "PEPE",
-   "KNTQ",
-   "DOGE"
+   "INJ",
+   "ZEC",
+   "QTC",
+   "BTC",
+   "NEAR",
+   "VVV",
+   "TRUMP",
+   "ZRO",
+   "XMR"
   ],
   "INTCB가 인기 검색에 있음": false
  }
