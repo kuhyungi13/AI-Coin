@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-06 22:48 KST)
+# TF팀 회의 자료 (2026-11-07 00:24 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -7,7 +7,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 **지금까지 승률** ACE 40.9% (9/22), 채점 대기 0개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,024.65 USDT (+0.25%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,027.16 USDT (+0.27%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: PEPE, INJ · 과매도 반등: INTCB
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1524027133512,
- "완전희석가치 FDV(USD)": 1524027133512,
- "24시간 거래대금(USD)": 44521933956,
+ "시가총액(USD)": 1520379267950,
+ "완전희석가치 FDV(USD)": 1520406945081,
+ "24시간 거래대금(USD)": 42502027452,
  "유통량": 20105365.0,
- "총발행량": 20105365.0,
+ "총발행량": 20105731.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -39.87044,
+ "역대 최고가 대비(%)": -40.0217,
  "가격 변화(%)": {
-  "7d": -1.98656,
-  "30d": -9.16838,
-  "1y": -26.1225
+  "7d": -2.02613,
+  "30d": -8.83834,
+  "1y": -25.90663
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4052696455
+  "TVL(USD)": 4035940314
  }
 }
 ```
@@ -129,7 +129,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   {
    "출처": "CoinDesk",
    "제목": "Live updates: Bitcoin slips further after blowout October jobs numbers",
-   "요약": "Nasdaq 100 futures were higher by 1.5% following Thursday's 5.5% rout. Japan's Nikkei and Korea's Kospi each slumped 6% overnight.",
+   "요약": "Chip stocks were leading a rebound in the broader market on Friday following yesterday's washout.",
    "시각(UTC)": "11-06 11:58"
   },
   {
@@ -193,12 +193,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-05 11:30"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin drops more than 5% as stocks close out worst day since April 2025",
-   "요약": "The continued blowup of the AI trade led markets lower, with Nvidia losing 9.3% and many other chip names down double-digit percentages.",
-   "시각(UTC)": "11-05 10:57"
-  },
-  {
    "출처": "Cointelegraph",
    "제목": "Here’s what happened in crypto today",
    "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
@@ -215,13 +209,25 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate",
    "요약": "US spot Bitcoin and Ether ETFs shed a combined $530 million Thursday as Bitcoin fell below $76,000 and US stocks tumbled.",
    "시각(UTC)": "11-06 08:19"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
+   "요약": "The former Bitcoin mining heavyweight plans to become a pure-play data center provider in 2027, with mining now accounting for just 7.5% of quarterly revenue.",
+   "시각(UTC)": "11-06 00:19"
   }
  ],
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
+   "요약": "Thailand’s SEC filed a criminal complaint against Bitget’s operator, alleging it ran an unlicensed crypto exchange for Thai users from 2022 to 2025.",
+   "시각(UTC)": "11-06 14:33"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-   "요약": "The unemployment rate unexpectedly fell to 4.1% as the labor market bounced back in a big way from a soft September showing.",
+   "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
    "시각(UTC)": "11-06 13:31"
   },
   {
@@ -259,12 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "U.S. Justice Department assembles force to shield against foreign AI threats",
    "요약": "The new DOJ task force will aid the recently designated U.S. \"SI Force\" by warding off bad actors backed by other nations, criminal groups or corporate fraud.",
    "시각(UTC)": "11-05 18:59"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
-   "요약": "The hacking group has been behind some of the crypto industry's most recent high-profile thefts.",
-   "시각(UTC)": "11-05 16:58"
   }
  ]
 }
@@ -289,36 +289,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0072,
-   "Bybit (Futures)": 0.0068,
-   "MEXC (Futures)": 0.0073,
-   "Gate (Futures)": 0.0032,
+   "Binance (Futures)": 0.0083,
+   "Bybit (Futures)": 0.0059,
+   "MEXC (Futures)": 0.0082,
+   "Gate (Futures)": 0.0036,
    "WEEX (Futures)": 0.0001,
-   "Tapbit (Futures)": 0.0072
+   "Tapbit (Futures)": 0.0079
   },
-  "미결제약정 합계 USD(상위)": 28567214910
+  "미결제약정 합계 USD(상위)": 28773502167
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 51.74,
+  "CoinGecko 이용자 투표 상승(%)": 52.17,
   "CoinGecko 인기 검색 코인": [
    "DENIM",
+   "REBOOT",
    "BTC",
+   "INJ",
+   "LIT",
+   "ZEC",
+   "MON",
    "SOL",
    "HYPE",
-   "INJ",
-   "QNT",
-   "PENGU",
-   "QTC",
-   "KNTQ",
-   "NEAR",
-   "MORPHO",
    "ETH",
-   "PONS",
-   "MON",
-   "ONDO"
+   "PENGU",
+   "PEARL",
+   "NEAR",
+   "AERO",
+   "VVV"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 273007123628,
- "완전희석가치 FDV(USD)": 273007123628,
- "24시간 거래대금(USD)": 17912610928,
+ "시가총액(USD)": 271681611599,
+ "완전희석가치 FDV(USD)": 271681611599,
+ "24시간 거래대금(USD)": 15907915832,
  "유통량": 122194930.21672837,
  "총발행량": 122194930.21672837,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -54.82196,
+ "역대 최고가 대비(%)": -55.04801,
  "가격 변화(%)": {
-  "7d": 0.16061,
-  "30d": -13.11428,
-  "1y": -33.33954
+  "7d": -0.56345,
+  "30d": -13.22769,
+  "1y": -33.30586
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 43395946553
+  "TVL(USD)": 43168127598
  }
 }
 ```
@@ -465,17 +465,23 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-05 18:09"
   },
   {
-   "출처": "Cointelegraph",
-   "제목": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
-   "요약": "Fidelity led Bitcoin ETF inflows, while BlackRock’s IBIT shed another $201 million, extending its outflow streak to four trading sessions.",
-   "시각(UTC)": "11-05 08:22"
+   "출처": "Decrypt",
+   "제목": "$3.1B in Stolen Binance Crypto Has Yet to Be Laundered: Elliptic",
+   "요약": "The attackers have used more than 20,000 wallets on 16 blockchains so far, but the bulk of the stolen ETH and Bitcoin hasn't moved.",
+   "시각(UTC)": "11-06 14:04"
   }
  ],
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
+   "요약": "Thailand’s SEC filed a criminal complaint against Bitget’s operator, alleging it ran an unlicensed crypto exchange for Thai users from 2022 to 2025.",
+   "시각(UTC)": "11-06 14:33"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-   "요약": "The unemployment rate unexpectedly fell to 4.1% as the labor market bounced back in a big way from a soft September showing.",
+   "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
    "시각(UTC)": "11-06 13:31"
   },
   {
@@ -487,7 +493,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   {
    "출처": "CoinDesk",
    "제목": "Live updates: Bitcoin slips further after blowout October jobs numbers",
-   "요약": "Nasdaq 100 futures were higher by 1.5% following Thursday's 5.5% rout. Japan's Nikkei and Korea's Kospi each slumped 6% overnight.",
+   "요약": "Chip stocks were leading a rebound in the broader market on Friday following yesterday's washout.",
    "시각(UTC)": "11-06 11:58"
   },
   {
@@ -513,12 +519,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
    "요약": "The crypto venture may use fees from its USD1 stablecoin reserves to fund token purchases as it seeks to boost governance.",
    "시각(UTC)": "11-06 08:04"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Zcash’s landmark NU7 upgrade goes live, speeding up private payments",
-   "요약": "NU7 cuts the target time between blocks to 25 seconds, reduces the work wallets must do to find private payments and sets aside fees for future miners.",
-   "시각(UTC)": "11-06 05:14"
   }
  ]
 }
@@ -543,35 +543,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.0025,
+   "Binance (Futures)": -0.0016,
    "WEEX (Futures)": 0.0001,
-   "CoinW (Futures)": 0.0048,
-   "MEXC (Futures)": 0.0048,
+   "CoinW (Futures)": 0.0034,
+   "MEXC (Futures)": 0.0034,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 18724245156
+  "미결제약정 합계 USD(상위)": 18738034216
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 79.59,
+  "CoinGecko 이용자 투표 상승(%)": 80.43,
   "CoinGecko 인기 검색 코인": [
    "DENIM",
+   "REBOOT",
    "BTC",
+   "INJ",
+   "LIT",
+   "ZEC",
+   "MON",
    "SOL",
    "HYPE",
-   "INJ",
-   "QNT",
-   "PENGU",
-   "QTC",
-   "KNTQ",
-   "NEAR",
-   "MORPHO",
    "ETH",
-   "PONS",
-   "MON",
-   "ONDO"
+   "PENGU",
+   "PEARL",
+   "NEAR",
+   "AERO",
+   "VVV"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -666,19 +666,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2129871455,
- "완전희석가치 FDV(USD)": 2129871455,
- "24시간 거래대금(USD)": 502708766,
+ "시가총액(USD)": 2157515267,
+ "완전희석가치 FDV(USD)": 2157515267,
+ "24시간 거래대금(USD)": 494390219,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -81.93779,
+ "역대 최고가 대비(%)": -81.70229,
  "가격 변화(%)": {
-  "7d": -4.53573,
-  "30d": 24.77759,
-  "1y": -8.84921
+  "7d": -0.52369,
+  "30d": 27.64192,
+  "1y": -6.55902
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -692,8 +692,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
+   "요약": "Thailand’s SEC filed a criminal complaint against Bitget’s operator, alleging it ran an unlicensed crypto exchange for Thai users from 2022 to 2025.",
+   "시각(UTC)": "11-06 14:33"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-   "요약": "The unemployment rate unexpectedly fell to 4.1% as the labor market bounced back in a big way from a soft September showing.",
+   "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
    "시각(UTC)": "11-06 13:31"
   },
   {
@@ -705,7 +711,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   {
    "출처": "CoinDesk",
    "제목": "Live updates: Bitcoin slips further after blowout October jobs numbers",
-   "요약": "Nasdaq 100 futures were higher by 1.5% following Thursday's 5.5% rout. Japan's Nikkei and Korea's Kospi each slumped 6% overnight.",
+   "요약": "Chip stocks were leading a rebound in the broader market on Friday following yesterday's washout.",
    "시각(UTC)": "11-06 11:58"
   },
   {
@@ -731,12 +737,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
    "요약": "The crypto venture may use fees from its USD1 stablecoin reserves to fund token purchases as it seeks to boost governance.",
    "시각(UTC)": "11-06 08:04"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Zcash’s landmark NU7 upgrade goes live, speeding up private payments",
-   "요약": "NU7 cuts the target time between blocks to 25 seconds, reduces the work wallets must do to find private payments and sets aside fees for future miners.",
-   "시각(UTC)": "11-06 05:14"
   }
  ]
 }
@@ -761,36 +761,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "MEXC (Futures)": 0.0417,
+   "MEXC (Futures)": 0.0372,
    "Gate (Futures)": 0.01,
-   "Bitget Futures": 0.01,
    "OKX (Futures)": 0.01,
+   "Bitget Futures": 0.01,
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 312747974
+  "미결제약정 합계 USD(상위)": 324378148
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 73.91,
+  "CoinGecko 이용자 투표 상승(%)": 73.08,
   "CoinGecko 인기 검색 코인": [
    "DENIM",
+   "REBOOT",
    "BTC",
+   "INJ",
+   "LIT",
+   "ZEC",
+   "MON",
    "SOL",
    "HYPE",
-   "INJ",
-   "QNT",
-   "PENGU",
-   "QTC",
-   "KNTQ",
-   "NEAR",
-   "MORPHO",
    "ETH",
-   "PONS",
-   "MON",
-   "ONDO"
+   "PENGU",
+   "PEARL",
+   "NEAR",
+   "AERO",
+   "VVV"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -884,25 +884,25 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Cosmos Ecosystem",
   "Solana Ecosystem"
  ],
- "시가총액 순위": 82,
- "시가총액(USD)": 826291266,
- "완전희석가치 FDV(USD)": 826291266,
- "24시간 거래대금(USD)": 150908388,
+ "시가총액 순위": 81,
+ "시가총액(USD)": 842824012,
+ "완전희석가치 FDV(USD)": 842824012,
+ "24시간 거래대금(USD)": 145911842,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.2978,
+ "역대 최고가 대비(%)": -83.98302,
  "가격 변화(%)": {
-  "7d": 14.04678,
-  "30d": 13.12116,
-  "1y": 32.32489
+  "7d": 18.20276,
+  "30d": 16.45356,
+  "1y": 34.06744
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 22669921
+  "TVL(USD)": 22746574
  }
 }
 ```
@@ -915,8 +915,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
+   "요약": "Thailand’s SEC filed a criminal complaint against Bitget’s operator, alleging it ran an unlicensed crypto exchange for Thai users from 2022 to 2025.",
+   "시각(UTC)": "11-06 14:33"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-   "요약": "The unemployment rate unexpectedly fell to 4.1% as the labor market bounced back in a big way from a soft September showing.",
+   "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
    "시각(UTC)": "11-06 13:31"
   },
   {
@@ -928,7 +934,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   {
    "출처": "CoinDesk",
    "제목": "Live updates: Bitcoin slips further after blowout October jobs numbers",
-   "요약": "Nasdaq 100 futures were higher by 1.5% following Thursday's 5.5% rout. Japan's Nikkei and Korea's Kospi each slumped 6% overnight.",
+   "요약": "Chip stocks were leading a rebound in the broader market on Friday following yesterday's washout.",
    "시각(UTC)": "11-06 11:58"
   },
   {
@@ -954,12 +960,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
    "요약": "The crypto venture may use fees from its USD1 stablecoin reserves to fund token purchases as it seeks to boost governance.",
    "시각(UTC)": "11-06 08:04"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Zcash’s landmark NU7 upgrade goes live, speeding up private payments",
-   "요약": "NU7 cuts the target time between blocks to 25 seconds, reduces the work wallets must do to find private payments and sets aside fees for future miners.",
-   "시각(UTC)": "11-06 05:14"
   }
  ]
 }
@@ -985,35 +985,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
-   "OrangeX Futures": -0.0464,
+   "OrangeX Futures": -0.0543,
    "Binance (Futures)": 0.01,
    "Gate (Futures)": 0.01,
    "MEXC (Futures)": 0.0255,
    "Bybit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 328453023
+  "미결제약정 합계 USD(상위)": 331188741
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 96.3,
+  "CoinGecko 이용자 투표 상승(%)": 97.22,
   "CoinGecko 인기 검색 코인": [
    "DENIM",
+   "REBOOT",
    "BTC",
+   "INJ",
+   "LIT",
+   "ZEC",
+   "MON",
    "SOL",
    "HYPE",
-   "INJ",
-   "QNT",
-   "PENGU",
-   "QTC",
-   "KNTQ",
-   "NEAR",
-   "MORPHO",
    "ETH",
-   "PONS",
-   "MON",
-   "ONDO"
+   "PENGU",
+   "PEARL",
+   "NEAR",
+   "AERO",
+   "VVV"
   ],
   "INJ가 인기 검색에 있음": true
  }
@@ -1108,19 +1108,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 351,
- "시가총액(USD)": 67877153,
- "완전희석가치 FDV(USD)": 67877153,
- "24시간 거래대금(USD)": 18217985,
+ "시가총액 순위": 348,
+ "시가총액(USD)": 68392122,
+ "완전희석가치 FDV(USD)": 68392122,
+ "24시간 거래대금(USD)": 17330900,
  "유통량": 1235820.5574752998,
  "총발행량": 1235820.5574752998,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 130.12,
- "역대 최고가 대비(%)": -57.78733,
+ "역대 최고가 대비(%)": -57.46963,
  "가격 변화(%)": {
-  "7d": -19.71299,
-  "30d": -51.08198,
+  "7d": -16.47381,
+  "30d": -51.27661,
   "1y": null
  },
  "소개": ""
@@ -1135,8 +1135,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
+   "요약": "Thailand’s SEC filed a criminal complaint against Bitget’s operator, alleging it ran an unlicensed crypto exchange for Thai users from 2022 to 2025.",
+   "시각(UTC)": "11-06 14:33"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-   "요약": "The unemployment rate unexpectedly fell to 4.1% as the labor market bounced back in a big way from a soft September showing.",
+   "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
    "시각(UTC)": "11-06 13:31"
   },
   {
@@ -1148,7 +1154,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   {
    "출처": "CoinDesk",
    "제목": "Live updates: Bitcoin slips further after blowout October jobs numbers",
-   "요약": "Nasdaq 100 futures were higher by 1.5% following Thursday's 5.5% rout. Japan's Nikkei and Korea's Kospi each slumped 6% overnight.",
+   "요약": "Chip stocks were leading a rebound in the broader market on Friday following yesterday's washout.",
    "시각(UTC)": "11-06 11:58"
   },
   {
@@ -1174,12 +1180,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
    "요약": "The crypto venture may use fees from its USD1 stablecoin reserves to fund token purchases as it seeks to boost governance.",
    "시각(UTC)": "11-06 08:04"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Zcash’s landmark NU7 upgrade goes live, speeding up private payments",
-   "요약": "NU7 cuts the target time between blocks to 25 seconds, reduces the work wallets must do to find private payments and sets aside fees for future miners.",
-   "시각(UTC)": "11-06 05:14"
   }
  ]
 }
@@ -1211,20 +1211,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "DENIM",
+   "REBOOT",
    "BTC",
+   "INJ",
+   "LIT",
+   "ZEC",
+   "MON",
    "SOL",
    "HYPE",
-   "INJ",
-   "QNT",
-   "PENGU",
-   "QTC",
-   "KNTQ",
-   "NEAR",
-   "MORPHO",
    "ETH",
-   "PONS",
-   "MON",
-   "ONDO"
+   "PENGU",
+   "PEARL",
+   "NEAR",
+   "AERO",
+   "VVV"
   ],
   "INTCB가 인기 검색에 있음": false
  }
