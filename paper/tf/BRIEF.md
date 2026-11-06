@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-06 17:34 KST)
+# TF팀 회의 자료 (2026-11-06 18:33 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -7,7 +7,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 **지금까지 승률** ACE 40.9% (9/22), 채점 대기 0개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,013.80 USDT (+0.14%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,016.30 USDT (+0.16%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: PEPE, INJ · 과매도 반등: INTCB
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1519321112063,
- "완전희석가치 FDV(USD)": 1519321112063,
- "24시간 거래대금(USD)": 45575290509,
+ "시가총액(USD)": 1530982151002,
+ "완전희석가치 FDV(USD)": 1530982151002,
+ "24시간 거래대금(USD)": 45519448401,
  "유통량": 20105365.0,
  "총발행량": 20105365.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -40.05418,
+ "역대 최고가 대비(%)": -39.58212,
  "가격 변화(%)": {
-  "7d": -3.18364,
-  "30d": -10.15409,
-  "1y": -26.69459
+  "7d": -2.23378,
+  "30d": -9.2532,
+  "1y": -26.19302
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4015846994
+  "TVL(USD)": 4014686158
  }
 }
 ```
@@ -220,6 +220,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
+   "요약": "Investors will have 12 months to declare past crypto gains without late-filing penalties, though questions remain over crypto-to-crypto swaps.",
+   "시각(UTC)": "11-06 08:47"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
    "요약": "The crypto venture may use fees from its USD1 stablecoin reserves to fund token purchases as it seeks to boost governance.",
    "시각(UTC)": "11-06 08:04"
@@ -259,12 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Gate CEO says crypto exchanges must prove they can survive a hack like Binance’s",
    "요약": "Lin Han says Gate holds enough assets in cold storage to cover customer balances even if its hot wallets are emptied. An independent audit is underway.",
    "시각(UTC)": "11-05 14:21"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push",
-   "요약": "The investment follows talks first reported by CoinDesk in June that included a proposed equity stake in Aave Group.",
-   "시각(UTC)": "11-05 14:00"
   }
  ]
 }
@@ -289,36 +289,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0053,
-   "Bybit (Futures)": -0.0059,
-   "MEXC (Futures)": 0.0055,
-   "Gate (Futures)": 0.0012,
+   "Binance (Futures)": 0.0047,
+   "Bybit (Futures)": -0.0005,
+   "MEXC (Futures)": 0.0046,
+   "Gate (Futures)": -0.0037,
    "WEEX (Futures)": 0.0001,
-   "Hyperliquid (Futures)": 0.0013
+   "Tapbit (Futures)": 0.0048
   },
-  "미결제약정 합계 USD(상위)": 28577172798
+  "미결제약정 합계 USD(상위)": 28861391503
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 54.42,
+  "CoinGecko 이용자 투표 상승(%)": 54.17,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
    "DENIM",
-   "AKE",
+   "BTC",
    "SOL",
-   "PENGU",
+   "XMR",
    "NEAR",
-   "ZEC",
-   "PEPE",
-   "DOT",
-   "INJ",
-   "AIN",
-   "SHIB",
-   "ALGO",
    "HYPE",
-   "LIT"
+   "PEPE",
+   "ZEC",
+   "WLFI",
+   "PEARL",
+   "LIT",
+   "AERO",
+   "INJ",
+   "AAVE",
+   "ENA"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 271859174087,
- "완전희석가치 FDV(USD)": 271859174087,
- "24시간 거래대금(USD)": 18130959752,
+ "시가총액(USD)": 274109758766,
+ "완전희석가치 FDV(USD)": 274109758766,
+ "24시간 거래대금(USD)": 17899155483,
  "유통량": 122194930.21672837,
  "총발행량": 122194930.21672837,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -55.01101,
+ "역대 최고가 대비(%)": -54.63202,
  "가격 변화(%)": {
-  "7d": -0.38123,
-  "30d": -14.93847,
-  "1y": -34.13531
+  "7d": 0.8147,
+  "30d": -14.02439,
+  "1y": -33.72715
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 43150196400
+  "TVL(USD)": 43151248989
  }
 }
 ```
@@ -463,15 +463,15 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
    "요약": "Fidelity led Bitcoin ETF inflows, while BlackRock’s IBIT shed another $201 million, extending its outflow streak to four trading sessions.",
    "시각(UTC)": "11-05 08:22"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms",
-   "요약": "The official Trump and World Liberty Financial tokens were the two biggest losers among the top 100 cryptocurrencies on Wednesday, even as Bitcoin and Ether rallied.",
-   "시각(UTC)": "11-04 19:15"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
+   "요약": "Investors will have 12 months to declare past crypto gains without late-filing penalties, though questions remain over crypto-to-crypto swaps.",
+   "시각(UTC)": "11-06 08:47"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
@@ -513,12 +513,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
    "요약": "The hacking group has been behind some of the crypto industry's most recent high-profile thefts.",
    "시각(UTC)": "11-05 16:58"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep",
-   "요약": "",
-   "시각(UTC)": "11-05 16:13"
   }
  ]
 }
@@ -543,35 +537,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.0,
+   "Binance (Futures)": -0.0024,
    "WEEX (Futures)": 0.0001,
-   "CoinW (Futures)": 0.0053,
-   "MEXC (Futures)": 0.0051,
-   "Hyperliquid (Futures)": 0.0013
+   "CoinW (Futures)": 0.0042,
+   "MEXC (Futures)": 0.0033,
+   "Hyperliquid (Futures)": 0.0012
   },
-  "미결제약정 합계 USD(상위)": 18595651837
+  "미결제약정 합계 USD(상위)": 18650049109
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 80.77,
+  "CoinGecko 이용자 투표 상승(%)": 81.13,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
    "DENIM",
-   "AKE",
+   "BTC",
    "SOL",
-   "PENGU",
+   "XMR",
    "NEAR",
-   "ZEC",
-   "PEPE",
-   "DOT",
-   "INJ",
-   "AIN",
-   "SHIB",
-   "ALGO",
    "HYPE",
-   "LIT"
+   "PEPE",
+   "ZEC",
+   "WLFI",
+   "PEARL",
+   "LIT",
+   "AERO",
+   "INJ",
+   "AAVE",
+   "ENA"
   ],
   "ETH가 인기 검색에 있음": false
  }
@@ -666,19 +660,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2106335850,
- "완전희석가치 FDV(USD)": 2106335850,
- "24시간 거래대금(USD)": 443541281,
+ "시가총액(USD)": 2155586449,
+ "완전희석가치 FDV(USD)": 2155586449,
+ "24시간 거래대금(USD)": 467078212,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.13634,
+ "역대 최고가 대비(%)": -81.70009,
  "가격 변화(%)": {
-  "7d": 2.44825,
-  "30d": 20.69095,
-  "1y": -11.01075
+  "7d": 3.51735,
+  "30d": 24.64775,
+  "1y": -8.96998
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -690,6 +684,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
+   "요약": "Investors will have 12 months to declare past crypto gains without late-filing penalties, though questions remain over crypto-to-crypto swaps.",
+   "시각(UTC)": "11-06 08:47"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
@@ -731,12 +731,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
    "요약": "The hacking group has been behind some of the crypto industry's most recent high-profile thefts.",
    "시각(UTC)": "11-05 16:58"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
-   "요약": "Soter also received backing of 500 BTC and 2000 ETH, worth another $43 million at current prices.",
-   "시각(UTC)": "11-05 16:49"
   }
  ]
 }
@@ -768,7 +762,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 294840835
+  "미결제약정 합계 USD(상위)": 298926164
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -776,21 +770,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 70.59,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
    "DENIM",
-   "AKE",
+   "BTC",
    "SOL",
-   "PENGU",
+   "XMR",
    "NEAR",
-   "ZEC",
-   "PEPE",
-   "DOT",
-   "INJ",
-   "AIN",
-   "SHIB",
-   "ALGO",
    "HYPE",
-   "LIT"
+   "PEPE",
+   "ZEC",
+   "WLFI",
+   "PEARL",
+   "LIT",
+   "AERO",
+   "INJ",
+   "AAVE",
+   "ENA"
   ],
   "PEPE가 인기 검색에 있음": true
  }
@@ -885,24 +879,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Solana Ecosystem"
  ],
  "시가총액 순위": 83,
- "시가총액(USD)": 808138720,
- "완전희석가치 FDV(USD)": 808138720,
- "24시간 거래대금(USD)": 174288300,
+ "시가총액(USD)": 816525390,
+ "완전희석가치 FDV(USD)": 816525390,
+ "24시간 거래대금(USD)": 168130528,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.64218,
+ "역대 최고가 대비(%)": -84.4828,
  "가격 변화(%)": {
-  "7d": 11.40279,
-  "30d": 6.60496,
-  "1y": 26.69654
+  "7d": 13.05515,
+  "30d": 8.79279,
+  "1y": 28.38401
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 22641602
+  "TVL(USD)": 22640029
  }
 }
 ```
@@ -913,6 +907,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INJ 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
+   "요약": "Investors will have 12 months to declare past crypto gains without late-filing penalties, though questions remain over crypto-to-crypto swaps.",
+   "시각(UTC)": "11-06 08:47"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
@@ -954,12 +954,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
    "요약": "The hacking group has been behind some of the crypto industry's most recent high-profile thefts.",
    "시각(UTC)": "11-05 16:58"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
-   "요약": "Soter also received backing of 500 BTC and 2000 ETH, worth another $43 million at current prices.",
-   "시각(UTC)": "11-05 16:49"
   }
  ]
 }
@@ -985,35 +979,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
-   "OrangeX Futures": -0.0295,
+   "OrangeX Futures": -0.0178,
    "Binance (Futures)": 0.01,
    "Gate (Futures)": 0.01,
    "MEXC (Futures)": 0.0232,
    "Bybit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 335250578
+  "미결제약정 합계 USD(상위)": 323773919
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 90.0,
+  "CoinGecko 이용자 투표 상승(%)": 89.29,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
    "DENIM",
-   "AKE",
+   "BTC",
    "SOL",
-   "PENGU",
+   "XMR",
    "NEAR",
-   "ZEC",
-   "PEPE",
-   "DOT",
-   "INJ",
-   "AIN",
-   "SHIB",
-   "ALGO",
    "HYPE",
-   "LIT"
+   "PEPE",
+   "ZEC",
+   "WLFI",
+   "PEARL",
+   "LIT",
+   "AERO",
+   "INJ",
+   "AAVE",
+   "ENA"
   ],
   "INJ가 인기 검색에 있음": true
  }
@@ -1108,19 +1102,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 354,
- "시가총액(USD)": 66035987,
- "완전희석가치 FDV(USD)": 66035987,
- "24시간 거래대금(USD)": 17692443,
- "유통량": 1218535.37438883,
- "총발행량": 1218535.37438883,
+ "시가총액 순위": 352,
+ "시가총액(USD)": 67343970,
+ "완전희석가치 FDV(USD)": 67343970,
+ "24시간 거래대금(USD)": 18146939,
+ "유통량": 1221798.59656129,
+ "총발행량": 1221798.59656129,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 130.12,
- "역대 최고가 대비(%)": -58.3523,
+ "역대 최고가 대비(%)": -57.64081,
  "가격 변화(%)": {
-  "7d": -22.98752,
-  "30d": -52.68903,
+  "7d": -19.11576,
+  "30d": -51.96828,
   "1y": null
  },
  "소개": ""
@@ -1133,6 +1127,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INTCB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Greece approves 10% tax on crypto gains and 15% levy on DeFi income",
+   "요약": "Investors will have 12 months to declare past crypto gains without late-filing penalties, though questions remain over crypto-to-crypto swaps.",
+   "시각(UTC)": "11-06 08:47"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
@@ -1174,12 +1174,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
    "요약": "The hacking group has been behind some of the crypto industry's most recent high-profile thefts.",
    "시각(UTC)": "11-05 16:58"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
-   "요약": "Soter also received backing of 500 BTC and 2000 ETH, worth another $43 million at current prices.",
-   "시각(UTC)": "11-05 16:49"
   }
  ]
 }
@@ -1210,21 +1204,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
    "DENIM",
-   "AKE",
+   "BTC",
    "SOL",
-   "PENGU",
+   "XMR",
    "NEAR",
-   "ZEC",
-   "PEPE",
-   "DOT",
-   "INJ",
-   "AIN",
-   "SHIB",
-   "ALGO",
    "HYPE",
-   "LIT"
+   "PEPE",
+   "ZEC",
+   "WLFI",
+   "PEARL",
+   "LIT",
+   "AERO",
+   "INJ",
+   "AAVE",
+   "ENA"
   ],
   "INTCB가 인기 검색에 있음": false
  }
