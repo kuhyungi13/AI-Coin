@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-07 04:34 KST)
+# TF팀 회의 자료 (2026-11-07 05:25 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -7,7 +7,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 **지금까지 승률** ACE 40.9% (9/22), 채점 대기 0개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,022.15 USDT (+0.22%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,022.98 USDT (+0.23%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: PEPE, INJ · 과매도 반등: INTCB
 
@@ -66,22 +66,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-06",
   "등락률(%)": {
-   "1일": -0.37,
-   "7일": -5.63,
-   "30일": -2.72,
-   "90일": -7.12
+   "1일": 0.03,
+   "7일": -0.19,
+   "30일": -2.46,
+   "90일": -6.88
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -2.55,
-   "MA60": -3.25,
-   "MA120": -5.12
+   "MA20": -2.45,
+   "MA60": -3.12,
+   "MA120": -5.04
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 77
+   "며칠 전": 78
   },
-  "RSI14": 38.1
+  "RSI14": 38.3
  }
 }
 ```
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1520987891949,
- "완전희석가치 FDV(USD)": 1521007257635,
- "24시간 거래대금(USD)": 33441105115,
+ "시가총액(USD)": 1522799443771,
+ "완전희석가치 FDV(USD)": 1522825724618,
+ "24시간 거래대금(USD)": 32726648951,
  "유통량": 20106331.0,
- "총발행량": 20106587.0,
+ "총발행량": 20106678.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.7,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -40.00712,
+ "역대 최고가 대비(%)": -39.92911,
  "가격 변화(%)": {
-  "7d": -1.23684,
-  "30d": -9.29162,
-  "1y": -25.6051
+  "7d": -1.44225,
+  "30d": -9.18495,
+  "1y": -25.34532
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4025630948
+  "TVL(USD)": 4025671213
  }
 }
 ```
@@ -175,12 +175,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-05 12:27"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin miners are oversold following 35% October rout, VanEck says",
-   "요약": "Investors dumped AI infrastructure providers across the board in October, treating companies in very different sectors as one monolithic trade.",
-   "시각(UTC)": "11-05 11:49"
-  },
-  {
    "출처": "Cointelegraph",
    "제목": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
    "요약": "The rules allow retail investors to trade BTC, ETH and USDT through regulated intermediaries, with Moscow Exchange planning to launch crypto trading in December.",
@@ -215,9 +209,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate",
    "요약": "US spot Bitcoin and Ether ETFs shed a combined $530 million Thursday as Bitcoin fell below $76,000 and US stocks tumbled.",
    "시각(UTC)": "11-06 08:19"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
+   "요약": "The former Bitcoin mining heavyweight plans to become a pure-play data center provider in 2027, with mining now accounting for just 7.5% of quarterly revenue.",
+   "시각(UTC)": "11-06 00:19"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+   "요약": "Strategy, Coinbase, Circle and Robinhood are among six companies from the venture’s initial selection with no disclosed objection, after 90% of issuers opted out.",
+   "시각(UTC)": "11-06 20:09"
+  },
   {
    "출처": "CoinDesk",
    "제목": "U.S. prediction markets regulator issues demand that clashes directly with courts",
@@ -259,12 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide",
    "요약": "The crypto venture may use fees from its USD1 stablecoin reserves to fund token purchases as it seeks to boost governance.",
    "시각(UTC)": "11-06 08:04"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Zcash’s landmark NU7 upgrade goes live, speeding up private payments",
-   "요약": "NU7 cuts the target time between blocks to 25 seconds, reduces the work wallets must do to find private payments and sets aside fees for future miners.",
-   "시각(UTC)": "11-06 05:14"
   }
  ]
 }
@@ -290,35 +290,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.01,
-   "Bybit (Futures)": 0.0097,
+   "Bybit (Futures)": 0.01,
    "MEXC (Futures)": 0.01,
    "Gate (Futures)": 0.01,
    "WEEX (Futures)": 0.0001,
    "Tapbit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 28899250877
+  "미결제약정 합계 USD(상위)": 28942799487
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 54.14,
+  "CoinGecko 이용자 투표 상승(%)": 54.86,
   "CoinGecko 인기 검색 코인": [
    "PENGU",
    "REBOOT",
    "DENIM",
-   "KNTQ",
-   "CARDS",
-   "PEARL",
-   "PEPE",
-   "ZEC",
-   "XRP",
-   "PEAQ",
    "BTC",
+   "PEARL",
    "HYPE",
-   "AERO",
    "INJ",
-   "MON"
+   "XRP",
+   "ETH",
+   "LIT",
+   "AERO",
+   "SOL",
+   "PEPE",
+   "KNTQ",
+   "DOGE"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -380,22 +380,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-06",
   "등락률(%)": {
-   "1일": -0.59,
-   "7일": -7.86,
-   "30일": -1.6,
-   "90일": -7.01
+   "1일": 0.23,
+   "7일": -0.75,
+   "30일": -1.04,
+   "90일": -6.34
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -3.47,
-   "MA60": -2.78,
-   "MA120": -4.74
+   "MA20": -3.19,
+   "MA60": -2.48,
+   "MA120": -4.46
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 9
+   "며칠 전": 10
   },
-  "RSI14": 39.4
+  "RSI14": 40.4
  }
 }
 ```
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 271992479080,
- "완전희석가치 FDV(USD)": 271992479080,
- "24시간 거래대금(USD)": 12787659690,
+ "시가총액(USD)": 272285311830,
+ "완전희석가치 FDV(USD)": 272285311830,
+ "24시간 거래대금(USD)": 12464614193,
  "유통량": 122194930.21672837,
  "총발행량": 122194930.21672837,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -55.00095,
+ "역대 최고가 대비(%)": -54.94812,
  "가격 변화(%)": {
-  "7d": -0.21123,
-  "30d": -13.12934,
-  "1y": -33.15457
+  "7d": -0.37615,
+  "30d": -13.28963,
+  "1y": -33.08066
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 42954037084
+  "TVL(USD)": 42984071437
  }
 }
 ```
@@ -480,6 +480,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+   "요약": "Strategy, Coinbase, Circle and Robinhood are among six companies from the venture’s initial selection with no disclosed objection, after 90% of issuers opted out.",
+   "시각(UTC)": "11-06 20:09"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "U.S. prediction markets regulator issues demand that clashes directly with courts",
    "요약": "The Commodity Futures Trading Commission said regulated exchanges can't cut off customers state-by-state, but firms like Kalshi are under court orders to do so.",
    "시각(UTC)": "11-06 17:42"
@@ -519,12 +525,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
    "요약": "Bitcoin bounced from around $75,200 after Thursday’s AI-led selloff, which drove more than $1 billion in liquidations, as traders await the U.S. jobs report.",
    "시각(UTC)": "11-06 11:49"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
-   "요약": "Bitcoin recovered above $76,000 Friday after dropping below that level during Thursday's tech-driven market rout.",
-   "시각(UTC)": "11-06 09:53"
   }
  ]
 }
@@ -549,37 +549,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0016,
-   "CoinW (Futures)": 0.0045,
+   "Binance (Futures)": 0.0034,
+   "CoinW (Futures)": 0.0057,
    "WEEX (Futures)": 0.0001,
-   "MEXC (Futures)": 0.0044,
+   "MEXC (Futures)": 0.0057,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 19214733207
+  "미결제약정 합계 USD(상위)": 19234182140
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 82.05,
+  "CoinGecko 이용자 투표 상승(%)": 82.5,
   "CoinGecko 인기 검색 코인": [
    "PENGU",
    "REBOOT",
    "DENIM",
-   "KNTQ",
-   "CARDS",
-   "PEARL",
-   "PEPE",
-   "ZEC",
-   "XRP",
-   "PEAQ",
    "BTC",
+   "PEARL",
    "HYPE",
-   "AERO",
    "INJ",
-   "MON"
+   "XRP",
+   "ETH",
+   "LIT",
+   "AERO",
+   "SOL",
+   "PEPE",
+   "KNTQ",
+   "DOGE"
   ],
-  "ETH가 인기 검색에 있음": false
+  "ETH가 인기 검색에 있음": true
  }
 }
 ```
@@ -639,22 +639,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-06",
   "등락률(%)": {
-   "1일": 0.39,
-   "7일": 2.62,
-   "30일": 5.6,
-   "90일": 14.64
+   "1일": -0.39,
+   "7일": 7.87,
+   "30일": 3.47,
+   "90일": 15.23
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 3.25,
-   "MA60": 3.35,
-   "MA120": 9.71
+   "MA20": 2.55,
+   "MA60": 2.76,
+   "MA120": 9.06
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 0
+   "며칠 전": 1
   },
-  "RSI14": 57.9
+  "RSI14": 56.9
  }
 }
 ```
@@ -672,19 +672,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 44,
- "시가총액(USD)": 2120483106,
- "완전희석가치 FDV(USD)": 2120483106,
- "24시간 거래대금(USD)": 431174506,
+ "시가총액(USD)": 2124251340,
+ "완전희석가치 FDV(USD)": 2124251340,
+ "24시간 거래대금(USD)": 428165028,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.02441,
+ "역대 최고가 대비(%)": -81.9844,
  "가격 변화(%)": {
-  "7d": -0.19572,
-  "30d": 24.54166,
-  "1y": -8.90827
+  "7d": -0.13643,
+  "30d": 24.53896,
+  "1y": -8.57972
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -696,6 +696,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+   "요약": "Strategy, Coinbase, Circle and Robinhood are among six companies from the venture’s initial selection with no disclosed objection, after 90% of issuers opted out.",
+   "시각(UTC)": "11-06 20:09"
+  },
   {
    "출처": "CoinDesk",
    "제목": "U.S. prediction markets regulator issues demand that clashes directly with courts",
@@ -737,12 +743,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
    "요약": "Bitcoin bounced from around $75,200 after Thursday’s AI-led selloff, which drove more than $1 billion in liquidations, as traders await the U.S. jobs report.",
    "시각(UTC)": "11-06 11:49"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
-   "요약": "Bitcoin recovered above $76,000 Friday after dropping below that level during Thursday's tech-driven market rout.",
-   "시각(UTC)": "11-06 09:53"
   }
  ]
 }
@@ -767,36 +767,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "MEXC (Futures)": 0.0272,
+   "MEXC (Futures)": 0.0263,
    "Gate (Futures)": 0.01,
    "OKX (Futures)": 0.01,
    "Bitget Futures": 0.01,
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 322951171
+  "미결제약정 합계 USD(상위)": 323164862
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 80.0,
+  "CoinGecko 이용자 투표 상승(%)": 82.76,
   "CoinGecko 인기 검색 코인": [
    "PENGU",
    "REBOOT",
    "DENIM",
-   "KNTQ",
-   "CARDS",
-   "PEARL",
-   "PEPE",
-   "ZEC",
-   "XRP",
-   "PEAQ",
    "BTC",
+   "PEARL",
    "HYPE",
-   "AERO",
    "INJ",
-   "MON"
+   "XRP",
+   "ETH",
+   "LIT",
+   "AERO",
+   "SOL",
+   "PEPE",
+   "KNTQ",
+   "DOGE"
   ],
   "PEPE가 인기 검색에 있음": true
  }
@@ -858,22 +858,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-06",
   "등락률(%)": {
-   "1일": 1.69,
-   "7일": -0.1,
-   "30일": 15.58,
-   "90일": 4.62
+   "1일": 1.47,
+   "7일": 6.56,
+   "30일": 19.4,
+   "90일": 4.93
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 5.96,
-   "MA60": 9.9,
-   "MA120": 5.57
+   "MA20": 6.73,
+   "MA60": 11.43,
+   "MA120": 7.15
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 4
+   "며칠 전": 5
   },
-  "RSI14": 63.1
+  "RSI14": 65.4
  }
 }
 ```
@@ -890,25 +890,25 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Cosmos Ecosystem",
   "Solana Ecosystem"
  ],
- "시가총액 순위": 81,
- "시가총액(USD)": 832109273,
- "완전희석가치 FDV(USD)": 832109273,
- "24시간 거래대금(USD)": 120284086,
+ "시가총액 순위": 80,
+ "시가총액(USD)": 841412114,
+ "완전희석가치 FDV(USD)": 841412114,
+ "24시간 거래대금(USD)": 120360130,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.19128,
+ "역대 최고가 대비(%)": -84.00986,
  "가격 변화(%)": {
-  "7d": 19.47388,
-  "30d": 11.43866,
-  "1y": 31.40654
+  "7d": 18.73284,
+  "30d": 11.96753,
+  "1y": 33.09599
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 22957655
+  "TVL(USD)": 22993996
  }
 }
 ```
@@ -919,6 +919,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INJ 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+   "요약": "Strategy, Coinbase, Circle and Robinhood are among six companies from the venture’s initial selection with no disclosed objection, after 90% of issuers opted out.",
+   "시각(UTC)": "11-06 20:09"
+  },
   {
    "출처": "CoinDesk",
    "제목": "U.S. prediction markets regulator issues demand that clashes directly with courts",
@@ -960,12 +966,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
    "요약": "Bitcoin bounced from around $75,200 after Thursday’s AI-led selloff, which drove more than $1 billion in liquidations, as traders await the U.S. jobs report.",
    "시각(UTC)": "11-06 11:49"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
-   "요약": "Bitcoin recovered above $76,000 Friday after dropping below that level during Thursday's tech-driven market rout.",
-   "시각(UTC)": "11-06 09:53"
   }
  ]
 }
@@ -991,35 +991,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
-   "OrangeX Futures": -0.0333,
+   "OrangeX Futures": -0.0334,
    "Binance (Futures)": 0.01,
-   "Gate (Futures)": 0.0033,
-   "MEXC (Futures)": 0.0255,
-   "Bybit (Futures)": 0.0049
+   "Gate (Futures)": 0.0039,
+   "MEXC (Futures)": 0.0206,
+   "Bybit (Futures)": 0.0072
   },
-  "미결제약정 합계 USD(상위)": 309975819
+  "미결제약정 합계 USD(상위)": 313293672
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 97.3,
+  "CoinGecko 이용자 투표 상승(%)": 94.59,
   "CoinGecko 인기 검색 코인": [
    "PENGU",
    "REBOOT",
    "DENIM",
-   "KNTQ",
-   "CARDS",
-   "PEARL",
-   "PEPE",
-   "ZEC",
-   "XRP",
-   "PEAQ",
    "BTC",
+   "PEARL",
    "HYPE",
-   "AERO",
    "INJ",
-   "MON"
+   "XRP",
+   "ETH",
+   "LIT",
+   "AERO",
+   "SOL",
+   "PEPE",
+   "KNTQ",
+   "DOGE"
   ],
   "INJ가 인기 검색에 있음": true
  }
@@ -1082,22 +1082,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-06",
   "등락률(%)": {
-   "1일": 0.54,
-   "7일": -2.6,
-   "30일": -15.39,
-   "90일": -36.23
+   "1일": 1.97,
+   "7일": 6.51,
+   "30일": -13.45,
+   "90일": -33.39
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -2.48,
-   "MA60": -18.88,
-   "MA120": -29.45
+   "MA20": -0.18,
+   "MA60": -16.54,
+   "MA120": -27.81
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 43
+   "며칠 전": 44
   },
-  "RSI14": 40.5
+  "RSI14": 44.2
  }
 }
 ```
@@ -1115,18 +1115,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "bStocks Ecosystem"
  ],
  "시가총액 순위": 345,
- "시가총액(USD)": 70369116,
- "완전희석가치 FDV(USD)": 70369116,
- "24시간 거래대금(USD)": 16956208,
+ "시가총액(USD)": 70532748,
+ "완전희석가치 FDV(USD)": 70532748,
+ "24시간 거래대금(USD)": 17027068,
  "유통량": 1240028.6056339901,
  "총발행량": 1240028.6056339901,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 130.12,
- "역대 최고가 대비(%)": -56.38871,
+ "역대 최고가 대비(%)": -56.2873,
  "가격 변화(%)": {
-  "7d": -10.91074,
-  "30d": -49.57001,
+  "7d": -13.3498,
+  "30d": -49.68216,
   "1y": null
  },
  "소개": ""
@@ -1139,6 +1139,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INTCB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+   "요약": "Strategy, Coinbase, Circle and Robinhood are among six companies from the venture’s initial selection with no disclosed objection, after 90% of issuers opted out.",
+   "시각(UTC)": "11-06 20:09"
+  },
   {
    "출처": "CoinDesk",
    "제목": "U.S. prediction markets regulator issues demand that clashes directly with courts",
@@ -1180,12 +1186,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
    "요약": "Bitcoin bounced from around $75,200 after Thursday’s AI-led selloff, which drove more than $1 billion in liquidations, as traders await the U.S. jobs report.",
    "시각(UTC)": "11-06 11:49"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
-   "요약": "Bitcoin recovered above $76,000 Friday after dropping below that level during Thursday's tech-driven market rout.",
-   "시각(UTC)": "11-06 09:53"
   }
  ]
 }
@@ -1219,18 +1219,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "PENGU",
    "REBOOT",
    "DENIM",
-   "KNTQ",
-   "CARDS",
-   "PEARL",
-   "PEPE",
-   "ZEC",
-   "XRP",
-   "PEAQ",
    "BTC",
+   "PEARL",
    "HYPE",
-   "AERO",
    "INJ",
-   "MON"
+   "XRP",
+   "ETH",
+   "LIT",
+   "AERO",
+   "SOL",
+   "PEPE",
+   "KNTQ",
+   "DOGE"
   ],
   "INTCB가 인기 검색에 있음": false
  }
