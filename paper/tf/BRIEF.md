@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-07 20:16 KST)
+# TF팀 회의 자료 (2026-11-07 21:16 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -66,22 +66,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-07",
   "등락률(%)": {
-   "1일": 0.27,
-   "7일": 0.24,
-   "30일": -2.58,
-   "90일": -6.72
+   "1일": -0.15,
+   "7일": 0.49,
+   "30일": -2.45,
+   "90일": -7.03
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -1.87,
-   "MA60": -2.54,
-   "MA120": -4.61
+   "MA20": -1.98,
+   "MA60": -2.57,
+   "MA120": -4.69
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 81
+   "며칠 전": 82
   },
-  "RSI14": 40.5
+  "RSI14": 39.7
  }
 }
 ```
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1526603856262,
- "완전희석가치 FDV(USD)": 1526603856262,
- "24시간 거래대금(USD)": 22194099205,
- "유통량": 20109081.0,
- "총발행량": 20109081.0,
+ "시가총액(USD)": 1527069650174,
+ "완전희석가치 FDV(USD)": 1527069650174,
+ "24시간 거래대금(USD)": 21823460653,
+ "유통량": 20109115.0,
+ "총발행량": 20109115.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -39.78727,
+ "역대 최고가 대비(%)": -39.76874,
  "가격 변화(%)": {
-  "7d": -1.84246,
-  "30d": -8.17993,
-  "1y": -24.63269
+  "7d": -2.05822,
+  "30d": -7.88418,
+  "1y": -24.33057
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4045522225
+  "TVL(USD)": 4037743737
  }
 }
 ```
@@ -290,35 +290,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": -0.0007,
-   "Bybit (Futures)": 0.0025,
-   "MEXC (Futures)": -0.0004,
-   "Gate (Futures)": 0.0002,
+   "Bybit (Futures)": 0.0028,
+   "MEXC (Futures)": -0.0007,
+   "Gate (Futures)": 0.0028,
    "WEEX (Futures)": 0.0001,
    "Tapbit (Futures)": -0.0007
   },
-  "미결제약정 합계 USD(상위)": 28991036642
+  "미결제약정 합계 USD(상위)": 28975270876
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 65.83,
+  "CoinGecko 이용자 투표 상승(%)": 65.22,
   "CoinGecko 인기 검색 코인": [
+   "REBOOT",
+   "DACITY",
    "ONE",
-   "PENGU",
    "BTC",
-   "SOL",
-   "AKE",
+   "PENGU",
    "HYPE",
    "PI",
+   "SOL",
    "PEARL",
-   "ONDO",
-   "NEAR",
-   "TRUMP",
-   "BDX",
-   "ZIL",
-   "LIT",
-   "FET"
+   "XRP",
+   "KAS",
+   "KNTQ",
+   "MON",
+   "PONS",
+   "ONDO"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -380,22 +380,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-07",
   "등락률(%)": {
-   "1일": 0.04,
-   "7일": 0.44,
-   "30일": -1.69,
-   "90일": -6.47
+   "1일": -0.03,
+   "7일": 0.74,
+   "30일": -1.81,
+   "90일": -6.56
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -2.47,
-   "MA60": -1.79,
-   "MA120": -3.85
+   "MA20": -2.49,
+   "MA60": -1.74,
+   "MA120": -3.82
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 13
+   "며칠 전": 14
   },
-  "RSI14": 42.6
+  "RSI14": 42.5
  }
 }
 ```
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 274222360444,
- "완전희석가치 FDV(USD)": 274222360444,
- "24시간 거래대금(USD)": 7876122877,
+ "시가총액(USD)": 273959223565,
+ "완전희석가치 FDV(USD)": 273959223565,
+ "24시간 거래대금(USD)": 7675029559,
  "유통량": 122197894.00927158,
  "총발행량": 122197894.00927158,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -54.62872,
+ "역대 최고가 대비(%)": -54.67214,
  "가격 변화(%)": {
-  "7d": 0.05731,
-  "30d": -11.98963,
-  "1y": -31.53878
+  "7d": -0.18693,
+  "30d": -11.57927,
+  "1y": -31.21314
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 43510879103
+  "TVL(USD)": 43501437477
  }
 }
 ```
@@ -543,13 +543,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0087,
-   "CoinW (Futures)": 0.0052,
+   "Binance (Futures)": 0.0082,
+   "CoinW (Futures)": 0.0066,
    "WEEX (Futures)": 0.0001,
-   "MEXC (Futures)": 0.0052,
+   "MEXC (Futures)": 0.0065,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 19334158222
+  "미결제약정 합계 USD(상위)": 19274889087
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -557,21 +557,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 78.57,
   "CoinGecko 인기 검색 코인": [
+   "REBOOT",
+   "DACITY",
    "ONE",
-   "PENGU",
    "BTC",
-   "SOL",
-   "AKE",
+   "PENGU",
    "HYPE",
    "PI",
+   "SOL",
    "PEARL",
-   "ONDO",
-   "NEAR",
-   "TRUMP",
-   "BDX",
-   "ZIL",
-   "LIT",
-   "FET"
+   "XRP",
+   "KAS",
+   "KNTQ",
+   "MON",
+   "PONS",
+   "ONDO"
   ],
   "ETH가 인기 검색에 있음": false
  }
@@ -633,22 +633,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-07",
   "등락률(%)": {
-   "1일": -0.6,
-   "7일": 0.82,
-   "30일": 2.49,
-   "90일": 6.7
+   "1일": -0.81,
+   "7일": -1.21,
+   "30일": 1.03,
+   "90일": -3.35
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -0.35,
-   "MA60": -0.05,
-   "MA120": 5.65
+   "MA20": -1.24,
+   "MA60": -0.83,
+   "MA120": 4.61
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 4
+   "며칠 전": 5
   },
-  "RSI14": 50.2
+  "RSI14": 48.1
  }
 }
 ```
@@ -666,19 +666,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2066326606,
- "완전희석가치 FDV(USD)": 2066326606,
- "24시간 거래대금(USD)": 313721504,
+ "시가총액(USD)": 2061553515,
+ "완전희석가치 FDV(USD)": 2061553515,
+ "24시간 거래대금(USD)": 304773813,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.47565,
+ "역대 최고가 대비(%)": -82.51613,
  "가격 변화(%)": {
-  "7d": -1.95945,
-  "30d": 21.70122,
-  "1y": -13.72806
+  "7d": -3.10335,
+  "30d": 21.73357,
+  "1y": -13.27727
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -762,35 +762,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "MEXC (Futures)": 0.01,
-   "Gate (Futures)": 0.0098,
-   "Bitget Futures": -0.001,
+   "Gate (Futures)": 0.0055,
    "OKX (Futures)": 0.01,
-   "KCEX (Futures)": 0.01,
-   "WhiteBIT Futures": 0.01
+   "Bitget Futures": 0.0019,
+   "WhiteBIT Futures": 0.01,
+   "BloFin (Futures)": 0.022
   },
-  "미결제약정 합계 USD(상위)": 311155412
+  "미결제약정 합계 USD(상위)": 279594266
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 88.24,
+  "CoinGecko 이용자 투표 상승(%)": 88.57,
   "CoinGecko 인기 검색 코인": [
+   "REBOOT",
+   "DACITY",
    "ONE",
-   "PENGU",
    "BTC",
-   "SOL",
-   "AKE",
+   "PENGU",
    "HYPE",
    "PI",
+   "SOL",
    "PEARL",
-   "ONDO",
-   "NEAR",
-   "TRUMP",
-   "BDX",
-   "ZIL",
-   "LIT",
-   "FET"
+   "XRP",
+   "KAS",
+   "KNTQ",
+   "MON",
+   "PONS",
+   "ONDO"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -852,22 +852,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-07",
   "등락률(%)": {
-   "1일": -0.28,
-   "7일": -1.08,
-   "30일": 14.55,
-   "90일": 1.82
+   "1일": -1.28,
+   "7일": 0.31,
+   "30일": 14.24,
+   "90일": 2.67
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 2.97,
-   "MA60": 9.4,
-   "MA120": 5.53
+   "MA20": 0.99,
+   "MA60": 7.94,
+   "MA120": 4.21
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 8
+   "며칠 전": 9
   },
-  "RSI14": 60.6
+  "RSI14": 56.9
  }
 }
 ```
@@ -885,24 +885,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Solana Ecosystem"
  ],
  "시가총액 순위": 81,
- "시가총액(USD)": 815269456,
- "완전희석가치 FDV(USD)": 815269456,
- "24시간 거래대금(USD)": 89127437,
+ "시가총액(USD)": 821016875,
+ "완전희석가치 FDV(USD)": 821016875,
+ "24시간 거래대금(USD)": 90841264,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.50667,
+ "역대 최고가 대비(%)": -84.39745,
  "가격 변화(%)": {
-  "7d": 15.54608,
-  "30d": 10.42906,
-  "1y": 21.95327
+  "7d": 16.02699,
+  "30d": 11.60226,
+  "1y": 24.26376
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 22762436
+  "TVL(USD)": 22710265
  }
 }
 ```
@@ -985,13 +985,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
-   "OrangeX Futures": -0.0218,
+   "OrangeX Futures": -0.0155,
    "Binance (Futures)": 0.01,
    "Gate (Futures)": 0.01,
-   "MEXC (Futures)": -0.0029,
+   "MEXC (Futures)": 0.0279,
    "Bybit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 296878999
+  "미결제약정 합계 USD(상위)": 299986445
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -999,21 +999,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 96.15,
   "CoinGecko 인기 검색 코인": [
+   "REBOOT",
+   "DACITY",
    "ONE",
-   "PENGU",
    "BTC",
-   "SOL",
-   "AKE",
+   "PENGU",
    "HYPE",
    "PI",
+   "SOL",
    "PEARL",
-   "ONDO",
-   "NEAR",
-   "TRUMP",
-   "BDX",
-   "ZIL",
-   "LIT",
-   "FET"
+   "XRP",
+   "KAS",
+   "KNTQ",
+   "MON",
+   "PONS",
+   "ONDO"
   ],
   "INJ가 인기 검색에 있음": false
  }
@@ -1076,22 +1076,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-07",
   "등락률(%)": {
-   "1일": -0.16,
-   "7일": -2.67,
-   "30일": -29.36,
-   "90일": -35.57
+   "1일": -0.12,
+   "7일": -3.0,
+   "30일": -29.06,
+   "90일": -35.24
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -10.82,
-   "MA60": -25.25,
-   "MA120": -30.95
+   "MA20": -9.82,
+   "MA60": -24.74,
+   "MA120": -30.82
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 40
+   "며칠 전": 41
   },
-  "RSI14": 31.6
+  "RSI14": 31.5
  }
 }
 ```
@@ -1109,18 +1109,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "bStocks Ecosystem"
  ],
  "시가총액 순위": 282,
- "시가총액(USD)": 92320518,
- "완전희석가치 FDV(USD)": 92320518,
- "24시간 거래대금(USD)": 65470761,
- "유통량": 110794.28239916,
- "총발행량": 110794.28239916,
+ "시가총액(USD)": 92373974,
+ "완전희석가치 FDV(USD)": 92373974,
+ "24시간 거래대금(USD)": 61246703,
+ "유통량": 110796.52235695999,
+ "총발행량": 110796.52235695999,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2369.74,
- "역대 최고가 대비(%)": -64.8375,
+ "역대 최고가 대비(%)": -64.81786,
  "가격 변화(%)": {
-  "7d": -27.71417,
-  "30d": -49.92527,
+  "7d": -27.66921,
+  "30d": -50.00092,
   "1y": null
  },
  "소개": ""
@@ -1210,21 +1210,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
+   "REBOOT",
+   "DACITY",
    "ONE",
-   "PENGU",
    "BTC",
-   "SOL",
-   "AKE",
+   "PENGU",
    "HYPE",
    "PI",
+   "SOL",
    "PEARL",
-   "ONDO",
-   "NEAR",
-   "TRUMP",
-   "BDX",
-   "ZIL",
-   "LIT",
-   "FET"
+   "XRP",
+   "KAS",
+   "KNTQ",
+   "MON",
+   "PONS",
+   "ONDO"
   ],
   "SNDKB가 인기 검색에 있음": false
  }
