@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-07 09:14 KST)
+# TF팀 회의 자료 (2026-11-07 10:41 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -7,7 +7,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 **지금까지 승률** ACE 40.9% (9/22), 채점 대기 0개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
-**TRAINER 모의 계좌** 총자산 10,016.30 USDT (+0.16%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
+**TRAINER 모의 계좌** 총자산 10,017.14 USDT (+0.17%), 보유 PEPE · 자세히는 `paper/tf/trainer/TRAINER.md`
 
 **전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: PEPE, INJ · 과매도 반등: SNDKB
 
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1525512524600,
- "완전희석가치 FDV(USD)": 1525512524600,
- "24시간 거래대금(USD)": 29215071362,
- "유통량": 20107665.0,
- "총발행량": 20107665.0,
+ "시가총액(USD)": 1526390446113,
+ "완전희석가치 FDV(USD)": 1526396139383,
+ "24시간 거래대금(USD)": 28231929942,
+ "유통량": 20107825.0,
+ "총발행량": 20107900.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -39.82801,
+ "역대 최고가 대비(%)": -39.79193,
  "가격 변화(%)": {
-  "7d": -1.82501,
-  "30d": -8.90621,
-  "1y": -25.08045
+  "7d": -2.02251,
+  "30d": -8.91007,
+  "1y": -25.153
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4037209757
+  "TVL(USD)": 4036048303
  }
 }
 ```
@@ -289,36 +289,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.01,
-   "Bybit (Futures)": 0.0098,
-   "MEXC (Futures)": 0.01,
-   "Gate (Futures)": 0.01,
+   "Binance (Futures)": 0.0071,
+   "Bybit (Futures)": 0.0034,
+   "MEXC (Futures)": 0.0071,
+   "Gate (Futures)": 0.0086,
    "WEEX (Futures)": 0.0001,
-   "CoinW (Futures)": 0.01
+   "CoinW (Futures)": 0.0072
   },
-  "미결제약정 합계 USD(상위)": 28821253303
+  "미결제약정 합계 USD(상위)": 28805433373
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 56.4,
+  "CoinGecko 이용자 투표 상승(%)": 56.14,
   "CoinGecko 인기 검색 코인": [
-   "PENGU",
-   "DENIM",
    "PEARL",
-   "BTC",
-   "HYPE",
-   "MON",
-   "INJ",
-   "AKE",
-   "PUMP",
    "ZEC",
-   "ZK",
+   "BTC",
+   "ETH",
+   "AVAX",
+   "LINK",
+   "SUI",
+   "HYPE",
+   "XRP",
    "NEAR",
-   "GRASS",
-   "ZRO",
-   "MINA"
+   "MON",
+   "KNTQ",
+   "PONS",
+   "PEPE",
+   "QTC"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 273665373605,
- "완전희석가치 FDV(USD)": 273665373605,
- "24시간 거래대금(USD)": 10230112563,
+ "시가총액(USD)": 274128395897,
+ "완전희석가치 FDV(USD)": 274128395897,
+ "24시간 거래대금(USD)": 10169198847,
  "유통량": 122194930.21672837,
  "총발행량": 122194930.21672837,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -54.71265,
+ "역대 최고가 대비(%)": -54.64317,
  "가격 변화(%)": {
-  "7d": -0.1143,
-  "30d": -12.9525,
-  "1y": -32.37836
+  "7d": -0.17926,
+  "30d": -12.87307,
+  "1y": -32.49526
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 43269216939
+  "TVL(USD)": 43345463409
  }
 }
 ```
@@ -549,37 +549,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0082,
-   "CoinW (Futures)": 0.0098,
-   "WEEX (Futures)": 0.0001,
-   "MEXC (Futures)": 0.01,
+   "Binance (Futures)": 0.008,
+   "CoinW (Futures)": 0.0096,
+   "WEEX (Futures)": 0.0,
+   "MEXC (Futures)": 0.0096,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 19533307767
+  "미결제약정 합계 USD(상위)": 19526436840
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 84.85,
+  "CoinGecko 이용자 투표 상승(%)": 84.38,
   "CoinGecko 인기 검색 코인": [
-   "PENGU",
-   "DENIM",
    "PEARL",
-   "BTC",
-   "HYPE",
-   "MON",
-   "INJ",
-   "AKE",
-   "PUMP",
    "ZEC",
-   "ZK",
+   "BTC",
+   "ETH",
+   "AVAX",
+   "LINK",
+   "SUI",
+   "HYPE",
+   "XRP",
    "NEAR",
-   "GRASS",
-   "ZRO",
-   "MINA"
+   "MON",
+   "KNTQ",
+   "PONS",
+   "PEPE",
+   "QTC"
   ],
-  "ETH가 인기 검색에 있음": false
+  "ETH가 인기 검색에 있음": true
  }
 }
 ```
@@ -671,20 +671,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Arbitrum Ecosystem",
   "Ethereum Ecosystem"
  ],
- "시가총액 순위": 45,
- "시가총액(USD)": 2094364490,
- "완전희석가치 FDV(USD)": 2094364490,
- "24시간 거래대금(USD)": 410498324,
+ "시가총액 순위": 44,
+ "시가총액(USD)": 2115898999,
+ "완전희석가치 FDV(USD)": 2115898999,
+ "24시간 거래대금(USD)": 400693145,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.23687,
+ "역대 최고가 대비(%)": -82.05373,
  "가격 변화(%)": {
-  "7d": 1.27533,
-  "30d": 21.62245,
-  "1y": -10.30423
+  "7d": 0.5939,
+  "30d": 22.57528,
+  "1y": -10.45265
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -774,7 +774,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 316262014
+  "미결제약정 합계 USD(상위)": 320145313
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -782,23 +782,23 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 88.24,
   "CoinGecko 인기 검색 코인": [
-   "PENGU",
-   "DENIM",
    "PEARL",
-   "BTC",
-   "HYPE",
-   "MON",
-   "INJ",
-   "AKE",
-   "PUMP",
    "ZEC",
-   "ZK",
+   "BTC",
+   "ETH",
+   "AVAX",
+   "LINK",
+   "SUI",
+   "HYPE",
+   "XRP",
    "NEAR",
-   "GRASS",
-   "ZRO",
-   "MINA"
+   "MON",
+   "KNTQ",
+   "PONS",
+   "PEPE",
+   "QTC"
   ],
-  "PEPE가 인기 검색에 있음": false
+  "PEPE가 인기 검색에 있음": true
  }
 }
 ```
@@ -890,25 +890,25 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Cosmos Ecosystem",
   "Solana Ecosystem"
  ],
- "시가총액 순위": 82,
- "시가총액(USD)": 826593551,
- "완전희석가치 FDV(USD)": 826593551,
- "24시간 거래대금(USD)": 110780754,
+ "시가총액 순위": 81,
+ "시가총액(USD)": 842010029,
+ "완전희석가치 FDV(USD)": 842010029,
+ "24시간 거래대금(USD)": 111100306,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.2895,
+ "역대 최고가 대비(%)": -83.99849,
  "가격 변화(%)": {
-  "7d": 15.18869,
-  "30d": 10.84171,
-  "1y": 30.62378
+  "7d": 16.40758,
+  "30d": 12.54801,
+  "1y": 30.48034
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 23105544
+  "TVL(USD)": 23007028
  }
 }
 ```
@@ -991,37 +991,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
-   "OrangeX Futures": -0.0147,
+   "OrangeX Futures": -0.0116,
    "Binance (Futures)": 0.01,
    "Gate (Futures)": 0.01,
    "MEXC (Futures)": 0.0206,
    "Bybit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 313777375
+  "미결제약정 합계 USD(상위)": 315163900
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 93.75,
+  "CoinGecko 이용자 투표 상승(%)": 93.33,
   "CoinGecko 인기 검색 코인": [
-   "PENGU",
-   "DENIM",
    "PEARL",
-   "BTC",
-   "HYPE",
-   "MON",
-   "INJ",
-   "AKE",
-   "PUMP",
    "ZEC",
-   "ZK",
+   "BTC",
+   "ETH",
+   "AVAX",
+   "LINK",
+   "SUI",
+   "HYPE",
+   "XRP",
    "NEAR",
-   "GRASS",
-   "ZRO",
-   "MINA"
+   "MON",
+   "KNTQ",
+   "PONS",
+   "PEPE",
+   "QTC"
   ],
-  "INJ가 인기 검색에 있음": true
+  "INJ가 인기 검색에 있음": false
  }
 }
 ```
@@ -1115,18 +1115,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "bStocks Ecosystem"
  ],
  "시가총액 순위": 267,
- "시가총액(USD)": 100813225,
- "완전희석가치 FDV(USD)": 100813225,
- "24시간 거래대금(USD)": 89210418,
- "유통량": 120270.30134282999,
- "총발행량": 120270.30134282999,
+ "시가총액(USD)": 100919091,
+ "완전희석가치 FDV(USD)": 100951338,
+ "24시간 거래대금(USD)": 86499082,
+ "유통량": 120287.11022671999,
+ "총발행량": 120325.54582546001,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2369.74,
- "역대 최고가 대비(%)": -64.62796,
+ "역대 최고가 대비(%)": -64.59912,
  "가격 변화(%)": {
-  "7d": -27.55719,
-  "30d": -50.75473,
+  "7d": -27.64877,
+  "30d": -50.67082,
   "1y": null
  },
  "소개": ""
@@ -1216,21 +1216,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
-   "PENGU",
-   "DENIM",
    "PEARL",
-   "BTC",
-   "HYPE",
-   "MON",
-   "INJ",
-   "AKE",
-   "PUMP",
    "ZEC",
-   "ZK",
+   "BTC",
+   "ETH",
+   "AVAX",
+   "LINK",
+   "SUI",
+   "HYPE",
+   "XRP",
    "NEAR",
-   "GRASS",
-   "ZRO",
-   "MINA"
+   "MON",
+   "KNTQ",
+   "PONS",
+   "PEPE",
+   "QTC"
   ],
   "SNDKB가 인기 검색에 있음": false
  }
