@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-08 03:11 KST)
+# TF팀 회의 자료 (2026-11-08 04:23 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1524233875486,
- "완전희석가치 FDV(USD)": 1524240015137,
- "24시간 거래대금(USD)": 13116991798,
+ "시가총액(USD)": 1523025171168,
+ "완전희석가치 FDV(USD)": 1523032517759,
+ "24시간 거래대금(USD)": 12584662582,
  "유통량": 20109115.0,
- "총발행량": 20109196.0,
+ "총발행량": 20109212.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -39.88085,
+ "역대 최고가 대비(%)": -39.92802,
  "가격 변화(%)": {
-  "7d": -2.39084,
-  "30d": -6.018,
-  "1y": -25.92605
+  "7d": -2.3696,
+  "30d": -7.03669,
+  "1y": -26.13126
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4030083840
+  "TVL(USD)": 4031073354
  }
 }
 ```
@@ -220,6 +220,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+   "요약": "Affected accounts are reportedly set to close on Dec. 31. Users in Spain, France, and Poland say they've received similar notices.",
+   "시각(UTC)": "11-07 19:13"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
    "요약": "Treasury billed the move as part of its campaign against Iran, but the order rests on MEXC's alleged role in Russian illicit finance.",
    "시각(UTC)": "11-07 17:36"
@@ -259,12 +265,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
    "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
    "시각(UTC)": "11-06 13:31"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
-   "요약": "Your day-ahead look for Nov. 6, 2026",
-   "시각(UTC)": "11-06 12:30"
   }
  ]
 }
@@ -289,36 +289,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0045,
+   "Binance (Futures)": 0.0058,
    "Bybit (Futures)": 0.01,
-   "MEXC (Futures)": 0.0045,
+   "MEXC (Futures)": 0.0058,
    "Gate (Futures)": 0.01,
-   "CoinW (Futures)": 0.0045,
+   "CoinW (Futures)": 0.0058,
    "WEEX (Futures)": 0.0
   },
-  "미결제약정 합계 USD(상위)": 29988765881
+  "미결제약정 합계 USD(상위)": 30058621841
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 76.0,
+  "CoinGecko 이용자 투표 상승(%)": 76.47,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
    "REBOOT",
    "BTC",
    "ONE",
-   "PEARL",
-   "XRP",
+   "SOL",
    "PENGU",
-   "HYPE",
-   "IDOL",
-   "ATOM",
-   "NEAR",
+   "SUI",
    "KNTQ",
+   "PUMP",
+   "HYPE",
    "ZEC",
-   "AERO",
-   "PUMP"
+   "APT",
+   "XMR",
+   "DOGE",
+   "XRP"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 273158299584,
- "완전희석가치 FDV(USD)": 273158299584,
- "24시간 거래대금(USD)": 4651804841,
+ "시가총액(USD)": 272779999237,
+ "완전희석가치 FDV(USD)": 272779999237,
+ "24시간 거래대금(USD)": 4519744247,
  "유통량": 122197894.00927158,
  "총발행량": 122197894.00927158,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -54.80477,
+ "역대 최고가 대비(%)": -54.86741,
  "가격 변화(%)": {
-  "7d": -0.8154,
-  "30d": -7.46344,
-  "1y": -33.89456
+  "7d": -0.96281,
+  "30d": -8.7909,
+  "1y": -34.80364
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 43404106896
+  "TVL(USD)": 43339677570
  }
 }
 ```
@@ -474,6 +474,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+   "요약": "Affected accounts are reportedly set to close on Dec. 31. Users in Spain, France, and Poland say they've received similar notices.",
+   "시각(UTC)": "11-07 19:13"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
    "요약": "Treasury billed the move as part of its campaign against Iran, but the order rests on MEXC's alleged role in Russian illicit finance.",
    "시각(UTC)": "11-07 17:36"
@@ -513,12 +519,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
    "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
    "시각(UTC)": "11-06 13:31"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
-   "요약": "Your day-ahead look for Nov. 6, 2026",
-   "시각(UTC)": "11-06 12:30"
   }
  ]
 }
@@ -543,35 +543,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0043,
-   "CoinW (Futures)": 0.0083,
+   "Binance (Futures)": 0.0041,
+   "CoinW (Futures)": 0.0072,
    "WEEX (Futures)": 0.0,
-   "MEXC (Futures)": 0.0085,
+   "MEXC (Futures)": 0.0068,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 20198073667
+  "미결제약정 합계 USD(상위)": 20240785970
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 83.33,
+  "CoinGecko 이용자 투표 상승(%)": 82.14,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
    "REBOOT",
    "BTC",
    "ONE",
-   "PEARL",
-   "XRP",
+   "SOL",
    "PENGU",
-   "HYPE",
-   "IDOL",
-   "ATOM",
-   "NEAR",
+   "SUI",
    "KNTQ",
+   "PUMP",
+   "HYPE",
    "ZEC",
-   "AERO",
-   "PUMP"
+   "APT",
+   "XMR",
+   "DOGE",
+   "XRP"
   ],
   "ETH가 인기 검색에 있음": false
  }
@@ -666,19 +666,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 45,
- "시가총액(USD)": 2059850383,
- "완전희석가치 FDV(USD)": 2059850383,
- "24시간 거래대금(USD)": 204952963,
+ "시가총액(USD)": 2048453936,
+ "완전희석가치 FDV(USD)": 2048453936,
+ "24시간 거래대금(USD)": 197537016,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.53058,
+ "역대 최고가 대비(%)": -82.62425,
  "가격 변화(%)": {
-  "7d": -2.31784,
-  "30d": 33.52351,
-  "1y": -20.01679
+  "7d": -3.69213,
+  "30d": 29.526,
+  "1y": -21.34686
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -690,6 +690,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+   "요약": "Affected accounts are reportedly set to close on Dec. 31. Users in Spain, France, and Poland say they've received similar notices.",
+   "시각(UTC)": "11-07 19:13"
+  },
   {
    "출처": "CoinDesk",
    "제목": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
@@ -731,12 +737,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
    "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
    "시각(UTC)": "11-06 13:31"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
-   "요약": "Your day-ahead look for Nov. 6, 2026",
-   "시각(UTC)": "11-06 12:30"
   }
  ]
 }
@@ -762,35 +762,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "MEXC (Futures)": 0.01,
-   "Gate (Futures)": 0.0009,
-   "Bitget Futures": -0.0098,
+   "Gate (Futures)": -0.0065,
+   "Bitget Futures": -0.0181,
    "OKX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01,
    "BloFin (Futures)": 0.022
   },
-  "미결제약정 합계 USD(상위)": 276160103
+  "미결제약정 합계 USD(상위)": 277097745
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 88.0,
+  "CoinGecko 이용자 투표 상승(%)": 87.5,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
    "REBOOT",
    "BTC",
    "ONE",
-   "PEARL",
-   "XRP",
+   "SOL",
    "PENGU",
-   "HYPE",
-   "IDOL",
-   "ATOM",
-   "NEAR",
+   "SUI",
    "KNTQ",
+   "PUMP",
+   "HYPE",
    "ZEC",
-   "AERO",
-   "PUMP"
+   "APT",
+   "XMR",
+   "DOGE",
+   "XRP"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -884,25 +884,25 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Cosmos Ecosystem",
   "Solana Ecosystem"
  ],
- "시가총액 순위": 82,
- "시가총액(USD)": 812587396,
- "완전희석가치 FDV(USD)": 812587396,
- "24시간 거래대금(USD)": 66927402,
+ "시가총액 순위": 80,
+ "시가총액(USD)": 822806924,
+ "완전희석가치 FDV(USD)": 822806924,
+ "24시간 거래대금(USD)": 67025100,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.5574,
+ "역대 최고가 대비(%)": -84.37129,
  "가격 변화(%)": {
-  "7d": 10.8572,
-  "30d": 24.85694,
-  "1y": 9.07915
+  "7d": 12.02608,
+  "30d": 24.17917,
+  "1y": 7.38677
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 22419671
+  "TVL(USD)": 22472825
  }
 }
 ```
@@ -913,6 +913,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INJ 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+   "요약": "Affected accounts are reportedly set to close on Dec. 31. Users in Spain, France, and Poland say they've received similar notices.",
+   "시각(UTC)": "11-07 19:13"
+  },
   {
    "출처": "CoinDesk",
    "제목": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
@@ -954,12 +960,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
    "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
    "시각(UTC)": "11-06 13:31"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
-   "요약": "Your day-ahead look for Nov. 6, 2026",
-   "시각(UTC)": "11-06 12:30"
   }
  ]
 }
@@ -985,35 +985,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
-   "OrangeX Futures": -0.0165,
    "Binance (Futures)": 0.01,
    "Gate (Futures)": 0.01,
-   "MEXC (Futures)": -0.0079,
+   "OrangeX Futures": -0.02,
+   "MEXC (Futures)": 0.0279,
    "Bybit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 277288994
+  "미결제약정 합계 USD(상위)": 276665275
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 91.67,
+  "CoinGecko 이용자 투표 상승(%)": 92.31,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
    "REBOOT",
    "BTC",
    "ONE",
-   "PEARL",
-   "XRP",
+   "SOL",
    "PENGU",
-   "HYPE",
-   "IDOL",
-   "ATOM",
-   "NEAR",
+   "SUI",
    "KNTQ",
+   "PUMP",
+   "HYPE",
    "ZEC",
-   "AERO",
-   "PUMP"
+   "APT",
+   "XMR",
+   "DOGE",
+   "XRP"
   ],
   "INJ가 인기 검색에 있음": false
  }
@@ -1109,18 +1109,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "bStocks Ecosystem"
  ],
  "시가총액 순위": 283,
- "시가총액(USD)": 92647909,
- "완전희석가치 FDV(USD)": 92647909,
- "24시간 거래대금(USD)": 16799832,
+ "시가총액(USD)": 92427783,
+ "완전희석가치 FDV(USD)": 92427783,
+ "24시간 거래대금(USD)": 14039217,
  "유통량": 110798.30748988,
  "총발행량": 110798.30748988,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2369.74,
- "역대 최고가 대비(%)": -64.70107,
+ "역대 최고가 대비(%)": -64.79607,
  "가격 변화(%)": {
-  "7d": -27.24423,
-  "30d": -47.91206,
+  "7d": -27.48625,
+  "30d": -48.02256,
   "1y": null
  },
  "소개": ""
@@ -1133,6 +1133,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "SNDKB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+   "요약": "Affected accounts are reportedly set to close on Dec. 31. Users in Spain, France, and Poland say they've received similar notices.",
+   "시각(UTC)": "11-07 19:13"
+  },
   {
    "출처": "CoinDesk",
    "제목": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
@@ -1174,12 +1180,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
    "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
    "시각(UTC)": "11-06 13:31"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
-   "요약": "Your day-ahead look for Nov. 6, 2026",
-   "시각(UTC)": "11-06 12:30"
   }
  ]
 }
@@ -1214,17 +1214,17 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "REBOOT",
    "BTC",
    "ONE",
-   "PEARL",
-   "XRP",
+   "SOL",
    "PENGU",
-   "HYPE",
-   "IDOL",
-   "ATOM",
-   "NEAR",
+   "SUI",
    "KNTQ",
+   "PUMP",
+   "HYPE",
    "ZEC",
-   "AERO",
-   "PUMP"
+   "APT",
+   "XMR",
+   "DOGE",
+   "XRP"
   ],
   "SNDKB가 인기 검색에 있음": false
  }
