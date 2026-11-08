@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-08 21:15 KST)
+# TF팀 회의 자료 (2026-11-08 22:30 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -99,24 +99,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1525889527921,
- "완전희석가치 FDV(USD)": 1525891424898,
- "24시간 거래대금(USD)": 10552884704,
- "유통량": 20109490.0,
- "총발행량": 20109515.0,
+ "시가총액(USD)": 1527945347008,
+ "완전희석가치 FDV(USD)": 1527945347008,
+ "24시간 거래대금(USD)": 10469497807,
+ "유통량": 20109525.0,
+ "총발행량": 20109525.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -39.81667,
+ "역대 최고가 대비(%)": -39.73569,
  "가격 변화(%)": {
-  "7d": -2.62447,
-  "30d": -8.73884,
-  "1y": -25.52658
+  "7d": -2.39481,
+  "30d": -8.40773,
+  "1y": -25.50291
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 4044763083
+  "TVL(USD)": 4045206364
  }
 }
 ```
@@ -126,6 +126,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+   "요약": "A Finnish startup has 30 bitcoin mining systems working as central heating, and at today’s prices each one earns slightly more than the electricity it burns.",
+   "시각(UTC)": "11-08 12:55"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Live updates: Bitcoin flatlines under $76,000 as stock bounce loses steam into the close",
@@ -161,12 +167,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
    "요약": "Soter also received backing of 500 BTC and 2000 ETH, worth another $43 million at current prices.",
    "시각(UTC)": "11-05 16:49"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
-   "요약": "A $19 billion data-center agreement includes an unusual provision allowing Google to acquire part of the project if Anthropic fails to pay its rent.",
-   "시각(UTC)": "11-05 13:29"
   },
   {
    "출처": "Cointelegraph",
@@ -211,10 +211,10 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-06 08:19"
   },
   {
-   "출처": "Cointelegraph",
-   "제목": "Core Scientific to quit Bitcoin mining by year-end as AI business surges",
-   "요약": "The former Bitcoin mining heavyweight plans to become a pure-play data center provider in 2027, with mining now accounting for just 7.5% of quarterly revenue.",
-   "시각(UTC)": "11-06 00:19"
+   "출처": "Decrypt",
+   "제목": "Bitcoin ETFs Bleed $430 Million as Tech Rout Tests Wall Street Buyers",
+   "요약": "Fidelity and BlackRock led Thursday's Bitcoin ETF withdrawals as a technology-stock selloff rattled risk assets.",
+   "시각(UTC)": "11-06 18:36"
   }
  ],
  "시장 전반 기사": [
@@ -289,36 +289,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0048,
-   "Bybit (Futures)": 0.0097,
-   "CoinW (Futures)": 0.0048,
-   "MEXC (Futures)": 0.0047,
-   "Gate (Futures)": 0.0039,
+   "Binance (Futures)": 0.0045,
+   "Bybit (Futures)": 0.01,
+   "CoinW (Futures)": 0.0042,
+   "MEXC (Futures)": 0.0044,
+   "Gate (Futures)": 0.0047,
    "WEEX (Futures)": 0.0001
   },
-  "미결제약정 합계 USD(상위)": 30750647004
+  "미결제약정 합계 USD(상위)": 31082246278
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 77.89,
+  "CoinGecko 이용자 투표 상승(%)": 76.04,
   "CoinGecko 인기 검색 코인": [
-   "DACITY",
    "WASTED",
+   "DACITY",
    "JCT",
-   "HYPE",
-   "PEARL",
    "PENGU",
-   "BTC",
-   "NEAR",
-   "KNTQ",
-   "QTC",
-   "LIT",
-   "SOL",
+   "SUI",
+   "PEARL",
    "PONS",
    "XRP",
-   "ETH"
+   "STONK",
+   "HYPE",
+   "KNTQ",
+   "ZEC",
+   "BTC",
+   "QTC",
+   "AERO"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -413,24 +413,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 273536236376,
- "완전희석가치 FDV(USD)": 273536236376,
- "24시간 거래대금(USD)": 3890215910,
+ "시가총액(USD)": 273633976562,
+ "완전희석가치 FDV(USD)": 273633976562,
+ "24시간 거래대금(USD)": 3825247201,
  "유통량": 122200877.25744775,
  "총발행량": 122200877.25744775,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -54.74335,
+ "역대 최고가 대비(%)": -54.72718,
  "가격 변화(%)": {
-  "7d": -1.32466,
-  "30d": -10.5752,
-  "1y": -34.34915
+  "7d": -0.941,
+  "30d": -10.28482,
+  "1y": -34.30301
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 43355522141
+  "TVL(USD)": 43379133606
  }
 }
 ```
@@ -474,6 +474,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+   "요약": "A Finnish startup has 30 bitcoin mining systems working as central heating, and at today’s prices each one earns slightly more than the electricity it burns.",
+   "시각(UTC)": "11-08 12:55"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
    "요약": "Affected accounts are reportedly set to close on Dec. 31. Users in Spain, France, and Poland say they've received similar notices.",
    "시각(UTC)": "11-07 19:13"
@@ -513,12 +519,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
    "요약": "Thailand’s SEC filed a criminal complaint against Bitget’s operator, alleging it ran an unlicensed crypto exchange for Thai users from 2022 to 2025.",
    "시각(UTC)": "11-06 14:33"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-   "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
-   "시각(UTC)": "11-06 13:31"
   }
  ]
 }
@@ -543,13 +543,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0065,
+   "Binance (Futures)": 0.0054,
    "CoinW (Futures)": 0.0061,
    "WEEX (Futures)": 0.0,
-   "MEXC (Futures)": 0.0061,
+   "MEXC (Futures)": 0.006,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 20712154456
+  "미결제약정 합계 USD(상위)": 20935200814
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -557,23 +557,23 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 93.94,
   "CoinGecko 인기 검색 코인": [
-   "DACITY",
    "WASTED",
+   "DACITY",
    "JCT",
-   "HYPE",
-   "PEARL",
    "PENGU",
-   "BTC",
-   "NEAR",
-   "KNTQ",
-   "QTC",
-   "LIT",
-   "SOL",
+   "SUI",
+   "PEARL",
    "PONS",
    "XRP",
-   "ETH"
+   "STONK",
+   "HYPE",
+   "KNTQ",
+   "ZEC",
+   "BTC",
+   "QTC",
+   "AERO"
   ],
-  "ETH가 인기 검색에 있음": true
+  "ETH가 인기 검색에 있음": false
  }
 }
 ```
@@ -666,19 +666,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Coinbase 50 Index"
  ],
  "시가총액 순위": 34,
- "시가총액(USD)": 2908355678,
- "완전희석가치 FDV(USD)": 2919607503,
- "24시간 거래대금(USD)": 31798577,
+ "시가총액(USD)": 2934902084,
+ "완전희석가치 FDV(USD)": 2946256612,
+ "24시간 거래대금(USD)": 35014293,
  "유통량": 14556178.164081175,
  "총발행량": 14612493.0,
  "최대발행량": 14612493.0,
  "유통 비율(%)": 99.6,
  "역대 최고가(USD)": 427.42,
- "역대 최고가 대비(%)": -53.25417,
+ "역대 최고가 대비(%)": -52.82749,
  "가격 변화(%)": {
-  "7d": -0.29191,
-  "30d": -19.47592,
-  "1y": 133.24119
+  "7d": 1.33976,
+  "30d": -18.64547,
+  "1y": 136.91638
  },
  "소개": "London-based Quant Network is set to revolutionise blockchain technology with the development of their blockchain operating system Overledger. The experienced team are determined to fulfil the original vision of the internet by creating an open trusted network for people, machines, and data to operate securely and safely.\n\nOverledger -the first interoperable blockchain operating system that facili"
 }
@@ -690,6 +690,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "QNT 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+   "요약": "A Finnish startup has 30 bitcoin mining systems working as central heating, and at today’s prices each one earns slightly more than the electricity it burns.",
+   "시각(UTC)": "11-08 12:55"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
@@ -731,12 +737,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
    "요약": "Thailand’s SEC filed a criminal complaint against Bitget’s operator, alleging it ran an unlicensed crypto exchange for Thai users from 2022 to 2025.",
    "시각(UTC)": "11-06 14:33"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-   "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
-   "시각(UTC)": "11-06 13:31"
   }
  ]
 }
@@ -763,34 +763,34 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "거래소별 펀딩비(%)": {
    "Toobit Futures": 0.01,
    "Binance (Futures)": 0.01,
+   "OrangeX Futures": 0.01,
    "WEEX (Futures)": 0.0001,
    "MEXC (Futures)": 0.01,
-   "OrangeX Futures": -0.01,
-   "Bybit (Futures)": -0.0035
+   "Bybit (Futures)": 0.0018
   },
-  "미결제약정 합계 USD(상위)": 110879028
+  "미결제약정 합계 USD(상위)": 115846475
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 79.17,
+  "CoinGecko 이용자 투표 상승(%)": 80.77,
   "CoinGecko 인기 검색 코인": [
-   "DACITY",
    "WASTED",
+   "DACITY",
    "JCT",
-   "HYPE",
-   "PEARL",
    "PENGU",
-   "BTC",
-   "NEAR",
-   "KNTQ",
-   "QTC",
-   "LIT",
-   "SOL",
+   "SUI",
+   "PEARL",
    "PONS",
    "XRP",
-   "ETH"
+   "STONK",
+   "HYPE",
+   "KNTQ",
+   "ZEC",
+   "BTC",
+   "QTC",
+   "AERO"
   ],
   "QNT가 인기 검색에 있음": false
  }
@@ -884,20 +884,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Arbitrum Ecosystem",
   "Ethereum Ecosystem"
  ],
- "시가총액 순위": 44,
- "시가총액(USD)": 2095569861,
- "완전희석가치 FDV(USD)": 2095569861,
- "24시간 거래대금(USD)": 192506324,
+ "시가총액 순위": 43,
+ "시가총액(USD)": 2120060229,
+ "완전희석가치 FDV(USD)": 2120060229,
+ "24시간 거래대금(USD)": 202666205,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.22822,
+ "역대 최고가 대비(%)": -82.01994,
  "가격 변화(%)": {
-  "7d": 1.44901,
-  "30d": 26.9771,
-  "1y": -18.86796
+  "7d": 3.29601,
+  "30d": 28.87554,
+  "1y": -18.04549
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -909,6 +909,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+   "요약": "A Finnish startup has 30 bitcoin mining systems working as central heating, and at today’s prices each one earns slightly more than the electricity it burns.",
+   "시각(UTC)": "11-08 12:55"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
@@ -950,12 +956,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
    "요약": "Thailand’s SEC filed a criminal complaint against Bitget’s operator, alleging it ran an unlicensed crypto exchange for Thai users from 2022 to 2025.",
    "시각(UTC)": "11-06 14:33"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-   "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
-   "시각(UTC)": "11-06 13:31"
   }
  ]
 }
@@ -983,33 +983,33 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MEXC (Futures)": 0.01,
    "Gate (Futures)": 0.01,
    "OKX (Futures)": 0.01,
-   "Bitget Futures": -0.0002,
+   "Bitget Futures": 0.002,
    "WhiteBIT Futures": 0.01,
    "KCEX (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 290765519
+  "미결제약정 합계 USD(상위)": 292078719
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 90.91,
+  "CoinGecko 이용자 투표 상승(%)": 91.67,
   "CoinGecko 인기 검색 코인": [
-   "DACITY",
    "WASTED",
+   "DACITY",
    "JCT",
-   "HYPE",
-   "PEARL",
    "PENGU",
-   "BTC",
-   "NEAR",
-   "KNTQ",
-   "QTC",
-   "LIT",
-   "SOL",
+   "SUI",
+   "PEARL",
    "PONS",
    "XRP",
-   "ETH"
+   "STONK",
+   "HYPE",
+   "KNTQ",
+   "ZEC",
+   "BTC",
+   "QTC",
+   "AERO"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -1104,19 +1104,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 284,
- "시가총액(USD)": 92315017,
- "완전희석가치 FDV(USD)": 92315017,
- "24시간 거래대금(USD)": 7115427,
+ "시가총액 순위": 283,
+ "시가총액(USD)": 92454505,
+ "완전희석가치 FDV(USD)": 92454505,
+ "24시간 거래대금(USD)": 7037104,
  "유통량": 110756.29712578001,
  "총발행량": 110756.29712578001,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2369.74,
- "역대 최고가 대비(%)": -64.82646,
+ "역대 최고가 대비(%)": -64.7744,
  "가격 변화(%)": {
-  "7d": -28.71538,
-  "30d": -49.25515,
+  "7d": -28.4975,
+  "30d": -49.01311,
   "1y": null
  },
  "소개": ""
@@ -1129,6 +1129,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "SNDKB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
+   "요약": "A Finnish startup has 30 bitcoin mining systems working as central heating, and at today’s prices each one earns slightly more than the electricity it burns.",
+   "시각(UTC)": "11-08 12:55"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
@@ -1170,12 +1176,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty",
    "요약": "Thailand’s SEC filed a criminal complaint against Bitget’s operator, alleging it ran an unlicensed crypto exchange for Thai users from 2022 to 2025.",
    "시각(UTC)": "11-06 14:33"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. added 165,000 jobs in October, blowing past 65,000 estimate",
-   "요약": "The unemployment rate unexpectedly fell to 4.1%. The strong showing surely puts a December rate hike in play, but next week's inflation numbers and the fate of the stock market could prove more important.",
-   "시각(UTC)": "11-06 13:31"
   }
  ]
 }
@@ -1206,21 +1206,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
-   "DACITY",
    "WASTED",
+   "DACITY",
    "JCT",
-   "HYPE",
-   "PEARL",
    "PENGU",
-   "BTC",
-   "NEAR",
-   "KNTQ",
-   "QTC",
-   "LIT",
-   "SOL",
+   "SUI",
+   "PEARL",
    "PONS",
    "XRP",
-   "ETH"
+   "STONK",
+   "HYPE",
+   "KNTQ",
+   "ZEC",
+   "BTC",
+   "QTC",
+   "AERO"
   ],
   "SNDKB가 인기 검색에 있음": false
  }
