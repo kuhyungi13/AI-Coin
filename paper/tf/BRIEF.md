@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-09 15:41 KST)
+# TF팀 회의 자료 (2026-11-09 17:49 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -66,19 +66,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-09",
   "등락률(%)": {
-   "1일": 0.0,
-   "7일": -1.34,
-   "30일": -2.15,
-   "90일": -7.43
+   "1일": -1.31,
+   "7일": -2.7,
+   "30일": -5.46,
+   "90일": -8.43
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -1.27,
-   "MA60": -3.08,
-   "MA120": -5.49
+   "MA20": -2.43,
+   "MA60": -4.27,
+   "MA120": -6.65
   },
   "MA20>MA60": false,
   "최근 교차": null,
-  "RSI14": 31.2
+  "RSI14": 25.0
  }
 }
 ```
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1491198415357,
- "완전희석가치 FDV(USD)": 1491198415357,
- "24시간 거래대금(USD)": 22112278239,
- "유통량": 20109759.0,
- "총발행량": 20109759.0,
+ "시가총액(USD)": 1493052102450,
+ "완전희석가치 FDV(USD)": 1493052102450,
+ "24시간 거래대금(USD)": 25708198366,
+ "유통량": 20109793.0,
+ "총발행량": 20109793.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -41.18572,
+ "역대 최고가 대비(%)": -41.11271,
  "가격 변화(%)": {
-  "7d": -5.28258,
-  "30d": -10.41023,
-  "1y": -27.22666
+  "7d": -4.8532,
+  "30d": -10.26087,
+  "1y": -27.13735
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3947786906
+  "TVL(USD)": 3896635374
  }
 }
 ```
@@ -123,6 +123,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
+   "요약": "The $24 billion project, which includes an AI supercomputer in Texas with its own gas-fired power plant, is about 17 times the value of SpaceX's bitcoin holdings.",
+   "시각(UTC)": "11-09 06:54"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
@@ -158,6 +164,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout",
    "요약": "Bitcoin recovered above $76,000 Friday after dropping below that level during Thursday's tech-driven market rout.",
    "시각(UTC)": "11-06 09:53"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
+   "요약": "Investors pulled a net $1.21 billion from BlackRock’s IBIT last week as Bitcoin fell below $76,000 and US technology stocks sold off.",
+   "시각(UTC)": "11-09 08:17"
   },
   {
    "출처": "Cointelegraph",
@@ -200,21 +212,15 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash",
    "요약": "Bitcoin consolidated as fears over US AI regulation spread to Asia, causing South Korea to announce measures to calm stock-market volatility.",
    "시각(UTC)": "11-06 11:16"
-  },
-  {
-   "출처": "Decrypt",
-   "제목": "This Bitcoin Developer’s Idea Would Make Quantum Attacks a Losing Bet",
-   "요약": "Cory Fields wants future quantum attackers to post Bitcoin as collateral before touching vulnerable wallets, giving prepared owners a chance to recover their coins and collect a potentially costly penalty.",
-   "시각(UTC)": "11-08 14:01"
-  },
-  {
-   "출처": "Decrypt",
-   "제목": "Bitcoin ETFs Bleed $430 Million as Tech Rout Tests Wall Street Buyers",
-   "요약": "Fidelity and BlackRock led Thursday's Bitcoin ETF withdrawals as a technology-stock selloff rattled risk assets.",
-   "시각(UTC)": "11-06 18:36"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
+   "요약": "A draft proposal would end the 'durable nonces' feature no earlier than May 5, 2027, forcing custodians that sign offline to rebuild how they move coins.",
+   "시각(UTC)": "11-09 06:36"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
@@ -256,12 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
    "요약": "Strategy, Coinbase, Circle and Robinhood are among six companies from the venture’s initial selection with no disclosed objection, after 90% of issuers opted out.",
    "시각(UTC)": "11-06 20:09"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. prediction markets regulator issues demand that clashes directly with courts",
-   "요약": "The Commodity Futures Trading Commission said regulated exchanges can't cut off customers state-by-state, but firms like Kalshi are under court orders to do so.",
-   "시각(UTC)": "11-06 17:42"
   }
  ]
 }
@@ -287,35 +287,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.01,
-   "Bybit (Futures)": 0.0097,
+   "Bybit (Futures)": 0.0002,
    "MEXC (Futures)": 0.01,
-   "Gate (Futures)": 0.01,
-   "Tapbit (Futures)": 0.01,
-   "WEEX (Futures)": 0.0
+   "Gate (Futures)": 0.0034,
+   "WEEX (Futures)": 0.0001,
+   "Tapbit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 28745380334
+  "미결제약정 합계 USD(상위)": 28412564041
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 67.59,
+  "CoinGecko 이용자 투표 상승(%)": 65.66,
   "CoinGecko 인기 검색 코인": [
-   "ETH",
-   "HYPE",
    "BTC",
+   "STONK",
+   "XRP",
+   "MON",
+   "PENGU",
    "JCT",
-   "AERO",
-   "LINK",
+   "SOL",
+   "ETH",
    "NEAR",
-   "ZEC",
-   "PUMP",
-   "KNTQ",
-   "GRASS",
-   "LITY",
+   "AERO",
+   "HYPE",
    "PEARL",
-   "SUI",
-   "HOT"
+   "PEPE",
+   "PONS",
+   "KAS"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -377,22 +377,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-09",
   "등락률(%)": {
-   "1일": 0.63,
-   "7일": -4.44,
-   "30일": -4.83,
-   "90일": -9.4
+   "1일": -2.18,
+   "7일": -6.44,
+   "30일": -9.1,
+   "90일": -10.82
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -3.92,
-   "MA60": -5.6,
-   "MA120": -7.69
+   "MA20": -5.72,
+   "MA60": -7.57,
+   "MA120": -9.61
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 6
+   "며칠 전": 7
   },
-  "RSI14": 27.5
+  "RSI14": 22.8
  }
 }
 ```
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 258550128386,
- "완전희석가치 FDV(USD)": 258550128386,
- "24시간 거래대금(USD)": 10873627894,
+ "시가총액(USD)": 258278376375,
+ "완전희석가치 FDV(USD)": 258278376375,
+ "24시간 거래대금(USD)": 13030303650,
  "유통량": 122203846.69715354,
  "총발행량": 122203846.69715354,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -57.22384,
+ "역대 최고가 대비(%)": -57.2688,
  "가격 변화(%)": {
-  "7d": -7.57761,
-  "30d": -15.23725,
-  "1y": -37.8461
+  "7d": -7.4098,
+  "30d": -15.2326,
+  "1y": -38.20017
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 42055501429
+  "TVL(USD)": 41512657662
  }
 }
 ```
@@ -471,6 +471,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
+   "요약": "The $24 billion project, which includes an AI supercomputer in Texas with its own gas-fired power plant, is about 17 times the value of SpaceX's bitcoin holdings.",
+   "시각(UTC)": "11-09 06:54"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
+   "요약": "A draft proposal would end the 'durable nonces' feature no earlier than May 5, 2027, forcing custodians that sign offline to rebuild how they move coins.",
+   "시각(UTC)": "11-09 06:36"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Binance's bitcoin mining pool finds just one block in a week as shutdown nears",
    "요약": "The exchange's once significant mining operation has nearly disappeared from Bitcoin's block-production rankings ahead of its November 10 closure.",
    "시각(UTC)": "11-09 04:54"
@@ -504,18 +516,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
    "요약": "Affected accounts are reportedly set to close on Dec. 31. Users in Spain, France, and Poland say they've received similar notices.",
    "시각(UTC)": "11-07 19:13"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
-   "요약": "Treasury billed the move as part of its campaign against Iran, but the order rests on MEXC's alleged role in Russian illicit finance.",
-   "시각(UTC)": "11-07 17:36"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets",
-   "요약": "One user said the exposed data tied his home address and card number to every crypto wallet linked to his account, raising the risk of targeted scams.",
-   "시각(UTC)": "11-07 16:51"
   }
  ]
 }
@@ -540,35 +540,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.0059,
-   "WEEX (Futures)": 0.0001,
-   "CoinW (Futures)": -0.0034,
-   "MEXC (Futures)": -0.0032,
-   "Hyperliquid (Futures)": -0.0012
+   "Binance (Futures)": -0.0073,
+   "WEEX (Futures)": -0.0001,
+   "CoinW (Futures)": -0.0038,
+   "MEXC (Futures)": -0.0037,
+   "Hyperliquid (Futures)": -0.0031
   },
-  "미결제약정 합계 USD(상위)": 17253409025
+  "미결제약정 합계 USD(상위)": 17102214048
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 65.12,
+  "CoinGecko 이용자 투표 상승(%)": 61.22,
   "CoinGecko 인기 검색 코인": [
-   "ETH",
-   "HYPE",
    "BTC",
+   "STONK",
+   "XRP",
+   "MON",
+   "PENGU",
    "JCT",
-   "AERO",
-   "LINK",
+   "SOL",
+   "ETH",
    "NEAR",
-   "ZEC",
-   "PUMP",
-   "KNTQ",
-   "GRASS",
-   "LITY",
+   "AERO",
+   "HYPE",
    "PEARL",
-   "SUI",
-   "HOT"
+   "PEPE",
+   "PONS",
+   "KAS"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -630,22 +630,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-09",
   "등락률(%)": {
-   "1일": 2.22,
-   "7일": 4.11,
-   "30일": 5.19,
-   "90일": 12.92
+   "1일": -1.38,
+   "7일": 2.46,
+   "30일": 0.0,
+   "90일": 13.9
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 2.13,
-   "MA60": 2.7,
-   "MA120": 6.51
+   "MA20": 0.51,
+   "MA60": 1.25,
+   "MA120": 4.89
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 3
+   "며칠 전": 4
   },
-  "RSI14": 57.2
+  "RSI14": 52.6
  }
 }
 ```
@@ -663,19 +663,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 42,
- "시가총액(USD)": 2122163530,
- "완전희석가치 FDV(USD)": 2122163530,
- "24시간 거래대금(USD)": 430037939,
+ "시가총액(USD)": 2153594369,
+ "완전희석가치 FDV(USD)": 2153594369,
+ "24시간 거래대금(USD)": 479739489,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.0021,
+ "역대 최고가 대비(%)": -81.73641,
  "가격 변화(%)": {
-  "7d": 3.15385,
-  "30d": 24.30137,
-  "1y": -14.81885
+  "7d": 6.38603,
+  "30d": 27.24184,
+  "1y": -14.79928
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -687,6 +687,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
+   "요약": "The $24 billion project, which includes an AI supercomputer in Texas with its own gas-fired power plant, is about 17 times the value of SpaceX's bitcoin holdings.",
+   "시각(UTC)": "11-09 06:54"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
+   "요약": "A draft proposal would end the 'durable nonces' feature no earlier than May 5, 2027, forcing custodians that sign offline to rebuild how they move coins.",
+   "시각(UTC)": "11-09 06:36"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
@@ -722,18 +734,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
    "요약": "A Finnish startup has 30 bitcoin mining systems working as central heating, and at today’s prices each one earns slightly more than the electricity it burns.",
    "시각(UTC)": "11-08 12:55"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
-   "요약": "Affected accounts are reportedly set to close on Dec. 31. Users in Spain, France, and Poland say they've received similar notices.",
-   "시각(UTC)": "11-07 19:13"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
-   "요약": "Treasury billed the move as part of its campaign against Iran, but the order rests on MEXC's alleged role in Russian illicit finance.",
-   "시각(UTC)": "11-07 17:36"
   }
  ]
 }
@@ -761,35 +761,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MEXC (Futures)": 0.01,
    "Gate (Futures)": 0.01,
    "OKX (Futures)": 0.01,
-   "Bitget Futures": 0.0072,
+   "Bitget Futures": 0.0065,
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 300066943
+  "미결제약정 합계 USD(상위)": 308360041
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 85.71,
+  "CoinGecko 이용자 투표 상승(%)": 83.72,
   "CoinGecko 인기 검색 코인": [
-   "ETH",
-   "HYPE",
    "BTC",
+   "STONK",
+   "XRP",
+   "MON",
+   "PENGU",
    "JCT",
-   "AERO",
-   "LINK",
+   "SOL",
+   "ETH",
    "NEAR",
-   "ZEC",
-   "PUMP",
-   "KNTQ",
-   "GRASS",
-   "LITY",
+   "AERO",
+   "HYPE",
    "PEARL",
-   "SUI",
-   "HOT"
+   "PEPE",
+   "PONS",
+   "KAS"
   ],
-  "PEPE가 인기 검색에 있음": false
+  "PEPE가 인기 검색에 있음": true
  }
 }
 ```
@@ -849,22 +849,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-09",
   "등락률(%)": {
-   "1일": 1.91,
-   "7일": 1.25,
-   "30일": 4.71,
-   "90일": 8.48
+   "1일": -2.79,
+   "7일": -0.72,
+   "30일": -0.12,
+   "90일": 5.55
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 1.68,
-   "MA60": 0.97,
-   "MA120": 1.86
+   "MA20": -1.27,
+   "MA60": -1.85,
+   "MA120": -0.98
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 6
+   "며칠 전": 7
   },
-  "RSI14": 52.6
+  "RSI14": 45.2
  }
 }
 ```
@@ -881,20 +881,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Energi Ecosystem",
   "Coinbase 50 Index"
  ],
- "시가총액 순위": 34,
- "시가총액(USD)": 2882538816,
- "완전희석가치 FDV(USD)": 2893690761,
- "24시간 거래대금(USD)": 49775069,
+ "시가총액 순위": 33,
+ "시가총액(USD)": 2916174725,
+ "완전희석가치 FDV(USD)": 2927456800,
+ "24시간 거래대금(USD)": 55772055,
  "유통량": 14556178.164081175,
  "총발행량": 14612493.0,
  "최대발행량": 14612493.0,
  "유통 비율(%)": 99.6,
  "역대 최고가(USD)": 427.42,
- "역대 최고가 대비(%)": -53.66912,
+ "역대 최고가 대비(%)": -53.09509,
  "가격 변화(%)": {
-  "7d": -0.23396,
-  "30d": -19.3482,
-  "1y": 142.01464
+  "7d": 1.54029,
+  "30d": -18.63916,
+  "1y": 141.84501
  },
  "소개": "London-based Quant Network is set to revolutionise blockchain technology with the development of their blockchain operating system Overledger. The experienced team are determined to fulfil the original vision of the internet by creating an open trusted network for people, machines, and data to operate securely and safely.\n\nOverledger -the first interoperable blockchain operating system that facili"
 }
@@ -906,6 +906,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "QNT 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
+   "요약": "The $24 billion project, which includes an AI supercomputer in Texas with its own gas-fired power plant, is about 17 times the value of SpaceX's bitcoin holdings.",
+   "시각(UTC)": "11-09 06:54"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
+   "요약": "A draft proposal would end the 'durable nonces' feature no earlier than May 5, 2027, forcing custodians that sign offline to rebuild how they move coins.",
+   "시각(UTC)": "11-09 06:36"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
@@ -941,18 +953,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
    "요약": "A Finnish startup has 30 bitcoin mining systems working as central heating, and at today’s prices each one earns slightly more than the electricity it burns.",
    "시각(UTC)": "11-08 12:55"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
-   "요약": "Affected accounts are reportedly set to close on Dec. 31. Users in Spain, France, and Poland say they've received similar notices.",
-   "시각(UTC)": "11-07 19:13"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
-   "요약": "Treasury billed the move as part of its campaign against Iran, but the order rests on MEXC's alleged role in Russian illicit finance.",
-   "시각(UTC)": "11-07 17:36"
   }
  ]
 }
@@ -984,29 +984,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Bybit (Futures)": 0.0055,
    "Toobit Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 106455584
+  "미결제약정 합계 USD(상위)": 109157163
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 87.5,
+  "CoinGecko 이용자 투표 상승(%)": 88.46,
   "CoinGecko 인기 검색 코인": [
-   "ETH",
-   "HYPE",
    "BTC",
+   "STONK",
+   "XRP",
+   "MON",
+   "PENGU",
    "JCT",
-   "AERO",
-   "LINK",
+   "SOL",
+   "ETH",
    "NEAR",
-   "ZEC",
-   "PUMP",
-   "KNTQ",
-   "GRASS",
-   "LITY",
+   "AERO",
+   "HYPE",
    "PEARL",
-   "SUI",
-   "HOT"
+   "PEPE",
+   "PONS",
+   "KAS"
   ],
   "QNT가 인기 검색에 있음": false
  }
@@ -1070,22 +1070,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-09",
   "등락률(%)": {
-   "1일": 0.0,
-   "7일": -5.66,
-   "30일": -11.24,
-   "90일": -22.68
+   "1일": -2.67,
+   "7일": -8.18,
+   "30일": -16.57,
+   "90일": -24.35
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -5.54,
-   "MA60": -11.69,
-   "MA120": -17.8
+   "MA20": -7.65,
+   "MA60": -13.8,
+   "MA120": -19.83
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 61
+   "며칠 전": 62
   },
-  "RSI14": 26.6
+  "RSI14": 22.8
  }
 }
 ```
@@ -1103,6 +1103,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "AI 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile",
+   "요약": "The $24 billion project, which includes an AI supercomputer in Texas with its own gas-fired power plant, is about 17 times the value of SpaceX's bitcoin holdings.",
+   "시각(UTC)": "11-09 06:54"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures",
@@ -1149,6 +1155,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
+   "요약": "A draft proposal would end the 'durable nonces' feature no earlier than May 5, 2027, forcing custodians that sign offline to rebuild how they move coins.",
+   "시각(UTC)": "11-09 06:36"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
    "요약": "The proposals aim to keep Ethereum’s planned gas changes from breaking existing contracts, using different approaches to what contracts see and what users pay.",
    "시각(UTC)": "11-09 05:16"
@@ -1188,12 +1200,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
    "요약": "Affected accounts are reportedly set to close on Dec. 31. Users in Spain, France, and Poland say they've received similar notices.",
    "시각(UTC)": "11-07 19:13"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows",
-   "요약": "Treasury billed the move as part of its campaign against Iran, but the order rests on MEXC's alleged role in Russian illicit finance.",
-   "시각(UTC)": "11-07 17:36"
   }
  ]
 }
@@ -1220,11 +1226,11 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "거래소별 펀딩비(%)": {
    "OKX (Futures)": 0.005,
    "OrangeX Futures": 0.01,
-   "Lighter": 0.0018,
+   "Lighter": 0.0012,
    "Aster (Futures)": 0.0013,
    "Robinhood Chain Lighter (Futures)": 0.0012
   },
-  "미결제약정 합계 USD(상위)": 1025853
+  "미결제약정 합계 USD(상위)": 1043350
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
