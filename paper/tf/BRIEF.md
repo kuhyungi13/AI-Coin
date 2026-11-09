@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-10 06:29 KST)
+# TF팀 회의 자료 (2026-11-10 07:24 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1503979548531,
- "완전희석가치 FDV(USD)": 1503987476058,
- "24시간 거래대금(USD)": 36020433862,
- "유통량": 20109909.0,
- "총발행량": 20110015.0,
+ "시가총액(USD)": 1507717553407,
+ "완전희석가치 FDV(USD)": 1507717553407,
+ "24시간 거래대금(USD)": 32768477073,
+ "유통량": 20110025.0,
+ "총발행량": 20110025.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -40.67261,
+ "역대 최고가 대비(%)": -40.53251,
  "가격 변화(%)": {
-  "7d": -2.44492,
-  "30d": -9.84754,
-  "1y": -28.48415
+  "7d": -2.29363,
+  "30d": -9.6432,
+  "1y": -28.1601
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3939344329
+  "TVL(USD)": 3939690804
  }
 }
 ```
@@ -161,6 +161,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
+   "제목": "Here’s what happened in crypto today",
+   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+   "시각(UTC)": "11-09 22:06"
+  },
+  {
+   "출처": "Cointelegraph",
    "제목": "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals",
    "요약": "Customers can view their pre-hack balances as access returns in phases. The exchange has yet to say when withdrawals will resume.",
    "시각(UTC)": "11-09 18:25"
@@ -170,12 +176,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
    "요약": "Bitcoin rebounded from an 11-week low near $73,500 as the Nasdaq Composite rallied despite sell-off in Nvidia shares.",
    "시각(UTC)": "11-09 17:13"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Here’s what happened in crypto today",
-   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-   "시각(UTC)": "11-09 13:36"
   },
   {
    "출처": "Cointelegraph",
@@ -287,37 +287,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.01,
-   "Bybit (Futures)": 0.0091,
+   "Bybit (Futures)": 0.0074,
    "MEXC (Futures)": 0.01,
    "Gate (Futures)": 0.01,
    "WEEX (Futures)": 0.0001,
-   "Toobit Futures": 0.01
+   "CoinW (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 28542943383
+  "미결제약정 합계 USD(상위)": 28477472120
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 64.32,
+  "CoinGecko 이용자 투표 상승(%)": 64.41,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "AVAX",
    "KNTQ",
-   "BTC",
-   "HYPE",
-   "ARB",
-   "ETH",
-   "LINK",
+   "AVAX",
    "PENGU",
-   "QTC",
+   "ETH",
+   "HYPE",
+   "ZEC",
+   "ONDO",
+   "MON",
    "PEARL",
-   "XRP",
-   "LIT",
-   "VVV",
-   "INIT"
+   "ARB",
+   "ORBIO",
+   "AR",
+   "PYTH",
+   "NEAR"
   ],
-  "BTC가 인기 검색에 있음": true
+  "BTC가 인기 검색에 있음": false
  }
 }
 ```
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 259952984325,
- "완전희석가치 FDV(USD)": 259952984325,
- "24시간 거래대금(USD)": 17768735554,
+ "시가총액(USD)": 259600313191,
+ "완전희석가치 FDV(USD)": 259600313191,
+ "24시간 거래대금(USD)": 14928764744,
  "유통량": 122203846.69715354,
  "총발행량": 122203846.69715354,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -56.99174,
+ "역대 최고가 대비(%)": -57.05009,
  "가격 변화(%)": {
-  "7d": -5.27009,
-  "30d": -15.13195,
-  "1y": -40.57042
+  "7d": -5.79876,
+  "30d": -15.27747,
+  "1y": -40.57839
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41981875333
+  "TVL(USD)": 41983319908
  }
 }
 ```
@@ -540,35 +540,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0048,
+   "Binance (Futures)": 0.005,
+   "CoinW (Futures)": 0.0097,
    "WEEX (Futures)": -0.0,
-   "CoinW (Futures)": 0.01,
-   "MEXC (Futures)": 0.01,
-   "Toobit Futures": 0.01
+   "MEXC (Futures)": 0.0096,
+   "Toobit Futures": 0.0097
   },
-  "미결제약정 합계 USD(상위)": 17579614596
+  "미결제약정 합계 USD(상위)": 17814604748
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 68.18,
+  "CoinGecko 이용자 투표 상승(%)": 70.97,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "AVAX",
    "KNTQ",
-   "BTC",
-   "HYPE",
-   "ARB",
-   "ETH",
-   "LINK",
+   "AVAX",
    "PENGU",
-   "QTC",
+   "ETH",
+   "HYPE",
+   "ZEC",
+   "ONDO",
+   "MON",
    "PEARL",
-   "XRP",
-   "LIT",
-   "VVV",
-   "INIT"
+   "ARB",
+   "ORBIO",
+   "AR",
+   "PYTH",
+   "NEAR"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -663,19 +663,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 42,
- "시가총액(USD)": 2143290678,
- "완전희석가치 FDV(USD)": 2143290678,
- "24시간 거래대금(USD)": 576813940,
+ "시가총액(USD)": 2136256877,
+ "완전희석가치 FDV(USD)": 2136256877,
+ "24시간 거래대금(USD)": 533362184,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -81.80974,
+ "역대 최고가 대비(%)": -81.88034,
  "가격 변화(%)": {
-  "7d": 8.45609,
-  "30d": 25.8025,
-  "1y": -16.73127
+  "7d": 6.47352,
+  "30d": 25.71054,
+  "1y": -16.91409
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -765,29 +765,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 326907305
+  "미결제약정 합계 USD(상위)": 317691899
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 83.72,
+  "CoinGecko 이용자 투표 상승(%)": 84.09,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "AVAX",
    "KNTQ",
-   "BTC",
-   "HYPE",
-   "ARB",
-   "ETH",
-   "LINK",
+   "AVAX",
    "PENGU",
-   "QTC",
+   "ETH",
+   "HYPE",
+   "ZEC",
+   "ONDO",
+   "MON",
    "PEARL",
-   "XRP",
-   "LIT",
-   "VVV",
-   "INIT"
+   "ARB",
+   "ORBIO",
+   "AR",
+   "PYTH",
+   "NEAR"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -882,19 +882,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Coinbase 50 Index"
  ],
  "시가총액 순위": 34,
- "시가총액(USD)": 2847991020,
- "완전희석가치 FDV(USD)": 2859009307,
- "24시간 거래대금(USD)": 65759229,
+ "시가총액(USD)": 2838410582,
+ "완전희석가치 FDV(USD)": 2849391804,
+ "24시간 거래대금(USD)": 60243791,
  "유통량": 14556178.164081175,
  "총발행량": 14612493.0,
  "최대발행량": 14612493.0,
  "유통 비율(%)": 99.6,
  "역대 최고가(USD)": 427.42,
- "역대 최고가 대비(%)": -54.21383,
+ "역대 최고가 대비(%)": -54.37839,
  "가격 변화(%)": {
-  "7d": 0.7294,
-  "30d": -18.60057,
-  "1y": 130.63102
+  "7d": -0.93365,
+  "30d": -18.70955,
+  "1y": 131.76119
  },
  "소개": "London-based Quant Network is set to revolutionise blockchain technology with the development of their blockchain operating system Overledger. The experienced team are determined to fulfil the original vision of the internet by creating an open trusted network for people, machines, and data to operate securely and safely.\n\nOverledger -the first interoperable blockchain operating system that facili"
 }
@@ -981,32 +981,32 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Binance (Futures)": 0.01,
    "WEEX (Futures)": 0.0001,
    "MEXC (Futures)": 0.01,
-   "Bybit (Futures)": -0.0047,
+   "Bybit (Futures)": -0.0033,
    "Toobit Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 118190240
+  "미결제약정 합계 USD(상위)": 115694834
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 95.24,
+  "CoinGecko 이용자 투표 상승(%)": 94.74,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "AVAX",
    "KNTQ",
-   "BTC",
-   "HYPE",
-   "ARB",
-   "ETH",
-   "LINK",
+   "AVAX",
    "PENGU",
-   "QTC",
+   "ETH",
+   "HYPE",
+   "ZEC",
+   "ONDO",
+   "MON",
    "PEARL",
-   "XRP",
-   "LIT",
-   "VVV",
-   "INIT"
+   "ARB",
+   "ORBIO",
+   "AR",
+   "PYTH",
+   "NEAR"
   ],
   "QNT가 인기 검색에 있음": false
  }
@@ -1212,13 +1212,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OKX (Futures)": -0.0101,
+   "OKX (Futures)": -0.0058,
    "OrangeX Futures": -0.01,
    "Lighter": 0.0012,
    "Robinhood Chain Lighter (Futures)": 0.0012,
    "Aster (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 1078034
+  "미결제약정 합계 USD(상위)": 1095470
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
