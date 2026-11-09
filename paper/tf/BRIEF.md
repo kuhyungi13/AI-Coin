@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-10 03:27 KST)
+# TF팀 회의 자료 (2026-11-10 04:37 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1496929689994,
- "완전희석가치 FDV(USD)": 1496933635177,
- "24시간 거래대금(USD)": 34392522914,
+ "시가총액(USD)": 1499317863242,
+ "완전희석가치 FDV(USD)": 1499322783949,
+ "24시간 거래대금(USD)": 35100485009,
  "유통량": 20109909.0,
- "총발행량": 20109962.0,
+ "총발행량": 20109975.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -40.96012,
+ "역대 최고가 대비(%)": -40.86475,
  "가격 변화(%)": {
-  "7d": -3.40653,
-  "30d": -10.36233,
-  "1y": -28.15
+  "7d": -3.07375,
+  "30d": -10.12767,
+  "1y": -28.63637
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3942894231
+  "TVL(USD)": 3940829108
  }
 }
 ```
@@ -167,6 +167,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
+   "제목": "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals",
+   "요약": "Customers can view their pre-hack balances as access returns in phases. The exchange has yet to say when withdrawals will resume.",
+   "시각(UTC)": "11-09 18:25"
+  },
+  {
+   "출처": "Cointelegraph",
    "제목": "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
    "요약": "Bitcoin rebounded from an 11-week low near $73,500 as the Nasdaq Composite rallied despite sell-off in Nvidia shares.",
    "시각(UTC)": "11-09 17:13"
@@ -206,15 +212,15 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin holders have received eCash — What can you do with it?",
    "요약": "Bitcoin’s eCash fork gives eligible holders an equivalent balance of ECX, but questions remain over where they can trade the tokens and what they can do with them.",
    "시각(UTC)": "11-07 13:30"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
-   "요약": "The rules allow retail investors to trade BTC, ETH and USDT through regulated intermediaries, with Moscow Exchange planning to launch crypto trading in December.",
-   "시각(UTC)": "11-06 18:47"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Robinhood backs tokenization of its stock on OKX–ICE platform even as most companies opt out",
+   "요약": "The brokerage firm said it would rather help build tokenized markets than sit on the sidelines, following a wave of early corporate pushback to the Intercontinental Exchange and OKX joint venture.",
+   "시각(UTC)": "11-09 19:36"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Google’s AI chip push adds more pressure on Nvidia",
@@ -256,12 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Zcash developers want 20-second blocks just days after major speed upgrade",
    "요약": "Early data shows Zcash's orphan-block rate holding close to pre-upgrade levels despite blocks arriving three times faster, encouraging developers to push for another reduction.",
    "시각(UTC)": "11-09 10:52"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Coinbase gets full U.S. trust charter from federal banking regulator",
-   "요약": "The Office of the Comptroller of the Currency elevated the biggest U.S. exchange's trust status from conditional to a full-fledged charter, the company said.",
-   "시각(UTC)": "11-09 10:00"
   }
  ]
 }
@@ -287,35 +287,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.01,
-   "Bybit (Futures)": 0.0071,
+   "Bybit (Futures)": 0.0077,
    "MEXC (Futures)": 0.01,
    "Gate (Futures)": 0.01,
    "WEEX (Futures)": 0.0001,
    "Toobit Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 28468812992
+  "미결제약정 합계 USD(상위)": 28447392361
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 64.61,
+  "CoinGecko 이용자 투표 상승(%)": 65.43,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
    "AVAX",
-   "ONDO",
-   "PENGU",
-   "BTC",
-   "SOL",
-   "ZEC",
    "KNTQ",
    "PEARL",
-   "DRV",
+   "BTC",
    "INJ",
-   "PUMP",
-   "LIT",
-   "HYPE",
-   "TAO"
+   "ONDO",
+   "QTC",
+   "AERO",
+   "PENGU",
+   "AERO",
+   "AAVE",
+   "CC",
+   "STRK",
+   "XRP"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 258664042369,
- "완전희석가치 FDV(USD)": 258664042369,
- "24시간 거래대금(USD)": 17098161045,
+ "시가총액(USD)": 259294903983,
+ "완전희석가치 FDV(USD)": 259294903983,
+ "24시간 거래대금(USD)": 17389439930,
  "유통량": 122203846.69715354,
  "총발행량": 122203846.69715354,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -57.205,
+ "역대 최고가 대비(%)": -57.10062,
  "가격 변화(%)": {
-  "7d": -6.18568,
-  "30d": -15.53187,
-  "1y": -39.78839
+  "7d": -5.74406,
+  "30d": -15.46291,
+  "1y": -40.07643
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41976723888
+  "TVL(USD)": 41916811271
  }
 }
 ```
@@ -456,12 +456,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-08 22:59"
   },
   {
-   "출처": "Cointelegraph",
-   "제목": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
-   "요약": "The rules allow retail investors to trade BTC, ETH and USDT through regulated intermediaries, with Moscow Exchange planning to launch crypto trading in December.",
-   "시각(UTC)": "11-06 18:47"
-  },
-  {
    "출처": "Decrypt",
    "제목": "Vitalik Buterin Moves On From ‘Ultrasound Money,’ Says ETH’s Value Is Stability",
    "요약": "The Ethereum co-founder says ETH's value comes from stability, not fee burns, citing its decentralization, censorship resistance and security.",
@@ -475,6 +469,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Robinhood backs tokenization of its stock on OKX–ICE platform even as most companies opt out",
+   "요약": "The brokerage firm said it would rather help build tokenized markets than sit on the sidelines, following a wave of early corporate pushback to the Intercontinental Exchange and OKX joint venture.",
+   "시각(UTC)": "11-09 19:36"
+  },
   {
    "출처": "CoinDesk",
    "제목": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
@@ -516,12 +516,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin bulls can't rely on ETF flows",
    "요약": "Your day-ahead look for Nov. 9, 2026",
    "시각(UTC)": "11-09 12:30"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nvidia-led tech selloff weighs on crypto majors",
-   "요약": "Only five of the top 100 cryptocurrencies by market value are up 1% or more over the past 24 hours. That is the state of the market today.",
-   "시각(UTC)": "11-09 11:42"
   }
  ]
 }
@@ -546,13 +540,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0044,
+   "Binance (Futures)": 0.0043,
    "WEEX (Futures)": -0.0,
-   "CoinW (Futures)": 0.0068,
-   "MEXC (Futures)": 0.007,
-   "Toobit Futures": 0.0071
+   "CoinW (Futures)": 0.0093,
+   "MEXC (Futures)": 0.0092,
+   "Toobit Futures": 0.0093
   },
-  "미결제약정 합계 USD(상위)": 17532394099
+  "미결제약정 합계 USD(상위)": 17550811923
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -562,19 +556,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 인기 검색 코인": [
    "DACITY",
    "AVAX",
-   "ONDO",
-   "PENGU",
-   "BTC",
-   "SOL",
-   "ZEC",
    "KNTQ",
    "PEARL",
-   "DRV",
+   "BTC",
    "INJ",
-   "PUMP",
-   "LIT",
-   "HYPE",
-   "TAO"
+   "ONDO",
+   "QTC",
+   "AERO",
+   "PENGU",
+   "AERO",
+   "AAVE",
+   "CC",
+   "STRK",
+   "XRP"
   ],
   "ETH가 인기 검색에 있음": false
  }
@@ -669,19 +663,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 42,
- "시가총액(USD)": 2180317141,
- "완전희석가치 FDV(USD)": 2180317141,
- "24시간 거래대금(USD)": 567263865,
+ "시가총액(USD)": 2155371965,
+ "완전희석가치 FDV(USD)": 2155371965,
+ "24시간 거래대금(USD)": 565687940,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -81.50891,
+ "역대 최고가 대비(%)": -81.72047,
  "가격 변화(%)": {
-  "7d": 11.92816,
-  "30d": 28.47754,
-  "1y": -14.62001
+  "7d": 10.14316,
+  "30d": 26.76475,
+  "1y": -16.22826
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -693,6 +687,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Robinhood backs tokenization of its stock on OKX–ICE platform even as most companies opt out",
+   "요약": "The brokerage firm said it would rather help build tokenized markets than sit on the sidelines, following a wave of early corporate pushback to the Intercontinental Exchange and OKX joint venture.",
+   "시각(UTC)": "11-09 19:36"
+  },
   {
    "출처": "CoinDesk",
    "제목": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
@@ -734,12 +734,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin bulls can't rely on ETF flows",
    "요약": "Your day-ahead look for Nov. 9, 2026",
    "시각(UTC)": "11-09 12:30"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nvidia-led tech selloff weighs on crypto majors",
-   "요약": "Only five of the top 100 cryptocurrencies by market value are up 1% or more over the past 24 hours. That is the state of the market today.",
-   "시각(UTC)": "11-09 11:42"
   }
  ]
 }
@@ -771,29 +765,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 330806018
+  "미결제약정 합계 USD(상위)": 319911771
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 84.78,
+  "CoinGecko 이용자 투표 상승(%)": 85.42,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
    "AVAX",
-   "ONDO",
-   "PENGU",
-   "BTC",
-   "SOL",
-   "ZEC",
    "KNTQ",
    "PEARL",
-   "DRV",
+   "BTC",
    "INJ",
-   "PUMP",
-   "LIT",
-   "HYPE",
-   "TAO"
+   "ONDO",
+   "QTC",
+   "AERO",
+   "PENGU",
+   "AERO",
+   "AAVE",
+   "CC",
+   "STRK",
+   "XRP"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -888,19 +882,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Coinbase 50 Index"
  ],
  "시가총액 순위": 34,
- "시가총액(USD)": 2837861028,
- "완전희석가치 FDV(USD)": 2848840124,
- "24시간 거래대금(USD)": 66477500,
+ "시가총액(USD)": 2848421098,
+ "완전희석가치 FDV(USD)": 2859441049,
+ "24시간 거래대금(USD)": 66021615,
  "유통량": 14556178.164081175,
  "총발행량": 14612493.0,
  "최대발행량": 14612493.0,
  "유통 비율(%)": 99.6,
  "역대 최고가(USD)": 427.42,
- "역대 최고가 대비(%)": -54.38723,
+ "역대 최고가 대비(%)": -54.23791,
  "가격 변화(%)": {
-  "7d": -2.25466,
-  "30d": -19.37712,
-  "1y": 129.8527
+  "7d": -0.35757,
+  "30d": -19.16808,
+  "1y": 130.14142
  },
  "소개": "London-based Quant Network is set to revolutionise blockchain technology with the development of their blockchain operating system Overledger. The experienced team are determined to fulfil the original vision of the internet by creating an open trusted network for people, machines, and data to operate securely and safely.\n\nOverledger -the first interoperable blockchain operating system that facili"
 }
@@ -912,6 +906,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "QNT 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Robinhood backs tokenization of its stock on OKX–ICE platform even as most companies opt out",
+   "요약": "The brokerage firm said it would rather help build tokenized markets than sit on the sidelines, following a wave of early corporate pushback to the Intercontinental Exchange and OKX joint venture.",
+   "시각(UTC)": "11-09 19:36"
+  },
   {
    "출처": "CoinDesk",
    "제목": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
@@ -953,12 +953,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin bulls can't rely on ETF flows",
    "요약": "Your day-ahead look for Nov. 9, 2026",
    "시각(UTC)": "11-09 12:30"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nvidia-led tech selloff weighs on crypto majors",
-   "요약": "Only five of the top 100 cryptocurrencies by market value are up 1% or more over the past 24 hours. That is the state of the market today.",
-   "시각(UTC)": "11-09 11:42"
   }
  ]
 }
@@ -987,32 +981,32 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Binance (Futures)": 0.01,
    "WEEX (Futures)": 0.0001,
    "MEXC (Futures)": 0.01,
-   "Bybit (Futures)": -0.0096,
+   "Bybit (Futures)": -0.0069,
    "Toobit Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 118865139
+  "미결제약정 합계 USD(상위)": 119255039
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 95.83,
+  "CoinGecko 이용자 투표 상승(%)": 95.65,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
    "AVAX",
-   "ONDO",
-   "PENGU",
-   "BTC",
-   "SOL",
-   "ZEC",
    "KNTQ",
    "PEARL",
-   "DRV",
+   "BTC",
    "INJ",
-   "PUMP",
-   "LIT",
-   "HYPE",
-   "TAO"
+   "ONDO",
+   "QTC",
+   "AERO",
+   "PENGU",
+   "AERO",
+   "AAVE",
+   "CC",
+   "STRK",
+   "XRP"
   ],
   "QNT가 인기 검색에 있음": false
  }
@@ -1137,6 +1131,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Robinhood backs tokenization of its stock on OKX–ICE platform even as most companies opt out",
+   "요약": "The brokerage firm said it would rather help build tokenized markets than sit on the sidelines, following a wave of early corporate pushback to the Intercontinental Exchange and OKX joint venture.",
+   "시각(UTC)": "11-09 19:36"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
    "요약": "The AntPool block came within 984 transactions of Bitcoin’s 2015 record, even as fees made up less than 0.1% of the miner’s payout.",
    "시각(UTC)": "11-09 16:19"
@@ -1176,12 +1176,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Nvidia-led tech selloff weighs on crypto majors",
    "요약": "Only five of the top 100 cryptocurrencies by market value are up 1% or more over the past 24 hours. That is the state of the market today.",
    "시각(UTC)": "11-09 11:42"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Zcash developers want 20-second blocks just days after major speed upgrade",
-   "요약": "Early data shows Zcash's orphan-block rate holding close to pre-upgrade levels despite blocks arriving three times faster, encouraging developers to push for another reduction.",
-   "시각(UTC)": "11-09 10:52"
   }
  ]
 }
@@ -1206,13 +1200,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OKX (Futures)": -0.0037,
-   "OrangeX Futures": -0.01,
+   "OKX (Futures)": 0.005,
+   "OrangeX Futures": 0.01,
    "Lighter": 0.0012,
    "Aster (Futures)": 0.0013,
-   "Robinhood Chain Lighter (Futures)": 0.0012
+   "Robinhood Chain Lighter (Futures)": 0.0007
   },
-  "미결제약정 합계 USD(상위)": 1064198
+  "미결제약정 합계 USD(상위)": 1064477
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
