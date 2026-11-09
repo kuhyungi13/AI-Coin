@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-09 22:53 KST)
+# TF팀 회의 자료 (2026-11-10 00:33 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1501656363475,
- "완전희석가치 FDV(USD)": 1501658006271,
- "24시간 거래대금(USD)": 29596442042,
- "유통량": 20109887.0,
+ "시가총액(USD)": 1509171045841,
+ "완전희석가치 FDV(USD)": 1509171045841,
+ "24시간 거래대금(USD)": 32815707137,
+ "유통량": 20109909.0,
  "총발행량": 20109909.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -40.77363,
+ "역대 최고가 대비(%)": -40.42294,
  "가격 변화(%)": {
-  "7d": -3.91631,
-  "30d": -9.75605,
-  "1y": -26.83556
+  "7d": -3.41681,
+  "30d": -9.40736,
+  "1y": -27.09764
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3909885677
+  "TVL(USD)": 3934979419
  }
 }
 ```
@@ -131,8 +131,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin slides to $74,000 as Huang scandal weighs on Nvidia",
-   "요약": "Neocloud stocks retreat after Friday’s rally, while gold holds above $4,000 and bitcoin trades near $74,000.",
+   "제목": "Live news: Bitcoin remains under pressure as stocks surge, oil slumps",
+   "요약": "The Nasdaq and S&P 500 are both up more than 1% even as Nvidia declines following CEO Jensen Huang's issues.",
    "시각(UTC)": "11-09 10:51"
   },
   {
@@ -217,6 +217,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Google’s AI chip push adds more pressure on Nvidia",
+   "요약": "Google’s specialised AI chips threaten greater competition as Nvidia faces a leadership investigation.",
+   "시각(UTC)": "11-09 15:20"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
+   "요약": "North Korean hackers used six homemade memecoins to launder 117,000 NEAR, worth about $430,000, from the $6.3 billion Binance hack, Elliptic says.",
+   "시각(UTC)": "11-09 15:00"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
    "요약": "Avalanche will serve as the core settlement ledger for the exchange's planned blockchain stock market",
    "시각(UTC)": "11-09 13:40"
@@ -250,18 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Coinbase gets full U.S. trust charter from federal banking regulator",
    "요약": "The Office of the Comptroller of the Currency elevated the biggest U.S. exchange's trust status from conditional to a full-fledged charter, the company said.",
    "시각(UTC)": "11-09 10:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. inflation, corporate earnings: Crypto Week Ahead",
-   "요약": "Your look at what’s coming in the week starting Nov. 9.",
-   "시각(UTC)": "11-09 09:33"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
-   "요약": "A draft proposal would end the 'durable nonces' feature no earlier than May 5, 2027, forcing custodians that sign offline to rebuild how they move coins.",
-   "시각(UTC)": "11-09 06:36"
   }
  ]
 }
@@ -287,35 +287,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.01,
-   "Bybit (Futures)": 0.0071,
+   "Bybit (Futures)": 0.0085,
    "MEXC (Futures)": 0.01,
-   "Gate (Futures)": 0.0055,
+   "Gate (Futures)": 0.0075,
    "WEEX (Futures)": 0.0001,
    "Tapbit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 28487732852
+  "미결제약정 합계 USD(상위)": 28790376259
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 63.43,
+  "CoinGecko 이용자 투표 상승(%)": 63.89,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "HYPE",
    "AVAX",
-   "BTC",
+   "HYPE",
    "KNTQ",
-   "AERO",
-   "NEAR",
-   "PUMP",
-   "GRAM",
-   "PENGU",
-   "QTC",
-   "AAVE",
+   "BTC",
+   "ETH",
    "ARB",
+   "LIT",
+   "PENGU",
+   "XRP",
    "PEARL",
-   "QNT"
+   "ZEC",
+   "SOL",
+   "JCT",
+   "RITUAL"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 259002539775,
- "완전희석가치 FDV(USD)": 259002539775,
- "24시간 거래대금(USD)": 14737350751,
+ "시가총액(USD)": 260233649671,
+ "완전희석가치 FDV(USD)": 260233649671,
+ "24시간 거래대금(USD)": 16050986156,
  "유통량": 122203846.69715354,
  "총발행량": 122203846.69715354,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -57.14899,
+ "역대 최고가 대비(%)": -56.90178,
  "가격 변화(%)": {
-  "7d": -7.16781,
-  "30d": -15.03959,
-  "1y": -38.41996
+  "7d": -6.8319,
+  "30d": -14.96784,
+  "1y": -39.26628
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41652948663
+  "TVL(USD)": 41753745488
  }
 }
 ```
@@ -454,15 +454,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
    "요약": "The rules allow retail investors to trade BTC, ETH and USDT through regulated intermediaries, with Moscow Exchange planning to launch crypto trading in December.",
    "시각(UTC)": "11-06 18:47"
-  },
-  {
-   "출처": "Decrypt",
-   "제목": "$3.1B in Stolen Binance Crypto Has Yet to Be Laundered: Elliptic",
-   "요약": "The attackers have used more than 20,000 wallets on 16 blockchains so far, but the bulk of the stolen ETH and Bitcoin hasn't moved.",
-   "시각(UTC)": "11-06 14:04"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Google’s AI chip push adds more pressure on Nvidia",
+   "요약": "Google’s specialised AI chips threaten greater competition as Nvidia faces a leadership investigation.",
+   "시각(UTC)": "11-09 15:20"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
+   "요약": "North Korean hackers used six homemade memecoins to launder 117,000 NEAR, worth about $430,000, from the $6.3 billion Binance hack, Elliptic says.",
+   "시각(UTC)": "11-09 15:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
@@ -498,18 +504,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Zcash developers want 20-second blocks just days after major speed upgrade",
    "요약": "Early data shows Zcash's orphan-block rate holding close to pre-upgrade levels despite blocks arriving three times faster, encouraging developers to push for another reduction.",
    "시각(UTC)": "11-09 10:52"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin slides to $74,000 as Huang scandal weighs on Nvidia",
-   "요약": "Neocloud stocks retreat after Friday’s rally, while gold holds above $4,000 and bitcoin trades near $74,000.",
-   "시각(UTC)": "11-09 10:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Coinbase gets full U.S. trust charter from federal banking regulator",
-   "요약": "The Office of the Comptroller of the Currency elevated the biggest U.S. exchange's trust status from conditional to a full-fledged charter, the company said.",
-   "시각(UTC)": "11-09 10:00"
   }
  ]
 }
@@ -534,37 +528,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0019,
+   "Binance (Futures)": 0.0028,
    "WEEX (Futures)": -0.0001,
-   "CoinW (Futures)": -0.0009,
-   "MEXC (Futures)": -0.0008,
-   "Toobit Futures": -0.0009
+   "CoinW (Futures)": 0.0007,
+   "MEXC (Futures)": 0.0011,
+   "Toobit Futures": 0.0011
   },
-  "미결제약정 합계 USD(상위)": 17307148869
+  "미결제약정 합계 USD(상위)": 17566467220
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 62.71,
+  "CoinGecko 이용자 투표 상승(%)": 68.18,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "HYPE",
    "AVAX",
-   "BTC",
+   "HYPE",
    "KNTQ",
-   "AERO",
-   "NEAR",
-   "PUMP",
-   "GRAM",
-   "PENGU",
-   "QTC",
-   "AAVE",
+   "BTC",
+   "ETH",
    "ARB",
+   "LIT",
+   "PENGU",
+   "XRP",
    "PEARL",
-   "QNT"
+   "ZEC",
+   "SOL",
+   "JCT",
+   "RITUAL"
   ],
-  "ETH가 인기 검색에 있음": false
+  "ETH가 인기 검색에 있음": true
  }
 }
 ```
@@ -657,19 +651,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 42,
- "시가총액(USD)": 2146381258,
- "완전희석가치 FDV(USD)": 2146381258,
- "24시간 거래대금(USD)": 513450563,
+ "시가총액(USD)": 2208612627,
+ "완전희석가치 FDV(USD)": 2208612627,
+ "24시간 거래대금(USD)": 549426728,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -81.79672,
+ "역대 최고가 대비(%)": -81.26894,
  "가격 변화(%)": {
-  "7d": 5.6583,
-  "30d": 26.78981,
-  "1y": -15.06204
+  "7d": 10.02747,
+  "30d": 29.81993,
+  "1y": -13.43375
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -681,6 +675,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Google’s AI chip push adds more pressure on Nvidia",
+   "요약": "Google’s specialised AI chips threaten greater competition as Nvidia faces a leadership investigation.",
+   "시각(UTC)": "11-09 15:20"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
+   "요약": "North Korean hackers used six homemade memecoins to launder 117,000 NEAR, worth about $430,000, from the $6.3 billion Binance hack, Elliptic says.",
+   "시각(UTC)": "11-09 15:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
@@ -716,18 +722,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Zcash developers want 20-second blocks just days after major speed upgrade",
    "요약": "Early data shows Zcash's orphan-block rate holding close to pre-upgrade levels despite blocks arriving three times faster, encouraging developers to push for another reduction.",
    "시각(UTC)": "11-09 10:52"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin slides to $74,000 as Huang scandal weighs on Nvidia",
-   "요약": "Neocloud stocks retreat after Friday’s rally, while gold holds above $4,000 and bitcoin trades near $74,000.",
-   "시각(UTC)": "11-09 10:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Coinbase gets full U.S. trust charter from federal banking regulator",
-   "요약": "The Office of the Comptroller of the Currency elevated the biggest U.S. exchange's trust status from conditional to a full-fledged charter, the company said.",
-   "시각(UTC)": "11-09 10:00"
   }
  ]
 }
@@ -759,29 +753,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 309909479
+  "미결제약정 합계 USD(상위)": 331242338
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 80.43,
+  "CoinGecko 이용자 투표 상승(%)": 83.33,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "HYPE",
    "AVAX",
-   "BTC",
+   "HYPE",
    "KNTQ",
-   "AERO",
-   "NEAR",
-   "PUMP",
-   "GRAM",
-   "PENGU",
-   "QTC",
-   "AAVE",
+   "BTC",
+   "ETH",
    "ARB",
+   "LIT",
+   "PENGU",
+   "XRP",
    "PEARL",
-   "QNT"
+   "ZEC",
+   "SOL",
+   "JCT",
+   "RITUAL"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -876,19 +870,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Coinbase 50 Index"
  ],
  "시가총액 순위": 34,
- "시가총액(USD)": 2925385731,
- "완전희석가치 FDV(USD)": 2936703442,
- "24시간 거래대금(USD)": 59055812,
+ "시가총액(USD)": 2919533658,
+ "완전희석가치 FDV(USD)": 2930828729,
+ "24시간 거래대금(USD)": 61037281,
  "유통량": 14556178.164081175,
  "총발행량": 14612493.0,
  "최대발행량": 14612493.0,
  "유통 비율(%)": 99.6,
  "역대 최고가(USD)": 427.42,
- "역대 최고가 대비(%)": -52.98045,
+ "역대 최고가 대비(%)": -53.07451,
  "가격 변화(%)": {
-  "7d": 0.55026,
-  "30d": -20.47745,
-  "1y": 142.33514
+  "7d": -0.90987,
+  "30d": -19.41197,
+  "1y": 140.96827
  },
  "소개": "London-based Quant Network is set to revolutionise blockchain technology with the development of their blockchain operating system Overledger. The experienced team are determined to fulfil the original vision of the internet by creating an open trusted network for people, machines, and data to operate securely and safely.\n\nOverledger -the first interoperable blockchain operating system that facili"
 }
@@ -900,6 +894,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "QNT 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Google’s AI chip push adds more pressure on Nvidia",
+   "요약": "Google’s specialised AI chips threaten greater competition as Nvidia faces a leadership investigation.",
+   "시각(UTC)": "11-09 15:20"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
+   "요약": "North Korean hackers used six homemade memecoins to launder 117,000 NEAR, worth about $430,000, from the $6.3 billion Binance hack, Elliptic says.",
+   "시각(UTC)": "11-09 15:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
@@ -935,18 +941,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Zcash developers want 20-second blocks just days after major speed upgrade",
    "요약": "Early data shows Zcash's orphan-block rate holding close to pre-upgrade levels despite blocks arriving three times faster, encouraging developers to push for another reduction.",
    "시각(UTC)": "11-09 10:52"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin slides to $74,000 as Huang scandal weighs on Nvidia",
-   "요약": "Neocloud stocks retreat after Friday’s rally, while gold holds above $4,000 and bitcoin trades near $74,000.",
-   "시각(UTC)": "11-09 10:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Coinbase gets full U.S. trust charter from federal banking regulator",
-   "요약": "The Office of the Comptroller of the Currency elevated the biggest U.S. exchange's trust status from conditional to a full-fledged charter, the company said.",
-   "시각(UTC)": "11-09 10:00"
   }
  ]
 }
@@ -978,31 +972,31 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MEXC (Futures)": 0.01,
    "Toobit Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 120134166
+  "미결제약정 합계 USD(상위)": 119514969
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 95.83,
+  "CoinGecko 이용자 투표 상승(%)": 95.65,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "HYPE",
    "AVAX",
-   "BTC",
+   "HYPE",
    "KNTQ",
-   "AERO",
-   "NEAR",
-   "PUMP",
-   "GRAM",
-   "PENGU",
-   "QTC",
-   "AAVE",
+   "BTC",
+   "ETH",
    "ARB",
+   "LIT",
+   "PENGU",
+   "XRP",
    "PEARL",
-   "QNT"
+   "ZEC",
+   "SOL",
+   "JCT",
+   "RITUAL"
   ],
-  "QNT가 인기 검색에 있음": true
+  "QNT가 인기 검색에 있음": false
  }
 }
 ```
@@ -1099,6 +1093,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "AI 관련 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Google’s AI chip push adds more pressure on Nvidia",
+   "요약": "Google’s specialised AI chips threaten greater competition as Nvidia faces a leadership investigation.",
+   "시각(UTC)": "11-09 15:20"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "SpaceX proposes a $24 billion Texas supercomputer and a gas plant",
    "요약": "The $24 billion project, which includes an AI supercomputer in Texas with its own gas-fired power plant, is about 17 times the value of SpaceX's bitcoin holdings.",
    "시각(UTC)": "11-09 06:54"
@@ -1129,6 +1129,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
+   "요약": "North Korean hackers used six homemade memecoins to launder 117,000 NEAR, worth about $430,000, from the $6.3 billion Binance hack, Elliptic says.",
+   "시각(UTC)": "11-09 15:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
@@ -1167,15 +1173,9 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin slides to $74,000 as Huang scandal weighs on Nvidia",
-   "요약": "Neocloud stocks retreat after Friday’s rally, while gold holds above $4,000 and bitcoin trades near $74,000.",
+   "제목": "Live news: Bitcoin remains under pressure as stocks surge, oil slumps",
+   "요약": "The Nasdaq and S&P 500 are both up more than 1% even as Nvidia declines following CEO Jensen Huang's issues.",
    "시각(UTC)": "11-09 10:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Coinbase gets full U.S. trust charter from federal banking regulator",
-   "요약": "The Office of the Comptroller of the Currency elevated the biggest U.S. exchange's trust status from conditional to a full-fledged charter, the company said.",
-   "시각(UTC)": "11-09 10:00"
   }
  ]
 }
@@ -1203,10 +1203,10 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "OKX (Futures)": 0.005,
    "OrangeX Futures": 0.01,
    "Lighter": 0.0012,
-   "Robinhood Chain Lighter (Futures)": 0.0012,
-   "Aster (Futures)": 0.0013
+   "Aster (Futures)": 0.0013,
+   "Robinhood Chain Lighter (Futures)": 0.0012
   },
-  "미결제약정 합계 USD(상위)": 1101648
+  "미결제약정 합계 USD(상위)": 1089912
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
