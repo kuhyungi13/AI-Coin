@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-09 21:36 KST)
+# TF팀 회의 자료 (2026-11-09 22:53 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1505261043526,
- "완전희석가치 FDV(USD)": 1505262465713,
- "24시간 거래대금(USD)": 28995643439,
- "유통량": 20109831.0,
- "총발행량": 20109850.0,
+ "시가총액(USD)": 1501656363475,
+ "완전희석가치 FDV(USD)": 1501658006271,
+ "24시간 거래대금(USD)": 29596442042,
+ "유통량": 20109887.0,
+ "총발행량": 20109909.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -40.64201,
+ "역대 최고가 대비(%)": -40.77363,
  "가격 변화(%)": {
-  "7d": -3.81596,
-  "30d": -9.62078,
-  "1y": -26.76707
+  "7d": -3.91631,
+  "30d": -9.75605,
+  "1y": -26.83556
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3908419204
+  "TVL(USD)": 3909885677
  }
 }
 ```
@@ -161,6 +161,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
+   "제목": "Here’s what happened in crypto today",
+   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+   "시각(UTC)": "11-09 13:36"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364",
+   "요약": "Strategy bought $81.9 million in Bitcoin last week while spending $188.3 million repurchasing STRC preferred shares, according to its latest SEC filing.",
+   "시각(UTC)": "11-09 13:29"
+  },
+  {
+   "출처": "Cointelegraph",
    "제목": "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week",
    "요약": "Bitcoin price action fell to its lowest levels since mid-August as Nvidia reports added to sell-side pressure across stock-market futures.",
    "시각(UTC)": "11-09 10:03"
@@ -170,12 +182,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
    "요약": "Investors pulled a net $1.21 billion from BlackRock’s IBIT last week as Bitcoin fell below $76,000 and US technology stocks sold off.",
    "시각(UTC)": "11-09 08:17"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Here’s what happened in crypto today",
-   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-   "시각(UTC)": "11-09 05:44"
   },
   {
    "출처": "Cointelegraph",
@@ -206,15 +212,27 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound",
    "요약": "BTC price action stayed weak after US nonfarm payrolls data significantly beat forecasts, increasing bets of a December interest-rate hike.",
    "시각(UTC)": "11-06 17:49"
-  },
-  {
-   "출처": "Decrypt",
-   "제목": "This Bitcoin Developer’s Idea Would Make Quantum Attacks a Losing Bet",
-   "요약": "Cory Fields wants future quantum attackers to post Bitcoin as collateral before touching vulnerable wallets, giving prepared owners a chance to recover their coins and collect a potentially costly penalty.",
-   "시각(UTC)": "11-08 14:01"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
+   "요약": "Avalanche will serve as the core settlement ledger for the exchange's planned blockchain stock market",
+   "시각(UTC)": "11-09 13:40"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
+   "요약": "Formation Securities plans to launch in early 2027 with Galaxy, Exodus and Forward Industries shares, expanding the U.S. regulator's experiment in blockchain-based stock trading.",
+   "시각(UTC)": "11-09 12:41"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
+   "요약": "Trump confirmed he co-owns World Liberty, whose UAE ownership could derail Justin Sun’s federal lawsuit over frozen WLFI tokens",
+   "시각(UTC)": "11-09 12:37"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Nvidia-led tech selloff weighs on crypto majors",
@@ -244,24 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
    "요약": "A draft proposal would end the 'durable nonces' feature no earlier than May 5, 2027, forcing custodians that sign offline to rebuild how they move coins.",
    "시각(UTC)": "11-09 06:36"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
-   "요약": "The proposals aim to keep Ethereum’s planned gas changes from breaking existing contracts, using different approaches to what contracts see and what users pay.",
-   "시각(UTC)": "11-09 05:16"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "What the election results mean for crypto: State of Crypto",
-   "요약": "Democrats had an astoundingly good night, smashing all expectations. Is that actually bad news for the industry?",
-   "시각(UTC)": "11-08 19:30"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Stablecoin growth has stalled. The payments boom hasn't",
-   "요약": "Stablecoin supply has barely grown this year, even as payments using the tokens surge. Circle's latest earnings offer another example of the divergence between dollars outstanding and activity on blockchain networks.",
-   "시각(UTC)": "11-08 19:16"
   }
  ]
 }
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0098,
-   "Bybit (Futures)": 0.0064,
-   "MEXC (Futures)": 0.0097,
-   "Gate (Futures)": 0.0068,
+   "Binance (Futures)": 0.01,
+   "Bybit (Futures)": 0.0071,
+   "MEXC (Futures)": 0.01,
+   "Gate (Futures)": 0.0055,
    "WEEX (Futures)": 0.0001,
-   "Tapbit (Futures)": 0.0098
+   "Tapbit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 28669293404
+  "미결제약정 합계 USD(상위)": 28487732852
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 64.53,
+  "CoinGecko 이용자 투표 상승(%)": 63.43,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
    "DACITY",
    "HYPE",
-   "PENGU",
-   "PEPE",
-   "QNT",
-   "LIT",
-   "RSR",
+   "AVAX",
+   "BTC",
+   "KNTQ",
+   "AERO",
+   "NEAR",
+   "PUMP",
    "GRAM",
-   "STONK",
+   "PENGU",
    "QTC",
-   "DOT",
+   "AAVE",
    "ARB",
-   "ZEC",
-   "KNTQ"
+   "PEARL",
+   "QNT"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 259207549238,
- "완전희석가치 FDV(USD)": 259207549238,
- "24시간 거래대금(USD)": 14651169571,
+ "시가총액(USD)": 259002539775,
+ "완전희석가치 FDV(USD)": 259002539775,
+ "24시간 거래대금(USD)": 14737350751,
  "유통량": 122203846.69715354,
  "총발행량": 122203846.69715354,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -57.11507,
+ "역대 최고가 대비(%)": -57.14899,
  "가격 변화(%)": {
-  "7d": -7.12785,
-  "30d": -14.99244,
-  "1y": -38.09873
+  "7d": -7.16781,
+  "30d": -15.03959,
+  "1y": -38.41996
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41627712805
+  "TVL(USD)": 41652948663
  }
 }
 ```
@@ -456,12 +456,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-06 18:47"
   },
   {
-   "출처": "Cointelegraph",
-   "제목": "Ethereum devs won’t fork Glamsterdam on Hoodi until smart contract risks resolved",
-   "요약": "Ethereum developers are investigating concerns tied to eight smart contract invariants tied to Glamsterdam’s EIP-8037 and EIP-8038.",
-   "시각(UTC)": "11-06 13:23"
-  },
-  {
    "출처": "Decrypt",
    "제목": "$3.1B in Stolen Binance Crypto Has Yet to Be Laundered: Elliptic",
    "요약": "The attackers have used more than 20,000 wallets on 16 blockchains so far, but the bulk of the stolen ETH and Bitcoin hasn't moved.",
@@ -469,6 +463,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
+   "요약": "Avalanche will serve as the core settlement ledger for the exchange's planned blockchain stock market",
+   "시각(UTC)": "11-09 13:40"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
+   "요약": "Formation Securities plans to launch in early 2027 with Galaxy, Exodus and Forward Industries shares, expanding the U.S. regulator's experiment in blockchain-based stock trading.",
+   "시각(UTC)": "11-09 12:41"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
+   "요약": "Trump confirmed he co-owns World Liberty, whose UAE ownership could derail Justin Sun’s federal lawsuit over frozen WLFI tokens",
+   "시각(UTC)": "11-09 12:37"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin bulls can't rely on ETF flows",
@@ -498,24 +510,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Coinbase gets full U.S. trust charter from federal banking regulator",
    "요약": "The Office of the Comptroller of the Currency elevated the biggest U.S. exchange's trust status from conditional to a full-fledged charter, the company said.",
    "시각(UTC)": "11-09 10:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. inflation, corporate earnings: Crypto Week Ahead",
-   "요약": "Your look at what’s coming in the week starting Nov. 9.",
-   "시각(UTC)": "11-09 09:33"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "SpaceX proposes a $24 billion Texas supercomputer and a gas plant",
-   "요약": "The $24 billion project, which includes an AI supercomputer in Texas with its own gas-fired power plant, is about 17 times the value of SpaceX's bitcoin holdings.",
-   "시각(UTC)": "11-09 06:54"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
-   "요약": "A draft proposal would end the 'durable nonces' feature no earlier than May 5, 2027, forcing custodians that sign offline to rebuild how they move coins.",
-   "시각(UTC)": "11-09 06:36"
   }
  ]
 }
@@ -540,35 +534,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0008,
+   "Binance (Futures)": 0.0019,
    "WEEX (Futures)": -0.0001,
-   "CoinW (Futures)": -0.0017,
-   "MEXC (Futures)": -0.0018,
-   "Toobit Futures": -0.0017
+   "CoinW (Futures)": -0.0009,
+   "MEXC (Futures)": -0.0008,
+   "Toobit Futures": -0.0009
   },
-  "미결제약정 합계 USD(상위)": 17319780544
+  "미결제약정 합계 USD(상위)": 17307148869
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 61.82,
+  "CoinGecko 이용자 투표 상승(%)": 62.71,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
    "DACITY",
    "HYPE",
-   "PENGU",
-   "PEPE",
-   "QNT",
-   "LIT",
-   "RSR",
+   "AVAX",
+   "BTC",
+   "KNTQ",
+   "AERO",
+   "NEAR",
+   "PUMP",
    "GRAM",
-   "STONK",
+   "PENGU",
    "QTC",
-   "DOT",
+   "AAVE",
    "ARB",
-   "ZEC",
-   "KNTQ"
+   "PEARL",
+   "QNT"
   ],
   "ETH가 인기 검색에 있음": false
  }
@@ -663,19 +657,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 42,
- "시가총액(USD)": 2137641452,
- "완전희석가치 FDV(USD)": 2137641452,
- "24시간 거래대금(USD)": 518364315,
+ "시가총액(USD)": 2146381258,
+ "완전희석가치 FDV(USD)": 2146381258,
+ "24시간 거래대금(USD)": 513450563,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -81.87084,
+ "역대 최고가 대비(%)": -81.79672,
  "가격 변화(%)": {
-  "7d": 5.01914,
-  "30d": 26.28924,
-  "1y": -15.18161
+  "7d": 5.6583,
+  "30d": 26.78981,
+  "1y": -15.06204
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -687,6 +681,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
+   "요약": "Avalanche will serve as the core settlement ledger for the exchange's planned blockchain stock market",
+   "시각(UTC)": "11-09 13:40"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
+   "요약": "Formation Securities plans to launch in early 2027 with Galaxy, Exodus and Forward Industries shares, expanding the U.S. regulator's experiment in blockchain-based stock trading.",
+   "시각(UTC)": "11-09 12:41"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
+   "요약": "Trump confirmed he co-owns World Liberty, whose UAE ownership could derail Justin Sun’s federal lawsuit over frozen WLFI tokens",
+   "시각(UTC)": "11-09 12:37"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin bulls can't rely on ETF flows",
@@ -716,24 +728,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Coinbase gets full U.S. trust charter from federal banking regulator",
    "요약": "The Office of the Comptroller of the Currency elevated the biggest U.S. exchange's trust status from conditional to a full-fledged charter, the company said.",
    "시각(UTC)": "11-09 10:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. inflation, corporate earnings: Crypto Week Ahead",
-   "요약": "Your look at what’s coming in the week starting Nov. 9.",
-   "시각(UTC)": "11-09 09:33"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "SpaceX proposes a $24 billion Texas supercomputer and a gas plant",
-   "요약": "The $24 billion project, which includes an AI supercomputer in Texas with its own gas-fired power plant, is about 17 times the value of SpaceX's bitcoin holdings.",
-   "시각(UTC)": "11-09 06:54"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
-   "요약": "A draft proposal would end the 'durable nonces' feature no earlier than May 5, 2027, forcing custodians that sign offline to rebuild how they move coins.",
-   "시각(UTC)": "11-09 06:36"
   }
  ]
 }
@@ -765,31 +759,31 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "KCEX (Futures)": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 308422229
+  "미결제약정 합계 USD(상위)": 309909479
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 84.09,
+  "CoinGecko 이용자 투표 상승(%)": 80.43,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
    "DACITY",
    "HYPE",
-   "PENGU",
-   "PEPE",
-   "QNT",
-   "LIT",
-   "RSR",
+   "AVAX",
+   "BTC",
+   "KNTQ",
+   "AERO",
+   "NEAR",
+   "PUMP",
    "GRAM",
-   "STONK",
+   "PENGU",
    "QTC",
-   "DOT",
+   "AAVE",
    "ARB",
-   "ZEC",
-   "KNTQ"
+   "PEARL",
+   "QNT"
   ],
-  "PEPE가 인기 검색에 있음": true
+  "PEPE가 인기 검색에 있음": false
  }
 }
 ```
@@ -882,19 +876,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Coinbase 50 Index"
  ],
  "시가총액 순위": 34,
- "시가총액(USD)": 2933090946,
- "완전희석가치 FDV(USD)": 2944438467,
- "24시간 거래대금(USD)": 63919762,
+ "시가총액(USD)": 2925385731,
+ "완전희석가치 FDV(USD)": 2936703442,
+ "24시간 거래대금(USD)": 59055812,
  "유통량": 14556178.164081175,
  "총발행량": 14612493.0,
  "최대발행량": 14612493.0,
  "유통 비율(%)": 99.6,
  "역대 최고가(USD)": 427.42,
- "역대 최고가 대비(%)": -52.8566,
+ "역대 최고가 대비(%)": -52.98045,
  "가격 변화(%)": {
-  "7d": 1.11876,
-  "30d": -18.89064,
-  "1y": 142.90536
+  "7d": 0.55026,
+  "30d": -20.47745,
+  "1y": 142.33514
  },
  "소개": "London-based Quant Network is set to revolutionise blockchain technology with the development of their blockchain operating system Overledger. The experienced team are determined to fulfil the original vision of the internet by creating an open trusted network for people, machines, and data to operate securely and safely.\n\nOverledger -the first interoperable blockchain operating system that facili"
 }
@@ -906,6 +900,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "QNT 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
+   "요약": "Avalanche will serve as the core settlement ledger for the exchange's planned blockchain stock market",
+   "시각(UTC)": "11-09 13:40"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
+   "요약": "Formation Securities plans to launch in early 2027 with Galaxy, Exodus and Forward Industries shares, expanding the U.S. regulator's experiment in blockchain-based stock trading.",
+   "시각(UTC)": "11-09 12:41"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
+   "요약": "Trump confirmed he co-owns World Liberty, whose UAE ownership could derail Justin Sun’s federal lawsuit over frozen WLFI tokens",
+   "시각(UTC)": "11-09 12:37"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin bulls can't rely on ETF flows",
@@ -935,24 +947,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Coinbase gets full U.S. trust charter from federal banking regulator",
    "요약": "The Office of the Comptroller of the Currency elevated the biggest U.S. exchange's trust status from conditional to a full-fledged charter, the company said.",
    "시각(UTC)": "11-09 10:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. inflation, corporate earnings: Crypto Week Ahead",
-   "요약": "Your look at what’s coming in the week starting Nov. 9.",
-   "시각(UTC)": "11-09 09:33"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "SpaceX proposes a $24 billion Texas supercomputer and a gas plant",
-   "요약": "The $24 billion project, which includes an AI supercomputer in Texas with its own gas-fired power plant, is about 17 times the value of SpaceX's bitcoin holdings.",
-   "시각(UTC)": "11-09 06:54"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
-   "요약": "A draft proposal would end the 'durable nonces' feature no earlier than May 5, 2027, forcing custodians that sign offline to rebuild how they move coins.",
-   "시각(UTC)": "11-09 06:36"
   }
  ]
 }
@@ -980,11 +974,11 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "OrangeX Futures": 0.01,
    "Binance (Futures)": 0.01,
    "WEEX (Futures)": 0.0001,
-   "MEXC (Futures)": 0.01,
    "Bybit (Futures)": 0.01,
+   "MEXC (Futures)": 0.01,
    "Toobit Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 122093801
+  "미결제약정 합계 USD(상위)": 120134166
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -992,21 +986,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 95.83,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
    "DACITY",
    "HYPE",
-   "PENGU",
-   "PEPE",
-   "QNT",
-   "LIT",
-   "RSR",
+   "AVAX",
+   "BTC",
+   "KNTQ",
+   "AERO",
+   "NEAR",
+   "PUMP",
    "GRAM",
-   "STONK",
+   "PENGU",
    "QTC",
-   "DOT",
+   "AAVE",
    "ARB",
-   "ZEC",
-   "KNTQ"
+   "PEARL",
+   "QNT"
   ],
   "QNT가 인기 검색에 있음": true
  }
@@ -1111,6 +1105,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Decrypt",
+   "제목": "Microsoft-Backed Space and Time Launches Platform to Let AI Agents Verify Private Data",
+   "요약": "Space and Time Enterprise uses Proof of SQL to prove calculations on private business data without exposing the records to AI agents.",
+   "시각(UTC)": "11-09 13:01"
+  },
+  {
+   "출처": "Decrypt",
    "제목": "AI Chip Stocks Bounce After Global Rout—But Is the Bubble Starting to Burst?",
    "요약": "A Friday rebound offered relief after a historic selloff. The question now is whether politics and mounting debt could turn an AI correction into something much worse.",
    "시각(UTC)": "11-07 16:01"
@@ -1126,21 +1126,27 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Anthropic IPO Valuation Could Be Slashed in Half to $1T After AI Stock Rout: Report",
    "요약": "Investors told The Wall Street Journal that the $1.5 trillion target now looks too high, as prediction markets bet on a December listing.",
    "시각(UTC)": "11-06 16:28"
-  },
-  {
-   "출처": "Decrypt",
-   "제목": "Tesla to Wind Down Cybertruck Production as Elon Musk Pivots to Robotaxis and AI",
-   "요약": "The Tesla CEO said the Texas plant will make room for the Cybercab, as sales of the stainless-steel pickup run far below capacity.",
-   "시각(UTC)": "11-06 13:53"
-  },
-  {
-   "출처": "Decrypt",
-   "제목": "Morning Minute: Bitcoin Erases Election Rally as AI Stocks Crater",
-   "요약": "Thursday marked a massive reversal and historic selloff for AI stocks, and crypto was not immune. What held up the strongest?",
-   "시각(UTC)": "11-06 13:29"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
+   "요약": "Avalanche will serve as the core settlement ledger for the exchange's planned blockchain stock market",
+   "시각(UTC)": "11-09 13:40"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
+   "요약": "Formation Securities plans to launch in early 2027 with Galaxy, Exodus and Forward Industries shares, expanding the U.S. regulator's experiment in blockchain-based stock trading.",
+   "시각(UTC)": "11-09 12:41"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
+   "요약": "Trump confirmed he co-owns World Liberty, whose UAE ownership could derail Justin Sun’s federal lawsuit over frozen WLFI tokens",
+   "시각(UTC)": "11-09 12:37"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin bulls can't rely on ETF flows",
@@ -1170,24 +1176,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Coinbase gets full U.S. trust charter from federal banking regulator",
    "요약": "The Office of the Comptroller of the Currency elevated the biggest U.S. exchange's trust status from conditional to a full-fledged charter, the company said.",
    "시각(UTC)": "11-09 10:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "U.S. inflation, corporate earnings: Crypto Week Ahead",
-   "요약": "Your look at what’s coming in the week starting Nov. 9.",
-   "시각(UTC)": "11-09 09:33"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Solana moves to scrap the transaction feature used in the $270 million Drift hack",
-   "요약": "A draft proposal would end the 'durable nonces' feature no earlier than May 5, 2027, forcing custodians that sign offline to rebuild how they move coins.",
-   "시각(UTC)": "11-09 06:36"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts",
-   "요약": "The proposals aim to keep Ethereum’s planned gas changes from breaking existing contracts, using different approaches to what contracts see and what users pay.",
-   "시각(UTC)": "11-09 05:16"
   }
  ]
 }
@@ -1218,7 +1206,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Robinhood Chain Lighter (Futures)": 0.0012,
    "Aster (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 1101221
+  "미결제약정 합계 USD(상위)": 1101648
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
