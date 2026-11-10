@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-11 04:32 KST)
+# TF팀 회의 자료 (2026-11-11 05:25 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -66,19 +66,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-10",
   "등락률(%)": {
-   "1일": -1.62,
-   "7일": -1.55,
-   "30일": -3.7,
-   "90일": -8.97
+   "1일": 0.35,
+   "7일": -2.73,
+   "30일": -3.79,
+   "90일": -8.18
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -2.64,
-   "MA60": -4.66,
-   "MA120": -6.83
+   "MA20": -2.14,
+   "MA60": -4.24,
+   "MA120": -6.39
   },
   "MA20>MA60": false,
   "최근 교차": null,
-  "RSI14": 33.0
+  "RSI14": 35.5
  }
 }
 ```
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1475098635439,
- "완전희석가치 FDV(USD)": 1475100029093,
- "24시간 거래대금(USD)": 30041010955,
+ "시가총액(USD)": 1480403615373,
+ "완전희석가치 FDV(USD)": 1480406339091,
+ "24시간 거래대금(USD)": 29935446705,
  "유통량": 20110356.0,
- "총발행량": 20110375.0,
+ "총발행량": 20110393.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -41.82277,
+ "역대 최고가 대비(%)": -41.61321,
  "가격 변화(%)": {
-  "7d": -5.37159,
-  "30d": -12.26047,
-  "1y": -30.43684
+  "7d": -5.05808,
+  "30d": -11.93916,
+  "1y": -30.4296
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3855295534
+  "TVL(USD)": 3857479488
  }
 }
 ```
@@ -166,12 +166,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-09 16:19"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin bulls can't rely on ETF flows",
-   "요약": "Your day-ahead look for Nov. 9, 2026",
-   "시각(UTC)": "11-09 12:30"
-  },
-  {
    "출처": "Cointelegraph",
    "제목": "Mercado Bitcoin to resume cash withdrawals after $49M hack",
    "요약": "Starting next week, customers can deposit and withdraw money through Brazil’s instant payment system. Crypto transfers remain suspended.",
@@ -212,9 +206,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions",
    "요약": "US spot Bitcoin ETFs shed $201 million Monday, with seven straight sessions of net withdrawals from BlackRock’s IBIT totaling $1.66 billion.",
    "시각(UTC)": "11-10 08:02"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall",
+   "요약": "Both miners reported higher Bitcoin production but lower mining revenue and rising electricity costs as they expanded their AI infrastructure businesses.",
+   "시각(UTC)": "11-10 00:42"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform",
+   "요약": "Stacey Cunningham, who recently joined digital asset platform Bullish as President, sees the company’s planned Equiniti acquisition and focus on stock issuers as key to its tokenization ambitions.",
+   "시각(UTC)": "11-10 20:15"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
@@ -256,12 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "The crypto wallet that grew up inside Telegram is striking out on its own",
    "요약": "The app will offer crypto trading, tokenized U.S. stocks and ETFs, and perpetual futures, all already available through Telegram.",
    "시각(UTC)": "11-10 09:59"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
-   "요약": "The Capital Markets Alliance argues that the products fall under the Securities and Exchange Commission’s jurisdiction.",
-   "시각(UTC)": "11-10 09:14"
   }
  ]
 }
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.007,
+   "Binance (Futures)": 0.0071,
    "OKX (Futures)": 0.0087,
-   "Bybit (Futures)": 0.01,
-   "Deepcoin (Derivatives)": 0.0167,
-   "MEXC (Futures)": 0.0069,
-   "Gate (Futures)": 0.0079
+   "Bybit (Futures)": 0.0099,
+   "MEXC (Futures)": 0.007,
+   "Gate (Futures)": 0.0079,
+   "WEEX (Futures)": 0.0001
   },
-  "미결제약정 합계 USD(상위)": 19818243979
+  "미결제약정 합계 USD(상위)": 19132668213
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 55.63,
+  "CoinGecko 이용자 투표 상승(%)": 54.9,
   "CoinGecko 인기 검색 코인": [
-   "SI",
-   "ZEC",
-   "INIT",
-   "BTC",
    "DACITY",
-   "LIT",
+   "SI",
+   "BTC",
+   "INIT",
+   "PEARL",
+   "HYPE",
+   "ZEC",
    "ETH",
    "PENGU",
-   "SOL",
-   "MEGA",
-   "HYPE",
+   "LINK",
+   "XRP",
    "NEAR",
-   "ONDO",
-   "PEARL",
-   "KNTQ"
+   "VVV",
+   "SOL",
+   "AVAX"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -377,22 +377,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-10",
   "등락률(%)": {
-   "1일": -3.36,
-   "7일": -4.22,
-   "30일": -10.14,
-   "90일": -13.06
+   "1일": 1.01,
+   "7일": -4.79,
+   "30일": -9.61,
+   "90일": -11.8
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -6.7,
-   "MA60": -9.95,
-   "MA120": -11.76
+   "MA20": -5.32,
+   "MA60": -8.9,
+   "MA120": -10.72
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 15
+   "며칠 전": 16
   },
-  "RSI14": 23.8
+  "RSI14": 28.8
  }
 }
 ```
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 249397523974,
- "완전희석가치 FDV(USD)": 249397523974,
- "24시간 거래대금(USD)": 13649811870,
+ "시가총액(USD)": 250643958820,
+ "완전희석가치 FDV(USD)": 250643958820,
+ "24시간 거래대금(USD)": 13571121886,
  "유통량": 122206811.20718135,
  "총발행량": 122206811.20718135,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -58.72708,
+ "역대 최고가 대비(%)": -58.53289,
  "가격 변화(%)": {
-  "7d": -10.87353,
-  "30d": -19.39807,
-  "1y": -42.22093
+  "7d": -10.23224,
+  "30d": -19.06775,
+  "1y": -42.33026
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 40534508324
+  "TVL(USD)": 40663115373
  }
 }
 ```
@@ -477,6 +477,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform",
+   "요약": "Stacey Cunningham, who recently joined digital asset platform Bullish as President, sees the company’s planned Equiniti acquisition and focus on stock issuers as key to its tokenization ambitions.",
+   "시각(UTC)": "11-10 20:15"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
    "요약": "The venture, known as Project Faro, plans to issue a dollar-denominated stablecoin and is expected to be incorporated in the U.S.",
    "시각(UTC)": "11-10 17:32"
@@ -516,12 +522,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
    "요약": "Your day-ahead look for Nov. 10, 2026",
    "시각(UTC)": "11-10 12:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin lags stock rebound in advance of U.S. inflation report",
-   "요약": "Bitcoin slipped despite a Monday rebound in U.S. stocks, with spot ETFs losing $201 million as traders await October inflation data later today.",
-   "시각(UTC)": "11-10 11:24"
   }
  ]
 }
@@ -546,13 +546,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.0061,
-   "CoinW (Futures)": -0.0045,
-   "OKX (Futures)": -0.0074,
+   "Binance (Futures)": -0.0068,
+   "CoinW (Futures)": -0.004,
    "WEEX (Futures)": 0.0,
+   "OKX (Futures)": -0.0087,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12626417178
+  "미결제약정 합계 USD(상위)": 12624676621
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -560,21 +560,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 75.61,
   "CoinGecko 인기 검색 코인": [
-   "SI",
-   "ZEC",
-   "INIT",
-   "BTC",
    "DACITY",
-   "LIT",
+   "SI",
+   "BTC",
+   "INIT",
+   "PEARL",
+   "HYPE",
+   "ZEC",
    "ETH",
    "PENGU",
-   "SOL",
-   "MEGA",
-   "HYPE",
+   "LINK",
+   "XRP",
    "NEAR",
-   "ONDO",
-   "PEARL",
-   "KNTQ"
+   "VVV",
+   "SOL",
+   "AVAX"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -636,20 +636,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-10",
   "등락률(%)": {
-   "1일": -0.94,
-   "7일": 4.78,
-   "30일": 11.91,
-   "90일": 20.37
+   "1일": 0.0,
+   "7일": -1.13,
+   "30일": 8.9,
+   "90일": 21.76
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 3.98,
-   "MA60": 6.09,
-   "MA120": 9.31
+   "MA20": 3.61,
+   "MA60": 6.0,
+   "MA120": 9.2
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 12
+   "며칠 전": 13
   },
   "RSI14": 59.0
  }
@@ -669,19 +669,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 42,
- "시가총액(USD)": 2216309227,
- "완전희석가치 FDV(USD)": 2216309227,
- "24시간 거래대금(USD)": 615104839,
+ "시가총액(USD)": 2201790457,
+ "완전희석가치 FDV(USD)": 2201790457,
+ "24시간 거래대금(USD)": 615580729,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -81.20122,
+ "역대 최고가 대비(%)": -81.3268,
  "가격 변화(%)": {
-  "7d": 8.59513,
-  "30d": 26.62173,
-  "1y": -14.37523
+  "7d": 7.70228,
+  "30d": 25.7773,
+  "1y": -16.0032
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -693,6 +693,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform",
+   "요약": "Stacey Cunningham, who recently joined digital asset platform Bullish as President, sees the company’s planned Equiniti acquisition and focus on stock issuers as key to its tokenization ambitions.",
+   "시각(UTC)": "11-10 20:15"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
@@ -734,12 +740,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
    "요약": "Your day-ahead look for Nov. 10, 2026",
    "시각(UTC)": "11-10 12:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin lags stock rebound in advance of U.S. inflation report",
-   "요약": "Bitcoin slipped despite a Monday rebound in U.S. stocks, with spot ETFs losing $201 million as traders await October inflation data later today.",
-   "시각(UTC)": "11-10 11:24"
   }
  ]
 }
@@ -765,35 +765,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "MEXC (Futures)": 0.01,
-   "Gate (Futures)": -0.0212,
+   "Gate (Futures)": -0.0195,
    "OKX (Futures)": 0.01,
    "KCEX (Futures)": 0.01,
    "Bitget Futures": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 221809768
+  "미결제약정 합계 USD(상위)": 219887587
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 86.54,
+  "CoinGecko 이용자 투표 상승(%)": 87.04,
   "CoinGecko 인기 검색 코인": [
-   "SI",
-   "ZEC",
-   "INIT",
-   "BTC",
    "DACITY",
-   "LIT",
+   "SI",
+   "BTC",
+   "INIT",
+   "PEARL",
+   "HYPE",
+   "ZEC",
    "ETH",
    "PENGU",
-   "SOL",
-   "MEGA",
-   "HYPE",
+   "LINK",
+   "XRP",
    "NEAR",
-   "ONDO",
-   "PEARL",
-   "KNTQ"
+   "VVV",
+   "SOL",
+   "AVAX"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -855,22 +855,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-10",
   "등락률(%)": {
-   "1일": -3.48,
-   "7일": -3.65,
-   "30일": -2.27,
-   "90일": -2.56
+   "1일": 3.8,
+   "7일": -1.85,
+   "30일": -2.23,
+   "90일": 0.15
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -4.54,
-   "MA60": -0.56,
-   "MA120": -0.61
+   "MA20": -0.81,
+   "MA60": 3.05,
+   "MA120": 3.22
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 28
+   "며칠 전": 29
   },
-  "RSI14": 39.2
+  "RSI14": 49.6
  }
 }
 ```
@@ -887,25 +887,25 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Cosmos Ecosystem",
   "Solana Ecosystem"
  ],
- "시가총액 순위": 83,
- "시가총액(USD)": 791203734,
- "완전희석가치 FDV(USD)": 791203734,
- "24시간 거래대금(USD)": 92822769,
+ "시가총액 순위": 82,
+ "시가총액(USD)": 807483715,
+ "완전희석가치 FDV(USD)": 807483715,
+ "24시간 거래대금(USD)": 95474664,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.96512,
+ "역대 최고가 대비(%)": -84.65463,
  "가격 변화(%)": {
-  "7d": 9.44476,
-  "30d": 0.64165,
-  "1y": -2.26983
+  "7d": 12.16411,
+  "30d": 3.39109,
+  "1y": -1.28944
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 21528785
+  "TVL(USD)": 21680962
  }
 }
 ```
@@ -916,6 +916,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INJ 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform",
+   "요약": "Stacey Cunningham, who recently joined digital asset platform Bullish as President, sees the company’s planned Equiniti acquisition and focus on stock issuers as key to its tokenization ambitions.",
+   "시각(UTC)": "11-10 20:15"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
@@ -957,12 +963,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
    "요약": "Your day-ahead look for Nov. 10, 2026",
    "시각(UTC)": "11-10 12:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin lags stock rebound in advance of U.S. inflation report",
-   "요약": "Bitcoin slipped despite a Monday rebound in U.S. stocks, with spot ETFs losing $201 million as traders await October inflation data later today.",
-   "시각(UTC)": "11-10 11:24"
   }
  ]
 }
@@ -988,13 +988,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
-   "Binance (Futures)": 0.0012,
+   "Binance (Futures)": 0.001,
    "OrangeX Futures": 0.01,
    "Gate (Futures)": 0.01,
-   "BingX (Futures)": 0.024,
+   "BingX (Futures)": 0.0151,
    "Bybit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 154072722
+  "미결제약정 합계 USD(상위)": 157691663
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -1002,21 +1002,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 87.5,
   "CoinGecko 인기 검색 코인": [
-   "SI",
-   "ZEC",
-   "INIT",
-   "BTC",
    "DACITY",
-   "LIT",
+   "SI",
+   "BTC",
+   "INIT",
+   "PEARL",
+   "HYPE",
+   "ZEC",
    "ETH",
    "PENGU",
-   "SOL",
-   "MEGA",
-   "HYPE",
+   "LINK",
+   "XRP",
    "NEAR",
-   "ONDO",
-   "PEARL",
-   "KNTQ"
+   "VVV",
+   "SOL",
+   "AVAX"
   ],
   "INJ가 인기 검색에 있음": false
  }
@@ -1078,19 +1078,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-10",
   "등락률(%)": {
-   "1일": -0.53,
-   "7일": -0.71,
-   "30일": -3.94,
-   "90일": -33.71
+   "1일": 1.34,
+   "7일": -0.7,
+   "30일": -6.43,
+   "90일": -33.22
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -2.96,
-   "MA60": -16.98,
-   "MA120": -26.17
+   "MA20": -1.41,
+   "MA60": -15.41,
+   "MA120": -24.87
   },
   "MA20>MA60": false,
   "최근 교차": null,
-  "RSI14": 31.9
+  "RSI14": 37.1
  }
 }
 ```
@@ -1107,20 +1107,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "PolitiFi",
   "Made in USA"
  ],
- "시가총액 순위": 128,
- "시가총액(USD)": 318633989,
- "완전희석가치 FDV(USD)": 1130437162,
- "24시간 거래대금(USD)": 109889193,
+ "시가총액 순위": 127,
+ "시가총액(USD)": 319834674,
+ "완전희석가치 FDV(USD)": 1134696903,
+ "24시간 거래대금(USD)": 109068410,
  "유통량": 281867935.671502,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 28.2,
  "역대 최고가(USD)": 73.43,
- "역대 최고가 대비(%)": -98.46089,
+ "역대 최고가 대비(%)": -98.45473,
  "가격 변화(%)": {
-  "7d": -28.43352,
-  "30d": -41.24417,
-  "1y": -87.59216
+  "7d": -27.95411,
+  "30d": -41.44317,
+  "1y": -88.01117
  },
  "소개": "TRUMP is a politics-themed digital coin built on the Solana blockchain that uses the brand of Donald Trump to foster a community-driven ecosystem. As a community-focused asset, it is designed to bridge political support with web ownership, operating within the PolitiFi sector to blend political movements with decentralized finance tools. The project's main value proposition lies in its official ti"
 }
@@ -1151,6 +1151,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform",
+   "요약": "Stacey Cunningham, who recently joined digital asset platform Bullish as President, sees the company’s planned Equiniti acquisition and focus on stock issuers as key to its tokenization ambitions.",
+   "시각(UTC)": "11-10 20:15"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
@@ -1192,12 +1198,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
    "요약": "Your day-ahead look for Nov. 10, 2026",
    "시각(UTC)": "11-10 12:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin lags stock rebound in advance of U.S. inflation report",
-   "요약": "Bitcoin slipped despite a Monday rebound in U.S. stocks, with spot ETFs losing $201 million as traders await October inflation data later today.",
-   "시각(UTC)": "11-10 11:24"
   }
  ]
 }
@@ -1222,14 +1222,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0048,
-   "Gate (Futures)": 0.0046,
-   "OKX (Futures)": 0.0025,
+   "Binance (Futures)": 0.005,
+   "Gate (Futures)": 0.005,
+   "OKX (Futures)": 0.005,
    "Bybit (Futures)": 0.005,
    "WhiteBIT Futures": 0.005,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 97005824
+  "미결제약정 합계 USD(상위)": 96817204
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -1237,21 +1237,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 36.84,
   "CoinGecko 인기 검색 코인": [
-   "SI",
-   "ZEC",
-   "INIT",
-   "BTC",
    "DACITY",
-   "LIT",
+   "SI",
+   "BTC",
+   "INIT",
+   "PEARL",
+   "HYPE",
+   "ZEC",
    "ETH",
    "PENGU",
-   "SOL",
-   "MEGA",
-   "HYPE",
+   "LINK",
+   "XRP",
    "NEAR",
-   "ONDO",
-   "PEARL",
-   "KNTQ"
+   "VVV",
+   "SOL",
+   "AVAX"
   ],
   "TRUMP가 인기 검색에 있음": false
  }
