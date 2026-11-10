@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-10 22:46 KST)
+# TF팀 회의 자료 (2026-11-11 00:24 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1484353741427,
- "완전희석가치 FDV(USD)": 1484356029565,
- "24시간 거래대금(USD)": 25158930563,
+ "시가총액(USD)": 1497785707128,
+ "완전희석가치 FDV(USD)": 1497790548251,
+ "24시간 거래대금(USD)": 25811741546,
  "유통량": 20110225.0,
- "총발행량": 20110256.0,
+ "총발행량": 20110290.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -41.46698,
+ "역대 최고가 대비(%)": -40.9151,
  "가격 변화(%)": {
-  "7d": -4.53616,
-  "30d": -11.12195,
-  "1y": -30.38571
+  "7d": -3.59369,
+  "30d": -10.30711,
+  "1y": -28.97653
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3915108815
+  "TVL(USD)": 3911140574
  }
 }
 ```
@@ -143,7 +143,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin adds to losses after disappointing inflation data",
+   "제목": "Live news: Bitcoin trading near $74,000 after disappointing inflation data",
    "요약": "A rate hike in December appears totally assured now, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 10:41"
   },
@@ -217,6 +217,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Will stablecoins survive once the banks catch up?",
+   "요약": "As crypto firms and banks converge, it is fair to ask what lasting advantage stablecoins have, argues Alessandro Hatami, founder of Pacemakers and former COO of Digital Banking at Lloyds Banking Group.",
+   "시각(UTC)": "11-10 14:00"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
    "요약": "A December rate hike appears completely assured, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 13:32"
@@ -256,12 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition",
    "요약": "The tokenization firm unveiled an acquisition and a $50 million stock buyback as quarterly revenue rose 13%. SECZ shares jumped 10% after hours.",
    "시각(UTC)": "11-09 22:56"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Robinhood backs tokenization of its stock on OKX–ICE platform even as most companies opt out",
-   "요약": "The brokerage firm said it would rather help build tokenized markets than sit on the sidelines, following a wave of early corporate pushback to the Intercontinental Exchange and OKX joint venture.",
-   "시각(UTC)": "11-09 19:36"
   }
  ]
 }
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0072,
-   "OKX (Futures)": -0.0002,
-   "Bybit (Futures)": 0.0047,
-   "MEXC (Futures)": 0.0072,
-   "Gate (Futures)": 0.01,
-   "CoinW (Futures)": 0.0075
+   "Binance (Futures)": 0.0065,
+   "OKX (Futures)": 0.003,
+   "Bybit (Futures)": 0.0042,
+   "MEXC (Futures)": 0.0061,
+   "Gate (Futures)": 0.0054,
+   "WEEX (Futures)": 0.0001
   },
-  "미결제약정 합계 USD(상위)": 19082353971
+  "미결제약정 합계 USD(상위)": 19301317534
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 65.85,
+  "CoinGecko 이용자 투표 상승(%)": 64.52,
   "CoinGecko 인기 검색 코인": [
-   "DACITY",
    "BTC",
-   "PENGU",
-   "AVAX",
    "SI",
-   "SOL",
-   "HYPE",
-   "SUI",
-   "ETH",
+   "INIT",
+   "PEPE",
+   "AVAX",
    "LIT",
-   "PUMP",
-   "KNTQ",
-   "FET",
+   "ETH",
+   "DACITY",
+   "PEARL",
    "STONK",
-   "INIT"
+   "HYPE",
+   "NEAR",
+   "ZEC",
+   "PENGU",
+   "ARB"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 252502386347,
- "완전희석가치 FDV(USD)": 252502386347,
- "24시간 거래대금(USD)": 10819752463,
+ "시가총액(USD)": 253752419021,
+ "완전희석가치 FDV(USD)": 253752419021,
+ "24시간 거래대금(USD)": 11297331869,
  "유통량": 122206811.20718135,
  "총발행량": 122206811.20718135,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -58.24258,
+ "역대 최고가 대비(%)": -58.02584,
  "가격 변화(%)": {
-  "7d": -9.40199,
-  "30d": -17.46894,
-  "1y": -42.57472
+  "7d": -9.08769,
+  "30d": -17.13638,
+  "1y": -41.37838
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41453262423
+  "TVL(USD)": 41223116668
  }
 }
 ```
@@ -477,6 +477,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Will stablecoins survive once the banks catch up?",
+   "요약": "As crypto firms and banks converge, it is fair to ask what lasting advantage stablecoins have, argues Alessandro Hatami, founder of Pacemakers and former COO of Digital Banking at Lloyds Banking Group.",
+   "시각(UTC)": "11-10 14:00"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
    "요약": "A December rate hike appears completely assured, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 13:32"
@@ -507,7 +513,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin adds to losses after disappointing inflation data",
+   "제목": "Live news: Bitcoin trading near $74,000 after disappointing inflation data",
    "요약": "A rate hike in December appears totally assured now, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 10:41"
   },
@@ -516,12 +522,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "The crypto wallet that grew up inside Telegram is striking out on its own",
    "요약": "The app will offer crypto trading, tokenized U.S. stocks and ETFs, and perpetual futures, all already available through Telegram.",
    "시각(UTC)": "11-10 09:59"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
-   "요약": "The Capital Markets Alliance argues that the products fall under the Securities and Exchange Commission’s jurisdiction.",
-   "시각(UTC)": "11-10 09:14"
   }
  ]
 }
@@ -546,13 +546,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0008,
-   "CoinW (Futures)": 0.0044,
+   "Binance (Futures)": -0.0011,
+   "CoinW (Futures)": 0.0022,
+   "OKX (Futures)": -0.0023,
    "WEEX (Futures)": 0.0001,
-   "OKX (Futures)": 0.0007,
-   "MEXC (Futures)": 0.0028
+   "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 13340129198
+  "미결제약정 합계 USD(상위)": 12975944857
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -560,21 +560,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 81.82,
   "CoinGecko 인기 검색 코인": [
-   "DACITY",
    "BTC",
-   "PENGU",
-   "AVAX",
    "SI",
-   "SOL",
-   "HYPE",
-   "SUI",
-   "ETH",
+   "INIT",
+   "PEPE",
+   "AVAX",
    "LIT",
-   "PUMP",
-   "KNTQ",
-   "FET",
+   "ETH",
+   "DACITY",
+   "PEARL",
    "STONK",
-   "INIT"
+   "HYPE",
+   "NEAR",
+   "ZEC",
+   "PENGU",
+   "ARB"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -669,19 +669,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 42,
- "시가총액(USD)": 2216684147,
- "완전희석가치 FDV(USD)": 2216684147,
- "24시간 거래대금(USD)": 478137680,
+ "시가총액(USD)": 2291980828,
+ "완전희석가치 FDV(USD)": 2291980828,
+ "24시간 거래대금(USD)": 557832384,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -81.21488,
+ "역대 최고가 대비(%)": -80.56541,
  "가격 변화(%)": {
-  "7d": 7.82139,
-  "30d": 30.95636,
-  "1y": -15.07706
+  "7d": 11.96395,
+  "30d": 34.10575,
+  "1y": -10.66109
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -693,6 +693,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Will stablecoins survive once the banks catch up?",
+   "요약": "As crypto firms and banks converge, it is fair to ask what lasting advantage stablecoins have, argues Alessandro Hatami, founder of Pacemakers and former COO of Digital Banking at Lloyds Banking Group.",
+   "시각(UTC)": "11-10 14:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
@@ -725,7 +731,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin adds to losses after disappointing inflation data",
+   "제목": "Live news: Bitcoin trading near $74,000 after disappointing inflation data",
    "요약": "A rate hike in December appears totally assured now, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 10:41"
   },
@@ -734,12 +740,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "The crypto wallet that grew up inside Telegram is striking out on its own",
    "요약": "The app will offer crypto trading, tokenized U.S. stocks and ETFs, and perpetual futures, all already available through Telegram.",
    "시각(UTC)": "11-10 09:59"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
-   "요약": "The Capital Markets Alliance argues that the products fall under the Securities and Exchange Commission’s jurisdiction.",
-   "시각(UTC)": "11-10 09:14"
   }
  ]
 }
@@ -771,31 +771,31 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Bitget Futures": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 220282191
+  "미결제약정 합계 USD(상위)": 229663392
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 87.5,
+  "CoinGecko 이용자 투표 상승(%)": 87.27,
   "CoinGecko 인기 검색 코인": [
-   "DACITY",
    "BTC",
-   "PENGU",
-   "AVAX",
    "SI",
-   "SOL",
-   "HYPE",
-   "SUI",
-   "ETH",
+   "INIT",
+   "PEPE",
+   "AVAX",
    "LIT",
-   "PUMP",
-   "KNTQ",
-   "FET",
+   "ETH",
+   "DACITY",
+   "PEARL",
    "STONK",
-   "INIT"
+   "HYPE",
+   "NEAR",
+   "ZEC",
+   "PENGU",
+   "ARB"
   ],
-  "PEPE가 인기 검색에 있음": false
+  "PEPE가 인기 검색에 있음": true
  }
 }
 ```
@@ -888,24 +888,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Solana Ecosystem"
  ],
  "시가총액 순위": 82,
- "시가총액(USD)": 801639121,
- "완전희석가치 FDV(USD)": 801639121,
- "24시간 거래대금(USD)": 88238592,
+ "시가총액(USD)": 809611981,
+ "완전희석가치 FDV(USD)": 809611981,
+ "24시간 거래대금(USD)": 90407085,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.76509,
+ "역대 최고가 대비(%)": -84.60482,
  "가격 변화(%)": {
-  "7d": 8.53624,
-  "30d": 4.34433,
-  "1y": 0.99726
+  "7d": 9.91144,
+  "30d": 4.26133,
+  "1y": 2.50412
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 21841668
+  "TVL(USD)": 21931427
  }
 }
 ```
@@ -916,6 +916,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INJ 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Will stablecoins survive once the banks catch up?",
+   "요약": "As crypto firms and banks converge, it is fair to ask what lasting advantage stablecoins have, argues Alessandro Hatami, founder of Pacemakers and former COO of Digital Banking at Lloyds Banking Group.",
+   "시각(UTC)": "11-10 14:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
@@ -948,7 +954,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin adds to losses after disappointing inflation data",
+   "제목": "Live news: Bitcoin trading near $74,000 after disappointing inflation data",
    "요약": "A rate hike in December appears totally assured now, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 10:41"
   },
@@ -957,12 +963,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "The crypto wallet that grew up inside Telegram is striking out on its own",
    "요약": "The app will offer crypto trading, tokenized U.S. stocks and ETFs, and perpetual futures, all already available through Telegram.",
    "시각(UTC)": "11-10 09:59"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
-   "요약": "The Capital Markets Alliance argues that the products fall under the Securities and Exchange Commission’s jurisdiction.",
-   "시각(UTC)": "11-10 09:14"
   }
  ]
 }
@@ -989,12 +989,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
    "Binance (Futures)": 0.01,
-   "OrangeX Futures": -0.02,
+   "OrangeX Futures": -0.0206,
    "Gate (Futures)": 0.01,
    "BingX (Futures)": 0.01,
    "Bybit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 152372540
+  "미결제약정 합계 USD(상위)": 156972668
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -1002,21 +1002,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 85.71,
   "CoinGecko 인기 검색 코인": [
-   "DACITY",
    "BTC",
-   "PENGU",
-   "AVAX",
    "SI",
-   "SOL",
-   "HYPE",
-   "SUI",
-   "ETH",
+   "INIT",
+   "PEPE",
+   "AVAX",
    "LIT",
-   "PUMP",
-   "KNTQ",
-   "FET",
+   "ETH",
+   "DACITY",
+   "PEARL",
    "STONK",
-   "INIT"
+   "HYPE",
+   "NEAR",
+   "ZEC",
+   "PENGU",
+   "ARB"
   ],
   "INJ가 인기 검색에 있음": false
  }
@@ -1108,19 +1108,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Made in USA"
  ],
  "시가총액 순위": 128,
- "시가총액(USD)": 319373414,
- "완전희석가치 FDV(USD)": 1133060463,
- "24시간 거래대금(USD)": 107521884,
+ "시가총액(USD)": 319721842,
+ "완전희석가치 FDV(USD)": 1134296602,
+ "24시간 거래대금(USD)": 108590443,
  "유통량": 281867935.671502,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 28.2,
  "역대 최고가(USD)": 73.43,
- "역대 최고가 대비(%)": -98.45618,
+ "역대 최고가 대비(%)": -98.45527,
  "가격 변화(%)": {
-  "7d": -29.47872,
-  "30d": -39.47219,
-  "1y": -86.57992
+  "7d": -29.37165,
+  "30d": -40.03666,
+  "1y": -86.69309
  },
  "소개": "TRUMP is a politics-themed digital coin built on the Solana blockchain that uses the brand of Donald Trump to foster a community-driven ecosystem. As a community-focused asset, it is designed to bridge political support with web ownership, operating within the PolitiFi sector to blend political movements with decentralized finance tools. The project's main value proposition lies in its official ti"
 }
@@ -1159,6 +1159,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Will stablecoins survive once the banks catch up?",
+   "요약": "As crypto firms and banks converge, it is fair to ask what lasting advantage stablecoins have, argues Alessandro Hatami, founder of Pacemakers and former COO of Digital Banking at Lloyds Banking Group.",
+   "시각(UTC)": "11-10 14:00"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
    "요약": "A December rate hike appears completely assured, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 13:32"
@@ -1189,7 +1195,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin adds to losses after disappointing inflation data",
+   "제목": "Live news: Bitcoin trading near $74,000 after disappointing inflation data",
    "요약": "A rate hike in December appears totally assured now, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 10:41"
   },
@@ -1198,12 +1204,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "The crypto wallet that grew up inside Telegram is striking out on its own",
    "요약": "The app will offer crypto trading, tokenized U.S. stocks and ETFs, and perpetual futures, all already available through Telegram.",
    "시각(UTC)": "11-10 09:59"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
-   "요약": "The Capital Markets Alliance argues that the products fall under the Securities and Exchange Commission’s jurisdiction.",
-   "시각(UTC)": "11-10 09:14"
   }
  ]
 }
@@ -1230,34 +1230,34 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.005,
    "Gate (Futures)": 0.005,
-   "OKX (Futures)": 0.003,
+   "OKX (Futures)": 0.005,
    "Bybit (Futures)": 0.005,
    "WhiteBIT Futures": 0.005,
-   "Hyperliquid (Futures)": 0.0003
+   "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 98204136
+  "미결제약정 합계 USD(상위)": 98155319
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 38.1,
+  "CoinGecko 이용자 투표 상승(%)": 31.82,
   "CoinGecko 인기 검색 코인": [
-   "DACITY",
    "BTC",
-   "PENGU",
-   "AVAX",
    "SI",
-   "SOL",
-   "HYPE",
-   "SUI",
-   "ETH",
+   "INIT",
+   "PEPE",
+   "AVAX",
    "LIT",
-   "PUMP",
-   "KNTQ",
-   "FET",
+   "ETH",
+   "DACITY",
+   "PEARL",
    "STONK",
-   "INIT"
+   "HYPE",
+   "NEAR",
+   "ZEC",
+   "PENGU",
+   "ARB"
   ],
   "TRUMP가 인기 검색에 있음": false
  }
