@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-10 14:31 KST)
+# TF팀 회의 자료 (2026-11-10 15:33 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1502635396057,
- "완전희석가치 FDV(USD)": 1502638907922,
- "24시간 거래대금(USD)": 28227582642,
+ "시가총액(USD)": 1499860285468,
+ "완전희석가치 FDV(USD)": 1499865655409,
+ "24시간 거래대금(USD)": 27389756729,
  "유통량": 20110078.0,
- "총발행량": 20110125.0,
+ "총발행량": 20110150.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -40.73558,
+ "역대 최고가 대비(%)": -40.84341,
  "가격 변화(%)": {
-  "7d": -2.76438,
-  "30d": -9.92488,
-  "1y": -29.60022
+  "7d": -2.57097,
+  "30d": -10.11388,
+  "1y": -29.67127
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3927768133
+  "TVL(USD)": 3936133464
  }
 }
 ```
@@ -173,6 +173,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
+   "제목": "Here’s what happened in crypto today",
+   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+   "시각(UTC)": "11-10 06:00"
+  },
+  {
+   "출처": "Cointelegraph",
    "제목": "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall",
    "요약": "Both miners reported higher Bitcoin production but lower mining revenue and rising electricity costs as they expanded their AI infrastructure businesses.",
    "시각(UTC)": "11-10 00:42"
@@ -206,12 +212,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June",
    "요약": "Investors pulled a net $1.21 billion from BlackRock’s IBIT last week as Bitcoin fell below $76,000 and US technology stocks sold off.",
    "시각(UTC)": "11-09 08:17"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Vitalik ‘pivots’ ETH to store of value, crypto suffers after US midterms: Hodler’s Digest",
-   "요약": "Vitalik Buterin wants Ethereum to embrace a store of value narrative, upsetting Bitcoin maxis. The crypto industry faces an uncertain future following the US elections.",
-   "시각(UTC)": "11-08 22:59"
   }
  ],
  "시장 전반 기사": [
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "WEEX (Futures)": 0.0001,
+   "Binance (Futures)": 0.01,
    "Hyperliquid (Futures)": 0.0013,
-   "OKX (Futures)": 0.008,
-   "Bybit (Futures)": 0.0028,
+   "OKX (Futures)": 0.0098,
+   "Bybit (Futures)": 0.0037,
    "MEXC (Futures)": 0.01,
    "Gate (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 18721386461
+  "미결제약정 합계 USD(상위)": 20309799260
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 65.63,
+  "CoinGecko 이용자 투표 상승(%)": 63.92,
   "CoinGecko 인기 검색 코인": [
    "HYPE",
-   "DACITY",
-   "INIT",
-   "PEPE",
+   "AVAX",
    "PENGU",
    "BTC",
-   "AVAX",
-   "PI",
-   "ZEC",
-   "SHIB",
+   "INIT",
+   "PEPE",
+   "PEARL",
+   "SOL",
    "MON",
-   "JUP",
-   "KNTQ",
-   "XRP",
-   "PEARL"
+   "AAVE",
+   "NEAR",
+   "ZEC",
+   "SUI",
+   "JCT",
+   "PIEVERSE"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 259157750734,
- "완전희석가치 FDV(USD)": 259157750734,
- "24시간 거래대금(USD)": 12089680107,
+ "시가총액(USD)": 258605355587,
+ "완전희석가치 FDV(USD)": 258605355587,
+ "24시간 거래대금(USD)": 11753821603,
  "유통량": 122206811.20718135,
  "총발행량": 122206811.20718135,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -57.12234,
+ "역대 최고가 대비(%)": -57.21574,
  "가격 변화(%)": {
-  "7d": -5.91148,
-  "30d": -15.35071,
-  "1y": -41.36568
+  "7d": -5.75908,
+  "30d": -15.4281,
+  "1y": -41.27905
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41795309455
+  "TVL(USD)": 41749553183
  }
 }
 ```
@@ -540,36 +540,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "WEEX (Futures)": 0.0,
-   "CoinW (Futures)": 0.0044,
-   "Hyperliquid (Futures)": 0.0007,
-   "OKX (Futures)": 0.0034,
-   "MEXC (Futures)": 0.0045,
-   "WhiteBIT Futures": 0.01
+   "Binance (Futures)": 0.0046,
+   "CoinW (Futures)": 0.0031,
+   "Hyperliquid (Futures)": 0.0006,
+   "OKX (Futures)": 0.0038,
+   "WEEX (Futures)": 0.0
   },
-  "미결제약정 합계 USD(상위)": 9655532825
+  "미결제약정 합계 USD(상위)": 13728928971
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 76.36,
+  "CoinGecko 이용자 투표 상승(%)": 78.85,
   "CoinGecko 인기 검색 코인": [
    "HYPE",
-   "DACITY",
-   "INIT",
-   "PEPE",
+   "AVAX",
    "PENGU",
    "BTC",
-   "AVAX",
-   "PI",
-   "ZEC",
-   "SHIB",
+   "INIT",
+   "PEPE",
+   "PEARL",
+   "SOL",
    "MON",
-   "JUP",
-   "KNTQ",
-   "XRP",
-   "PEARL"
+   "AAVE",
+   "NEAR",
+   "ZEC",
+   "SUI",
+   "JCT",
+   "PIEVERSE"
   ],
   "ETH가 인기 검색에 있음": false
  }
@@ -664,19 +663,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 42,
- "시가총액(USD)": 2212575031,
- "완전희석가치 FDV(USD)": 2212575031,
- "24시간 거래대금(USD)": 492284127,
+ "시가총액(USD)": 2225078385,
+ "완전희석가치 FDV(USD)": 2225078385,
+ "24시간 거래대금(USD)": 493656471,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -81.22569,
+ "역대 최고가 대비(%)": -81.12929,
  "가격 변화(%)": {
-  "7d": 12.24507,
-  "30d": 31.17005,
-  "1y": -14.65857
+  "7d": 12.71556,
+  "30d": 32.10264,
+  "1y": -14.03609
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -760,35 +759,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "MEXC (Futures)": 0.01,
-   "Gate (Futures)": 0.006,
+   "Gate (Futures)": 0.01,
    "OKX (Futures)": 0.01,
    "KCEX (Futures)": 0.01,
    "Bitget Futures": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 207568225
+  "미결제약정 합계 USD(상위)": 207109384
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 84.44,
+  "CoinGecko 이용자 투표 상승(%)": 84.09,
   "CoinGecko 인기 검색 코인": [
    "HYPE",
-   "DACITY",
-   "INIT",
-   "PEPE",
+   "AVAX",
    "PENGU",
    "BTC",
-   "AVAX",
-   "PI",
-   "ZEC",
-   "SHIB",
+   "INIT",
+   "PEPE",
+   "PEARL",
+   "SOL",
    "MON",
-   "JUP",
-   "KNTQ",
-   "XRP",
-   "PEARL"
+   "AAVE",
+   "NEAR",
+   "ZEC",
+   "SUI",
+   "JCT",
+   "PIEVERSE"
   ],
   "PEPE가 인기 검색에 있음": true
  }
@@ -883,24 +882,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Solana Ecosystem"
  ],
  "시가총액 순위": 81,
- "시가총액(USD)": 797960663,
- "완전희석가치 FDV(USD)": 797960663,
- "24시간 거래대금(USD)": 97191863,
+ "시가총액(USD)": 812653392,
+ "완전희석가치 FDV(USD)": 812653392,
+ "24시간 거래대금(USD)": 102553321,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.83211,
+ "역대 최고가 대비(%)": -84.55638,
  "가격 변화(%)": {
-  "7d": 13.65769,
-  "30d": 4.52892,
-  "1y": 0.27713
+  "7d": 16.24044,
+  "30d": 5.33469,
+  "1y": 0.89401
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 21898854
+  "TVL(USD)": 21870051
  }
 }
 ```
@@ -983,13 +982,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
-   "OrangeX Futures": -0.0147,
-   "WEEX (Futures)": 0.0001,
+   "Binance (Futures)": 0.01,
+   "OrangeX Futures": -0.0117,
    "Gate (Futures)": 0.01,
-   "BingX (Futures)": 0.0074,
-   "MEXC (Futures)": -0.0068
+   "BingX (Futures)": 0.0086,
+   "Bybit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 152010107
+  "미결제약정 합계 USD(상위)": 160380259
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -998,20 +997,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 85.71,
   "CoinGecko 인기 검색 코인": [
    "HYPE",
-   "DACITY",
-   "INIT",
-   "PEPE",
+   "AVAX",
    "PENGU",
    "BTC",
-   "AVAX",
-   "PI",
-   "ZEC",
-   "SHIB",
+   "INIT",
+   "PEPE",
+   "PEARL",
+   "SOL",
    "MON",
-   "JUP",
-   "KNTQ",
-   "XRP",
-   "PEARL"
+   "AAVE",
+   "NEAR",
+   "ZEC",
+   "SUI",
+   "JCT",
+   "PIEVERSE"
   ],
   "INJ가 인기 검색에 있음": false
  }
@@ -1103,19 +1102,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Made in USA"
  ],
  "시가총액 순위": 129,
- "시가총액(USD)": 313517552,
- "완전희석가치 FDV(USD)": 1112285265,
- "24시간 거래대금(USD)": 103166504,
+ "시가총액(USD)": 316602245,
+ "완전희석가치 FDV(USD)": 1123229018,
+ "24시간 거래대금(USD)": 105605844,
  "유통량": 281867935.671502,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 28.2,
  "역대 최고가(USD)": 73.43,
- "역대 최고가 대비(%)": -98.48525,
+ "역대 최고가 대비(%)": -98.47001,
  "가격 변화(%)": {
-  "7d": -30.03808,
-  "30d": -40.75194,
-  "1y": -86.49605
+  "7d": -28.92318,
+  "30d": -40.1157,
+  "1y": -86.16107
  },
  "소개": "TRUMP is a politics-themed digital coin built on the Solana blockchain that uses the brand of Donald Trump to foster a community-driven ecosystem. As a community-focused asset, it is designed to bridge political support with web ownership, operating within the PolitiFi sector to blend political movements with decentralized finance tools. The project's main value proposition lies in its official ti"
 }
@@ -1137,12 +1136,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Binance, Tether and Trump crypto firms face Senate records deadline",
    "요약": "Sen. Richard Blumenthal asked four crypto firms to start sending records by Nov. 30 and warned of further action if they miss the Jan. 4 deadline.",
    "시각(UTC)": "11-09 09:00"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Nvidia may face a more hostile post-election Washington: Report",
-   "요약": "CEO Jensen Huang’s relationship with President Donald Trump probably won’t save the company from a more adversarial Washington, Semafor says.",
-   "시각(UTC)": "11-07 07:45"
   },
   {
    "출처": "Decrypt",
@@ -1223,36 +1216,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "WEEX (Futures)": -0.0002,
-   "Gate (Futures)": -0.0015,
-   "OKX (Futures)": 0.0011,
+   "Binance (Futures)": -0.0113,
+   "Gate (Futures)": -0.0019,
+   "OKX (Futures)": -0.0031,
    "CoinUp.io (Futures)": -0.007,
    "Hyperliquid (Futures)": 0.0013,
-   "Bybit (Futures)": 0.0015
+   "Bybit (Futures)": -0.0071
   },
-  "미결제약정 합계 USD(상위)": 547842569
+  "미결제약정 합계 USD(상위)": 107140685
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 38.46,
+  "CoinGecko 이용자 투표 상승(%)": 40.0,
   "CoinGecko 인기 검색 코인": [
    "HYPE",
-   "DACITY",
-   "INIT",
-   "PEPE",
+   "AVAX",
    "PENGU",
    "BTC",
-   "AVAX",
-   "PI",
-   "ZEC",
-   "SHIB",
+   "INIT",
+   "PEPE",
+   "PEARL",
+   "SOL",
    "MON",
-   "JUP",
-   "KNTQ",
-   "XRP",
-   "PEARL"
+   "AAVE",
+   "NEAR",
+   "ZEC",
+   "SUI",
+   "JCT",
+   "PIEVERSE"
   ],
   "TRUMP가 인기 검색에 있음": false
  }
