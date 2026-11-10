@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-10 21:30 KST)
+# TF팀 회의 자료 (2026-11-10 22:46 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1492785906910,
- "완전희석가치 FDV(USD)": 1492786797673,
- "24시간 거래대금(USD)": 24107490165,
+ "시가총액(USD)": 1484353741427,
+ "완전희석가치 FDV(USD)": 1484356029565,
+ "24시간 거래대금(USD)": 25158930563,
  "유통량": 20110225.0,
- "총발행량": 20110237.0,
+ "총발행량": 20110256.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -41.12842,
+ "역대 최고가 대비(%)": -41.46698,
  "가격 변화(%)": {
-  "7d": -3.5672,
-  "30d": -10.67369,
-  "1y": -30.07173
+  "7d": -4.53616,
+  "30d": -11.12195,
+  "1y": -30.38571
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3910143174
+  "TVL(USD)": 3915108815
  }
 }
 ```
@@ -143,8 +143,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Traders price in Fed rate hike for December as bitcoin, gold retreat",
-   "요약": "Markets price in a December Fed rate hike ahead of U.S. inflation data, while bitcoin and gold fall and oil retreats on easing Iran tensions.",
+   "제목": "Live news: Bitcoin adds to losses after disappointing inflation data",
+   "요약": "A rate hike in December appears totally assured now, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 10:41"
   },
   {
@@ -172,10 +172,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-09 12:30"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "SpaceX proposes a $24 billion Texas supercomputer and a gas plant",
-   "요약": "The $24 billion project, which includes an AI supercomputer in Texas with its own gas-fired power plant, is about 17 times the value of SpaceX's bitcoin holdings.",
-   "시각(UTC)": "11-09 06:54"
+   "출처": "Cointelegraph",
+   "제목": "Here’s what happened in crypto today",
+   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+   "시각(UTC)": "11-10 13:34"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin’s ‘best buying opportunity ever’ has arrived: Mark Moss",
+   "요약": "Bitcoin Opportunity Fund co-founder Mark Moss says that with banks and ETFs widening access to Bitcoin he expects a new record high in 2027.",
+   "시각(UTC)": "11-10 13:30"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin may benefit as global tightening slows, Binance Research says",
+   "요약": "Binance Research says Bitcoin could find support as global monetary tightening slows, even as markets price in a December Fed rate hike.",
+   "시각(UTC)": "11-10 13:15"
   },
   {
    "출처": "Cointelegraph",
@@ -191,12 +203,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
-   "제목": "Here’s what happened in crypto today",
-   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-   "시각(UTC)": "11-10 06:00"
-  },
-  {
-   "출처": "Cointelegraph",
    "제목": "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall",
    "요약": "Both miners reported higher Bitcoin production but lower mining revenue and rising electricity costs as they expanded their AI infrastructure businesses.",
    "시각(UTC)": "11-10 00:42"
@@ -206,15 +212,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals",
    "요약": "Customers can view their pre-hack balances as access returns in phases. The exchange has yet to say when withdrawals will resume.",
    "시각(UTC)": "11-09 18:25"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target",
-   "요약": "Bitcoin rebounded from an 11-week low near $73,500 as the Nasdaq Composite rallied despite sell-off in Nvidia shares.",
-   "시각(UTC)": "11-09 17:13"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
+   "요약": "A December rate hike appears completely assured, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
+   "시각(UTC)": "11-10 13:32"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ripple Prime head Marc Asch to step down, Noel Kimmel named successor",
+   "요약": "Asch is stepping down as head of the institutional prime brokerage.",
+   "시각(UTC)": "11-10 12:38"
+  },
   {
    "출처": "CoinDesk",
    "제목": "The crypto wallet that grew up inside Telegram is striking out on its own",
@@ -250,18 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Robinhood backs tokenization of its stock on OKX–ICE platform even as most companies opt out",
    "요약": "The brokerage firm said it would rather help build tokenized markets than sit on the sidelines, following a wave of early corporate pushback to the Intercontinental Exchange and OKX joint venture.",
    "시각(UTC)": "11-09 19:36"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Google’s AI chip push adds more pressure on Nvidia",
-   "요약": "Google’s specialised AI chips threaten greater competition as Nvidia faces a leadership investigation.",
-   "시각(UTC)": "11-09 15:20"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
-   "요약": "North Korean hackers used six homemade memecoins to launder 117,000 NEAR, worth about $430,000, from the $6.3 billion Binance hack, Elliptic says.",
-   "시각(UTC)": "11-09 15:00"
   }
  ]
 }
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0082,
-   "OKX (Futures)": 0.0034,
-   "Bybit (Futures)": 0.005,
-   "MEXC (Futures)": 0.0082,
+   "Binance (Futures)": 0.0072,
+   "OKX (Futures)": -0.0002,
+   "Bybit (Futures)": 0.0047,
+   "MEXC (Futures)": 0.0072,
    "Gate (Futures)": 0.01,
-   "CoinW (Futures)": 0.0087
+   "CoinW (Futures)": 0.0075
   },
-  "미결제약정 합계 USD(상위)": 19188084832
+  "미결제약정 합계 USD(상위)": 19082353971
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 63.93,
+  "CoinGecko 이용자 투표 상승(%)": 65.85,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "PENGU",
    "BTC",
+   "PENGU",
    "AVAX",
    "SI",
-   "HYPE",
-   "AERO",
-   "CYBER",
    "SOL",
-   "ONE",
-   "NEAR",
-   "AKE",
+   "HYPE",
+   "SUI",
+   "ETH",
+   "LIT",
+   "PUMP",
    "KNTQ",
-   "XRP",
-   "ZEC"
+   "FET",
+   "STONK",
+   "INIT"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 255403412123,
- "완전희석가치 FDV(USD)": 255403412123,
- "24시간 거래대금(USD)": 9654216773,
+ "시가총액(USD)": 252502386347,
+ "완전희석가치 FDV(USD)": 252502386347,
+ "24시간 거래대금(USD)": 10819752463,
  "유통량": 122206811.20718135,
  "총발행량": 122206811.20718135,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -57.74477,
+ "역대 최고가 대비(%)": -58.24258,
  "가격 변화(%)": {
-  "7d": -7.63637,
-  "30d": -16.55182,
-  "1y": -42.05999
+  "7d": -9.40199,
+  "30d": -17.46894,
+  "1y": -42.57472
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41465168921
+  "TVL(USD)": 41453262423
  }
 }
 ```
@@ -456,10 +456,10 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-09 17:48"
   },
   {
-   "출처": "Cointelegraph",
-   "제목": "Vitalik ‘pivots’ ETH to store of value, crypto suffers after US midterms: Hodler’s Digest",
-   "요약": "Vitalik Buterin wants Ethereum to embrace a store of value narrative, upsetting Bitcoin maxis. The crypto industry faces an uncertain future following the US elections.",
-   "시각(UTC)": "11-08 22:59"
+   "출처": "Decrypt",
+   "제목": "Morning Minute: Vitalik Recasts ETH as a Store of Value",
+   "요약": "It’s a big shift for Ethereum from the “ultrasound money” days. But can ETH compete as a store-of-value play?",
+   "시각(UTC)": "11-10 13:24"
   },
   {
    "출처": "Decrypt",
@@ -475,6 +475,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
+   "요약": "A December rate hike appears completely assured, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
+   "시각(UTC)": "11-10 13:32"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ripple Prime head Marc Asch to step down, Noel Kimmel named successor",
+   "요약": "Asch is stepping down as head of the institutional prime brokerage.",
+   "시각(UTC)": "11-10 12:38"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
@@ -495,8 +507,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Traders price in Fed rate hike for December as bitcoin, gold retreat",
-   "요약": "Markets price in a December Fed rate hike ahead of U.S. inflation data, while bitcoin and gold fall and oil retreats on easing Iran tensions.",
+   "제목": "Live news: Bitcoin adds to losses after disappointing inflation data",
+   "요약": "A rate hike in December appears totally assured now, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 10:41"
   },
   {
@@ -510,18 +522,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
    "요약": "The Capital Markets Alliance argues that the products fall under the Securities and Exchange Commission’s jurisdiction.",
    "시각(UTC)": "11-10 09:14"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
-   "요약": "MARA paid off every loan backed by its bitcoin and says the rest of its coins can fund AI datacenters.",
-   "시각(UTC)": "11-10 05:18"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "XRP Ledger maps out quantum-proof accounts, with no extra fees for users",
-   "요약": "The XRP Ledger Foundation’s design lets owners add a quantum-resistant key and switch off the old one, part of a roadmap that puts the network on track for a full transition by 2028.",
-   "시각(UTC)": "11-10 04:51"
   }
  ]
 }
@@ -546,37 +546,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0031,
-   "CoinW (Futures)": 0.0042,
-   "OKX (Futures)": 0.0022,
+   "Binance (Futures)": 0.0008,
+   "CoinW (Futures)": 0.0044,
    "WEEX (Futures)": 0.0001,
-   "MEXC (Futures)": 0.0044
+   "OKX (Futures)": 0.0007,
+   "MEXC (Futures)": 0.0028
   },
-  "미결제약정 합계 USD(상위)": 13532159211
+  "미결제약정 합계 USD(상위)": 13340129198
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 84.44,
+  "CoinGecko 이용자 투표 상승(%)": 81.82,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "PENGU",
    "BTC",
+   "PENGU",
    "AVAX",
    "SI",
-   "HYPE",
-   "AERO",
-   "CYBER",
    "SOL",
-   "ONE",
-   "NEAR",
-   "AKE",
+   "HYPE",
+   "SUI",
+   "ETH",
+   "LIT",
+   "PUMP",
    "KNTQ",
-   "XRP",
-   "ZEC"
+   "FET",
+   "STONK",
+   "INIT"
   ],
-  "ETH가 인기 검색에 있음": false
+  "ETH가 인기 검색에 있음": true
  }
 }
 ```
@@ -669,19 +669,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 42,
- "시가총액(USD)": 2228147173,
- "완전희석가치 FDV(USD)": 2228147173,
- "24시간 거래대금(USD)": 451387383,
+ "시가총액(USD)": 2216684147,
+ "완전희석가치 FDV(USD)": 2216684147,
+ "24시간 거래대금(USD)": 478137680,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -81.10327,
+ "역대 최고가 대비(%)": -81.21488,
  "가격 변화(%)": {
-  "7d": 10.79072,
-  "30d": 32.09883,
-  "1y": -14.44814
+  "7d": 7.82139,
+  "30d": 30.95636,
+  "1y": -15.07706
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -693,6 +693,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
+   "요약": "A December rate hike appears completely assured, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
+   "시각(UTC)": "11-10 13:32"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ripple Prime head Marc Asch to step down, Noel Kimmel named successor",
+   "요약": "Asch is stepping down as head of the institutional prime brokerage.",
+   "시각(UTC)": "11-10 12:38"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
@@ -713,8 +725,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Traders price in Fed rate hike for December as bitcoin, gold retreat",
-   "요약": "Markets price in a December Fed rate hike ahead of U.S. inflation data, while bitcoin and gold fall and oil retreats on easing Iran tensions.",
+   "제목": "Live news: Bitcoin adds to losses after disappointing inflation data",
+   "요약": "A rate hike in December appears totally assured now, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 10:41"
   },
   {
@@ -728,18 +740,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
    "요약": "The Capital Markets Alliance argues that the products fall under the Securities and Exchange Commission’s jurisdiction.",
    "시각(UTC)": "11-10 09:14"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
-   "요약": "Bots spotted a wallet from Ethereum’s 2015 launch the moment it stirred and planted lookalike addresses in its history, but the owner sent the money to the right place anyway.",
-   "시각(UTC)": "11-10 07:01"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
-   "요약": "MARA paid off every loan backed by its bitcoin and says the rest of its coins can fund AI datacenters.",
-   "시각(UTC)": "11-10 05:18"
   }
  ]
 }
@@ -771,29 +771,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Bitget Futures": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 221282507
+  "미결제약정 합계 USD(상위)": 220282191
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 85.42,
+  "CoinGecko 이용자 투표 상승(%)": 87.5,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "PENGU",
    "BTC",
+   "PENGU",
    "AVAX",
    "SI",
-   "HYPE",
-   "AERO",
-   "CYBER",
    "SOL",
-   "ONE",
-   "NEAR",
-   "AKE",
+   "HYPE",
+   "SUI",
+   "ETH",
+   "LIT",
+   "PUMP",
    "KNTQ",
-   "XRP",
-   "ZEC"
+   "FET",
+   "STONK",
+   "INIT"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -887,25 +887,25 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Cosmos Ecosystem",
   "Solana Ecosystem"
  ],
- "시가총액 순위": 83,
- "시가총액(USD)": 797702617,
- "완전희석가치 FDV(USD)": 797702617,
- "24시간 거래대금(USD)": 88505985,
+ "시가총액 순위": 82,
+ "시가총액(USD)": 801639121,
+ "완전희석가치 FDV(USD)": 801639121,
+ "24시간 거래대금(USD)": 88238592,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.84051,
+ "역대 최고가 대비(%)": -84.76509,
  "가격 변화(%)": {
-  "7d": 9.83873,
-  "30d": 4.22609,
-  "1y": 1.05568
+  "7d": 8.53624,
+  "30d": 4.34433,
+  "1y": 0.99726
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 21951293
+  "TVL(USD)": 21841668
  }
 }
 ```
@@ -916,6 +916,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INJ 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
+   "요약": "A December rate hike appears completely assured, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
+   "시각(UTC)": "11-10 13:32"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ripple Prime head Marc Asch to step down, Noel Kimmel named successor",
+   "요약": "Asch is stepping down as head of the institutional prime brokerage.",
+   "시각(UTC)": "11-10 12:38"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
@@ -936,8 +948,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Traders price in Fed rate hike for December as bitcoin, gold retreat",
-   "요약": "Markets price in a December Fed rate hike ahead of U.S. inflation data, while bitcoin and gold fall and oil retreats on easing Iran tensions.",
+   "제목": "Live news: Bitcoin adds to losses after disappointing inflation data",
+   "요약": "A rate hike in December appears totally assured now, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 10:41"
   },
   {
@@ -951,18 +963,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
    "요약": "The Capital Markets Alliance argues that the products fall under the Securities and Exchange Commission’s jurisdiction.",
    "시각(UTC)": "11-10 09:14"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
-   "요약": "Bots spotted a wallet from Ethereum’s 2015 launch the moment it stirred and planted lookalike addresses in its history, but the owner sent the money to the right place anyway.",
-   "시각(UTC)": "11-10 07:01"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
-   "요약": "MARA paid off every loan backed by its bitcoin and says the rest of its coins can fund AI datacenters.",
-   "시각(UTC)": "11-10 05:18"
   }
  ]
 }
@@ -989,34 +989,34 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
    "Binance (Futures)": 0.01,
-   "OrangeX Futures": -0.027,
+   "OrangeX Futures": -0.02,
    "Gate (Futures)": 0.01,
    "BingX (Futures)": 0.01,
    "Bybit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 153531383
+  "미결제약정 합계 USD(상위)": 152372540
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 87.5,
+  "CoinGecko 이용자 투표 상승(%)": 85.71,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "PENGU",
    "BTC",
+   "PENGU",
    "AVAX",
    "SI",
-   "HYPE",
-   "AERO",
-   "CYBER",
    "SOL",
-   "ONE",
-   "NEAR",
-   "AKE",
+   "HYPE",
+   "SUI",
+   "ETH",
+   "LIT",
+   "PUMP",
    "KNTQ",
-   "XRP",
-   "ZEC"
+   "FET",
+   "STONK",
+   "INIT"
   ],
   "INJ가 인기 검색에 있음": false
  }
@@ -1107,20 +1107,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "PolitiFi",
   "Made in USA"
  ],
- "시가총액 순위": 127,
- "시가총액(USD)": 320620533,
- "완전희석가치 FDV(USD)": 1137484945,
- "24시간 거래대금(USD)": 102284511,
+ "시가총액 순위": 128,
+ "시가총액(USD)": 319373414,
+ "완전희석가치 FDV(USD)": 1133060463,
+ "24시간 거래대금(USD)": 107521884,
  "유통량": 281867935.671502,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 28.2,
  "역대 최고가(USD)": 73.43,
- "역대 최고가 대비(%)": -98.44991,
+ "역대 최고가 대비(%)": -98.45618,
  "가격 변화(%)": {
-  "7d": -28.18988,
-  "30d": -39.32899,
-  "1y": -86.47059
+  "7d": -29.47872,
+  "30d": -39.47219,
+  "1y": -86.57992
  },
  "소개": "TRUMP is a politics-themed digital coin built on the Solana blockchain that uses the brand of Donald Trump to foster a community-driven ecosystem. As a community-focused asset, it is designed to bridge political support with web ownership, operating within the PolitiFi sector to blend political movements with decentralized finance tools. The project's main value proposition lies in its official ti"
 }
@@ -1159,6 +1159,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3%",
+   "요약": "A December rate hike appears completely assured, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
+   "시각(UTC)": "11-10 13:32"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ripple Prime head Marc Asch to step down, Noel Kimmel named successor",
+   "요약": "Asch is stepping down as head of the institutional prime brokerage.",
+   "시각(UTC)": "11-10 12:38"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings",
    "요약": "Your day-ahead look for Nov. 10, 2026",
    "시각(UTC)": "11-10 12:15"
@@ -1177,8 +1189,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live news: Traders price in Fed rate hike for December as bitcoin, gold retreat",
-   "요약": "Markets price in a December Fed rate hike ahead of U.S. inflation data, while bitcoin and gold fall and oil retreats on easing Iran tensions.",
+   "제목": "Live news: Bitcoin adds to losses after disappointing inflation data",
+   "요약": "A rate hike in December appears totally assured now, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
    "시각(UTC)": "11-10 10:41"
   },
   {
@@ -1192,18 +1204,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
    "요약": "The Capital Markets Alliance argues that the products fall under the Securities and Exchange Commission’s jurisdiction.",
    "시각(UTC)": "11-10 09:14"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
-   "요약": "Bots spotted a wallet from Ethereum’s 2015 launch the moment it stirred and planted lookalike addresses in its history, but the owner sent the money to the right place anyway.",
-   "시각(UTC)": "11-10 07:01"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
-   "요약": "MARA paid off every loan backed by its bitcoin and says the rest of its coins can fund AI datacenters.",
-   "시각(UTC)": "11-10 05:18"
   }
  ]
 }
@@ -1230,34 +1230,34 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.005,
    "Gate (Futures)": 0.005,
-   "OKX (Futures)": -0.012,
+   "OKX (Futures)": 0.003,
    "Bybit (Futures)": 0.005,
    "WhiteBIT Futures": 0.005,
-   "Hyperliquid (Futures)": -0.0013
+   "Hyperliquid (Futures)": 0.0003
   },
-  "미결제약정 합계 USD(상위)": 99763716
+  "미결제약정 합계 USD(상위)": 98204136
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 42.86,
+  "CoinGecko 이용자 투표 상승(%)": 38.1,
   "CoinGecko 인기 검색 코인": [
    "DACITY",
-   "PENGU",
    "BTC",
+   "PENGU",
    "AVAX",
    "SI",
-   "HYPE",
-   "AERO",
-   "CYBER",
    "SOL",
-   "ONE",
-   "NEAR",
-   "AKE",
+   "HYPE",
+   "SUI",
+   "ETH",
+   "LIT",
+   "PUMP",
    "KNTQ",
-   "XRP",
-   "ZEC"
+   "FET",
+   "STONK",
+   "INIT"
   ],
   "TRUMP가 인기 검색에 있음": false
  }
