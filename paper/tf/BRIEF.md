@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-11 02:27 KST)
+# TF팀 회의 자료 (2026-11-11 03:21 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1466883947990,
- "완전희석가치 FDV(USD)": 1466883947990,
- "24시간 거래대금(USD)": 28748395601,
+ "시가총액(USD)": 1471731646686,
+ "완전희석가치 FDV(USD)": 1471731646686,
+ "24시간 거래대금(USD)": 29658860900,
  "유통량": 20110356.0,
  "총발행량": 20110356.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -42.15059,
+ "역대 최고가 대비(%)": -41.94925,
  "가격 변화(%)": {
-  "7d": -6.09686,
-  "30d": -13.01382,
-  "1y": -30.80736
+  "7d": -5.64925,
+  "30d": -12.62454,
+  "1y": -30.93706
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3853873454
+  "TVL(USD)": 3846395376
  }
 }
 ```
@@ -217,8 +217,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
-   "제목": "Crypto teams up with U.S. government to defend stock perps in legal fight",
-   "요약": "Crypto and prediction markets firms declared themselves on the side of the U.S. Commodity Futures Trading Commission, arguing perpetual futures aren't swaps.",
+   "제목": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
+   "요약": "The venture, known as Project Faro, plans to issue a dollar-denominated stablecoin and is expected to be incorporated in the U.S.",
+   "시각(UTC)": "11-10 17:32"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Crypto is now teamed up with U.S. government in two legal battles over perps",
+   "요약": "Twice now, crypto firms have found themselves on the side of the U.S. Commodity Futures Trading Commission in holding that perpetual futures aren't swaps.",
    "시각(UTC)": "11-10 17:07"
   },
   {
@@ -256,12 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures",
    "요약": "The Capital Markets Alliance argues that the products fall under the Securities and Exchange Commission’s jurisdiction.",
    "시각(UTC)": "11-10 09:14"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
-   "요약": "Bots spotted a wallet from Ethereum’s 2015 launch the moment it stirred and planted lookalike addresses in its history, but the owner sent the money to the right place anyway.",
-   "시각(UTC)": "11-10 07:01"
   }
  ]
 }
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0056,
-   "OKX (Futures)": 0.0068,
+   "Binance (Futures)": 0.0063,
+   "OKX (Futures)": 0.0085,
    "Bybit (Futures)": 0.01,
-   "MEXC (Futures)": 0.0056,
-   "Gate (Futures)": 0.007,
+   "MEXC (Futures)": 0.0063,
+   "Gate (Futures)": 0.0094,
    "WEEX (Futures)": 0.0001
   },
-  "미결제약정 합계 USD(상위)": 19107380647
+  "미결제약정 합계 USD(상위)": 19200795280
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 59.06,
+  "CoinGecko 이용자 투표 상승(%)": 57.05,
   "CoinGecko 인기 검색 코인": [
+   "ZEC",
    "DACITY",
-   "MEGA",
-   "INIT",
    "BTC",
    "SI",
-   "SOL",
-   "ETH",
    "PENGU",
-   "ZEC",
+   "SOL",
+   "MEGA",
    "AVAX",
-   "MON",
    "PEARL",
-   "ONDO",
-   "ARB",
-   "SUI"
+   "HYPE",
+   "ETH",
+   "INIT",
+   "VVV",
+   "MON",
+   "KAS"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 247021608226,
- "완전희석가치 FDV(USD)": 247021608226,
- "24시간 거래대금(USD)": 13068534454,
+ "시가총액(USD)": 247882672740,
+ "완전희석가치 FDV(USD)": 247882672740,
+ "24시간 거래대금(USD)": 13350770658,
  "유통량": 122206811.20718135,
  "총발행량": 122206811.20718135,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -59.13747,
+ "역대 최고가 대비(%)": -58.98818,
  "가격 변화(%)": {
-  "7d": -11.96573,
-  "30d": -20.72117,
-  "1y": -42.87645
+  "7d": -11.5843,
+  "30d": -20.03992,
+  "1y": -42.9369
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 40639300820
+  "TVL(USD)": 40468268835
  }
 }
 ```
@@ -477,8 +477,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
-   "제목": "Crypto teams up with U.S. government to defend stock perps in legal fight",
-   "요약": "Crypto and prediction markets firms declared themselves on the side of the U.S. Commodity Futures Trading Commission, arguing perpetual futures aren't swaps.",
+   "제목": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
+   "요약": "The venture, known as Project Faro, plans to issue a dollar-denominated stablecoin and is expected to be incorporated in the U.S.",
+   "시각(UTC)": "11-10 17:32"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Crypto is now teamed up with U.S. government in two legal battles over perps",
+   "요약": "Twice now, crypto firms have found themselves on the side of the U.S. Commodity Futures Trading Commission in holding that perpetual futures aren't swaps.",
    "시각(UTC)": "11-10 17:07"
   },
   {
@@ -516,12 +522,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin lags stock rebound in advance of U.S. inflation report",
    "요약": "Bitcoin slipped despite a Monday rebound in U.S. stocks, with spot ETFs losing $201 million as traders await October inflation data later today.",
    "시각(UTC)": "11-10 11:24"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
-   "요약": "Fed Governor Waller backs December tightening even if inflation cools, while falling oil prices offer some relief and Anthropic withdraws IPO pricing details.",
-   "시각(UTC)": "11-10 10:48"
   }
  ]
 }
@@ -546,35 +546,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.0066,
-   "CoinW (Futures)": -0.0038,
-   "OKX (Futures)": -0.006,
+   "Binance (Futures)": -0.0064,
+   "CoinW (Futures)": -0.0036,
+   "OKX (Futures)": -0.0065,
    "WEEX (Futures)": 0.0,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12499915212
+  "미결제약정 합계 USD(상위)": 12599582495
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 78.95,
+  "CoinGecko 이용자 투표 상승(%)": 80.49,
   "CoinGecko 인기 검색 코인": [
+   "ZEC",
    "DACITY",
-   "MEGA",
-   "INIT",
    "BTC",
    "SI",
-   "SOL",
-   "ETH",
    "PENGU",
-   "ZEC",
+   "SOL",
+   "MEGA",
    "AVAX",
-   "MON",
    "PEARL",
-   "ONDO",
-   "ARB",
-   "SUI"
+   "HYPE",
+   "ETH",
+   "INIT",
+   "VVV",
+   "MON",
+   "KAS"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -669,19 +669,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Ethereum Ecosystem"
  ],
  "시가총액 순위": 42,
- "시가총액(USD)": 2202320424,
- "완전희석가치 FDV(USD)": 2202320424,
- "24시간 거래대금(USD)": 591898284,
+ "시가총액(USD)": 2214199612,
+ "완전희석가치 FDV(USD)": 2214199612,
+ "24시간 거래대금(USD)": 612660455,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -81.31463,
+ "역대 최고가 대비(%)": -81.22463,
  "가격 변화(%)": {
-  "7d": 7.6523,
-  "30d": 25.59436,
-  "1y": -14.05435
+  "7d": 8.80228,
+  "30d": 24.6566,
+  "1y": -14.77852
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -695,8 +695,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
-   "제목": "Crypto teams up with U.S. government to defend stock perps in legal fight",
-   "요약": "Crypto and prediction markets firms declared themselves on the side of the U.S. Commodity Futures Trading Commission, arguing perpetual futures aren't swaps.",
+   "제목": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
+   "요약": "The venture, known as Project Faro, plans to issue a dollar-denominated stablecoin and is expected to be incorporated in the U.S.",
+   "시각(UTC)": "11-10 17:32"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Crypto is now teamed up with U.S. government in two legal battles over perps",
+   "요약": "Twice now, crypto firms have found themselves on the side of the U.S. Commodity Futures Trading Commission in holding that perpetual futures aren't swaps.",
    "시각(UTC)": "11-10 17:07"
   },
   {
@@ -734,12 +740,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin lags stock rebound in advance of U.S. inflation report",
    "요약": "Bitcoin slipped despite a Monday rebound in U.S. stocks, with spot ETFs losing $201 million as traders await October inflation data later today.",
    "시각(UTC)": "11-10 11:24"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
-   "요약": "Fed Governor Waller backs December tightening even if inflation cools, while falling oil prices offer some relief and Anthropic withdraws IPO pricing details.",
-   "시각(UTC)": "11-10 10:48"
   }
  ]
 }
@@ -765,35 +765,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "MEXC (Futures)": 0.01,
-   "Gate (Futures)": -0.0451,
+   "Gate (Futures)": -0.0291,
    "OKX (Futures)": 0.01,
    "KCEX (Futures)": 0.01,
    "Bitget Futures": 0.01,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 216842197
+  "미결제약정 합계 USD(상위)": 222005385
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 86.79,
+  "CoinGecko 이용자 투표 상승(%)": 88.24,
   "CoinGecko 인기 검색 코인": [
+   "ZEC",
    "DACITY",
-   "MEGA",
-   "INIT",
    "BTC",
    "SI",
-   "SOL",
-   "ETH",
    "PENGU",
-   "ZEC",
+   "SOL",
+   "MEGA",
    "AVAX",
-   "MON",
    "PEARL",
-   "ONDO",
-   "ARB",
-   "SUI"
+   "HYPE",
+   "ETH",
+   "INIT",
+   "VVV",
+   "MON",
+   "KAS"
   ],
   "PEPE가 인기 검색에 있음": false
  }
@@ -888,24 +888,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Solana Ecosystem"
  ],
  "시가총액 순위": 83,
- "시가총액(USD)": 776823947,
- "완전희석가치 FDV(USD)": 776823947,
- "24시간 거래대금(USD)": 90330662,
+ "시가총액(USD)": 783329974,
+ "완전희석가치 FDV(USD)": 783329974,
+ "24시간 거래대금(USD)": 87203872,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -85.24876,
+ "역대 최고가 대비(%)": -85.10592,
  "가격 변화(%)": {
-  "7d": 6.42804,
-  "30d": -0.67963,
-  "1y": -1.16725
+  "7d": 8.62006,
+  "30d": -0.9731,
+  "1y": -1.70438
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 21634375
+  "TVL(USD)": 21635066
  }
 }
 ```
@@ -918,8 +918,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
-   "제목": "Crypto teams up with U.S. government to defend stock perps in legal fight",
-   "요약": "Crypto and prediction markets firms declared themselves on the side of the U.S. Commodity Futures Trading Commission, arguing perpetual futures aren't swaps.",
+   "제목": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
+   "요약": "The venture, known as Project Faro, plans to issue a dollar-denominated stablecoin and is expected to be incorporated in the U.S.",
+   "시각(UTC)": "11-10 17:32"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Crypto is now teamed up with U.S. government in two legal battles over perps",
+   "요약": "Twice now, crypto firms have found themselves on the side of the U.S. Commodity Futures Trading Commission in holding that perpetual futures aren't swaps.",
    "시각(UTC)": "11-10 17:07"
   },
   {
@@ -957,12 +963,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin lags stock rebound in advance of U.S. inflation report",
    "요약": "Bitcoin slipped despite a Monday rebound in U.S. stocks, with spot ETFs losing $201 million as traders await October inflation data later today.",
    "시각(UTC)": "11-10 11:24"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
-   "요약": "Fed Governor Waller backs December tightening even if inflation cools, while falling oil prices offer some relief and Anthropic withdraws IPO pricing details.",
-   "시각(UTC)": "11-10 10:48"
   }
  ]
 }
@@ -988,35 +988,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
-   "Binance (Futures)": 0.01,
+   "Binance (Futures)": 0.0051,
    "OrangeX Futures": 0.01,
-   "Gate (Futures)": -0.0174,
-   "BingX (Futures)": 0.01,
+   "Gate (Futures)": -0.0025,
+   "BingX (Futures)": 0.024,
    "Bybit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 151056628
+  "미결제약정 합계 USD(상위)": 152123769
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 87.5,
+  "CoinGecko 이용자 투표 상승(%)": 85.71,
   "CoinGecko 인기 검색 코인": [
+   "ZEC",
    "DACITY",
-   "MEGA",
-   "INIT",
    "BTC",
    "SI",
-   "SOL",
-   "ETH",
    "PENGU",
-   "ZEC",
+   "SOL",
+   "MEGA",
    "AVAX",
-   "MON",
    "PEARL",
-   "ONDO",
-   "ARB",
-   "SUI"
+   "HYPE",
+   "ETH",
+   "INIT",
+   "VVV",
+   "MON",
+   "KAS"
   ],
   "INJ가 인기 검색에 있음": false
  }
@@ -1108,19 +1108,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Made in USA"
  ],
  "시가총액 순위": 128,
- "시가총액(USD)": 315827758,
- "완전희석가치 FDV(USD)": 1120481324,
- "24시간 거래대금(USD)": 113677791,
+ "시가총액(USD)": 318443382,
+ "완전희석가치 FDV(USD)": 1129760934,
+ "24시간 거래대금(USD)": 117985493,
  "유통량": 281867935.671502,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 28.2,
  "역대 최고가(USD)": 73.43,
- "역대 최고가 대비(%)": -98.47409,
+ "역대 최고가 대비(%)": -98.46145,
  "가격 변화(%)": {
-  "7d": -29.83044,
-  "30d": -42.05289,
-  "1y": -87.52954
+  "7d": -28.56224,
+  "30d": -41.29493,
+  "1y": -87.53023
  },
  "소개": "TRUMP is a politics-themed digital coin built on the Solana blockchain that uses the brand of Donald Trump to foster a community-driven ecosystem. As a community-focused asset, it is designed to bridge political support with web ownership, operating within the PolitiFi sector to blend political movements with decentralized finance tools. The project's main value proposition lies in its official ti"
 }
@@ -1153,8 +1153,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
-   "제목": "Crypto teams up with U.S. government to defend stock perps in legal fight",
-   "요약": "Crypto and prediction markets firms declared themselves on the side of the U.S. Commodity Futures Trading Commission, arguing perpetual futures aren't swaps.",
+   "제목": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
+   "요약": "The venture, known as Project Faro, plans to issue a dollar-denominated stablecoin and is expected to be incorporated in the U.S.",
+   "시각(UTC)": "11-10 17:32"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Crypto is now teamed up with U.S. government in two legal battles over perps",
+   "요약": "Twice now, crypto firms have found themselves on the side of the U.S. Commodity Futures Trading Commission in holding that perpetual futures aren't swaps.",
    "시각(UTC)": "11-10 17:07"
   },
   {
@@ -1192,12 +1198,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin lags stock rebound in advance of U.S. inflation report",
    "요약": "Bitcoin slipped despite a Monday rebound in U.S. stocks, with spot ETFs losing $201 million as traders await October inflation data later today.",
    "시각(UTC)": "11-10 11:24"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase",
-   "요약": "Fed Governor Waller backs December tightening even if inflation cools, while falling oil prices offer some relief and Anthropic withdraws IPO pricing details.",
-   "시각(UTC)": "11-10 10:48"
   }
  ]
 }
@@ -1222,36 +1222,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0021,
-   "Gate (Futures)": -0.0063,
-   "OKX (Futures)": -0.0006,
-   "Bybit (Futures)": 0.0011,
+   "Binance (Futures)": 0.0028,
+   "Gate (Futures)": -0.0021,
+   "OKX (Futures)": -0.0027,
+   "Bybit (Futures)": 0.0041,
    "WhiteBIT Futures": 0.005,
    "Hyperliquid (Futures)": 0.0013
   },
-  "미결제약정 합계 USD(상위)": 94855690
+  "미결제약정 합계 USD(상위)": 95875815
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 30.0,
+  "CoinGecko 이용자 투표 상승(%)": 31.58,
   "CoinGecko 인기 검색 코인": [
+   "ZEC",
    "DACITY",
-   "MEGA",
-   "INIT",
    "BTC",
    "SI",
-   "SOL",
-   "ETH",
    "PENGU",
-   "ZEC",
+   "SOL",
+   "MEGA",
    "AVAX",
-   "MON",
    "PEARL",
-   "ONDO",
-   "ARB",
-   "SUI"
+   "HYPE",
+   "ETH",
+   "INIT",
+   "VVV",
+   "MON",
+   "KAS"
   ],
   "TRUMP가 인기 검색에 있음": false
  }
