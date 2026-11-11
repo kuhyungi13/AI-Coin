@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-12 00:25 KST)
+# TF팀 회의 자료 (2026-11-12 01:32 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -66,15 +66,15 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-11",
   "등락률(%)": {
-   "1일": -0.13,
-   "7일": -1.14,
-   "30일": -2.83,
-   "90일": -7.41
+   "1일": -0.0,
+   "7일": -0.58,
+   "30일": -2.47,
+   "90일": -8.16
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -0.94,
-   "MA60": -3.24,
-   "MA120": -5.37
+   "MA20": -0.81,
+   "MA60": -3.15,
+   "MA120": -5.3
   },
   "MA20>MA60": false,
   "최근 교차": null,
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1478000279302,
- "완전희석가치 FDV(USD)": 1478002557595,
- "24시간 거래대금(USD)": 29580120646,
+ "시가총액(USD)": 1493711048036,
+ "완전희석가치 FDV(USD)": 1493715653057,
+ "24시간 거래대금(USD)": 27124384871,
  "유통량": 20110675.0,
- "총발행량": 20110706.0,
+ "총발행량": 20110737.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -41.70968,
+ "역대 최고가 대비(%)": -41.08931,
  "가격 변화(%)": {
-  "7d": -7.23689,
-  "30d": -10.94291,
-  "1y": -29.70758
+  "7d": -7.45906,
+  "30d": -10.13992,
+  "1y": -28.1979
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3875653112
+  "TVL(USD)": 3873168169
  }
 }
 ```
@@ -178,10 +178,10 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-10 05:18"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
-   "요약": "Bitcoin trades below $75,000 ahead of the October inflation data. Analysts warning that sustainable recovery depends on improving liquidity and spot ETF demand rather than temporary macro relief.",
-   "시각(UTC)": "11-10 03:22"
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
+   "요약": "Bitcoin traded in a narrow range as investors bought the dip in tech stocks and US bond yields climbed on high CPI inflation data.",
+   "시각(UTC)": "11-11 16:26"
   },
   {
    "출처": "Cointelegraph",
@@ -215,6 +215,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
+   "요약": "Institutions weighing DeFi lending tend to ask which markets are safest. Mike Hathaway and Joseph Quintilian of Ajna argue the better question is who can change a loan’s terms after the money is lent, and why a fully backed stablecoin offer",
+   "시각(UTC)": "11-11 16:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
@@ -256,12 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Crypto is now teamed up with U.S. government in two legal battles over perps",
    "요약": "Twice now, crypto firms have found themselves on the side of the U.S. Commodity Futures Trading Commission in holding that perpetual futures aren't swaps.",
    "시각(UTC)": "11-10 17:07"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain",
-   "요약": "Kimber Digital Securities secured SEC and Finra approvals, a regulatory milestone paving the way for the delivery of legally binding claims, dividends, and yield-bearing products directly to self-custodial wallets and stablecoin application",
-   "시각(UTC)": "11-10 15:51"
   }
  ]
 }
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0064,
-   "OKX (Futures)": 0.004,
-   "Bybit (Futures)": 0.0049,
-   "MEXC (Futures)": 0.0063,
-   "Gate (Futures)": 0.0066,
+   "Binance (Futures)": 0.0065,
+   "OKX (Futures)": 0.0049,
+   "Bybit (Futures)": 0.0053,
+   "MEXC (Futures)": 0.0064,
+   "Gate (Futures)": -0.001,
    "CoinW (Futures)": 0.0065
   },
-  "미결제약정 합계 USD(상위)": 19178365112
+  "미결제약정 합계 USD(상위)": 19158586199
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 52.98,
+  "CoinGecko 이용자 투표 상승(%)": 56.43,
   "CoinGecko 인기 검색 코인": [
-   "GRAM",
-   "ZEC",
+   "ZIG",
    "BTC",
+   "ZEC",
    "AVAX",
-   "HYPE",
-   "KNTQ",
-   "LIT",
-   "DOGE",
-   "AERO",
+   "GRAM",
    "PEARL",
-   "PYTH",
-   "PUMP",
-   "ENA",
-   "STONK",
-   "CCD"
+   "HYPE",
+   "GRASS",
+   "XRP",
+   "VVV",
+   "ETH",
+   "PEPE",
+   "SOL",
+   "TAO",
+   "NEAR"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -377,22 +377,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-11",
   "등락률(%)": {
-   "1일": -0.61,
-   "7일": -2.78,
-   "30일": -8.32,
-   "90일": -11.18
+   "1일": 0.88,
+   "7일": -0.92,
+   "30일": -6.97,
+   "90일": -11.58
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -3.15,
-   "MA60": -7.78,
-   "MA120": -9.68
+   "MA20": -1.91,
+   "MA60": -6.83,
+   "MA120": -8.78
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 20
+   "며칠 전": 21
   },
-  "RSI14": 33.3
+  "RSI14": 37.9
  }
 }
 ```
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 251030000908,
- "완전희석가치 FDV(USD)": 251030000908,
- "24시간 거래대금(USD)": 11442536250,
+ "시가총액(USD)": 254057502169,
+ "완전희석가치 FDV(USD)": 254057502169,
+ "24시간 거래대금(USD)": 9706054472,
  "유통량": 122209757.95344049,
  "총발행량": 122209757.95344049,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -58.47355,
+ "역대 최고가 대비(%)": -57.96916,
  "가격 변화(%)": {
-  "7d": -13.53358,
-  "30d": -18.56173,
-  "1y": -41.77701
+  "7d": -14.25768,
+  "30d": -17.77164,
+  "1y": -40.31419
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 40859103537
+  "TVL(USD)": 40906120297
  }
 }
 ```
@@ -477,6 +477,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
+   "요약": "Institutions weighing DeFi lending tend to ask which markets are safest. Mike Hathaway and Joseph Quintilian of Ajna argue the better question is who can change a loan’s terms after the money is lent, and why a fully backed stablecoin offer",
+   "시각(UTC)": "11-11 16:00"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
    "요약": "After initial issuer pushback, the blockchain venue is set to start trading on Nov. 23 and said will list over 70 assets, including Strategy’s common and preferred shares and 59 of Direxion's ETFs.",
    "시각(UTC)": "11-11 13:00"
@@ -516,12 +522,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
    "요약": "CoreWeave’s revenue surge lifted AI infrastructure stocks and Nasdaq futures, while bitcoin was little changed over 24 hours.",
    "시각(UTC)": "11-11 10:45"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?",
-   "요약": "U.S. Senator Elizabeth Warren argued the administration is not doing enough about staff insider trading, questioning whether CFTC enforcement action was sufficient.",
-   "시각(UTC)": "11-10 20:36"
   }
  ]
 }
@@ -546,37 +546,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0042,
-   "CoinW (Futures)": 0.0064,
-   "OKX (Futures)": 0.0058,
-   "WEEX (Futures)": -0.0,
+   "Binance (Futures)": 0.0045,
+   "CoinW (Futures)": 0.0068,
+   "WEEX (Futures)": 0.0,
+   "OKX (Futures)": 0.0045,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12797416017
+  "미결제약정 합계 USD(상위)": 12948333211
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 79.25,
+  "CoinGecko 이용자 투표 상승(%)": 82.69,
   "CoinGecko 인기 검색 코인": [
-   "GRAM",
-   "ZEC",
+   "ZIG",
    "BTC",
+   "ZEC",
    "AVAX",
-   "HYPE",
-   "KNTQ",
-   "LIT",
-   "DOGE",
-   "AERO",
+   "GRAM",
    "PEARL",
-   "PYTH",
-   "PUMP",
-   "ENA",
-   "STONK",
-   "CCD"
+   "HYPE",
+   "GRASS",
+   "XRP",
+   "VVV",
+   "ETH",
+   "PEPE",
+   "SOL",
+   "TAO",
+   "NEAR"
   ],
-  "ETH가 인기 검색에 있음": false
+  "ETH가 인기 검색에 있음": true
  }
 }
 ```
@@ -636,22 +636,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-11",
   "등락률(%)": {
-   "1일": -5.13,
-   "7일": -6.73,
-   "30일": -1.58,
-   "90일": 16.59
+   "1일": -0.8,
+   "7일": -6.78,
+   "30일": -2.75,
+   "90일": 12.5
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -3.14,
-   "MA60": 0.21,
-   "MA120": 3.08
+   "MA20": -3.94,
+   "MA60": -0.64,
+   "MA120": 2.17
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 17
+   "며칠 전": 18
   },
-  "RSI14": 44.0
+  "RSI14": 42.6
  }
 }
 ```
@@ -668,20 +668,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Arbitrum Ecosystem",
   "Ethereum Ecosystem"
  ],
- "시가총액 순위": 44,
- "시가총액(USD)": 2068048884,
- "완전희석가치 FDV(USD)": 2068048884,
- "24시간 거래대금(USD)": 688738521,
+ "시가총액 순위": 43,
+ "시가총액(USD)": 2098810422,
+ "완전희석가치 FDV(USD)": 2098810422,
+ "24시간 거래대금(USD)": 666058777,
  "유통량": 420690000000000.0,
  "총발행량": 420690000000000.0,
  "최대발행량": 420690000000000.0,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 2.803e-05,
- "역대 최고가 대비(%)": -82.46105,
+ "역대 최고가 대비(%)": -82.20016,
  "가격 변화(%)": {
-  "7d": -2.51925,
-  "30d": 19.5182,
-  "1y": -18.08595
+  "7d": -3.36219,
+  "30d": 21.09189,
+  "1y": -16.25825
  },
  "소개": "What is the project about?\nPepe is a community based meme token surround the iconic meme Pepe the frog. Pepe aims to leverage the power of such an iconic meme to become the most memeable memecoin in existence. \n\nWhat makes your project unique?\nPepe is here to make memecoins great again. Ushering in a new paradigm for memecoins, Pepe represents the memecoin in it's purest simplicity. With zero taxe"
 }
@@ -693,6 +693,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "PEPE 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
+   "요약": "Institutions weighing DeFi lending tend to ask which markets are safest. Mike Hathaway and Joseph Quintilian of Ajna argue the better question is who can change a loan’s terms after the money is lent, and why a fully backed stablecoin offer",
+   "시각(UTC)": "11-11 16:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
@@ -734,12 +740,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
    "요약": "CoreWeave’s revenue surge lifted AI infrastructure stocks and Nasdaq futures, while bitcoin was little changed over 24 hours.",
    "시각(UTC)": "11-11 10:45"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?",
-   "요약": "U.S. Senator Elizabeth Warren argued the administration is not doing enough about staff insider trading, questioning whether CFTC enforcement action was sufficient.",
-   "시각(UTC)": "11-10 20:36"
   }
  ]
 }
@@ -764,38 +764,38 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "MEXC (Futures)": -0.0214,
-   "Gate (Futures)": -0.0178,
-   "OKX (Futures)": -0.0075,
-   "Bitget Futures": 0.0073,
+   "MEXC (Futures)": -0.0166,
+   "Gate (Futures)": -0.015,
+   "OKX (Futures)": -0.0074,
+   "Bitget Futures": 0.008,
    "WhiteBIT Futures": 0.01,
    "BloFin (Futures)": -0.0051
   },
-  "미결제약정 합계 USD(상위)": 200793548
+  "미결제약정 합계 USD(상위)": 205180005
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 90.0,
+  "CoinGecko 이용자 투표 상승(%)": 87.5,
   "CoinGecko 인기 검색 코인": [
-   "GRAM",
-   "ZEC",
+   "ZIG",
    "BTC",
+   "ZEC",
    "AVAX",
-   "HYPE",
-   "KNTQ",
-   "LIT",
-   "DOGE",
-   "AERO",
+   "GRAM",
    "PEARL",
-   "PYTH",
-   "PUMP",
-   "ENA",
-   "STONK",
-   "CCD"
+   "HYPE",
+   "GRASS",
+   "XRP",
+   "VVV",
+   "ETH",
+   "PEPE",
+   "SOL",
+   "TAO",
+   "NEAR"
   ],
-  "PEPE가 인기 검색에 있음": false
+  "PEPE가 인기 검색에 있음": true
  }
 }
 ```
@@ -855,22 +855,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-11",
   "등락률(%)": {
-   "1일": -4.52,
-   "7일": -2.19,
-   "30일": -3.14,
-   "90일": 1.33
+   "1일": 0.48,
+   "7일": -0.74,
+   "30일": -4.3,
+   "90일": -2.99
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -2.15,
-   "MA60": 0.85,
-   "MA120": 1.84
+   "MA20": -1.55,
+   "MA60": 1.17,
+   "MA120": 2.32
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 33
+   "며칠 전": 34
   },
-  "RSI14": 46.1
+  "RSI14": 47.1
  }
 }
 ```
@@ -888,24 +888,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Solana Ecosystem"
  ],
  "시가총액 순위": 83,
- "시가총액(USD)": 787182706,
- "완전희석가치 FDV(USD)": 787182706,
- "24시간 거래대금(USD)": 101162729,
+ "시가총액(USD)": 801146605,
+ "완전희석가치 FDV(USD)": 801146605,
+ "24시간 거래대금(USD)": 99777332,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -85.04043,
+ "역대 최고가 대비(%)": -84.77506,
  "가격 변화(%)": {
-  "7d": 1.2581,
-  "30d": 1.46326,
-  "1y": 1.38844
+  "7d": 3.21562,
+  "30d": 1.96798,
+  "1y": 3.58326
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 21718936
+  "TVL(USD)": 21728575
  }
 }
 ```
@@ -916,6 +916,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "INJ 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
+   "요약": "Institutions weighing DeFi lending tend to ask which markets are safest. Mike Hathaway and Joseph Quintilian of Ajna argue the better question is who can change a loan’s terms after the money is lent, and why a fully backed stablecoin offer",
+   "시각(UTC)": "11-11 16:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
@@ -957,12 +963,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
    "요약": "CoreWeave’s revenue surge lifted AI infrastructure stocks and Nasdaq futures, while bitcoin was little changed over 24 hours.",
    "시각(UTC)": "11-11 10:45"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?",
-   "요약": "U.S. Senator Elizabeth Warren argued the administration is not doing enough about staff insider trading, questioning whether CFTC enforcement action was sufficient.",
-   "시각(UTC)": "11-10 20:36"
   }
  ]
 }
@@ -988,13 +988,13 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Tapbit (Futures)": 0.01,
-   "Bitrue (Futures)": -0.0064,
-   "Binance (Futures)": -0.0064,
+   "Bitrue (Futures)": -0.0038,
+   "Binance (Futures)": -0.0037,
    "OrangeX Futures": -0.01,
-   "Gate (Futures)": -0.0008,
-   "Bybit (Futures)": -0.0078
+   "Gate (Futures)": -0.0237,
+   "Bybit (Futures)": -0.0054
   },
-  "미결제약정 합계 USD(상위)": 221067136
+  "미결제약정 합계 USD(상위)": 222478153
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -1002,21 +1002,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 100.0,
   "CoinGecko 인기 검색 코인": [
-   "GRAM",
-   "ZEC",
+   "ZIG",
    "BTC",
+   "ZEC",
    "AVAX",
-   "HYPE",
-   "KNTQ",
-   "LIT",
-   "DOGE",
-   "AERO",
+   "GRAM",
    "PEARL",
-   "PYTH",
-   "PUMP",
-   "ENA",
-   "STONK",
-   "CCD"
+   "HYPE",
+   "GRASS",
+   "XRP",
+   "VVV",
+   "ETH",
+   "PEPE",
+   "SOL",
+   "TAO",
+   "NEAR"
   ],
   "INJ가 인기 검색에 있음": false
  }
@@ -1078,19 +1078,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-11",
   "등락률(%)": {
-   "1일": -0.09,
-   "7일": -3.4,
-   "30일": -11.64,
-   "90일": -18.74
+   "1일": 1.32,
+   "7일": -0.59,
+   "30일": -9.71,
+   "90일": -18.8
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -3.52,
-   "MA60": -11.14,
-   "MA120": -14.67
+   "MA20": -1.83,
+   "MA60": -9.74,
+   "MA120": -13.4
   },
   "MA20>MA60": false,
   "최근 교차": null,
-  "RSI14": 31.7
+  "RSI14": 37.6
  }
 }
 ```
@@ -1108,24 +1108,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Andreessen Horowitz (a16z) Portfolio"
  ],
  "시가총액 순위": 6,
- "시가총액(USD)": 67188547624,
- "완전희석가치 FDV(USD)": 105765821646,
- "24시간 거래대금(USD)": 1865267451,
+ "시가총액(USD)": 68183718135,
+ "완전희석가치 FDV(USD)": 107332383664,
+ "24시간 거래대금(USD)": 1782398146,
  "유통량": 63516606953.0,
  "총발행량": 99985583260.0,
  "최대발행량": 100000000000.0,
  "유통 비율(%)": 63.5,
  "역대 최고가(USD)": 3.65,
- "역대 최고가 대비(%)": -70.9901,
+ "역대 최고가 대비(%)": -70.56041,
  "가격 변화(%)": {
-  "7d": -19.49776,
-  "30d": -22.92715,
-  "1y": -56.9383
+  "7d": -18.38598,
+  "30d": -21.99602,
+  "1y": -55.92245
  },
  "소개": "XRP is a decentralized digital asset and the native token of the XRP Ledger, a Layer 1 blockchain designed for high-performance global payments. Its primary value proposition is offering a fast, cost-effective alternative to traditional banking systems by enabling near-instant cross-border settlements that finalize in three to five seconds. By serving as a neutral bridge asset between different fi",
  "체인 TVL (DefiLlama)": {
   "체인": "XRPL",
-  "TVL(USD)": 32515340
+  "TVL(USD)": 32515376
  }
 }
 ```
@@ -1146,15 +1146,15 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "XRP Ledger maps out quantum-proof accounts, with no extra fees for users",
    "요약": "The XRP Ledger Foundation’s design lets owners add a quantum-resistant key and switch off the old one, part of a roadmap that puts the network on track for a full transition by 2028.",
    "시각(UTC)": "11-10 04:51"
-  },
-  {
-   "출처": "Decrypt",
-   "제목": "Coinbase Joins Circle, Ripple With Final OCC Approval for Federal Trust Bank Charter",
-   "요약": "The exchange will move its institutional crypto custody business under federal oversight, building on its 2018 New York trust charter.",
-   "시각(UTC)": "11-09 11:50"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
+   "요약": "Institutions weighing DeFi lending tend to ask which markets are safest. Mike Hathaway and Joseph Quintilian of Ajna argue the better question is who can change a loan’s terms after the money is lent, and why a fully backed stablecoin offer",
+   "시각(UTC)": "11-11 16:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
@@ -1196,12 +1196,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
    "요약": "CoreWeave’s revenue surge lifted AI infrastructure stocks and Nasdaq futures, while bitcoin was little changed over 24 hours.",
    "시각(UTC)": "11-11 10:45"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?",
-   "요약": "U.S. Senator Elizabeth Warren argued the administration is not doing enough about staff insider trading, questioning whether CFTC enforcement action was sufficient.",
-   "시각(UTC)": "11-10 20:36"
   }
  ]
 }
@@ -1227,37 +1221,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.01,
-   "OrangeX Futures": 0.0149,
-   "XT.COM (Derivatives)": 0.0104,
+   "OrangeX Futures": 0.0145,
+   "XT.COM (Derivatives)": 0.0101,
    "CoinW (Futures)": 0.01,
-   "Bybit (Futures)": 0.0057,
-   "Gate (Futures)": 0.008
+   "Bybit (Futures)": -0.0028,
+   "Gate (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 1039667417
+  "미결제약정 합계 USD(상위)": 1030298925
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 69.32,
+  "CoinGecko 이용자 투표 상승(%)": 69.62,
   "CoinGecko 인기 검색 코인": [
-   "GRAM",
-   "ZEC",
+   "ZIG",
    "BTC",
+   "ZEC",
    "AVAX",
-   "HYPE",
-   "KNTQ",
-   "LIT",
-   "DOGE",
-   "AERO",
+   "GRAM",
    "PEARL",
-   "PYTH",
-   "PUMP",
-   "ENA",
-   "STONK",
-   "CCD"
+   "HYPE",
+   "GRASS",
+   "XRP",
+   "VVV",
+   "ETH",
+   "PEPE",
+   "SOL",
+   "TAO",
+   "NEAR"
   ],
-  "XRP가 인기 검색에 있음": false
+  "XRP가 인기 검색에 있음": true
  }
 }
 ```
