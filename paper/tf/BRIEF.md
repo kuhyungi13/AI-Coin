@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-12 12:29 KST)
+# TF팀 회의 자료 (2026-11-12 13:36 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -64,21 +64,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "참고": "마감된 캔들만 사용 (일봉은 한국 시간 오전 9시 마감)"
  },
  "4시간봉(요약)": {
-  "기준일": "2026-11-11",
+  "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -0.51,
-   "7일": 0.74,
-   "30일": -2.41,
-   "90일": -8.52
+   "1일": -0.28,
+   "7일": 0.02,
+   "30일": -2.75,
+   "90일": -9.04
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -0.53,
-   "MA60": -2.96,
-   "MA120": -5.12
+   "MA20": -0.67,
+   "MA60": -3.13,
+   "MA120": -5.31
   },
   "MA20>MA60": false,
   "최근 교차": null,
-  "RSI14": 42.2
+  "RSI14": 40.5
  }
 }
 ```
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1482483216575,
- "완전희석가치 FDV(USD)": 1482483216575,
- "24시간 거래대금(USD)": 25907240710,
+ "시가총액(USD)": 1479613834109,
+ "완전희석가치 FDV(USD)": 1479617071307,
+ "24시간 거래대금(USD)": 25612304990,
  "유통량": 20110918.0,
- "총발행량": 20110918.0,
+ "총발행량": 20110962.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -41.53699,
+ "역대 최고가 대비(%)": -41.64683,
  "가격 변화(%)": {
-  "7d": -8.45117,
-  "30d": -11.03797,
-  "1y": -28.51413
+  "7d": -8.59407,
+  "30d": -11.61383,
+  "1y": -28.74033
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3874743807
+  "TVL(USD)": 3875178400
  }
 }
 ```
@@ -123,6 +123,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+   "요약": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
+   "시각(UTC)": "11-12 04:03"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
@@ -206,12 +212,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY — How Bitcoin could carry state across transactions",
    "요약": "OP_CCV embeds contract state directly into Taproot output keys and enforces valid state transitions onchain. This makes it possible to achieve stateful contracts and compact fraud proofs.",
    "시각(UTC)": "11-11 13:26"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Barclays boosts BlackRock Bitcoin ETF stake 48% as banks expand holdings",
-   "요약": "Barclays reported a $187 million stake as of Sept. 30, while Citigroup disclosed a new $119 million position in Fidelity’s Bitcoin ETF.",
-   "시각(UTC)": "11-11 11:56"
   }
  ],
  "시장 전반 기사": [
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0083,
+   "Binance (Futures)": 0.008,
    "OKX (Futures)": 0.01,
-   "Bybit (Futures)": 0.0083,
-   "MEXC (Futures)": 0.0082,
+   "Bybit (Futures)": 0.0081,
+   "MEXC (Futures)": 0.008,
    "Gate (Futures)": 0.01,
-   "CoinW (Futures)": 0.0081
+   "CoinW (Futures)": 0.008
   },
-  "미결제약정 합계 USD(상위)": 18688167077
+  "미결제약정 합계 USD(상위)": 18734741471
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 66.13,
+  "CoinGecko 이용자 투표 상승(%)": 66.4,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "PEARL",
+   "ONDO",
    "BTC",
+   "VVV",
    "ZEC",
    "KNTQ",
+   "QTC",
    "SOL",
-   "ONDO",
-   "NEAR",
-   "TAO",
+   "XRP",
+   "BDX",
+   "SLC",
    "INIT",
-   "ENA",
-   "ETH",
-   "LIT",
-   "LINK",
-   "AERO"
+   "MOVE",
+   "PEARL",
+   "KGEN"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -375,24 +375,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "참고": "마감된 캔들만 사용 (일봉은 한국 시간 오전 9시 마감)"
  },
  "4시간봉(요약)": {
-  "기준일": "2026-11-11",
+  "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -1.06,
-   "7일": 0.57,
-   "30일": -8.14,
-   "90일": -12.51
+   "1일": -0.06,
+   "7일": 0.09,
+   "30일": -8.46,
+   "90일": -12.94
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -2.0,
-   "MA60": -7.4,
-   "MA120": -9.4
+   "MA20": -1.64,
+   "MA60": -7.28,
+   "MA120": -9.33
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 23
+   "며칠 전": 24
   },
-  "RSI14": 35.3
+  "RSI14": 35.1
  }
 }
 ```
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 250627070783,
- "완전희석가치 FDV(USD)": 250627070783,
- "24시간 거래대금(USD)": 9276728307,
- "유통량": 122209757.95344049,
- "총발행량": 122209757.95344049,
+ "시가총액(USD)": 250187568783,
+ "완전희석가치 FDV(USD)": 250187568783,
+ "24시간 거래대금(USD)": 9149843547,
+ "유통량": 122212724.4774798,
+ "총발행량": 122212724.4774798,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -58.53907,
+ "역대 최고가 대비(%)": -58.611,
  "가격 변화(%)": {
-  "7d": -15.51308,
-  "30d": -17.58476,
-  "1y": -40.14059
+  "7d": -15.50382,
+  "30d": -18.29899,
+  "1y": -40.41775
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41166270095
+  "TVL(USD)": 41178896400
  }
 }
 ```
@@ -471,6 +471,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+   "요약": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
+   "시각(UTC)": "11-12 04:03"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
    "요약": "Institutions weighing DeFi lending tend to ask which markets are safest. Mike Hathaway and Joseph Quintilian of Ajna argue the better question is who can change a loan’s terms after the money is lent, and why a fully backed stablecoin offer",
    "시각(UTC)": "11-11 16:00"
@@ -510,12 +516,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
    "요약": "Payward says xStocks holds over $1.1 billion. Each token is backed by a share but gives no ownership of the underlying company.",
    "시각(UTC)": "11-11 10:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
-   "요약": "CoreWeave’s revenue surge lifted AI infrastructure stocks and Nasdaq futures, while bitcoin was little changed over 24 hours.",
-   "시각(UTC)": "11-11 10:45"
   }
  ]
 }
@@ -540,37 +540,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0063,
-   "CoinW (Futures)": 0.0076,
+   "Binance (Futures)": 0.007,
+   "CoinW (Futures)": 0.0071,
    "WEEX (Futures)": 0.0001,
-   "OKX (Futures)": 0.0027,
+   "OKX (Futures)": 0.003,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12767425786
+  "미결제약정 합계 USD(상위)": 12758580741
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 84.09,
+  "CoinGecko 이용자 투표 상승(%)": 83.72,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "PEARL",
+   "ONDO",
    "BTC",
+   "VVV",
    "ZEC",
    "KNTQ",
+   "QTC",
    "SOL",
-   "ONDO",
-   "NEAR",
-   "TAO",
+   "XRP",
+   "BDX",
+   "SLC",
    "INIT",
-   "ENA",
-   "ETH",
-   "LIT",
-   "LINK",
-   "AERO"
+   "MOVE",
+   "PEARL",
+   "KGEN"
   ],
-  "ETH가 인기 검색에 있음": true
+  "ETH가 인기 검색에 있음": false
  }
 }
 ```
@@ -628,24 +628,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "참고": "마감된 캔들만 사용 (일봉은 한국 시간 오전 9시 마감)"
  },
  "4시간봉(요약)": {
-  "기준일": "2026-11-11",
+  "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": 1.27,
-   "7일": 12.04,
-   "30일": 25.36,
-   "90일": 7.89
+   "1일": -0.91,
+   "7일": 8.1,
+   "30일": 20.92,
+   "90일": 11.44
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 12.46,
-   "MA60": 22.2,
-   "MA120": 18.11
+   "MA20": 10.65,
+   "MA60": 20.47,
+   "MA120": 16.78
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 28
+   "며칠 전": 29
   },
-  "RSI14": 69.2
+  "RSI14": 67.0
  }
 }
 ```
@@ -662,20 +662,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 949,
- "시가총액(USD)": 15264771,
- "완전희석가치 FDV(USD)": 87352051,
- "24시간 거래대금(USD)": 43699750,
+ "시가총액 순위": 917,
+ "시가총액(USD)": 16011161,
+ "완전희석가치 FDV(USD)": 91623239,
+ "24시간 거래대금(USD)": 55038940,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -95.34619,
+ "역대 최고가 대비(%)": -95.11207,
  "가격 변화(%)": {
-  "7d": 30.26296,
-  "30d": 33.99488,
-  "1y": -63.60172
+  "7d": 36.30719,
+  "30d": 40.69076,
+  "1y": -61.83399
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -691,6 +691,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "ERA 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+   "요약": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
+   "시각(UTC)": "11-12 04:03"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
@@ -732,12 +738,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
    "요약": "Payward says xStocks holds over $1.1 billion. Each token is backed by a share but gives no ownership of the underlying company.",
    "시각(UTC)": "11-11 10:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
-   "요약": "CoreWeave’s revenue surge lifted AI infrastructure stocks and Nasdaq futures, while bitcoin was little changed over 24 hours.",
-   "시각(UTC)": "11-11 10:45"
   }
  ]
 }
@@ -762,14 +762,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.263,
-   "Binance (Futures)": -0.2623,
-   "XT.COM (Derivatives)": -0.315,
-   "Ourbit (Futures)": -0.2627,
-   "Toobit Futures": -0.2627,
-   "Bybit (Futures)": -0.4171
+   "OrangeX Futures": -0.2086,
+   "Binance (Futures)": -0.2071,
+   "XT.COM (Derivatives)": -0.2094,
+   "Toobit Futures": -0.2076,
+   "Bybit (Futures)": -0.2775,
+   "Ourbit (Futures)": -0.2075
   },
-  "미결제약정 합계 USD(상위)": 47522826
+  "미결제약정 합계 USD(상위)": 47632175
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -778,20 +778,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 100.0,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "PEARL",
+   "ONDO",
    "BTC",
+   "VVV",
    "ZEC",
    "KNTQ",
+   "QTC",
    "SOL",
-   "ONDO",
-   "NEAR",
-   "TAO",
+   "XRP",
+   "BDX",
+   "SLC",
    "INIT",
-   "ENA",
-   "ETH",
-   "LIT",
-   "LINK",
-   "AERO"
+   "MOVE",
+   "PEARL",
+   "KGEN"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -852,24 +852,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "참고": "마감된 캔들만 사용 (일봉은 한국 시간 오전 9시 마감)"
  },
  "4시간봉(요약)": {
-  "기준일": "2026-11-11",
+  "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -1.33,
-   "7일": 2.14,
-   "30일": 7.57,
-   "90일": -5.33
+   "1일": 0.17,
+   "7일": 1.58,
+   "30일": 7.79,
+   "90일": -5.14
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 2.69,
-   "MA60": 2.92,
-   "MA120": 0.87
+   "MA20": 2.48,
+   "MA60": 3.16,
+   "MA120": 1.02
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 0
+   "며칠 전": 1
   },
-  "RSI14": 61.2
+  "RSI14": 61.8
  }
 }
 ```
@@ -886,19 +886,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 818,
- "시가총액(USD)": 19443732,
- "완전희석가치 FDV(USD)": 19443732,
- "24시간 거래대금(USD)": 8829352,
- "유통량": 50316.74378109,
- "총발행량": 50316.74378109,
+ "시가총액 순위": 868,
+ "시가총액(USD)": 17754909,
+ "완전희석가치 FDV(USD)": 17754915,
+ "24시간 거래대금(USD)": 7939548,
+ "유통량": 45919.36600424,
+ "총발행량": 45919.383495409995,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -11.2458,
+ "역대 최고가 대비(%)": -11.20142,
  "가격 변화(%)": {
-  "7d": 1.578,
-  "30d": 3.08064,
+  "7d": 1.8795,
+  "30d": 2.94842,
   "1y": null
  },
  "소개": ""
@@ -911,6 +911,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "TSLAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+   "요약": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
+   "시각(UTC)": "11-12 04:03"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
@@ -952,12 +958,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
    "요약": "Payward says xStocks holds over $1.1 billion. Each token is backed by a share but gives no ownership of the underlying company.",
    "시각(UTC)": "11-11 10:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
-   "요약": "CoreWeave’s revenue surge lifted AI infrastructure stocks and Nasdaq futures, while bitcoin was little changed over 24 hours.",
-   "시각(UTC)": "11-11 10:45"
   }
  ]
 }
@@ -989,20 +989,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "PEARL",
+   "ONDO",
    "BTC",
+   "VVV",
    "ZEC",
    "KNTQ",
+   "QTC",
    "SOL",
-   "ONDO",
-   "NEAR",
-   "TAO",
+   "XRP",
+   "BDX",
+   "SLC",
    "INIT",
-   "ENA",
-   "ETH",
-   "LIT",
-   "LINK",
-   "AERO"
+   "MOVE",
+   "PEARL",
+   "KGEN"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1063,24 +1063,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "참고": "마감된 캔들만 사용 (일봉은 한국 시간 오전 9시 마감)"
  },
  "4시간봉(요약)": {
-  "기준일": "2026-11-11",
+  "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -8.57,
-   "7일": -3.85,
-   "30일": -14.67,
-   "90일": -26.42
+   "1일": 0.3,
+   "7일": -5.37,
+   "30일": -14.12,
+   "90일": -26.36
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -8.68,
-   "MA60": -15.21,
-   "MA120": -19.88
+   "MA20": -7.71,
+   "MA60": -14.6,
+   "MA120": -19.47
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 75
+   "며칠 전": 76
   },
-  "RSI14": 28.0
+  "RSI14": 28.8
  }
 }
 ```
@@ -1097,19 +1097,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 226,
- "시가총액(USD)": 121403891,
- "완전희석가치 FDV(USD)": 121403891,
- "24시간 거래대금(USD)": 158071397,
- "유통량": 754413.90891097,
- "총발행량": 754413.90891097,
+ "시가총액 순위": 217,
+ "시가총액(USD)": 129678515,
+ "완전희석가치 FDV(USD)": 133937908,
+ "24시간 거래대금(USD)": 161591138,
+ "유통량": 805604.06273351,
+ "총발행량": 832064.7668448299,
  "최대발행량": null,
- "유통 비율(%)": 100.0,
+ "유통 비율(%)": 96.8,
  "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -33.67575,
+ "역대 최고가 대비(%)": -33.69721,
  "가격 변화(%)": {
-  "7d": -19.17531,
-  "30d": -28.02621,
+  "7d": -19.12078,
+  "30d": -28.29248,
   "1y": null
  },
  "소개": ""
@@ -1122,6 +1122,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "NVDAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+   "요약": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
+   "시각(UTC)": "11-12 04:03"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
@@ -1163,12 +1169,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
    "요약": "Payward says xStocks holds over $1.1 billion. Each token is backed by a share but gives no ownership of the underlying company.",
    "시각(UTC)": "11-11 10:51"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
-   "요약": "CoreWeave’s revenue surge lifted AI infrastructure stocks and Nasdaq futures, while bitcoin was little changed over 24 hours.",
-   "시각(UTC)": "11-11 10:45"
   }
  ]
 }
@@ -1200,20 +1200,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "PEARL",
+   "ONDO",
    "BTC",
+   "VVV",
    "ZEC",
    "KNTQ",
+   "QTC",
    "SOL",
-   "ONDO",
-   "NEAR",
-   "TAO",
+   "XRP",
+   "BDX",
+   "SLC",
    "INIT",
-   "ENA",
-   "ETH",
-   "LIT",
-   "LINK",
-   "AERO"
+   "MOVE",
+   "PEARL",
+   "KGEN"
   ],
   "NVDAB가 인기 검색에 있음": false
  }
