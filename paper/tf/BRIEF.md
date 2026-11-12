@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-12 14:39 KST)
+# TF팀 회의 자료 (2026-11-12 15:43 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1478561660074,
- "완전희석가치 FDV(USD)": 1478567174100,
- "24시간 거래대금(USD)": 25616272096,
- "유통량": 20110918.0,
+ "시가총액(USD)": 1479152835001,
+ "완전희석가치 FDV(USD)": 1479152835001,
+ "24시간 거래대금(USD)": 25008525914,
+ "유통량": 20110993.0,
  "총발행량": 20110993.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -41.67459,
+ "역대 최고가 대비(%)": -41.66439,
  "가격 변화(%)": {
-  "7d": -8.62453,
-  "30d": -11.80608,
-  "1y": -28.75835
+  "7d": -8.4686,
+  "30d": -12.0294,
+  "1y": -28.82703
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3875376332
+  "TVL(USD)": 3871470496
  }
 }
 ```
@@ -131,7 +131,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+   "제목": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
    "요약": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
    "시각(UTC)": "11-12 04:03"
   },
@@ -185,6 +185,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
+   "제목": "Here’s what happened in crypto today",
+   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+   "시각(UTC)": "11-12 06:00"
+  },
+  {
+   "출처": "Cointelegraph",
    "제목": "US data center restrictions could give Bitcoin miners an edge in AI, though challenges remain",
    "요약": "As US voters push back against new data centers, Bitcoin miners already expanding into AI could benefit from their existing facilities.",
    "시각(UTC)": "11-11 20:43"
@@ -206,15 +212,15 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY — How Bitcoin could carry state across transactions",
    "요약": "OP_CCV embeds contract state directly into Taproot output keys and enforces valid state transitions onchain. This makes it possible to achieve stateful contracts and compact fraud proofs.",
    "시각(UTC)": "11-11 13:26"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Barclays boosts BlackRock Bitcoin ETF stake 48% as banks expand holdings",
-   "요약": "Barclays reported a $187 million stake as of Sept. 30, while Citigroup disclosed a new $119 million position in Fidelity’s Bitcoin ETF.",
-   "시각(UTC)": "11-11 11:56"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
+   "요약": "The proposal would remove more than half of Zcash Community Grants' ZEC holdings from circulation and redirect its future block rewards into a new development and legal-defense fund.",
+   "시각(UTC)": "11-12 05:49"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
@@ -256,12 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform",
    "요약": "Stacey Cunningham, who recently joined digital asset platform Bullish as President, sees the company’s planned Equiniti acquisition and focus on stock issuers as key to its tokenization ambitions.",
    "시각(UTC)": "11-10 20:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
-   "요약": "The venture, known as Project Faro, plans to issue a dollar-denominated stablecoin and is expected to be incorporated in the U.S.",
-   "시각(UTC)": "11-10 17:32"
   }
  ]
 }
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0076,
+   "Binance (Futures)": 0.0077,
    "OKX (Futures)": 0.01,
-   "Bybit (Futures)": 0.0077,
+   "Bybit (Futures)": 0.0063,
    "MEXC (Futures)": 0.0077,
    "Gate (Futures)": 0.01,
-   "CoinW (Futures)": 0.008
+   "CoinW (Futures)": 0.0077
   },
-  "미결제약정 합계 USD(상위)": 18748273538
+  "미결제약정 합계 USD(상위)": 18814291203
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 65.35,
+  "CoinGecko 이용자 투표 상승(%)": 66.67,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "ZEC",
-   "PENGU",
    "GRAM",
+   "PENGU",
    "BTC",
-   "HYPE",
-   "SUI",
-   "PEPE",
-   "SOL",
+   "ZEC",
    "PEARL",
-   "ETH",
+   "ZRO",
    "INIT",
+   "HYPE",
+   "XRP",
+   "SOL",
+   "PEPE",
    "TAO",
-   "LIT",
-   "UNI"
+   "SUI",
+   "STRK"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 249728618680,
- "완전희석가치 FDV(USD)": 249728618680,
- "24시간 거래대금(USD)": 9069832984,
+ "시가총액(USD)": 250089851554,
+ "완전희석가치 FDV(USD)": 250089851554,
+ "24시간 거래대금(USD)": 8904505424,
  "유통량": 122212724.4774798,
  "총발행량": 122212724.4774798,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -58.6753,
+ "역대 최고가 대비(%)": -58.62657,
  "가격 변화(%)": {
-  "7d": -15.66867,
-  "30d": -18.75556,
-  "1y": -40.64669
+  "7d": -15.36135,
+  "30d": -19.0949,
+  "1y": -40.64153
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41157794597
+  "TVL(USD)": 41164158133
  }
 }
 ```
@@ -465,6 +465,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
+   "요약": "The proposal would remove more than half of Zcash Community Grants' ZEC holdings from circulation and redirect its future block rewards into a new development and legal-defense fund.",
+   "시각(UTC)": "11-12 05:49"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
    "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
    "시각(UTC)": "11-12 05:22"
@@ -477,7 +483,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+   "제목": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
    "요약": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
    "시각(UTC)": "11-12 04:03"
   },
@@ -504,12 +510,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
    "요약": "The DRAM ETF jumps 8% and semiconductor stocks gain more than 4%, while bitcoin continues to test its 200-day moving average.",
    "시각(UTC)": "11-11 12:21"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin barely flinches at hot CPI as ETF selling slows",
-   "요약": "Your day-ahead look for Nov. 11, 2026",
-   "시각(UTC)": "11-11 12:19"
   }
  ]
 }
@@ -534,37 +534,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.007,
-   "CoinW (Futures)": 0.0067,
+   "Binance (Futures)": 0.0065,
+   "CoinW (Futures)": 0.0057,
    "WEEX (Futures)": 0.0001,
    "OKX (Futures)": 0.0042,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12719616438
+  "미결제약정 합계 USD(상위)": 12779182598
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 83.33,
+  "CoinGecko 이용자 투표 상승(%)": 84.09,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "ZEC",
-   "PENGU",
    "GRAM",
+   "PENGU",
    "BTC",
-   "HYPE",
-   "SUI",
-   "PEPE",
-   "SOL",
+   "ZEC",
    "PEARL",
-   "ETH",
+   "ZRO",
    "INIT",
+   "HYPE",
+   "XRP",
+   "SOL",
+   "PEPE",
    "TAO",
-   "LIT",
-   "UNI"
+   "SUI",
+   "STRK"
   ],
-  "ETH가 인기 검색에 있음": true
+  "ETH가 인기 검색에 있음": false
  }
 }
 ```
@@ -656,20 +656,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 911,
- "시가총액(USD)": 16138940,
- "완전희석가치 FDV(USD)": 92354448,
- "24시간 거래대금(USD)": 52926560,
+ "시가총액 순위": 898,
+ "시가총액(USD)": 16395655,
+ "완전희석가치 FDV(USD)": 93823488,
+ "24시간 거래대금(USD)": 54637213,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -95.07659,
+ "역대 최고가 대비(%)": -94.99864,
  "가격 변화(%)": {
-  "7d": 37.65917,
-  "30d": 38.31493,
-  "1y": -61.51116
+  "7d": 39.21809,
+  "30d": 38.3637,
+  "1y": -60.94835
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -687,6 +687,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
+   "요약": "The proposal would remove more than half of Zcash Community Grants' ZEC holdings from circulation and redirect its future block rewards into a new development and legal-defense fund.",
+   "시각(UTC)": "11-12 05:49"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
    "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
    "시각(UTC)": "11-12 05:22"
@@ -699,7 +705,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+   "제목": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
    "요약": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
    "시각(UTC)": "11-12 04:03"
   },
@@ -726,12 +732,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
    "요약": "The DRAM ETF jumps 8% and semiconductor stocks gain more than 4%, while bitcoin continues to test its 200-day moving average.",
    "시각(UTC)": "11-11 12:21"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin barely flinches at hot CPI as ETF selling slows",
-   "요약": "Your day-ahead look for Nov. 11, 2026",
-   "시각(UTC)": "11-11 12:19"
   }
  ]
 }
@@ -756,14 +756,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.1733,
-   "Binance (Futures)": -0.1627,
-   "XT.COM (Derivatives)": -0.1661,
-   "Toobit Futures": -0.1639,
-   "Bybit (Futures)": -0.2444,
-   "WhiteBIT Futures": -0.1617
+   "OrangeX Futures": -0.3162,
+   "Binance (Futures)": -0.138,
+   "XT.COM (Derivatives)": -0.1418,
+   "Ourbit (Futures)": -0.1399,
+   "Toobit Futures": -0.1393,
+   "Bybit (Futures)": -0.2666
   },
-  "미결제약정 합계 USD(상위)": 50517711
+  "미결제약정 합계 USD(상위)": 51512342
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -772,20 +772,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 100.0,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "ZEC",
-   "PENGU",
    "GRAM",
+   "PENGU",
    "BTC",
-   "HYPE",
-   "SUI",
-   "PEPE",
-   "SOL",
+   "ZEC",
    "PEARL",
-   "ETH",
+   "ZRO",
    "INIT",
+   "HYPE",
+   "XRP",
+   "SOL",
+   "PEPE",
    "TAO",
-   "LIT",
-   "UNI"
+   "SUI",
+   "STRK"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -880,19 +880,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 866,
- "시가총액(USD)": 17729349,
- "완전희석가치 FDV(USD)": 17729349,
- "24시간 거래대금(USD)": 7066205,
- "유통량": 45919.383495409995,
- "총발행량": 45919.383495409995,
+ "시가총액 순위": 867,
+ "시가총액(USD)": 17742716,
+ "완전희석가치 FDV(USD)": 17742716,
+ "24시간 거래대금(USD)": 9182172,
+ "유통량": 45948.25516576,
+ "총발행량": 45948.25516576,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -11.33079,
+ "역대 최고가 대비(%)": -11.31754,
  "가격 변화(%)": {
-  "7d": 1.97423,
-  "30d": 3.1772,
+  "7d": 2.48055,
+  "30d": 3.04971,
   "1y": null
  },
  "소개": ""
@@ -907,6 +907,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
+   "요약": "The proposal would remove more than half of Zcash Community Grants' ZEC holdings from circulation and redirect its future block rewards into a new development and legal-defense fund.",
+   "시각(UTC)": "11-12 05:49"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
    "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
    "시각(UTC)": "11-12 05:22"
@@ -919,7 +925,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+   "제목": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
    "요약": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
    "시각(UTC)": "11-12 04:03"
   },
@@ -946,12 +952,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
    "요약": "The DRAM ETF jumps 8% and semiconductor stocks gain more than 4%, while bitcoin continues to test its 200-day moving average.",
    "시각(UTC)": "11-11 12:21"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin barely flinches at hot CPI as ETF selling slows",
-   "요약": "Your day-ahead look for Nov. 11, 2026",
-   "시각(UTC)": "11-11 12:19"
   }
  ]
 }
@@ -983,20 +983,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "ZEC",
-   "PENGU",
    "GRAM",
+   "PENGU",
    "BTC",
-   "HYPE",
-   "SUI",
-   "PEPE",
-   "SOL",
+   "ZEC",
    "PEARL",
-   "ETH",
+   "ZRO",
    "INIT",
+   "HYPE",
+   "XRP",
+   "SOL",
+   "PEPE",
    "TAO",
-   "LIT",
-   "UNI"
+   "SUI",
+   "STRK"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1091,19 +1091,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 213,
- "시가총액(USD)": 133350327,
- "완전희석가치 FDV(USD)": 136375031,
- "24시간 거래대금(USD)": 162100691,
- "유통량": 832064.7668448299,
- "총발행량": 850937.98097874,
+ "시가총액 순위": 205,
+ "시가총액(USD)": 141987472,
+ "완전희석가치 FDV(USD)": 141987472,
+ "24시간 거래대금(USD)": 165426109,
+ "유통량": 882049.72679092,
+ "총발행량": 882049.72679092,
  "최대발행량": null,
- "유통 비율(%)": 97.8,
+ "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -33.98558,
+ "역대 최고가 대비(%)": -33.6956,
  "가격 변화(%)": {
-  "7d": -19.37215,
-  "30d": -28.50214,
+  "7d": -18.50114,
+  "30d": -28.23825,
   "1y": null
  },
  "소개": ""
@@ -1118,6 +1118,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
+   "요약": "The proposal would remove more than half of Zcash Community Grants' ZEC holdings from circulation and redirect its future block rewards into a new development and legal-defense fund.",
+   "시각(UTC)": "11-12 05:49"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
    "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
    "시각(UTC)": "11-12 05:22"
@@ -1130,7 +1136,7 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
+   "제목": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
    "요약": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
    "시각(UTC)": "11-12 04:03"
   },
@@ -1157,12 +1163,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
    "요약": "The DRAM ETF jumps 8% and semiconductor stocks gain more than 4%, while bitcoin continues to test its 200-day moving average.",
    "시각(UTC)": "11-11 12:21"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin barely flinches at hot CPI as ETF selling slows",
-   "요약": "Your day-ahead look for Nov. 11, 2026",
-   "시각(UTC)": "11-11 12:19"
   }
  ]
 }
@@ -1194,20 +1194,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "ZEC",
-   "PENGU",
    "GRAM",
+   "PENGU",
    "BTC",
-   "HYPE",
-   "SUI",
-   "PEPE",
-   "SOL",
+   "ZEC",
    "PEARL",
-   "ETH",
+   "ZRO",
    "INIT",
+   "HYPE",
+   "XRP",
+   "SOL",
+   "PEPE",
    "TAO",
-   "LIT",
-   "UNI"
+   "SUI",
+   "STRK"
   ],
   "NVDAB가 인기 검색에 있음": false
  }
