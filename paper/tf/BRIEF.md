@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-12 19:39 KST)
+# TF팀 회의 자료 (2026-11-12 20:37 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1477905563825,
- "완전희석가치 FDV(USD)": 1477905563825,
- "24시간 거래대금(USD)": 22945430185,
+ "시가총액(USD)": 1469172277135,
+ "완전희석가치 FDV(USD)": 1469172934612,
+ "24시간 거래대금(USD)": 22714753411,
  "유통량": 20111025.0,
- "총발행량": 20111025.0,
+ "총발행량": 20111034.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -41.71368,
+ "역대 최고가 대비(%)": -42.06723,
  "가격 변화(%)": {
-  "7d": -8.59465,
-  "30d": -12.04183,
-  "1y": -29.76259
+  "7d": -8.95028,
+  "30d": -12.26452,
+  "1y": -30.36326
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3861292777
+  "TVL(USD)": 3861424690
  }
 }
 ```
@@ -123,6 +123,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin dips with Nvidia as ETF outflows reach day five",
+   "요약": "Bitcoin slips 0.7% as Nvidia falls on reports its board may oust CEO Jensen Huang, while U.S. spot bitcoin ETFs lose another $299.9 million.",
+   "시각(UTC)": "11-12 11:30"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
@@ -206,15 +212,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Deutsche Bank launches crypto custody for companies and institutions",
    "요약": "Clients can store and transfer Bitcoin, Ether and select stablecoins through the bank, which manages their wallets and private keys.",
    "시각(UTC)": "11-11 14:02"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY — How Bitcoin could carry state across transactions",
-   "요약": "OP_CCV embeds contract state directly into Taproot output keys and enforces valid state transitions onchain. This makes it possible to achieve stateful contracts and compact fraud proofs.",
-   "시각(UTC)": "11-11 13:26"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
+   "요약": "More than half of those affected were contractors, a source told Reuters. The cuts follow investor pressure on founder Shayne Coplan.",
+   "시각(UTC)": "11-12 10:42"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Nomura weighs Laser Digital sale as European losses hit four straight quarters",
+   "요약": "The Japanese brokerage has held talks with potential buyers, including Marex, as its European business posts more losses.",
+   "시각(UTC)": "11-12 10:32"
+  },
   {
    "출처": "CoinDesk",
    "제목": "India’s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
@@ -250,18 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
    "요약": "After initial issuer pushback, the blockchain venue is set to start trading on Nov. 23 and said will list over 70 assets, including Strategy’s common and preferred shares and 59 of Direxion's ETFs.",
    "시각(UTC)": "11-11 13:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Meet Spiko, the largest tokenized fund in the world you’ve probably never heard about",
-   "요약": "The firm’s flagship Spiko Amundi Overnight Swap Fund (SAFO) held $2.39 billion in assets under management as of late last month.",
-   "시각(UTC)": "11-11 12:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
-   "요약": "Payward says xStocks holds over $1.1 billion. Each token is backed by a share but gives no ownership of the underlying company.",
-   "시각(UTC)": "11-11 10:51"
   }
  ]
 }
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0047,
-   "OKX (Futures)": 0.0067,
-   "Bybit (Futures)": 0.0053,
-   "MEXC (Futures)": 0.0043,
-   "Gate (Futures)": 0.0069,
+   "Binance (Futures)": 0.0046,
+   "OKX (Futures)": 0.0068,
+   "Bybit (Futures)": 0.0046,
+   "MEXC (Futures)": 0.0044,
+   "Gate (Futures)": 0.0066,
    "CoinW (Futures)": 0.0044
   },
-  "미결제약정 합계 USD(상위)": 19003523245
+  "미결제약정 합계 USD(상위)": 18988678472
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 70.25,
+  "CoinGecko 이용자 투표 상승(%)": 69.42,
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
+   "ZIG",
    "PENGU",
    "BTC",
-   "ZIG",
-   "SOL",
-   "ZEC",
-   "PI",
-   "HYPE",
    "ETH",
-   "LIT",
-   "ONDO",
-   "NEAR",
-   "INIT",
-   "LINK",
-   "AVAX"
+   "TAO",
+   "ZEC",
+   "UNI",
+   "PEARL",
+   "PI",
+   "XRP",
+   "HYPE",
+   "EPIC",
+   "ICP",
+   "NEAR"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 250461761277,
- "완전희석가치 FDV(USD)": 250461761277,
- "24시간 거래대금(USD)": 8463939278,
+ "시가총액(USD)": 247792067534,
+ "완전희석가치 FDV(USD)": 247792067534,
+ "24시간 거래대금(USD)": 8357624053,
  "유통량": 122212724.4774798,
  "총발행량": 122212724.4774798,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -58.56504,
+ "역대 최고가 대비(%)": -59.01556,
  "가격 변화(%)": {
-  "7d": -15.25709,
-  "30d": -18.42483,
-  "1y": -41.25226
+  "7d": -16.11538,
+  "30d": -18.78878,
+  "1y": -42.63088
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41097377652
+  "TVL(USD)": 41041532902
  }
 }
 ```
@@ -471,6 +471,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Bitcoin dips with Nvidia as ETF outflows reach day five",
+   "요약": "Bitcoin slips 0.7% as Nvidia falls on reports its board may oust CEO Jensen Huang, while U.S. spot bitcoin ETFs lose another $299.9 million.",
+   "시각(UTC)": "11-12 11:30"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
+   "요약": "More than half of those affected were contractors, a source told Reuters. The cuts follow investor pressure on founder Shayne Coplan.",
+   "시각(UTC)": "11-12 10:42"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Nomura weighs Laser Digital sale as European losses hit four straight quarters",
+   "요약": "The Japanese brokerage has held talks with potential buyers, including Marex, as its European business posts more losses.",
+   "시각(UTC)": "11-12 10:32"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "India’s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
    "요약": "The Enforcement Directorate alleged illegal cross-border flows that violated India's foreign exchange laws.",
    "시각(UTC)": "11-12 10:10"
@@ -498,24 +516,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
    "요약": "MSCI’s decision to exclude Strategy from its equity indexes could hamper the company’s ability to buy more bitcoin, according to some analysts.",
    "시각(UTC)": "11-12 07:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
-   "요약": "The proposal would remove more than half of Zcash Community Grants' ZEC holdings from circulation and redirect its future block rewards into a new development and legal-defense fund.",
-   "시각(UTC)": "11-12 05:49"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
-   "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
-   "시각(UTC)": "11-12 05:22"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
-   "요약": "Lending support among the ledger’s 35 validators has climbed from 19 to 22 since mid-October, and no public tracker shows which validators switched.",
-   "시각(UTC)": "11-12 05:18"
   }
  ]
 }
@@ -540,35 +540,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0043,
-   "CoinW (Futures)": 0.0038,
+   "Binance (Futures)": 0.0037,
+   "CoinW (Futures)": 0.0047,
    "WEEX (Futures)": 0.0001,
-   "OKX (Futures)": 0.0029,
+   "OKX (Futures)": 0.0038,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12850114244
+  "미결제약정 합계 USD(상위)": 12788732984
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 84.09,
+  "CoinGecko 이용자 투표 상승(%)": 85.37,
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
+   "ZIG",
    "PENGU",
    "BTC",
-   "ZIG",
-   "SOL",
-   "ZEC",
-   "PI",
-   "HYPE",
    "ETH",
-   "LIT",
-   "ONDO",
-   "NEAR",
-   "INIT",
-   "LINK",
-   "AVAX"
+   "TAO",
+   "ZEC",
+   "UNI",
+   "PEARL",
+   "PI",
+   "XRP",
+   "HYPE",
+   "EPIC",
+   "ICP",
+   "NEAR"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -662,20 +662,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 898,
- "시가총액(USD)": 16677461,
- "완전희석가치 FDV(USD)": 95436114,
- "24시간 거래대금(USD)": 59246978,
+ "시가총액 순위": 899,
+ "시가총액(USD)": 16529517,
+ "완전희석가치 FDV(USD)": 94589511,
+ "24시간 거래대금(USD)": 43348496,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -94.91268,
+ "역대 최고가 대비(%)": -94.98724,
  "가격 변화(%)": {
-  "7d": 42.16019,
-  "30d": 46.47215,
-  "1y": -60.85559
+  "7d": 39.47512,
+  "30d": 45.54032,
+  "1y": -61.60594
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -691,6 +691,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "ERA 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin dips with Nvidia as ETF outflows reach day five",
+   "요약": "Bitcoin slips 0.7% as Nvidia falls on reports its board may oust CEO Jensen Huang, while U.S. spot bitcoin ETFs lose another $299.9 million.",
+   "시각(UTC)": "11-12 11:30"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
+   "요약": "More than half of those affected were contractors, a source told Reuters. The cuts follow investor pressure on founder Shayne Coplan.",
+   "시각(UTC)": "11-12 10:42"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Nomura weighs Laser Digital sale as European losses hit four straight quarters",
+   "요약": "The Japanese brokerage has held talks with potential buyers, including Marex, as its European business posts more losses.",
+   "시각(UTC)": "11-12 10:32"
+  },
   {
    "출처": "CoinDesk",
    "제목": "India’s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
@@ -720,24 +738,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
    "요약": "MSCI’s decision to exclude Strategy from its equity indexes could hamper the company’s ability to buy more bitcoin, according to some analysts.",
    "시각(UTC)": "11-12 07:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
-   "요약": "The proposal would remove more than half of Zcash Community Grants' ZEC holdings from circulation and redirect its future block rewards into a new development and legal-defense fund.",
-   "시각(UTC)": "11-12 05:49"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
-   "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
-   "시각(UTC)": "11-12 05:22"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
-   "요약": "Lending support among the ledger’s 35 validators has climbed from 19 to 22 since mid-October, and no public tracker shows which validators switched.",
-   "시각(UTC)": "11-12 05:18"
   }
  ]
 }
@@ -762,14 +762,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.1706,
-   "Binance (Futures)": -0.1364,
-   "XT.COM (Derivatives)": -0.1365,
-   "Bybit (Futures)": -0.1196,
-   "Toobit Futures": -0.1364,
-   "Ourbit (Futures)": -0.137
+   "OrangeX Futures": -0.1398,
+   "Binance (Futures)": -0.1068,
+   "XT.COM (Derivatives)": -0.1068,
+   "Ourbit (Futures)": -0.1071,
+   "Bybit (Futures)": -0.0692,
+   "Toobit Futures": -0.1071
   },
-  "미결제약정 합계 USD(상위)": 51193272
+  "미결제약정 합계 USD(상위)": 52514515
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -778,20 +778,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 50.0,
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
+   "ZIG",
    "PENGU",
    "BTC",
-   "ZIG",
-   "SOL",
-   "ZEC",
-   "PI",
-   "HYPE",
    "ETH",
-   "LIT",
-   "ONDO",
-   "NEAR",
-   "INIT",
-   "LINK",
-   "AVAX"
+   "TAO",
+   "ZEC",
+   "UNI",
+   "PEARL",
+   "PI",
+   "XRP",
+   "HYPE",
+   "EPIC",
+   "ICP",
+   "NEAR"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -886,19 +886,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 863,
- "시가총액(USD)": 17939753,
- "완전희석가치 FDV(USD)": 17942193,
- "24시간 거래대금(USD)": 8988649,
- "유통량": 45951.40194114,
- "총발행량": 45957.653100460004,
+ "시가총액 순위": 864,
+ "시가총액(USD)": 17841134,
+ "완전희석가치 FDV(USD)": 17844222,
+ "24시간 거래대금(USD)": 8987007,
+ "유통량": 45957.653100460004,
+ "총발행량": 45965.60864547,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -10.33884,
+ "역대 최고가 대비(%)": -10.84386,
  "가격 변화(%)": {
-  "7d": 3.18462,
-  "30d": 4.36229,
+  "7d": 2.71934,
+  "30d": 3.55842,
   "1y": null
  },
  "소개": ""
@@ -911,6 +911,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "TSLAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin dips with Nvidia as ETF outflows reach day five",
+   "요약": "Bitcoin slips 0.7% as Nvidia falls on reports its board may oust CEO Jensen Huang, while U.S. spot bitcoin ETFs lose another $299.9 million.",
+   "시각(UTC)": "11-12 11:30"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
+   "요약": "More than half of those affected were contractors, a source told Reuters. The cuts follow investor pressure on founder Shayne Coplan.",
+   "시각(UTC)": "11-12 10:42"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Nomura weighs Laser Digital sale as European losses hit four straight quarters",
+   "요약": "The Japanese brokerage has held talks with potential buyers, including Marex, as its European business posts more losses.",
+   "시각(UTC)": "11-12 10:32"
+  },
   {
    "출처": "CoinDesk",
    "제목": "India’s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
@@ -940,24 +958,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
    "요약": "MSCI’s decision to exclude Strategy from its equity indexes could hamper the company’s ability to buy more bitcoin, according to some analysts.",
    "시각(UTC)": "11-12 07:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
-   "요약": "The proposal would remove more than half of Zcash Community Grants' ZEC holdings from circulation and redirect its future block rewards into a new development and legal-defense fund.",
-   "시각(UTC)": "11-12 05:49"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
-   "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
-   "시각(UTC)": "11-12 05:22"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
-   "요약": "Lending support among the ledger’s 35 validators has climbed from 19 to 22 since mid-October, and no public tracker shows which validators switched.",
-   "시각(UTC)": "11-12 05:18"
   }
  ]
 }
@@ -989,20 +989,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 0.0,
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
+   "ZIG",
    "PENGU",
    "BTC",
-   "ZIG",
-   "SOL",
-   "ZEC",
-   "PI",
-   "HYPE",
    "ETH",
-   "LIT",
-   "ONDO",
-   "NEAR",
-   "INIT",
-   "LINK",
-   "AVAX"
+   "TAO",
+   "ZEC",
+   "UNI",
+   "PEARL",
+   "PI",
+   "XRP",
+   "HYPE",
+   "EPIC",
+   "ICP",
+   "NEAR"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1098,18 +1098,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "bStocks Ecosystem"
  ],
  "시가총액 순위": 201,
- "시가총액(USD)": 147102587,
- "완전희석가치 FDV(USD)": 148658064,
- "24시간 거래대금(USD)": 172862447,
- "유통량": 896410.71432646,
- "총발행량": 905889.45305709,
+ "시가총액(USD)": 145932654,
+ "완전희석가치 FDV(USD)": 149518256,
+ "24시간 거래대금(USD)": 168663646,
+ "유통량": 905889.45305709,
+ "총발행량": 928147.38369351,
  "최대발행량": null,
- "유통 비율(%)": 99.0,
+ "유통 비율(%)": 97.6,
  "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -32.40748,
+ "역대 최고가 대비(%)": -33.64668,
  "가격 변화(%)": {
-  "7d": -17.824,
-  "30d": -27.0443,
+  "7d": -19.15654,
+  "30d": -28.12202,
   "1y": null
  },
  "소개": ""
@@ -1122,6 +1122,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "NVDAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin dips with Nvidia as ETF outflows reach day five",
+   "요약": "Bitcoin slips 0.7% as Nvidia falls on reports its board may oust CEO Jensen Huang, while U.S. spot bitcoin ETFs lose another $299.9 million.",
+   "시각(UTC)": "11-12 11:30"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
+   "요약": "More than half of those affected were contractors, a source told Reuters. The cuts follow investor pressure on founder Shayne Coplan.",
+   "시각(UTC)": "11-12 10:42"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Nomura weighs Laser Digital sale as European losses hit four straight quarters",
+   "요약": "The Japanese brokerage has held talks with potential buyers, including Marex, as its European business posts more losses.",
+   "시각(UTC)": "11-12 10:32"
+  },
   {
    "출처": "CoinDesk",
    "제목": "India’s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
@@ -1151,24 +1169,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
    "요약": "MSCI’s decision to exclude Strategy from its equity indexes could hamper the company’s ability to buy more bitcoin, according to some analysts.",
    "시각(UTC)": "11-12 07:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
-   "요약": "The proposal would remove more than half of Zcash Community Grants' ZEC holdings from circulation and redirect its future block rewards into a new development and legal-defense fund.",
-   "시각(UTC)": "11-12 05:49"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
-   "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
-   "시각(UTC)": "11-12 05:22"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
-   "요약": "Lending support among the ledger’s 35 validators has climbed from 19 to 22 since mid-October, and no public tracker shows which validators switched.",
-   "시각(UTC)": "11-12 05:18"
   }
  ]
 }
@@ -1200,20 +1200,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
+   "ZIG",
    "PENGU",
    "BTC",
-   "ZIG",
-   "SOL",
-   "ZEC",
-   "PI",
-   "HYPE",
    "ETH",
-   "LIT",
-   "ONDO",
-   "NEAR",
-   "INIT",
-   "LINK",
-   "AVAX"
+   "TAO",
+   "ZEC",
+   "UNI",
+   "PEARL",
+   "PI",
+   "XRP",
+   "HYPE",
+   "EPIC",
+   "ICP",
+   "NEAR"
   ],
   "NVDAB가 인기 검색에 있음": false
  }
