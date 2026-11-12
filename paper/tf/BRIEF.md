@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-12 22:55 KST)
+# TF팀 회의 자료 (2026-11-13 00:34 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,19 +96,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1457743282612,
- "완전희석가치 FDV(USD)": 1457743934974,
- "24시간 거래대금(USD)": 25303823974,
- "유통량": 20111053.0,
- "총발행량": 20111062.0,
+ "시가총액(USD)": 1436331113036,
+ "완전희석가치 FDV(USD)": 1436332898533,
+ "24시간 거래대금(USD)": 28496344697,
+ "유통량": 20111084.0,
+ "총발행량": 20111109.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -42.50343,
+ "역대 최고가 대비(%)": -43.35347,
  "가격 변화(%)": {
-  "7d": -8.93644,
-  "30d": -12.95218,
-  "1y": -30.95495
+  "7d": -8.6381,
+  "30d": -14.42871,
+  "1y": -31.3123
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
@@ -137,8 +137,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin slumps below $73,000 as Nvidia's Huang resigns",
-   "요약": "Nasdaq 100 futures are down more than 1% on reports that Nvidia's board is considering firing Jensen Huang after allegations about an additional affair.",
+   "제목": "Live updates: Bitcoin slumps below $72,000 as Nvidia's Huang resigns, interest rates surge",
+   "요약": "The Fed continued amping up its hawkishness on Thursday; meanwhile, existing home sales fell to their weakest level in 16 years.",
    "시각(UTC)": "11-12 09:15"
   },
   {
@@ -184,12 +184,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-11 11:37"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin stuck under $74,000 as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation",
-   "요약": "CoreWeave’s revenue surge lifted AI infrastructure stocks and Nasdaq futures, while bitcoin was little changed over 24 hours.",
-   "시각(UTC)": "11-11 10:45"
-  },
-  {
    "출처": "Cointelegraph",
    "제목": "BlackRock Bitcoin ETF outflows hit $2B over nine sessions",
    "요약": "US spot Bitcoin ETF outflows rose to nearly $300 million on Wednesday, up from $95 million a day earlier, as five-session withdrawals reached $1.44 billion.",
@@ -212,9 +206,33 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
    "요약": "Bitcoin traded in a narrow range as investors bought the dip in tech stocks and US bond yields climbed on high CPI inflation data.",
    "시각(UTC)": "11-11 16:26"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Deutsche Bank launches crypto custody for companies and institutions",
+   "요약": "Clients can store and transfer Bitcoin, Ether and select stablecoins through the bank, which manages their wallets and private keys.",
+   "시각(UTC)": "11-11 14:02"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
+   "요약": "OSL offers a yield on USDGO only to professional investors, but Jupiter said its market lets other holders earn onchain at rates set by borrower demand.",
+   "시각(UTC)": "11-12 14:45"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
+   "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
+   "시각(UTC)": "11-12 14:24"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Nvidia shares plunge as much as 14% as Jensen Huang resigns",
+   "요약": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
+   "시각(UTC)": "11-12 13:57"
+  },
   {
    "출처": "CoinDesk",
    "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
@@ -244,24 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "India’s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
    "요약": "The Enforcement Directorate alleged illegal cross-border flows that violated India's foreign exchange laws.",
    "시각(UTC)": "11-12 10:10"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Gemini sells UK and European operations to stablecoin payments firm KAST for under $10 million",
-   "요약": "The sale follows the Winklevoss-founded crypto exchange’s retreat from several overseas markets as it restructures its business.",
-   "시각(UTC)": "11-12 09:07"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
-   "요약": "The proposal would remove more than half of Zcash Community Grants' ZEC holdings from circulation and redirect its future block rewards into a new development and legal-defense fund.",
-   "시각(UTC)": "11-12 05:49"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
-   "요약": "Lending support among the ledger’s 35 validators has climbed from 19 to 22 since mid-October, and no public tracker shows which validators switched.",
-   "시각(UTC)": "11-12 05:18"
   }
  ]
 }
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0076,
-   "OKX (Futures)": 0.007,
-   "Bybit (Futures)": 0.0053,
-   "Gate (Futures)": 0.008,
-   "MEXC (Futures)": 0.0075,
-   "CoinW (Futures)": 0.0075
+   "Binance (Futures)": 0.008,
+   "Tapbit (Futures)": 0.0082,
+   "OKX (Futures)": 0.0069,
+   "Bybit (Futures)": 0.0059,
+   "Gate (Futures)": 0.0077,
+   "MEXC (Futures)": 0.008
   },
-  "미결제약정 합계 USD(상위)": 19007656001
+  "미결제약정 합계 USD(상위)": 20789833637
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 68.0,
+  "CoinGecko 이용자 투표 상승(%)": 67.97,
   "CoinGecko 인기 검색 코인": [
+   "MIHAO",
    "SEPPUKU",
-   "ROCCO",
+   "PEARL",
    "BTC",
+   "ROCCO",
    "ZIG",
-   "PENGU",
-   "ZEC",
    "ETH",
-   "LIT",
-   "NEAR",
-   "BP",
-   "SUI",
-   "TAO",
-   "CARDS",
+   "HYPE",
    "SOL",
-   "HYPE"
+   "GRAM",
+   "ZEC",
+   "AERO",
+   "NEAR",
+   "TAO",
+   "AAVE"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,19 +410,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 245693963728,
- "완전희석가치 FDV(USD)": 245693963728,
- "24시간 거래대금(USD)": 10007011047,
+ "시가총액(USD)": 244722730436,
+ "완전희석가치 FDV(USD)": 244722730436,
+ "24시간 거래대금(USD)": 10711725751,
  "유통량": 122212724.4774798,
  "총발행량": 122212724.4774798,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -59.35792,
+ "역대 최고가 대비(%)": -59.51447,
  "가격 변화(%)": {
-  "7d": -15.94709,
-  "30d": -19.67991,
-  "1y": -43.41023
+  "7d": -14.42125,
+  "30d": -20.40143,
+  "1y": -42.79818
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
@@ -463,6 +463,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Decrypt",
+   "제목": "SoFi Brings Its Bank-Issued Stablecoin to Polygon’s Payments Stack",
+   "요약": "SoFiUSD, the first stablecoin from a U.S. national bank, is now live on Polygon Open Money Stack alongside Ethereum and Solana.",
+   "시각(UTC)": "11-12 14:01"
+  },
+  {
+   "출처": "Decrypt",
    "제목": "Deutsche Bank Goes Live With Crypto Custody After a Five-Year Buildup",
    "요약": "Deutsche Bank’s custody service now holds Bitcoin, Ethereum and three stablecoins for institutional and corporate clients in Europe.",
    "시각(UTC)": "11-11 19:06"
@@ -475,6 +481,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
+   "요약": "OSL offers a yield on USDGO only to professional investors, but Jupiter said its market lets other holders earn onchain at rates set by borrower demand.",
+   "시각(UTC)": "11-12 14:45"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
+   "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
+   "시각(UTC)": "11-12 14:24"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Nvidia shares plunge as much as 14% as Jensen Huang resigns",
+   "요약": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
+   "시각(UTC)": "11-12 13:57"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin weakness erases September's bullish signal",
@@ -504,24 +528,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Nomura weighs Laser Digital sale as European losses hit four straight quarters",
    "요약": "The Japanese brokerage has held talks with potential buyers, including Marex, as its European business posts more losses.",
    "시각(UTC)": "11-12 10:32"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "India’s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
-   "요약": "The Enforcement Directorate alleged illegal cross-border flows that violated India's foreign exchange laws.",
-   "시각(UTC)": "11-12 10:10"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin slumps below $73,000 as Nvidia's Huang resigns",
-   "요약": "Nasdaq 100 futures are down more than 1% on reports that Nvidia's board is considering firing Jensen Huang after allegations about an additional affair.",
-   "시각(UTC)": "11-12 09:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Gemini sells UK and European operations to stablecoin payments firm KAST for under $10 million",
-   "요약": "The sale follows the Winklevoss-founded crypto exchange’s retreat from several overseas markets as it restructures its business.",
-   "시각(UTC)": "11-12 09:07"
   }
  ]
 }
@@ -546,35 +552,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0023,
-   "CoinW (Futures)": 0.0037,
+   "Binance (Futures)": 0.0018,
+   "CoinW (Futures)": 0.0043,
    "WEEX (Futures)": 0.0001,
-   "OKX (Futures)": 0.0027,
+   "OKX (Futures)": 0.0004,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12582822359
+  "미결제약정 합계 USD(상위)": 12374409637
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 83.33,
+  "CoinGecko 이용자 투표 상승(%)": 82.61,
   "CoinGecko 인기 검색 코인": [
+   "MIHAO",
    "SEPPUKU",
-   "ROCCO",
+   "PEARL",
    "BTC",
+   "ROCCO",
    "ZIG",
-   "PENGU",
-   "ZEC",
    "ETH",
-   "LIT",
-   "NEAR",
-   "BP",
-   "SUI",
-   "TAO",
-   "CARDS",
+   "HYPE",
    "SOL",
-   "HYPE"
+   "GRAM",
+   "ZEC",
+   "AERO",
+   "NEAR",
+   "TAO",
+   "AAVE"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -668,20 +674,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 898,
- "시가총액(USD)": 16471105,
- "완전희석가치 FDV(USD)": 94255248,
- "24시간 거래대금(USD)": 38239498,
+ "시가총액 순위": 899,
+ "시가총액(USD)": 16365450,
+ "완전희석가치 FDV(USD)": 93650641,
+ "24시간 거래대금(USD)": 44448056,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -94.97301,
+ "역대 최고가 대비(%)": -95.00786,
  "가격 변화(%)": {
-  "7d": 36.24726,
-  "30d": 46.97816,
-  "1y": -61.47804
+  "7d": 39.41813,
+  "30d": 45.78238,
+  "1y": -61.11003
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -697,6 +703,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "ERA 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
+   "요약": "OSL offers a yield on USDGO only to professional investors, but Jupiter said its market lets other holders earn onchain at rates set by borrower demand.",
+   "시각(UTC)": "11-12 14:45"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
+   "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
+   "시각(UTC)": "11-12 14:24"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Nvidia shares plunge as much as 14% as Jensen Huang resigns",
+   "요약": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
+   "시각(UTC)": "11-12 13:57"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin weakness erases September's bullish signal",
@@ -726,24 +750,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
    "요약": "More than half of those affected were contractors, a source told Reuters. The cuts follow investor pressure on founder Shayne Coplan.",
    "시각(UTC)": "11-12 10:42"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nomura weighs Laser Digital sale as European losses hit four straight quarters",
-   "요약": "The Japanese brokerage has held talks with potential buyers, including Marex, as its European business posts more losses.",
-   "시각(UTC)": "11-12 10:32"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "India’s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
-   "요약": "The Enforcement Directorate alleged illegal cross-border flows that violated India's foreign exchange laws.",
-   "시각(UTC)": "11-12 10:10"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin slumps below $73,000 as Nvidia's Huang resigns",
-   "요약": "Nasdaq 100 futures are down more than 1% on reports that Nvidia's board is considering firing Jensen Huang after allegations about an additional affair.",
-   "시각(UTC)": "11-12 09:15"
   }
  ]
 }
@@ -768,14 +774,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.1855,
-   "Binance (Futures)": -0.1334,
-   "XT.COM (Derivatives)": -0.1334,
-   "Bybit (Futures)": -0.1599,
-   "Toobit Futures": -0.1333,
-   "WhiteBIT Futures": -0.3562
+   "OrangeX Futures": -0.1369,
+   "Binance (Futures)": -0.1112,
+   "XT.COM (Derivatives)": -0.0321,
+   "Ourbit (Futures)": -0.1131,
+   "Toobit Futures": -0.112,
+   "Bybit (Futures)": -0.0786
   },
-  "미결제약정 합계 USD(상위)": 57378639
+  "미결제약정 합계 USD(상위)": 55795062
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -783,21 +789,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 50.0,
   "CoinGecko 인기 검색 코인": [
+   "MIHAO",
    "SEPPUKU",
-   "ROCCO",
+   "PEARL",
    "BTC",
+   "ROCCO",
    "ZIG",
-   "PENGU",
-   "ZEC",
    "ETH",
-   "LIT",
-   "NEAR",
-   "BP",
-   "SUI",
-   "TAO",
-   "CARDS",
+   "HYPE",
    "SOL",
-   "HYPE"
+   "GRAM",
+   "ZEC",
+   "AERO",
+   "NEAR",
+   "TAO",
+   "AAVE"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -892,19 +898,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 860,
- "시가총액(USD)": 17838693,
- "완전희석가치 FDV(USD)": 17838693,
- "24시간 거래대금(USD)": 8614593,
- "유통량": 46272.463525909996,
- "총발행량": 46272.463525909996,
+ "시가총액 순위": 849,
+ "시가총액(USD)": 18059701,
+ "완전희석가치 FDV(USD)": 18059701,
+ "24시간 거래대금(USD)": 8615982,
+ "유통량": 46315.806362769996,
+ "총발행량": 46315.806362769996,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -11.46253,
+ "역대 최고가 대비(%)": -10.44951,
  "가격 변화(%)": {
-  "7d": 2.38772,
-  "30d": 2.99331,
+  "7d": 12.03626,
+  "30d": 3.87907,
   "1y": null
  },
  "소개": ""
@@ -917,6 +923,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "TSLAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
+   "요약": "OSL offers a yield on USDGO only to professional investors, but Jupiter said its market lets other holders earn onchain at rates set by borrower demand.",
+   "시각(UTC)": "11-12 14:45"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
+   "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
+   "시각(UTC)": "11-12 14:24"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Nvidia shares plunge as much as 14% as Jensen Huang resigns",
+   "요약": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
+   "시각(UTC)": "11-12 13:57"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin weakness erases September's bullish signal",
@@ -946,24 +970,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
    "요약": "More than half of those affected were contractors, a source told Reuters. The cuts follow investor pressure on founder Shayne Coplan.",
    "시각(UTC)": "11-12 10:42"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nomura weighs Laser Digital sale as European losses hit four straight quarters",
-   "요약": "The Japanese brokerage has held talks with potential buyers, including Marex, as its European business posts more losses.",
-   "시각(UTC)": "11-12 10:32"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "India’s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
-   "요약": "The Enforcement Directorate alleged illegal cross-border flows that violated India's foreign exchange laws.",
-   "시각(UTC)": "11-12 10:10"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin slumps below $73,000 as Nvidia's Huang resigns",
-   "요약": "Nasdaq 100 futures are down more than 1% on reports that Nvidia's board is considering firing Jensen Huang after allegations about an additional affair.",
-   "시각(UTC)": "11-12 09:15"
   }
  ]
 }
@@ -994,21 +1000,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 0.0,
   "CoinGecko 인기 검색 코인": [
+   "MIHAO",
    "SEPPUKU",
-   "ROCCO",
+   "PEARL",
    "BTC",
+   "ROCCO",
    "ZIG",
-   "PENGU",
-   "ZEC",
    "ETH",
-   "LIT",
-   "NEAR",
-   "BP",
-   "SUI",
-   "TAO",
-   "CARDS",
+   "HYPE",
    "SOL",
-   "HYPE"
+   "GRAM",
+   "ZEC",
+   "AERO",
+   "NEAR",
+   "TAO",
+   "AAVE"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1103,19 +1109,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 199,
- "시가총액(USD)": 149982147,
- "완전희석가치 FDV(USD)": 149982147,
- "24시간 거래대금(USD)": 210736076,
+ "시가총액 순위": 191,
+ "시가총액(USD)": 157395132,
+ "완전희석가치 FDV(USD)": 161767149,
+ "24시간 거래대금(USD)": 312654514,
  "유통량": 960437.75604864,
- "총발행량": 960437.75604864,
+ "총발행량": 987116.1520454801,
  "최대발행량": null,
- "유통 비율(%)": 100.0,
+ "유통 비율(%)": 97.3,
  "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -35.59606,
+ "역대 최고가 대비(%)": -32.56244,
  "가격 변화(%)": {
-  "7d": -20.51359,
-  "30d": -30.25118,
+  "7d": -13.97558,
+  "30d": -27.34334,
   "1y": null
  },
  "소개": ""
@@ -1128,6 +1134,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "NVDAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
+   "요약": "OSL offers a yield on USDGO only to professional investors, but Jupiter said its market lets other holders earn onchain at rates set by borrower demand.",
+   "시각(UTC)": "11-12 14:45"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
+   "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
+   "시각(UTC)": "11-12 14:24"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Nvidia shares plunge as much as 14% as Jensen Huang resigns",
+   "요약": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
+   "시각(UTC)": "11-12 13:57"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin weakness erases September's bullish signal",
@@ -1157,24 +1181,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
    "요약": "More than half of those affected were contractors, a source told Reuters. The cuts follow investor pressure on founder Shayne Coplan.",
    "시각(UTC)": "11-12 10:42"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nomura weighs Laser Digital sale as European losses hit four straight quarters",
-   "요약": "The Japanese brokerage has held talks with potential buyers, including Marex, as its European business posts more losses.",
-   "시각(UTC)": "11-12 10:32"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "India’s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades",
-   "요약": "The Enforcement Directorate alleged illegal cross-border flows that violated India's foreign exchange laws.",
-   "시각(UTC)": "11-12 10:10"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin slumps below $73,000 as Nvidia's Huang resigns",
-   "요약": "Nasdaq 100 futures are down more than 1%, with Nvidia falling 10% on the news.",
-   "시각(UTC)": "11-12 09:15"
   }
  ]
 }
@@ -1203,23 +1209,23 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": null,
+  "CoinGecko 이용자 투표 상승(%)": 0.0,
   "CoinGecko 인기 검색 코인": [
+   "MIHAO",
    "SEPPUKU",
-   "ROCCO",
+   "PEARL",
    "BTC",
+   "ROCCO",
    "ZIG",
-   "PENGU",
-   "ZEC",
    "ETH",
-   "LIT",
-   "NEAR",
-   "BP",
-   "SUI",
-   "TAO",
-   "CARDS",
+   "HYPE",
    "SOL",
-   "HYPE"
+   "GRAM",
+   "ZEC",
+   "AERO",
+   "NEAR",
+   "TAO",
+   "AAVE"
   ],
   "NVDAB가 인기 검색에 있음": false
  }
