@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-13 01:39 KST)
+# TF팀 회의 자료 (2026-11-13 02:34 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1442851058857,
- "완전희석가치 FDV(USD)": 1442852421993,
- "24시간 거래대금(USD)": 28957659558,
+ "시가총액(USD)": 1446536682534,
+ "완전희석가치 FDV(USD)": 1446538912279,
+ "24시간 거래대금(USD)": 29347555660,
  "유통량": 20111109.0,
- "총발행량": 20111128.0,
+ "총발행량": 20111140.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -43.09573,
+ "역대 최고가 대비(%)": -42.95437,
  "가격 변화(%)": {
-  "7d": -5.54915,
-  "30d": -13.93199,
-  "1y": -29.76243
+  "7d": -5.78488,
+  "30d": -13.68374,
+  "1y": -29.10119
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3865927178
+  "TVL(USD)": 3770951321
  }
 }
 ```
@@ -172,12 +172,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-11 12:21"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin barely flinches at hot CPI as ETF selling slows",
-   "요약": "Your day-ahead look for Nov. 11, 2026",
-   "시각(UTC)": "11-11 12:19"
-  },
-  {
    "출처": "Cointelegraph",
    "제목": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
    "요약": "Bitcoin fell to its lowest leve since Aug. 20 as tech stocks slid following the resignation of Nvidia CEO Jensen Huang.",
@@ -212,9 +206,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Deutsche Bank launches crypto custody for companies and institutions",
    "요약": "Clients can store and transfer Bitcoin, Ether and select stablecoins through the bank, which manages their wallets and private keys.",
    "시각(UTC)": "11-11 14:02"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY — How Bitcoin could carry state across transactions",
+   "요약": "OP_CCV embeds contract state directly into Taproot output keys and enforces valid state transitions onchain. This makes it possible to achieve stateful contracts and compact fraud proofs.",
+   "시각(UTC)": "11-11 13:26"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
+   "요약": "The legal battle to head off the crypto transaction tax in Illinois has drawn up a hefty roster of industry opposition, and they're saying the tax won't work.",
+   "시각(UTC)": "11-12 16:45"
+  },
   {
    "출처": "CoinDesk",
    "제목": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
@@ -256,12 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
    "요약": "Ethlabs wants quantum-resistant accounts targeted for next year, even if wallet holders still have to switch signing methods themselves.",
    "시각(UTC)": "11-12 11:43"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
-   "요약": "More than half of those affected were contractors, a source told Reuters. The cuts follow investor pressure on founder Shayne Coplan.",
-   "시각(UTC)": "11-12 10:42"
   }
  ]
 }
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0094,
-   "OKX (Futures)": 0.0079,
+   "Binance (Futures)": 0.01,
+   "OKX (Futures)": 0.0083,
    "Bybit (Futures)": 0.01,
-   "Gate (Futures)": 0.01,
-   "MEXC (Futures)": 0.0093,
-   "CoinW (Futures)": 0.0092
+   "Gate (Futures)": 0.0072,
+   "MEXC (Futures)": 0.0099,
+   "CoinW (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 19009281906
+  "미결제약정 합계 USD(상위)": 18916293494
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 65.27,
+  "CoinGecko 이용자 투표 상승(%)": 64.33,
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
    "SEPPUKU",
-   "ROCCO",
+   "DACITYCOIN",
    "BTC",
-   "PENGU",
    "ETH",
-   "ENA",
-   "HYPE",
-   "PEARL",
+   "PENGU",
    "SOL",
-   "LIT",
-   "TAO",
+   "ZEC",
+   "PEARL",
+   "HYPE",
+   "AERO",
+   "KNTQ",
    "NEAR",
-   "SUI",
-   "GRAM"
+   "AVAX",
+   "PEPE"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 245166013570,
- "완전희석가치 FDV(USD)": 245166013570,
- "24시간 거래대금(USD)": 10683480973,
+ "시가총액(USD)": 245827637314,
+ "완전희석가치 FDV(USD)": 245827637314,
+ "24시간 거래대금(USD)": 10583447471,
  "유통량": 122212724.4774798,
  "총발행량": 122212724.4774798,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -59.49432,
+ "역대 최고가 대비(%)": -59.33206,
  "가격 변화(%)": {
-  "7d": -10.97526,
-  "30d": -20.30572,
-  "1y": -41.54349
+  "7d": -11.17261,
+  "30d": -19.91094,
+  "1y": -40.78353
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 40991415458
+  "TVL(USD)": 40484832907
  }
 }
 ```
@@ -477,6 +477,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
+   "요약": "The legal battle to head off the crypto transaction tax in Illinois has drawn up a hefty roster of industry opposition, and they're saying the tax won't work.",
+   "시각(UTC)": "11-12 16:45"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
    "요약": "The securities infrastructure giant plans to bring tokenized stocks, ETFs and U.S. Treasuries to Solana as it expands next year's roadmap beyond Stellar and Arc.",
    "시각(UTC)": "11-12 15:45"
@@ -516,12 +522,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
    "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
    "시각(UTC)": "11-12 12:04"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin dips with Nvidia as ETF outflows reach day five",
-   "요약": "Bitcoin slips 0.7% as Nvidia falls on reports its board may oust CEO Jensen Huang, while U.S. spot bitcoin ETFs lose another $299.9 million.",
-   "시각(UTC)": "11-12 11:30"
   }
  ]
 }
@@ -546,35 +546,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0021,
-   "CoinW (Futures)": 0.0048,
+   "Binance (Futures)": 0.0022,
+   "CoinW (Futures)": 0.0061,
    "WEEX (Futures)": 0.0,
-   "OKX (Futures)": 0.0014,
+   "OKX (Futures)": 0.0033,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12502940605
+  "미결제약정 합계 USD(상위)": 12487608038
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 79.55,
+  "CoinGecko 이용자 투표 상승(%)": 77.55,
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
    "SEPPUKU",
-   "ROCCO",
+   "DACITYCOIN",
    "BTC",
-   "PENGU",
    "ETH",
-   "ENA",
-   "HYPE",
-   "PEARL",
+   "PENGU",
    "SOL",
-   "LIT",
-   "TAO",
+   "ZEC",
+   "PEARL",
+   "HYPE",
+   "AERO",
+   "KNTQ",
    "NEAR",
-   "SUI",
-   "GRAM"
+   "AVAX",
+   "PEPE"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -668,20 +668,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 899,
- "시가총액(USD)": 16626095,
- "완전희석가치 FDV(USD)": 95142172,
- "24시간 거래대금(USD)": 45537250,
+ "시가총액 순위": 920,
+ "시가총액(USD)": 15737857,
+ "완전희석가치 FDV(USD)": 90059266,
+ "24시간 거래대금(USD)": 38573414,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -94.94562,
+ "역대 최고가 대비(%)": -95.1993,
  "가격 변화(%)": {
-  "7d": 44.9499,
-  "30d": 49.09821,
-  "1y": -60.04122
+  "7d": 30.88366,
+  "30d": 40.51268,
+  "1y": -61.2459
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -697,6 +697,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "ERA 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
+   "요약": "The legal battle to head off the crypto transaction tax in Illinois has drawn up a hefty roster of industry opposition, and they're saying the tax won't work.",
+   "시각(UTC)": "11-12 16:45"
+  },
   {
    "출처": "CoinDesk",
    "제목": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
@@ -738,12 +744,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
    "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
    "시각(UTC)": "11-12 12:04"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
-   "요약": "Ethlabs wants quantum-resistant accounts targeted for next year, even if wallet holders still have to switch signing methods themselves.",
-   "시각(UTC)": "11-12 11:43"
   }
  ]
 }
@@ -768,14 +768,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.1208,
-   "Binance (Futures)": -0.0945,
+   "OrangeX Futures": -0.0425,
    "XT.COM (Derivatives)": -0.0321,
-   "Ourbit (Futures)": -0.0938,
-   "Toobit Futures": -0.0945,
-   "Bybit (Futures)": -0.1317
+   "Binance (Futures)": -0.0982,
+   "Ourbit (Futures)": -0.0991,
+   "Toobit Futures": -0.099,
+   "Bybit (Futures)": -0.0414
   },
-  "미결제약정 합계 USD(상위)": 62541581
+  "미결제약정 합계 USD(상위)": 61387141
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -785,19 +785,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
    "SEPPUKU",
-   "ROCCO",
+   "DACITYCOIN",
    "BTC",
-   "PENGU",
    "ETH",
-   "ENA",
-   "HYPE",
-   "PEARL",
+   "PENGU",
    "SOL",
-   "LIT",
-   "TAO",
+   "ZEC",
+   "PEARL",
+   "HYPE",
+   "AERO",
+   "KNTQ",
    "NEAR",
-   "SUI",
-   "GRAM"
+   "AVAX",
+   "PEPE"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -892,19 +892,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 853,
- "시가총액(USD)": 18127550,
- "완전희석가치 FDV(USD)": 18193474,
- "24시간 거래대금(USD)": 8683013,
- "유통량": 46315.806362769996,
- "총발행량": 46484.24224421001,
+ "시가총액 순위": 849,
+ "시가총액(USD)": 18196906,
+ "완전희석가치 FDV(USD)": 18273234,
+ "24시간 거래대금(USD)": 8467802,
+ "유통량": 46484.24224421001,
+ "총발행량": 46679.22443746,
  "최대발행량": null,
  "유통 비율(%)": 99.6,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -10.09887,
+ "역대 최고가 대비(%)": -10.09612,
  "가격 변화(%)": {
-  "7d": 14.00301,
-  "30d": 4.13424,
+  "7d": 13.53376,
+  "30d": 4.11515,
   "1y": null
  },
  "소개": ""
@@ -917,6 +917,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "TSLAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
+   "요약": "The legal battle to head off the crypto transaction tax in Illinois has drawn up a hefty roster of industry opposition, and they're saying the tax won't work.",
+   "시각(UTC)": "11-12 16:45"
+  },
   {
    "출처": "CoinDesk",
    "제목": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
@@ -958,12 +964,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
    "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
    "시각(UTC)": "11-12 12:04"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
-   "요약": "Ethlabs wants quantum-resistant accounts targeted for next year, even if wallet holders still have to switch signing methods themselves.",
-   "시각(UTC)": "11-12 11:43"
   }
  ]
 }
@@ -996,19 +996,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
    "SEPPUKU",
-   "ROCCO",
+   "DACITYCOIN",
    "BTC",
-   "PENGU",
    "ETH",
-   "ENA",
-   "HYPE",
-   "PEARL",
+   "PENGU",
    "SOL",
-   "LIT",
-   "TAO",
+   "ZEC",
+   "PEARL",
+   "HYPE",
+   "AERO",
+   "KNTQ",
    "NEAR",
-   "SUI",
-   "GRAM"
+   "AVAX",
+   "PEPE"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1103,19 +1103,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 186,
- "시가총액(USD)": 163055446,
- "완전희석가치 FDV(USD)": 174824135,
- "24시간 거래대금(USD)": 339013159,
- "유통량": 987116.1520454801,
- "총발행량": 1058362.24693432,
+ "시가총액 순위": 182,
+ "시가총액(USD)": 174025285,
+ "완전희석가치 FDV(USD)": 175580804,
+ "24시간 거래대금(USD)": 349791771,
+ "유통량": 1058362.24693432,
+ "총발행량": 1067822.38185357,
  "최대발행량": null,
- "유통 비율(%)": 93.3,
+ "유통 비율(%)": 99.1,
  "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -32.04529,
+ "역대 최고가 대비(%)": -32.27275,
  "가격 변화(%)": {
-  "7d": -10.07785,
-  "30d": -27.01608,
+  "7d": -11.76342,
+  "30d": -27.48426,
   "1y": null
  },
  "소개": ""
@@ -1128,6 +1128,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "NVDAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
+   "요약": "The legal battle to head off the crypto transaction tax in Illinois has drawn up a hefty roster of industry opposition, and they're saying the tax won't work.",
+   "시각(UTC)": "11-12 16:45"
+  },
   {
    "출처": "CoinDesk",
    "제목": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
@@ -1169,12 +1175,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
    "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
    "시각(UTC)": "11-12 12:04"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
-   "요약": "Ethlabs wants quantum-resistant accounts targeted for next year, even if wallet holders still have to switch signing methods themselves.",
-   "시각(UTC)": "11-12 11:43"
   }
  ]
 }
@@ -1207,19 +1207,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
    "SEPPUKU",
-   "ROCCO",
+   "DACITYCOIN",
    "BTC",
-   "PENGU",
    "ETH",
-   "ENA",
-   "HYPE",
-   "PEARL",
+   "PENGU",
    "SOL",
-   "LIT",
-   "TAO",
+   "ZEC",
+   "PEARL",
+   "HYPE",
+   "AERO",
+   "KNTQ",
    "NEAR",
-   "SUI",
-   "GRAM"
+   "AVAX",
+   "PEPE"
   ],
   "NVDAB가 인기 검색에 있음": false
  }
