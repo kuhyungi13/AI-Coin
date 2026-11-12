@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-12 15:43 KST)
+# TF팀 회의 자료 (2026-11-12 17:40 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -66,19 +66,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -0.28,
-   "7일": 0.02,
-   "30일": -2.75,
-   "90일": -9.04
+   "1일": -0.2,
+   "7일": -0.15,
+   "30일": -3.2,
+   "90일": -9.15
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -0.67,
-   "MA60": -3.13,
-   "MA120": -5.31
+   "MA20": -0.79,
+   "MA60": -3.23,
+   "MA120": -5.41
   },
   "MA20>MA60": false,
   "최근 교차": null,
-  "RSI14": 40.5
+  "RSI14": 39.3
  }
 }
 ```
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1479152835001,
- "완전희석가치 FDV(USD)": 1479152835001,
- "24시간 거래대금(USD)": 25008525914,
+ "시가총액(USD)": 1477374995506,
+ "완전희석가치 FDV(USD)": 1477376391266,
+ "24시간 거래대금(USD)": 23599915300,
  "유통량": 20110993.0,
- "총발행량": 20110993.0,
+ "총발행량": 20111012.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -41.66439,
+ "역대 최고가 대비(%)": -41.73451,
  "가격 변화(%)": {
-  "7d": -8.4686,
-  "30d": -12.0294,
-  "1y": -28.82703
+  "7d": -8.51358,
+  "30d": -12.36134,
+  "1y": -28.76696
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3871470496
+  "TVL(USD)": 3865942396
  }
 }
 ```
@@ -123,6 +123,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
+   "요약": "The Avalon maker has launched a $20 million repurchase program, while most of its bitcoin holdings were pledged or placed in a fixed-term product at September’s end.",
+   "시각(UTC)": "11-12 07:41"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
+   "요약": "MSCI’s decision to exclude Strategy from its equity indices could hamper the company’s ability to buy more bitcoin, according to some analysts.",
+   "시각(UTC)": "11-12 07:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
@@ -178,10 +190,10 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-10 10:48"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin falls to nearly three-month low after disappointing inflation data",
-   "요약": "A rate hike in December appears totally assured now, with Fed Governor Chris Waller suggesting even a 50-basis-point move could be appropriate.",
-   "시각(UTC)": "11-10 10:41"
+   "출처": "Cointelegraph",
+   "제목": "BlackRock Bitcoin ETF outflows hit $2B over nine sessions",
+   "요약": "US spot Bitcoin ETF outflows rose to nearly $300 million on Wednesday, up from $95 million a day earlier, as five-session withdrawals reached $1.44 billion.",
+   "시각(UTC)": "11-12 08:06"
   },
   {
    "출처": "Cointelegraph",
@@ -200,18 +212,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
    "요약": "Bitcoin traded in a narrow range as investors bought the dip in tech stocks and US bond yields climbed on high CPI inflation data.",
    "시각(UTC)": "11-11 16:26"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Deutsche Bank launches crypto custody for companies and institutions",
-   "요약": "Clients can store and transfer Bitcoin, Ether and select stablecoins through the bank, which manages their wallets and private keys.",
-   "시각(UTC)": "11-11 14:02"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY — How Bitcoin could carry state across transactions",
-   "요약": "OP_CCV embeds contract state directly into Taproot output keys and enforces valid state transitions onchain. This makes it possible to achieve stateful contracts and compact fraud proofs.",
-   "시각(UTC)": "11-11 13:26"
   }
  ],
  "시장 전반 기사": [
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0077,
-   "OKX (Futures)": 0.01,
-   "Bybit (Futures)": 0.0063,
-   "MEXC (Futures)": 0.0077,
-   "Gate (Futures)": 0.01,
-   "CoinW (Futures)": 0.0077
+   "Binance (Futures)": 0.0052,
+   "OKX (Futures)": 0.0086,
+   "Bybit (Futures)": 0.0032,
+   "MEXC (Futures)": 0.0061,
+   "Gate (Futures)": 0.0058,
+   "CoinW (Futures)": 0.0059
   },
-  "미결제약정 합계 USD(상위)": 18814291203
+  "미결제약정 합계 USD(상위)": 18903303562
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 66.67,
+  "CoinGecko 이용자 투표 상승(%)": 67.97,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "GRAM",
    "PENGU",
    "BTC",
-   "ZEC",
    "PEARL",
-   "ZRO",
-   "INIT",
+   "EPIC",
+   "GRAM",
+   "ZEC",
+   "ETH",
    "HYPE",
+   "PI",
+   "INIT",
+   "PUMP",
+   "VVV",
    "XRP",
-   "SOL",
-   "PEPE",
-   "TAO",
-   "SUI",
-   "STRK"
+   "TAO"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -377,22 +377,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -0.06,
-   "7일": 0.09,
-   "30일": -8.46,
-   "90일": -12.94
+   "1일": -0.17,
+   "7일": -0.54,
+   "30일": -8.66,
+   "90일": -13.12
   },
   "종가와 이평선 거리(%)": {
    "MA20": -1.64,
    "MA60": -7.28,
-   "MA120": -9.33
+   "MA120": -9.38
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 24
+   "며칠 전": 25
   },
-  "RSI14": 35.1
+  "RSI14": 34.5
  }
 }
 ```
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 250089851554,
- "완전희석가치 FDV(USD)": 250089851554,
- "24시간 거래대금(USD)": 8904505424,
+ "시가총액(USD)": 250115642061,
+ "완전희석가치 FDV(USD)": 250115642061,
+ "24시간 거래대금(USD)": 8647957249,
  "유통량": 122212724.4774798,
  "총발행량": 122212724.4774798,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -58.62657,
+ "역대 최고가 대비(%)": -58.6223,
  "가격 변화(%)": {
-  "7d": -15.36135,
-  "30d": -19.0949,
-  "1y": -40.64153
+  "7d": -15.21628,
+  "30d": -19.0719,
+  "1y": -40.32224
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41164158133
+  "TVL(USD)": 41094481151
  }
 }
 ```
@@ -465,6 +465,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
+   "요약": "The Avalon maker has launched a $20 million repurchase program, while most of its bitcoin holdings were pledged or placed in a fixed-term product at September’s end.",
+   "시각(UTC)": "11-12 07:41"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
+   "요약": "MSCI’s decision to exclude Strategy from its equity indices could hamper the company’s ability to buy more bitcoin, according to some analysts.",
+   "시각(UTC)": "11-12 07:00"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
    "요약": "The proposal would remove more than half of Zcash Community Grants' ZEC holdings from circulation and redirect its future block rewards into a new development and legal-defense fund.",
    "시각(UTC)": "11-12 05:49"
@@ -498,18 +510,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
    "요약": "After initial issuer pushback, the blockchain venue is set to start trading on Nov. 23 and said will list over 70 assets, including Strategy’s common and preferred shares and 59 of Direxion's ETFs.",
    "시각(UTC)": "11-11 13:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Meet Spiko, the largest tokenized fund in the world you’ve probably never heard about",
-   "요약": "The firm’s flagship Spiko Amundi Overnight Swap Fund (SAFO) held $2.39 billion in assets under management as of late last month.",
-   "시각(UTC)": "11-11 12:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-   "요약": "The DRAM ETF jumps 8% and semiconductor stocks gain more than 4%, while bitcoin continues to test its 200-day moving average.",
-   "시각(UTC)": "11-11 12:21"
   }
  ]
 }
@@ -534,37 +534,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0065,
-   "CoinW (Futures)": 0.0057,
+   "Binance (Futures)": 0.0049,
+   "CoinW (Futures)": 0.0048,
    "WEEX (Futures)": 0.0001,
-   "OKX (Futures)": 0.0042,
+   "OKX (Futures)": 0.0024,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12779182598
+  "미결제약정 합계 USD(상위)": 12800713477
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 84.09,
+  "CoinGecko 이용자 투표 상승(%)": 86.36,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "GRAM",
    "PENGU",
    "BTC",
-   "ZEC",
    "PEARL",
-   "ZRO",
-   "INIT",
+   "EPIC",
+   "GRAM",
+   "ZEC",
+   "ETH",
    "HYPE",
+   "PI",
+   "INIT",
+   "PUMP",
+   "VVV",
    "XRP",
-   "SOL",
-   "PEPE",
-   "TAO",
-   "SUI",
-   "STRK"
+   "TAO"
   ],
-  "ETH가 인기 검색에 있음": false
+  "ETH가 인기 검색에 있음": true
  }
 }
 ```
@@ -624,22 +624,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -0.91,
-   "7일": 8.1,
-   "30일": 20.92,
-   "90일": 11.44
+   "1일": 5.31,
+   "7일": 8.3,
+   "30일": 26.81,
+   "90일": 9.6
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 10.65,
-   "MA60": 20.47,
-   "MA120": 16.78
+   "MA20": 15.37,
+   "MA60": 26.03,
+   "MA120": 22.71
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 29
+   "며칠 전": 30
   },
-  "RSI14": 67.0
+  "RSI14": 72.4
  }
 }
 ```
@@ -656,20 +656,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 898,
- "시가총액(USD)": 16395655,
- "완전희석가치 FDV(USD)": 93823488,
- "24시간 거래대금(USD)": 54637213,
+ "시가총액 순위": 888,
+ "시가총액(USD)": 17132051,
+ "완전희석가치 FDV(USD)": 98037489,
+ "24시간 거래대금(USD)": 46392000,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -94.99864,
+ "역대 최고가 대비(%)": -94.77401,
  "가격 변화(%)": {
-  "7d": 39.21809,
-  "30d": 38.3637,
-  "1y": -60.94835
+  "7d": 47.52472,
+  "30d": 48.1731,
+  "1y": -58.74059
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -685,6 +685,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "ERA 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
+   "요약": "The Avalon maker has launched a $20 million repurchase program, while most of its bitcoin holdings were pledged or placed in a fixed-term product at September’s end.",
+   "시각(UTC)": "11-12 07:41"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
+   "요약": "MSCI’s decision to exclude Strategy from its equity indices could hamper the company’s ability to buy more bitcoin, according to some analysts.",
+   "시각(UTC)": "11-12 07:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
@@ -720,18 +732,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
    "요약": "After initial issuer pushback, the blockchain venue is set to start trading on Nov. 23 and said will list over 70 assets, including Strategy’s common and preferred shares and 59 of Direxion's ETFs.",
    "시각(UTC)": "11-11 13:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Meet Spiko, the largest tokenized fund in the world you’ve probably never heard about",
-   "요약": "The firm’s flagship Spiko Amundi Overnight Swap Fund (SAFO) held $2.39 billion in assets under management as of late last month.",
-   "시각(UTC)": "11-11 12:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-   "요약": "The DRAM ETF jumps 8% and semiconductor stocks gain more than 4%, while bitcoin continues to test its 200-day moving average.",
-   "시각(UTC)": "11-11 12:21"
   }
  ]
 }
@@ -756,14 +756,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.3162,
-   "Binance (Futures)": -0.138,
-   "XT.COM (Derivatives)": -0.1418,
-   "Ourbit (Futures)": -0.1399,
-   "Toobit Futures": -0.1393,
-   "Bybit (Futures)": -0.2666
+   "OrangeX Futures": -0.2157,
+   "Binance (Futures)": -0.1119,
+   "XT.COM (Derivatives)": -0.112,
+   "Toobit Futures": -0.1119,
+   "Ourbit (Futures)": -0.1118,
+   "Bybit (Futures)": -0.184
   },
-  "미결제약정 합계 USD(상위)": 51512342
+  "미결제약정 합계 USD(상위)": 44767965
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -772,20 +772,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 100.0,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "GRAM",
    "PENGU",
    "BTC",
-   "ZEC",
    "PEARL",
-   "ZRO",
-   "INIT",
+   "EPIC",
+   "GRAM",
+   "ZEC",
+   "ETH",
    "HYPE",
+   "PI",
+   "INIT",
+   "PUMP",
+   "VVV",
    "XRP",
-   "SOL",
-   "PEPE",
-   "TAO",
-   "SUI",
-   "STRK"
+   "TAO"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -848,22 +848,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": 0.17,
-   "7일": 1.58,
-   "30일": 7.79,
-   "90일": -5.14
+   "1일": -0.02,
+   "7일": 0.43,
+   "30일": 7.84,
+   "90일": -6.02
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 2.48,
-   "MA60": 3.16,
-   "MA120": 1.02
+   "MA20": 2.03,
+   "MA60": 3.2,
+   "MA120": 0.98
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 1
+   "며칠 전": 2
   },
-  "RSI14": 61.8
+  "RSI14": 61.7
  }
 }
 ```
@@ -880,19 +880,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 867,
- "시가총액(USD)": 17742716,
- "완전희석가치 FDV(USD)": 17742716,
- "24시간 거래대금(USD)": 9182172,
- "유통량": 45948.25516576,
- "총발행량": 45948.25516576,
+ "시가총액 순위": 869,
+ "시가총액(USD)": 17774530,
+ "완전희석가치 FDV(USD)": 17774530,
+ "24시간 거래대금(USD)": 5968676,
+ "유통량": 45949.25765021,
+ "총발행량": 45949.25765021,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -11.31754,
+ "역대 최고가 대비(%)": -11.16046,
  "가격 변화(%)": {
-  "7d": 2.48055,
-  "30d": 3.04971,
+  "7d": 2.50379,
+  "30d": 3.16043,
   "1y": null
  },
  "소개": ""
@@ -905,6 +905,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "TSLAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
+   "요약": "The Avalon maker has launched a $20 million repurchase program, while most of its bitcoin holdings were pledged or placed in a fixed-term product at September’s end.",
+   "시각(UTC)": "11-12 07:41"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
+   "요약": "MSCI’s decision to exclude Strategy from its equity indices could hamper the company’s ability to buy more bitcoin, according to some analysts.",
+   "시각(UTC)": "11-12 07:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
@@ -940,18 +952,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
    "요약": "After initial issuer pushback, the blockchain venue is set to start trading on Nov. 23 and said will list over 70 assets, including Strategy’s common and preferred shares and 59 of Direxion's ETFs.",
    "시각(UTC)": "11-11 13:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Meet Spiko, the largest tokenized fund in the world you’ve probably never heard about",
-   "요약": "The firm’s flagship Spiko Amundi Overnight Swap Fund (SAFO) held $2.39 billion in assets under management as of late last month.",
-   "시각(UTC)": "11-11 12:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-   "요약": "The DRAM ETF jumps 8% and semiconductor stocks gain more than 4%, while bitcoin continues to test its 200-day moving average.",
-   "시각(UTC)": "11-11 12:21"
   }
  ]
 }
@@ -983,20 +983,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "GRAM",
    "PENGU",
    "BTC",
-   "ZEC",
    "PEARL",
-   "ZRO",
-   "INIT",
+   "EPIC",
+   "GRAM",
+   "ZEC",
+   "ETH",
    "HYPE",
+   "PI",
+   "INIT",
+   "PUMP",
+   "VVV",
    "XRP",
-   "SOL",
-   "PEPE",
-   "TAO",
-   "SUI",
-   "STRK"
+   "TAO"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1059,22 +1059,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": 0.3,
-   "7일": -5.37,
-   "30일": -14.12,
-   "90일": -26.36
+   "1일": 0.09,
+   "7일": -6.93,
+   "30일": -14.06,
+   "90일": -26.49
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -7.71,
-   "MA60": -14.6,
-   "MA120": -19.47
+   "MA20": -7.15,
+   "MA60": -14.17,
+   "MA120": -19.22
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 76
+   "며칠 전": 77
   },
-  "RSI14": 28.8
+  "RSI14": 29.1
  }
 }
 ```
@@ -1091,19 +1091,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 205,
- "시가총액(USD)": 141987472,
- "완전희석가치 FDV(USD)": 141987472,
- "24시간 거래대금(USD)": 165426109,
- "유통량": 882049.72679092,
- "총발행량": 882049.72679092,
+ "시가총액 순위": 201,
+ "시가총액(USD)": 144939459,
+ "완전희석가치 FDV(USD)": 144939459,
+ "24시간 거래대금(USD)": 167637857,
+ "유통량": 890074.40942332,
+ "총발행량": 890074.40942332,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -33.6956,
+ "역대 최고가 대비(%)": -32.92731,
  "가격 변화(%)": {
-  "7d": -18.50114,
-  "30d": -28.23825,
+  "7d": -17.83783,
+  "30d": -27.44309,
   "1y": null
  },
  "소개": ""
@@ -1116,6 +1116,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "NVDAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
+   "요약": "The Avalon maker has launched a $20 million repurchase program, while most of its bitcoin holdings were pledged or placed in a fixed-term product at September’s end.",
+   "시각(UTC)": "11-12 07:41"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
+   "요약": "MSCI’s decision to exclude Strategy from its equity indices could hamper the company’s ability to buy more bitcoin, according to some analysts.",
+   "시각(UTC)": "11-12 07:00"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury",
@@ -1151,18 +1163,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
    "요약": "After initial issuer pushback, the blockchain venue is set to start trading on Nov. 23 and said will list over 70 assets, including Strategy’s common and preferred shares and 59 of Direxion's ETFs.",
    "시각(UTC)": "11-11 13:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Meet Spiko, the largest tokenized fund in the world you’ve probably never heard about",
-   "요약": "The firm’s flagship Spiko Amundi Overnight Swap Fund (SAFO) held $2.39 billion in assets under management as of late last month.",
-   "시각(UTC)": "11-11 12:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-   "요약": "The DRAM ETF jumps 8% and semiconductor stocks gain more than 4%, while bitcoin continues to test its 200-day moving average.",
-   "시각(UTC)": "11-11 12:21"
   }
  ]
 }
@@ -1194,20 +1194,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "GRAM",
    "PENGU",
    "BTC",
-   "ZEC",
    "PEARL",
-   "ZRO",
-   "INIT",
+   "EPIC",
+   "GRAM",
+   "ZEC",
+   "ETH",
    "HYPE",
+   "PI",
+   "INIT",
+   "PUMP",
+   "VVV",
    "XRP",
-   "SOL",
-   "PEPE",
-   "TAO",
-   "SUI",
-   "STRK"
+   "TAO"
   ],
   "NVDAB가 인기 검색에 있음": false
  }
