@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-13 07:25 KST)
+# TF팀 회의 자료 (2026-11-13 08:21 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,19 +96,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1435765615791,
- "완전희석가치 FDV(USD)": 1435765615791,
- "24시간 거래대금(USD)": 27995901824,
+ "시가총액(USD)": 1434065497713,
+ "완전희석가치 FDV(USD)": 1434065497713,
+ "24시간 거래대금(USD)": 27483766479,
  "유통량": 20111221.0,
  "총발행량": 20111221.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -43.37616,
+ "역대 최고가 대비(%)": -43.44321,
  "가격 변화(%)": {
-  "7d": -5.78326,
-  "30d": -14.45782,
-  "1y": -29.89997
+  "7d": -5.75802,
+  "30d": -14.56052,
+  "1y": -30.03203
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
@@ -208,13 +208,25 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-11 14:02"
   },
   {
-   "출처": "Cointelegraph",
-   "제목": "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY — How Bitcoin could carry state across transactions",
-   "요약": "OP_CCV embeds contract state directly into Taproot output keys and enforces valid state transitions onchain. This makes it possible to achieve stateful contracts and compact fraud proofs.",
-   "시각(UTC)": "11-11 13:26"
+   "출처": "Decrypt",
+   "제목": "Strategy Made $19.5 Billion in Profit. So Why Is MSCI Removing It From Stock Indexes?",
+   "요약": "Michael Saylor’s Bitcoin giant is being excluded from major investment benchmarks, raising questions about what qualifies as a business—and whether the decision could slow its Bitcoin buying.",
+   "시각(UTC)": "11-12 21:26"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
+   "요약": "Federal authorities say they've taken infrastructure used in the FaceStealer scheme used to steal as much as $400 million in crypto assets.",
+   "시각(UTC)": "11-12 22:55"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
+   "요약": "U.S. President Donald Trump has named two potential commissioners each to the Securities and Exchange Commission and Commodity Futures Trading Commission.",
+   "시각(UTC)": "11-12 22:47"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Kalshi ends Donald Trump Jr.’s advisory contract over 1789 Capital’s Polymarket investment",
@@ -250,18 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
    "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
    "시각(UTC)": "11-12 14:24"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-   "요약": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
-   "시각(UTC)": "11-12 13:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
-   "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
-   "시각(UTC)": "11-12 12:04"
   }
  ]
 }
@@ -293,28 +293,28 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MEXC (Futures)": 0.01,
    "CoinW (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 18870905281
+  "미결제약정 합계 USD(상위)": 18930711827
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 57.29,
+  "CoinGecko 이용자 투표 상승(%)": 56.86,
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
    "SEPPUKU",
    "DACITYCOIN",
-   "SOL",
    "BTC",
-   "PEARL",
-   "LIT",
    "ZEC",
-   "MON",
-   "AKT",
+   "PEARL",
    "PENGU",
-   "ENA",
-   "PEPE",
+   "XMR",
+   "XRP",
+   "SOL",
+   "QNT",
+   "FET",
    "NEAR",
+   "VVV",
    "TAO"
   ],
   "BTC가 인기 검색에 있음": true
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 245899250154,
- "완전희석가치 FDV(USD)": 245899250154,
- "24시간 거래대금(USD)": 10605600176,
+ "시가총액(USD)": 246061264445,
+ "완전희석가치 FDV(USD)": 246061264445,
+ "24시간 거래대금(USD)": 10254956648,
  "유통량": 122212724.4774798,
  "총발행량": 122212724.4774798,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -59.31984,
+ "역대 최고가 대비(%)": -59.29304,
  "가격 변화(%)": {
-  "7d": -9.68476,
-  "30d": -19.83452,
-  "1y": -41.14002
+  "7d": -9.6753,
+  "30d": -19.75569,
+  "1y": -41.1273
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 40456939787
+  "TVL(USD)": 40473756683
  }
 }
 ```
@@ -477,6 +477,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
+   "요약": "Federal authorities say they've taken infrastructure used in the FaceStealer scheme used to steal as much as $400 million in crypto assets.",
+   "시각(UTC)": "11-12 22:55"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
+   "요약": "U.S. President Donald Trump has named two potential commissioners each to the Securities and Exchange Commission and Commodity Futures Trading Commission.",
+   "시각(UTC)": "11-12 22:47"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Kalshi ends Donald Trump Jr.’s advisory contract over 1789 Capital’s Polymarket investment",
    "요약": "Trump Jr. joined Kalshi as a strategic adviser in January 2025, helping the prediction market expand its customer base and strengthen its market presence.",
    "시각(UTC)": "11-12 21:07"
@@ -510,18 +522,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
    "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
    "시각(UTC)": "11-12 14:24"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-   "요약": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
-   "시각(UTC)": "11-12 13:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin weakness erases September's bullish signal",
-   "요약": "Your day-ahead look for Nov. 12, 2026",
-   "시각(UTC)": "11-12 12:15"
   }
  ]
 }
@@ -546,34 +546,34 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0075,
-   "CoinW (Futures)": 0.01,
+   "Binance (Futures)": 0.0073,
+   "CoinW (Futures)": 0.0086,
    "WEEX (Futures)": 0.0,
-   "OKX (Futures)": 0.0065,
+   "OKX (Futures)": 0.0062,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12388784307
+  "미결제약정 합계 USD(상위)": 12397365818
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 80.0,
+  "CoinGecko 이용자 투표 상승(%)": 78.0,
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
    "SEPPUKU",
    "DACITYCOIN",
-   "SOL",
    "BTC",
-   "PEARL",
-   "LIT",
    "ZEC",
-   "MON",
-   "AKT",
+   "PEARL",
    "PENGU",
-   "ENA",
-   "PEPE",
+   "XMR",
+   "XRP",
+   "SOL",
+   "QNT",
+   "FET",
    "NEAR",
+   "VVV",
    "TAO"
   ],
   "ETH가 인기 검색에 있음": false
@@ -668,20 +668,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 970,
- "시가총액(USD)": 14214035,
- "완전희석가치 FDV(USD)": 81339257,
- "24시간 거래대금(USD)": 40955049,
+ "시가총액 순위": 975,
+ "시가총액(USD)": 14126252,
+ "완전희석가치 FDV(USD)": 80836924,
+ "24시간 거래대금(USD)": 44558218,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -95.66413,
+ "역대 최고가 대비(%)": -95.6909,
  "가격 변화(%)": {
-  "7d": 16.5529,
-  "30d": 26.56858,
-  "1y": -65.69504
+  "7d": 14.26407,
+  "30d": 26.05776,
+  "1y": -66.08439
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -697,6 +697,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "ERA 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
+   "요약": "Federal authorities say they've taken infrastructure used in the FaceStealer scheme used to steal as much as $400 million in crypto assets.",
+   "시각(UTC)": "11-12 22:55"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
+   "요약": "U.S. President Donald Trump has named two potential commissioners each to the Securities and Exchange Commission and Commodity Futures Trading Commission.",
+   "시각(UTC)": "11-12 22:47"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Kalshi ends Donald Trump Jr.’s advisory contract over 1789 Capital’s Polymarket investment",
@@ -732,18 +744,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
    "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
    "시각(UTC)": "11-12 14:24"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-   "요약": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
-   "시각(UTC)": "11-12 13:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin weakness erases September's bullish signal",
-   "요약": "Your day-ahead look for Nov. 12, 2026",
-   "시각(UTC)": "11-12 12:15"
   }
  ]
 }
@@ -770,12 +770,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "거래소별 펀딩비(%)": {
    "OrangeX Futures": 0.01,
    "XT.COM (Derivatives)": -0.0321,
-   "Binance (Futures)": -0.0456,
-   "Ourbit (Futures)": -0.0455,
-   "Toobit Futures": -0.0456,
+   "Binance (Futures)": -0.0272,
+   "Ourbit (Futures)": -0.027,
+   "Toobit Futures": -0.0272,
    "Bybit (Futures)": 0.005
   },
-  "미결제약정 합계 USD(상위)": 56982069
+  "미결제약정 합계 USD(상위)": 55569138
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -786,17 +786,17 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MIHAO",
    "SEPPUKU",
    "DACITYCOIN",
-   "SOL",
    "BTC",
-   "PEARL",
-   "LIT",
    "ZEC",
-   "MON",
-   "AKT",
+   "PEARL",
    "PENGU",
-   "ENA",
-   "PEPE",
+   "XMR",
+   "XRP",
+   "SOL",
+   "QNT",
+   "FET",
    "NEAR",
+   "VVV",
    "TAO"
   ],
   "ERA가 인기 검색에 있음": false
@@ -892,19 +892,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 834,
- "시가총액(USD)": 18783366,
- "완전희석가치 FDV(USD)": 18783366,
- "24시간 거래대금(USD)": 10397750,
- "유통량": 47313.60078382,
- "총발행량": 47313.60078382,
+ "시가총액 순위": 832,
+ "시가총액(USD)": 18827757,
+ "완전희석가치 FDV(USD)": 18827757,
+ "24시간 거래대금(USD)": 6588288,
+ "유통량": 47352.99224488,
+ "총발행량": 47352.99224488,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -8.82535,
+ "역대 최고가 대비(%)": -8.6859,
  "가격 변화(%)": {
-  "7d": 16.60714,
-  "30d": 5.91896,
+  "7d": 17.46154,
+  "30d": 5.98198,
   "1y": null
  },
  "소개": ""
@@ -917,6 +917,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "TSLAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
+   "요약": "Federal authorities say they've taken infrastructure used in the FaceStealer scheme used to steal as much as $400 million in crypto assets.",
+   "시각(UTC)": "11-12 22:55"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
+   "요약": "U.S. President Donald Trump has named two potential commissioners each to the Securities and Exchange Commission and Commodity Futures Trading Commission.",
+   "시각(UTC)": "11-12 22:47"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Kalshi ends Donald Trump Jr.’s advisory contract over 1789 Capital’s Polymarket investment",
@@ -952,18 +964,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
    "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
    "시각(UTC)": "11-12 14:24"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-   "요약": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
-   "시각(UTC)": "11-12 13:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin weakness erases September's bullish signal",
-   "요약": "Your day-ahead look for Nov. 12, 2026",
-   "시각(UTC)": "11-12 12:15"
   }
  ]
 }
@@ -997,17 +997,17 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MIHAO",
    "SEPPUKU",
    "DACITYCOIN",
-   "SOL",
    "BTC",
-   "PEARL",
-   "LIT",
    "ZEC",
-   "MON",
-   "AKT",
+   "PEARL",
    "PENGU",
-   "ENA",
-   "PEPE",
+   "XMR",
+   "XRP",
+   "SOL",
+   "QNT",
+   "FET",
    "NEAR",
+   "VVV",
    "TAO"
   ],
   "TSLAB가 인기 검색에 있음": false
@@ -1103,19 +1103,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 175,
- "시가총액(USD)": 182766261,
- "완전희석가치 FDV(USD)": 182766261,
- "24시간 거래대금(USD)": 364907208,
- "유통량": 1098333.17487833,
- "총발행량": 1098333.17487833,
+ "시가총액 순위": 174,
+ "시가총액(USD)": 183812639,
+ "완전희석가치 FDV(USD)": 183812639,
+ "24시간 거래대금(USD)": 337095276,
+ "유통량": 1099379.6732680202,
+ "총발행량": 1099379.6732680202,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -31.4539,
+ "역대 최고가 대비(%)": -31.1327,
  "가격 변화(%)": {
-  "7d": -8.64286,
-  "30d": -27.40838,
+  "7d": -8.28198,
+  "30d": -27.09514,
   "1y": null
  },
  "소개": ""
@@ -1128,6 +1128,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "NVDAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
+   "요약": "Federal authorities say they've taken infrastructure used in the FaceStealer scheme used to steal as much as $400 million in crypto assets.",
+   "시각(UTC)": "11-12 22:55"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "U.S. President Trump names CFTC, SEC nominees for first time in a year",
+   "요약": "U.S. President Donald Trump has named two potential commissioners each to the Securities and Exchange Commission and Commodity Futures Trading Commission.",
+   "시각(UTC)": "11-12 22:47"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Kalshi ends Donald Trump Jr.’s advisory contract over 1789 Capital’s Polymarket investment",
@@ -1163,18 +1175,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
    "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
    "시각(UTC)": "11-12 14:24"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-   "요약": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
-   "시각(UTC)": "11-12 13:57"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin weakness erases September's bullish signal",
-   "요약": "Your day-ahead look for Nov. 12, 2026",
-   "시각(UTC)": "11-12 12:15"
   }
  ]
 }
@@ -1208,17 +1208,17 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MIHAO",
    "SEPPUKU",
    "DACITYCOIN",
-   "SOL",
    "BTC",
-   "PEARL",
-   "LIT",
    "ZEC",
-   "MON",
-   "AKT",
+   "PEARL",
    "PENGU",
-   "ENA",
-   "PEPE",
+   "XMR",
+   "XRP",
+   "SOL",
+   "QNT",
+   "FET",
    "NEAR",
+   "VVV",
    "TAO"
   ],
   "NVDAB가 인기 검색에 있음": false
