@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-12 09:30 KST)
+# TF팀 회의 자료 (2026-11-12 10:55 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1488275503818,
- "완전희석가치 FDV(USD)": 1488280166058,
- "24시간 거래대금(USD)": 26157600089,
+ "시가총액(USD)": 1479897403436,
+ "완전희석가치 FDV(USD)": 1479904762158,
+ "24시간 거래대금(USD)": 25718655720,
  "유통량": 20110793.0,
- "총발행량": 20110871.0,
+ "총발행량": 20110893.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -41.30062,
+ "역대 최고가 대비(%)": -41.63445,
  "가격 변화(%)": {
-  "7d": -7.99898,
-  "30d": -9.51983,
-  "1y": -28.22565
+  "7d": -8.58059,
+  "30d": -9.56338,
+  "1y": -28.44951
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3887521603
+  "TVL(USD)": 3889499987
  }
 }
 ```
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0038,
-   "OKX (Futures)": 0.0062,
-   "Bybit (Futures)": 0.0064,
-   "MEXC (Futures)": 0.0038,
+   "Binance (Futures)": 0.0062,
+   "OKX (Futures)": 0.0075,
+   "Bybit (Futures)": 0.0062,
+   "MEXC (Futures)": 0.0061,
    "Gate (Futures)": 0.01,
-   "CoinW (Futures)": 0.0035
+   "CoinW (Futures)": 0.0061
   },
-  "미결제약정 합계 USD(상위)": 18707674760
+  "미결제약정 합계 USD(상위)": 18771214266
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 67.72,
+  "CoinGecko 이용자 투표 상승(%)": 67.19,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
    "PENGU",
-   "PONS",
-   "TAO",
-   "BTC",
-   "KNTQ",
-   "HYPE",
-   "PEPE",
-   "GRAM",
-   "UNI",
-   "ZEC",
    "PI",
-   "QNT",
-   "MON",
-   "SHIB"
+   "ZEC",
+   "PEARL",
+   "LIT",
+   "XRP",
+   "UNI",
+   "EPIC",
+   "NEAR",
+   "AVAX",
+   "HYPE",
+   "BTC",
+   "ARIA",
+   "CORE"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 251717299504,
- "완전희석가치 FDV(USD)": 251717299504,
- "24시간 거래대금(USD)": 9228626279,
+ "시가총액(USD)": 250230501879,
+ "완전희석가치 FDV(USD)": 250230501879,
+ "24시간 거래대금(USD)": 9076990768,
  "유통량": 122209757.95344049,
  "총발행량": 122209757.95344049,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -58.35163,
+ "역대 최고가 대비(%)": -58.6023,
  "가격 변화(%)": {
-  "7d": -14.98647,
-  "30d": -15.77917,
-  "1y": -39.69835
+  "7d": -15.37578,
+  "30d": -15.3896,
+  "1y": -40.10719
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41285209166
+  "TVL(USD)": 41152837782
  }
 }
 ```
@@ -540,35 +540,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.004,
-   "CoinW (Futures)": 0.0057,
+   "Binance (Futures)": 0.0048,
+   "CoinW (Futures)": 0.0066,
    "WEEX (Futures)": 0.0001,
-   "OKX (Futures)": 0.0011,
+   "OKX (Futures)": 0.0014,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12739867396
+  "미결제약정 합계 USD(상위)": 12736814105
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 87.23,
+  "CoinGecko 이용자 투표 상승(%)": 84.78,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
    "PENGU",
-   "PONS",
-   "TAO",
-   "BTC",
-   "KNTQ",
-   "HYPE",
-   "PEPE",
-   "GRAM",
-   "UNI",
-   "ZEC",
    "PI",
-   "QNT",
-   "MON",
-   "SHIB"
+   "ZEC",
+   "PEARL",
+   "LIT",
+   "XRP",
+   "UNI",
+   "EPIC",
+   "NEAR",
+   "AVAX",
+   "HYPE",
+   "BTC",
+   "ARIA",
+   "CORE"
   ],
   "ETH가 인기 검색에 있음": false
  }
@@ -662,20 +662,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 948,
- "시가총액(USD)": 15360969,
- "완전희석가치 FDV(USD)": 87902541,
- "24시간 거래대금(USD)": 47880246,
+ "시가총액 순위": 937,
+ "시가총액(USD)": 15645329,
+ "완전희석가치 FDV(USD)": 89529780,
+ "24시간 거래대금(USD)": 49487021,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -95.3167,
+ "역대 최고가 대비(%)": -95.22752,
  "가격 변화(%)": {
-  "7d": 27.94281,
-  "30d": 31.79345,
-  "1y": -63.19423
+  "7d": 31.00134,
+  "30d": 39.64191,
+  "1y": -62.26847
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -762,36 +762,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.0684,
-   "Binance (Futures)": -0.0901,
+   "OrangeX Futures": -0.1672,
+   "Binance (Futures)": -0.1838,
    "XT.COM (Derivatives)": -0.315,
-   "Ourbit (Futures)": -0.0895,
-   "Toobit Futures": -0.0895,
-   "Bybit (Futures)": -0.3548
+   "Ourbit (Futures)": -0.1814,
+   "Toobit Futures": -0.1815,
+   "Bybit (Futures)": -0.5112
   },
-  "미결제약정 합계 USD(상위)": 43491447
+  "미결제약정 합계 USD(상위)": 44406259
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": null,
+  "CoinGecko 이용자 투표 상승(%)": 100.0,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
    "PENGU",
-   "PONS",
-   "TAO",
-   "BTC",
-   "KNTQ",
-   "HYPE",
-   "PEPE",
-   "GRAM",
-   "UNI",
-   "ZEC",
    "PI",
-   "QNT",
-   "MON",
-   "SHIB"
+   "ZEC",
+   "PEARL",
+   "LIT",
+   "XRP",
+   "UNI",
+   "EPIC",
+   "NEAR",
+   "AVAX",
+   "HYPE",
+   "BTC",
+   "ARIA",
+   "CORE"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -886,19 +886,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 820,
- "시가총액(USD)": 19474613,
- "완전희석가치 FDV(USD)": 19474728,
- "24시간 거래대금(USD)": 9178192,
- "유통량": 50316.22832075,
+ "시가총액 순위": 817,
+ "시가총액(USD)": 19498816,
+ "완전희석가치 FDV(USD)": 19498816,
+ "24시간 거래대금(USD)": 8843649,
+ "유통량": 50316.52681501,
  "총발행량": 50316.52681501,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -11.11112,
+ "역대 최고가 대비(%)": -11.00118,
  "가격 변화(%)": {
-  "7d": 1.21238,
-  "30d": 2.74085,
+  "7d": 1.46677,
+  "30d": 3.27602,
   "1y": null
  },
  "소개": ""
@@ -990,19 +990,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 인기 검색 코인": [
    "ZIG",
    "PENGU",
-   "PONS",
-   "TAO",
-   "BTC",
-   "KNTQ",
-   "HYPE",
-   "PEPE",
-   "GRAM",
-   "UNI",
-   "ZEC",
    "PI",
-   "QNT",
-   "MON",
-   "SHIB"
+   "ZEC",
+   "PEARL",
+   "LIT",
+   "XRP",
+   "UNI",
+   "EPIC",
+   "NEAR",
+   "AVAX",
+   "HYPE",
+   "BTC",
+   "ARIA",
+   "CORE"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1097,19 +1097,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 255,
- "시가총액(USD)": 105905945,
- "완전희석가치 FDV(USD)": 111330880,
- "24시간 거래대금(USD)": 121144299,
- "유통량": 661143.43225407,
- "총발행량": 695009.8955755,
+ "시가총액 순위": 236,
+ "시가총액(USD)": 114984598,
+ "완전희석가치 FDV(USD)": 114984598,
+ "24시간 거래대금(USD)": 137495715,
+ "유통량": 713740.61503583,
+ "총발행량": 713740.61503583,
  "최대발행량": null,
- "유통 비율(%)": 95.1,
+ "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -34.02034,
+ "역대 최고가 대비(%)": -33.64332,
  "가격 변화(%)": {
-  "7d": -20.38831,
-  "30d": -28.7163,
+  "7d": -19.48261,
+  "30d": -28.0145,
   "1y": null
  },
  "소개": ""
@@ -1201,19 +1201,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 인기 검색 코인": [
    "ZIG",
    "PENGU",
-   "PONS",
-   "TAO",
-   "BTC",
-   "KNTQ",
-   "HYPE",
-   "PEPE",
-   "GRAM",
-   "UNI",
-   "ZEC",
    "PI",
-   "QNT",
-   "MON",
-   "SHIB"
+   "ZEC",
+   "PEARL",
+   "LIT",
+   "XRP",
+   "UNI",
+   "EPIC",
+   "NEAR",
+   "AVAX",
+   "HYPE",
+   "BTC",
+   "ARIA",
+   "CORE"
   ],
   "NVDAB가 인기 검색에 있음": false
  }
