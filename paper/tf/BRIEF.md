@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-12 13:36 KST)
+# TF팀 회의 자료 (2026-11-12 14:39 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1479613834109,
- "완전희석가치 FDV(USD)": 1479617071307,
- "24시간 거래대금(USD)": 25612304990,
+ "시가총액(USD)": 1478561660074,
+ "완전희석가치 FDV(USD)": 1478567174100,
+ "24시간 거래대금(USD)": 25616272096,
  "유통량": 20110918.0,
- "총발행량": 20110962.0,
+ "총발행량": 20110993.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -41.64683,
+ "역대 최고가 대비(%)": -41.67459,
  "가격 변화(%)": {
-  "7d": -8.59407,
-  "30d": -11.61383,
-  "1y": -28.74033
+  "7d": -8.62453,
+  "30d": -11.80608,
+  "1y": -28.75835
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3875178400
+  "TVL(USD)": 3875376332
  }
 }
 ```
@@ -123,6 +123,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
+   "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
+   "시각(UTC)": "11-12 05:22"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
@@ -178,18 +184,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-10 10:41"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
-   "요약": "MARA paid off every loan backed by its bitcoin and says the rest of its coins can fund AI datacenters.",
-   "시각(UTC)": "11-10 05:18"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Here’s what happened in crypto today",
-   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-   "시각(UTC)": "11-11 22:15"
-  },
-  {
    "출처": "Cointelegraph",
    "제목": "US data center restrictions could give Bitcoin miners an edge in AI, though challenges remain",
    "요약": "As US voters push back against new data centers, Bitcoin miners already expanding into AI could benefit from their existing facilities.",
@@ -212,9 +206,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY — How Bitcoin could carry state across transactions",
    "요약": "OP_CCV embeds contract state directly into Taproot output keys and enforces valid state transitions onchain. This makes it possible to achieve stateful contracts and compact fraud proofs.",
    "시각(UTC)": "11-11 13:26"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Barclays boosts BlackRock Bitcoin ETF stake 48% as banks expand holdings",
+   "요약": "Barclays reported a $187 million stake as of Sept. 30, while Citigroup disclosed a new $119 million position in Fidelity’s Bitcoin ETF.",
+   "시각(UTC)": "11-11 11:56"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
+   "요약": "Lending support among the ledger’s 35 validators has climbed from 19 to 22 since mid-October, and no public tracker shows which validators switched.",
+   "시각(UTC)": "11-12 05:18"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
@@ -256,12 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
    "요약": "The venture, known as Project Faro, plans to issue a dollar-denominated stablecoin and is expected to be incorporated in the U.S.",
    "시각(UTC)": "11-10 17:32"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto is now teamed up with U.S. government in two legal battles over perps",
-   "요약": "Twice now, crypto firms have found themselves on the side of the U.S. Commodity Futures Trading Commission in holding that perpetual futures aren't swaps.",
-   "시각(UTC)": "11-10 17:07"
   }
  ]
 }
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.008,
+   "Binance (Futures)": 0.0076,
    "OKX (Futures)": 0.01,
-   "Bybit (Futures)": 0.0081,
-   "MEXC (Futures)": 0.008,
+   "Bybit (Futures)": 0.0077,
+   "MEXC (Futures)": 0.0077,
    "Gate (Futures)": 0.01,
    "CoinW (Futures)": 0.008
   },
-  "미결제약정 합계 USD(상위)": 18734741471
+  "미결제약정 합계 USD(상위)": 18748273538
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 66.4,
+  "CoinGecko 이용자 투표 상승(%)": 65.35,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "ONDO",
-   "BTC",
-   "VVV",
    "ZEC",
-   "KNTQ",
-   "QTC",
+   "PENGU",
+   "GRAM",
+   "BTC",
+   "HYPE",
+   "SUI",
+   "PEPE",
    "SOL",
-   "XRP",
-   "BDX",
-   "SLC",
-   "INIT",
-   "MOVE",
    "PEARL",
-   "KGEN"
+   "ETH",
+   "INIT",
+   "TAO",
+   "LIT",
+   "UNI"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 250187568783,
- "완전희석가치 FDV(USD)": 250187568783,
- "24시간 거래대금(USD)": 9149843547,
+ "시가총액(USD)": 249728618680,
+ "완전희석가치 FDV(USD)": 249728618680,
+ "24시간 거래대금(USD)": 9069832984,
  "유통량": 122212724.4774798,
  "총발행량": 122212724.4774798,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -58.611,
+ "역대 최고가 대비(%)": -58.6753,
  "가격 변화(%)": {
-  "7d": -15.50382,
-  "30d": -18.29899,
-  "1y": -40.41775
+  "7d": -15.66867,
+  "30d": -18.75556,
+  "1y": -40.64669
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41178896400
+  "TVL(USD)": 41157794597
  }
 }
 ```
@@ -437,12 +437,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "ETH 관련 기사": [
-  {
-   "출처": "CoinDesk",
-   "제목": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
-   "요약": "Bots spotted a wallet from Ethereum’s 2015 launch the moment it stirred and planted lookalike addresses in its history, but the owner sent the money to the right place anyway.",
-   "시각(UTC)": "11-10 07:01"
-  },
   {
    "출처": "Cointelegraph",
    "제목": "Deutsche Bank launches crypto custody for companies and institutions",
@@ -469,6 +463,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
+   "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
+   "시각(UTC)": "11-12 05:22"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
+   "요약": "Lending support among the ledger’s 35 validators has climbed from 19 to 22 since mid-October, and no public tracker shows which validators switched.",
+   "시각(UTC)": "11-12 05:18"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
@@ -504,18 +510,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin barely flinches at hot CPI as ETF selling slows",
    "요약": "Your day-ahead look for Nov. 11, 2026",
    "시각(UTC)": "11-11 12:19"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
-   "요약": "Bitcoin held steady near $74,000 as Tuesday's hot inflation figure lifted the odds on a U.S. interest-rate increase to around 90%. ETF outflows extended to a fourth day and liquidations jumped.",
-   "시각(UTC)": "11-11 11:37"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
-   "요약": "Payward says xStocks holds over $1.1 billion. Each token is backed by a share but gives no ownership of the underlying company.",
-   "시각(UTC)": "11-11 10:51"
   }
  ]
 }
@@ -541,36 +535,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.007,
-   "CoinW (Futures)": 0.0071,
+   "CoinW (Futures)": 0.0067,
    "WEEX (Futures)": 0.0001,
-   "OKX (Futures)": 0.003,
+   "OKX (Futures)": 0.0042,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12758580741
+  "미결제약정 합계 USD(상위)": 12719616438
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 83.72,
+  "CoinGecko 이용자 투표 상승(%)": 83.33,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "ONDO",
-   "BTC",
-   "VVV",
    "ZEC",
-   "KNTQ",
-   "QTC",
+   "PENGU",
+   "GRAM",
+   "BTC",
+   "HYPE",
+   "SUI",
+   "PEPE",
    "SOL",
-   "XRP",
-   "BDX",
-   "SLC",
-   "INIT",
-   "MOVE",
    "PEARL",
-   "KGEN"
+   "ETH",
+   "INIT",
+   "TAO",
+   "LIT",
+   "UNI"
   ],
-  "ETH가 인기 검색에 있음": false
+  "ETH가 인기 검색에 있음": true
  }
 }
 ```
@@ -662,20 +656,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 917,
- "시가총액(USD)": 16011161,
- "완전희석가치 FDV(USD)": 91623239,
- "24시간 거래대금(USD)": 55038940,
+ "시가총액 순위": 911,
+ "시가총액(USD)": 16138940,
+ "완전희석가치 FDV(USD)": 92354448,
+ "24시간 거래대금(USD)": 52926560,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -95.11207,
+ "역대 최고가 대비(%)": -95.07659,
  "가격 변화(%)": {
-  "7d": 36.30719,
-  "30d": 40.69076,
-  "1y": -61.83399
+  "7d": 37.65917,
+  "30d": 38.31493,
+  "1y": -61.51116
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -691,6 +685,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "ERA 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
+   "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
+   "시각(UTC)": "11-12 05:22"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
+   "요약": "Lending support among the ledger’s 35 validators has climbed from 19 to 22 since mid-October, and no public tracker shows which validators switched.",
+   "시각(UTC)": "11-12 05:18"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
@@ -726,18 +732,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin barely flinches at hot CPI as ETF selling slows",
    "요약": "Your day-ahead look for Nov. 11, 2026",
    "시각(UTC)": "11-11 12:19"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
-   "요약": "Bitcoin held steady near $74,000 as Tuesday's hot inflation figure lifted the odds on a U.S. interest-rate increase to around 90%. ETF outflows extended to a fourth day and liquidations jumped.",
-   "시각(UTC)": "11-11 11:37"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
-   "요약": "Payward says xStocks holds over $1.1 billion. Each token is backed by a share but gives no ownership of the underlying company.",
-   "시각(UTC)": "11-11 10:51"
   }
  ]
 }
@@ -762,14 +756,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.2086,
-   "Binance (Futures)": -0.2071,
-   "XT.COM (Derivatives)": -0.2094,
-   "Toobit Futures": -0.2076,
-   "Bybit (Futures)": -0.2775,
-   "Ourbit (Futures)": -0.2075
+   "OrangeX Futures": -0.1733,
+   "Binance (Futures)": -0.1627,
+   "XT.COM (Derivatives)": -0.1661,
+   "Toobit Futures": -0.1639,
+   "Bybit (Futures)": -0.2444,
+   "WhiteBIT Futures": -0.1617
   },
-  "미결제약정 합계 USD(상위)": 47632175
+  "미결제약정 합계 USD(상위)": 50517711
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -778,20 +772,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 100.0,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "ONDO",
-   "BTC",
-   "VVV",
    "ZEC",
-   "KNTQ",
-   "QTC",
+   "PENGU",
+   "GRAM",
+   "BTC",
+   "HYPE",
+   "SUI",
+   "PEPE",
    "SOL",
-   "XRP",
-   "BDX",
-   "SLC",
-   "INIT",
-   "MOVE",
    "PEARL",
-   "KGEN"
+   "ETH",
+   "INIT",
+   "TAO",
+   "LIT",
+   "UNI"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -886,19 +880,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 868,
- "시가총액(USD)": 17754909,
- "완전희석가치 FDV(USD)": 17754915,
- "24시간 거래대금(USD)": 7939548,
- "유통량": 45919.36600424,
+ "시가총액 순위": 866,
+ "시가총액(USD)": 17729349,
+ "완전희석가치 FDV(USD)": 17729349,
+ "24시간 거래대금(USD)": 7066205,
+ "유통량": 45919.383495409995,
  "총발행량": 45919.383495409995,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -11.20142,
+ "역대 최고가 대비(%)": -11.33079,
  "가격 변화(%)": {
-  "7d": 1.8795,
-  "30d": 2.94842,
+  "7d": 1.97423,
+  "30d": 3.1772,
   "1y": null
  },
  "소개": ""
@@ -911,6 +905,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "TSLAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
+   "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
+   "시각(UTC)": "11-12 05:22"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
+   "요약": "Lending support among the ledger’s 35 validators has climbed from 19 to 22 since mid-October, and no public tracker shows which validators switched.",
+   "시각(UTC)": "11-12 05:18"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
@@ -946,18 +952,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin barely flinches at hot CPI as ETF selling slows",
    "요약": "Your day-ahead look for Nov. 11, 2026",
    "시각(UTC)": "11-11 12:19"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
-   "요약": "Bitcoin held steady near $74,000 as Tuesday's hot inflation figure lifted the odds on a U.S. interest-rate increase to around 90%. ETF outflows extended to a fourth day and liquidations jumped.",
-   "시각(UTC)": "11-11 11:37"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
-   "요약": "Payward says xStocks holds over $1.1 billion. Each token is backed by a share but gives no ownership of the underlying company.",
-   "시각(UTC)": "11-11 10:51"
   }
  ]
 }
@@ -989,20 +983,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "ONDO",
-   "BTC",
-   "VVV",
    "ZEC",
-   "KNTQ",
-   "QTC",
+   "PENGU",
+   "GRAM",
+   "BTC",
+   "HYPE",
+   "SUI",
+   "PEPE",
    "SOL",
-   "XRP",
-   "BDX",
-   "SLC",
-   "INIT",
-   "MOVE",
    "PEARL",
-   "KGEN"
+   "ETH",
+   "INIT",
+   "TAO",
+   "LIT",
+   "UNI"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1097,19 +1091,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 217,
- "시가총액(USD)": 129678515,
- "완전희석가치 FDV(USD)": 133937908,
- "24시간 거래대금(USD)": 161591138,
- "유통량": 805604.06273351,
- "총발행량": 832064.7668448299,
+ "시가총액 순위": 213,
+ "시가총액(USD)": 133350327,
+ "완전희석가치 FDV(USD)": 136375031,
+ "24시간 거래대금(USD)": 162100691,
+ "유통량": 832064.7668448299,
+ "총발행량": 850937.98097874,
  "최대발행량": null,
- "유통 비율(%)": 96.8,
+ "유통 비율(%)": 97.8,
  "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -33.69721,
+ "역대 최고가 대비(%)": -33.98558,
  "가격 변화(%)": {
-  "7d": -19.12078,
-  "30d": -28.29248,
+  "7d": -19.37215,
+  "30d": -28.50214,
   "1y": null
  },
  "소개": ""
@@ -1122,6 +1116,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "NVDAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
+   "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
+   "시각(UTC)": "11-12 05:22"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
+   "요약": "Lending support among the ledger’s 35 validators has climbed from 19 to 22 since mid-October, and no public tracker shows which validators switched.",
+   "시각(UTC)": "11-12 05:18"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
@@ -1157,18 +1163,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin barely flinches at hot CPI as ETF selling slows",
    "요약": "Your day-ahead look for Nov. 11, 2026",
    "시각(UTC)": "11-11 12:19"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
-   "요약": "Bitcoin held steady near $74,000 as Tuesday's hot inflation figure lifted the odds on a U.S. interest-rate increase to around 90%. ETF outflows extended to a fourth day and liquidations jumped.",
-   "시각(UTC)": "11-11 11:37"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion",
-   "요약": "Payward says xStocks holds over $1.1 billion. Each token is backed by a share but gives no ownership of the underlying company.",
-   "시각(UTC)": "11-11 10:51"
   }
  ]
 }
@@ -1200,20 +1194,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "ZIG",
-   "ONDO",
-   "BTC",
-   "VVV",
    "ZEC",
-   "KNTQ",
-   "QTC",
+   "PENGU",
+   "GRAM",
+   "BTC",
+   "HYPE",
+   "SUI",
+   "PEPE",
    "SOL",
-   "XRP",
-   "BDX",
-   "SLC",
-   "INIT",
-   "MOVE",
    "PEARL",
-   "KGEN"
+   "ETH",
+   "INIT",
+   "TAO",
+   "LIT",
+   "UNI"
   ],
   "NVDAB가 인기 검색에 있음": false
  }
