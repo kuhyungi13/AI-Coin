@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-12 20:37 KST)
+# TF팀 회의 자료 (2026-11-12 21:38 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -66,19 +66,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -0.2,
-   "7일": -0.15,
-   "30일": -3.2,
-   "90일": -9.15
+   "1일": -0.95,
+   "7일": -1.53,
+   "30일": -3.98,
+   "90일": -10.31
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -0.79,
-   "MA60": -3.23,
-   "MA120": -5.41
+   "MA20": -1.61,
+   "MA60": -4.05,
+   "MA120": -6.23
   },
   "MA20>MA60": false,
   "최근 교차": null,
-  "RSI14": 39.3
+  "RSI14": 34.1
  }
 }
 ```
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1469172277135,
- "완전희석가치 FDV(USD)": 1469172934612,
- "24시간 거래대금(USD)": 22714753411,
+ "시가총액(USD)": 1465258563329,
+ "완전희석가치 FDV(USD)": 1465260603366,
+ "24시간 거래대금(USD)": 23745797391,
  "유통량": 20111025.0,
- "총발행량": 20111034.0,
+ "총발행량": 20111053.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -42.06723,
+ "역대 최고가 대비(%)": -42.21245,
  "가격 변화(%)": {
-  "7d": -8.95028,
-  "30d": -12.26452,
-  "1y": -30.36326
+  "7d": -9.30333,
+  "30d": -12.51396,
+  "1y": -30.60315
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3861424690
+  "TVL(USD)": 3865927178
  }
 }
 ```
@@ -123,6 +123,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin weakness erases September's bullish signal",
+   "요약": "Your day-ahead look for Nov. 12, 2026",
+   "시각(UTC)": "11-12 12:15"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin dips with Nvidia as ETF outflows reach day five",
@@ -206,15 +212,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound",
    "요약": "Bitcoin traded in a narrow range as investors bought the dip in tech stocks and US bond yields climbed on high CPI inflation data.",
    "시각(UTC)": "11-11 16:26"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Deutsche Bank launches crypto custody for companies and institutions",
-   "요약": "Clients can store and transfer Bitcoin, Ether and select stablecoins through the bank, which manages their wallets and private keys.",
-   "시각(UTC)": "11-11 14:02"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
+   "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
+   "시각(UTC)": "11-12 12:04"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
+   "요약": "Ethlabs wants quantum-resistant accounts targeted for next year, even if wallet holders still have to switch signing methods themselves.",
+   "시각(UTC)": "11-12 11:43"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Polymarket trims workforce under investor pressure as Kalshi surges ahead",
@@ -250,18 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Ripple’s bank-lending system moves closer to launch on the XRP Ledger",
    "요약": "Lending support among the ledger’s 35 validators has climbed from 19 to 22 since mid-October, and no public tracker shows which validators switched.",
    "시각(UTC)": "11-12 05:18"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
-   "요약": "Institutions weighing DeFi lending tend to ask which markets are safest. Mike Hathaway and Joseph Quintilian of Ajna argue the better question is who can change a loan’s terms after the money is lent, and why a fully backed stablecoin offer",
-   "시각(UTC)": "11-11 16:00"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
-   "요약": "After initial issuer pushback, the blockchain venue is set to start trading on Nov. 23 and said will list over 70 assets, including Strategy’s common and preferred shares and 59 of Direxion's ETFs.",
-   "시각(UTC)": "11-11 13:00"
   }
  ]
 }
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0046,
-   "OKX (Futures)": 0.0068,
-   "Bybit (Futures)": 0.0046,
-   "MEXC (Futures)": 0.0044,
-   "Gate (Futures)": 0.0066,
-   "CoinW (Futures)": 0.0044
+   "Binance (Futures)": 0.006,
+   "OKX (Futures)": 0.0073,
+   "Bybit (Futures)": 0.006,
+   "MEXC (Futures)": 0.0057,
+   "Gate (Futures)": 0.0095,
+   "CoinW (Futures)": 0.0051
   },
-  "미결제약정 합계 USD(상위)": 18988678472
+  "미결제약정 합계 USD(상위)": 19140410576
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 69.42,
+  "CoinGecko 이용자 투표 상승(%)": 68.33,
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
    "ZIG",
-   "PENGU",
    "BTC",
-   "ETH",
-   "TAO",
    "ZEC",
-   "UNI",
-   "PEARL",
-   "PI",
-   "XRP",
+   "PENGU",
+   "SOL",
    "HYPE",
    "EPIC",
-   "ICP",
-   "NEAR"
+   "PEPE",
+   "AERO",
+   "JCT",
+   "MON",
+   "PEARL",
+   "ARB",
+   "AVAX"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -377,22 +377,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -0.17,
-   "7일": -0.54,
-   "30일": -8.66,
-   "90일": -13.12
+   "1일": -1.4,
+   "7일": -2.27,
+   "30일": -9.91,
+   "90일": -14.35
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -1.64,
-   "MA60": -7.28,
-   "MA120": -9.38
+   "MA20": -2.74,
+   "MA60": -8.4,
+   "MA120": -10.52
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 25
+   "며칠 전": 26
   },
-  "RSI14": 34.5
+  "RSI14": 30.3
  }
 }
 ```
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 247792067534,
- "완전희석가치 FDV(USD)": 247792067534,
- "24시간 거래대금(USD)": 8357624053,
+ "시가총액(USD)": 246918001334,
+ "완전희석가치 FDV(USD)": 246918001334,
+ "24시간 거래대금(USD)": 8708380748,
  "유통량": 122212724.4774798,
  "총발행량": 122212724.4774798,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -59.01556,
+ "역대 최고가 대비(%)": -59.1513,
  "가격 변화(%)": {
-  "7d": -16.11538,
-  "30d": -18.78878,
-  "1y": -42.63088
+  "7d": -16.48383,
+  "30d": -19.1347,
+  "1y": -43.05249
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 41041532902
+  "TVL(USD)": 40991415458
  }
 }
 ```
@@ -437,6 +437,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "ETH 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
+   "요약": "Ethlabs wants quantum-resistant accounts targeted for next year, even if wallet holders still have to switch signing methods themselves.",
+   "시각(UTC)": "11-12 11:43"
+  },
   {
    "출처": "Cointelegraph",
    "제목": "Ethlabs drops Hegotá slot proposal in push for 2027 quantum readiness",
@@ -469,6 +475,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin weakness erases September's bullish signal",
+   "요약": "Your day-ahead look for Nov. 12, 2026",
+   "시각(UTC)": "11-12 12:15"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
+   "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
+   "시각(UTC)": "11-12 12:04"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin dips with Nvidia as ETF outflows reach day five",
@@ -504,18 +522,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Gemini sells UK and European operations to stablecoin payments firm KAST for under $10 million",
    "요약": "The sale follows the Winklevoss-founded crypto exchange’s retreat from several overseas markets as it restructures its business.",
    "시각(UTC)": "11-12 09:07"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
-   "요약": "The Avalon maker has launched a $20 million repurchase program, while most of its bitcoin holdings were pledged or placed in a fixed-term product at September’s end.",
-   "시각(UTC)": "11-12 07:41"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
-   "요약": "MSCI’s decision to exclude Strategy from its equity indexes could hamper the company’s ability to buy more bitcoin, according to some analysts.",
-   "시각(UTC)": "11-12 07:00"
   }
  ]
 }
@@ -540,37 +546,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0037,
-   "CoinW (Futures)": 0.0047,
+   "Binance (Futures)": 0.0032,
+   "CoinW (Futures)": 0.0051,
    "WEEX (Futures)": 0.0001,
-   "OKX (Futures)": 0.0038,
+   "OKX (Futures)": 0.0039,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12788732984
+  "미결제약정 합계 USD(상위)": 12641180379
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 85.37,
+  "CoinGecko 이용자 투표 상승(%)": 84.21,
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
    "ZIG",
-   "PENGU",
    "BTC",
-   "ETH",
-   "TAO",
    "ZEC",
-   "UNI",
-   "PEARL",
-   "PI",
-   "XRP",
+   "PENGU",
+   "SOL",
    "HYPE",
    "EPIC",
-   "ICP",
-   "NEAR"
+   "PEPE",
+   "AERO",
+   "JCT",
+   "MON",
+   "PEARL",
+   "ARB",
+   "AVAX"
   ],
-  "ETH가 인기 검색에 있음": true
+  "ETH가 인기 검색에 있음": false
  }
 }
 ```
@@ -630,22 +636,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": 5.31,
-   "7일": 8.3,
-   "30일": 26.81,
-   "90일": 9.6
+   "1일": 2.08,
+   "7일": 10.95,
+   "30일": 25.61,
+   "90일": 12.42
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 15.37,
-   "MA60": 26.03,
-   "MA120": 22.71
+   "MA20": 16.4,
+   "MA60": 27.76,
+   "MA120": 24.99
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 30
+   "며칠 전": 31
   },
-  "RSI14": 72.4
+  "RSI14": 74.2
  }
 }
 ```
@@ -662,20 +668,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 899,
- "시가총액(USD)": 16529517,
- "완전희석가치 FDV(USD)": 94589511,
- "24시간 거래대금(USD)": 43348496,
+ "시가총액 순위": 898,
+ "시가총액(USD)": 16872903,
+ "완전희석가치 FDV(USD)": 96554524,
+ "24시간 거래대금(USD)": 38148263,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -94.98724,
+ "역대 최고가 대비(%)": -94.85306,
  "가격 변화(%)": {
-  "7d": 39.47512,
-  "30d": 45.54032,
-  "1y": -61.60594
+  "7d": 42.09934,
+  "30d": 50.74638,
+  "1y": -60.3089
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -691,6 +697,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "ERA 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin weakness erases September's bullish signal",
+   "요약": "Your day-ahead look for Nov. 12, 2026",
+   "시각(UTC)": "11-12 12:15"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
+   "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
+   "시각(UTC)": "11-12 12:04"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
+   "요약": "Ethlabs wants quantum-resistant accounts targeted for next year, even if wallet holders still have to switch signing methods themselves.",
+   "시각(UTC)": "11-12 11:43"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin dips with Nvidia as ETF outflows reach day five",
@@ -720,24 +744,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
    "요약": "Nasdaq 100 futures retreat after Wednesday’s rally, while AI stocks slide, Strategy falls 4% and gold trades below $4,000.",
    "시각(UTC)": "11-12 09:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Gemini sells UK and European operations to stablecoin payments firm KAST for under $10 million",
-   "요약": "The sale follows the Winklevoss-founded crypto exchange’s retreat from several overseas markets as it restructures its business.",
-   "시각(UTC)": "11-12 09:07"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
-   "요약": "The Avalon maker has launched a $20 million repurchase program, while most of its bitcoin holdings were pledged or placed in a fixed-term product at September’s end.",
-   "시각(UTC)": "11-12 07:41"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
-   "요약": "MSCI’s decision to exclude Strategy from its equity indexes could hamper the company’s ability to buy more bitcoin, according to some analysts.",
-   "시각(UTC)": "11-12 07:00"
   }
  ]
 }
@@ -762,14 +768,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.1398,
-   "Binance (Futures)": -0.1068,
-   "XT.COM (Derivatives)": -0.1068,
-   "Ourbit (Futures)": -0.1071,
-   "Bybit (Futures)": -0.0692,
-   "Toobit Futures": -0.1071
+   "OrangeX Futures": -0.3208,
+   "Binance (Futures)": -0.126,
+   "XT.COM (Derivatives)": -0.1261,
+   "Ourbit (Futures)": -0.1248,
+   "Bybit (Futures)": -0.3066,
+   "Toobit Futures": -0.1255
   },
-  "미결제약정 합계 USD(상위)": 52514515
+  "미결제약정 합계 USD(상위)": 51542137
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -779,19 +785,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
    "ZIG",
-   "PENGU",
    "BTC",
-   "ETH",
-   "TAO",
    "ZEC",
-   "UNI",
-   "PEARL",
-   "PI",
-   "XRP",
+   "PENGU",
+   "SOL",
    "HYPE",
    "EPIC",
-   "ICP",
-   "NEAR"
+   "PEPE",
+   "AERO",
+   "JCT",
+   "MON",
+   "PEARL",
+   "ARB",
+   "AVAX"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -854,22 +860,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -0.02,
-   "7일": 0.43,
-   "30일": 7.84,
-   "90일": -6.02
+   "1일": 0.52,
+   "7일": 1.04,
+   "30일": 8.36,
+   "90일": -5.15
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 2.03,
-   "MA60": 3.2,
-   "MA120": 0.98
+   "MA20": 2.18,
+   "MA60": 3.81,
+   "MA120": 1.48
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 2
+   "며칠 전": 3
   },
-  "RSI14": 61.7
+  "RSI14": 63.7
  }
 }
 ```
@@ -886,19 +892,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 864,
- "시가총액(USD)": 17841134,
- "완전희석가치 FDV(USD)": 17844222,
- "24시간 거래대금(USD)": 8987007,
- "유통량": 45957.653100460004,
- "총발행량": 45965.60864547,
+ "시가총액 순위": 865,
+ "시가총액(USD)": 17800847,
+ "완전희석가치 FDV(USD)": 17812542,
+ "24시간 거래대금(USD)": 9041843,
+ "유통량": 45965.60864547,
+ "총발행량": 45995.80862205,
  "최대발행량": null,
- "유통 비율(%)": 100.0,
+ "유통 비율(%)": 99.9,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -10.84386,
+ "역대 최고가 대비(%)": -11.06058,
  "가격 변화(%)": {
-  "7d": 2.71934,
-  "30d": 3.55842,
+  "7d": 2.24691,
+  "30d": 3.29355,
   "1y": null
  },
  "소개": ""
@@ -911,6 +917,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "TSLAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin weakness erases September's bullish signal",
+   "요약": "Your day-ahead look for Nov. 12, 2026",
+   "시각(UTC)": "11-12 12:15"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
+   "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
+   "시각(UTC)": "11-12 12:04"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
+   "요약": "Ethlabs wants quantum-resistant accounts targeted for next year, even if wallet holders still have to switch signing methods themselves.",
+   "시각(UTC)": "11-12 11:43"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin dips with Nvidia as ETF outflows reach day five",
@@ -940,24 +964,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
    "요약": "Nasdaq 100 futures retreat after Wednesday’s rally, while AI stocks slide, Strategy falls 4% and gold trades below $4,000.",
    "시각(UTC)": "11-12 09:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Gemini sells UK and European operations to stablecoin payments firm KAST for under $10 million",
-   "요약": "The sale follows the Winklevoss-founded crypto exchange’s retreat from several overseas markets as it restructures its business.",
-   "시각(UTC)": "11-12 09:07"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
-   "요약": "The Avalon maker has launched a $20 million repurchase program, while most of its bitcoin holdings were pledged or placed in a fixed-term product at September’s end.",
-   "시각(UTC)": "11-12 07:41"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
-   "요약": "MSCI’s decision to exclude Strategy from its equity indexes could hamper the company’s ability to buy more bitcoin, according to some analysts.",
-   "시각(UTC)": "11-12 07:00"
   }
  ]
 }
@@ -990,19 +996,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
    "ZIG",
-   "PENGU",
    "BTC",
-   "ETH",
-   "TAO",
    "ZEC",
-   "UNI",
-   "PEARL",
-   "PI",
-   "XRP",
+   "PENGU",
+   "SOL",
    "HYPE",
    "EPIC",
-   "ICP",
-   "NEAR"
+   "PEPE",
+   "AERO",
+   "JCT",
+   "MON",
+   "PEARL",
+   "ARB",
+   "AVAX"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1065,22 +1071,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": 0.09,
-   "7일": -6.93,
-   "30일": -14.06,
-   "90일": -26.49
+   "1일": -0.2,
+   "7일": -7.04,
+   "30일": -14.49,
+   "90일": -26.79
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -7.15,
-   "MA60": -14.17,
-   "MA120": -19.22
+   "MA20": -6.84,
+   "MA60": -14.0,
+   "MA120": -19.21
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 77
+   "며칠 전": 78
   },
-  "RSI14": 29.1
+  "RSI14": 28.8
  }
 }
 ```
@@ -1097,19 +1103,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 201,
- "시가총액(USD)": 145932654,
- "완전희석가치 FDV(USD)": 149518256,
- "24시간 거래대금(USD)": 168663646,
- "유통량": 905889.45305709,
- "총발행량": 928147.38369351,
+ "시가총액 순위": 200,
+ "시가총액(USD)": 148569331,
+ "완전희석가치 FDV(USD)": 149369077,
+ "24시간 거래대금(USD)": 182298343,
+ "유통량": 928147.38369351,
+ "총발행량": 933143.58492541,
  "최대발행량": null,
- "유통 비율(%)": 97.6,
+ "유통 비율(%)": 99.5,
  "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -33.64668,
+ "역대 최고가 대비(%)": -34.06779,
  "가격 변화(%)": {
-  "7d": -19.15654,
-  "30d": -28.12202,
+  "7d": -19.35367,
+  "30d": -28.70931,
   "1y": null
  },
  "소개": ""
@@ -1122,6 +1128,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "NVDAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin weakness erases September's bullish signal",
+   "요약": "Your day-ahead look for Nov. 12, 2026",
+   "시각(UTC)": "11-12 12:15"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
+   "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
+   "시각(UTC)": "11-12 12:04"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
+   "요약": "Ethlabs wants quantum-resistant accounts targeted for next year, even if wallet holders still have to switch signing methods themselves.",
+   "시각(UTC)": "11-12 11:43"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin dips with Nvidia as ETF outflows reach day five",
@@ -1151,24 +1175,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
    "요약": "Nasdaq 100 futures retreat after Wednesday’s rally, while AI stocks slide, Strategy falls 4% and gold trades below $4,000.",
    "시각(UTC)": "11-12 09:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Gemini sells UK and European operations to stablecoin payments firm KAST for under $10 million",
-   "요약": "The sale follows the Winklevoss-founded crypto exchange’s retreat from several overseas markets as it restructures its business.",
-   "시각(UTC)": "11-12 09:07"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96%",
-   "요약": "The Avalon maker has launched a $20 million repurchase program, while most of its bitcoin holdings were pledged or placed in a fixed-term product at September’s end.",
-   "시각(UTC)": "11-12 07:41"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine",
-   "요약": "MSCI’s decision to exclude Strategy from its equity indexes could hamper the company’s ability to buy more bitcoin, according to some analysts.",
-   "시각(UTC)": "11-12 07:00"
   }
  ]
 }
@@ -1201,19 +1207,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
    "ZIG",
-   "PENGU",
    "BTC",
-   "ETH",
-   "TAO",
    "ZEC",
-   "UNI",
-   "PEARL",
-   "PI",
-   "XRP",
+   "PENGU",
+   "SOL",
    "HYPE",
    "EPIC",
-   "ICP",
-   "NEAR"
+   "PEPE",
+   "AERO",
+   "JCT",
+   "MON",
+   "PEARL",
+   "ARB",
+   "AVAX"
   ],
   "NVDAB가 인기 검색에 있음": false
  }
