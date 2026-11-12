@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-13 05:26 KST)
+# TF팀 회의 자료 (2026-11-13 06:27 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1437756027310,
- "완전희석가치 FDV(USD)": 1437759816313,
- "24시간 거래대금(USD)": 28294329945,
- "유통량": 20111109.0,
- "총발행량": 20111162.0,
+ "시가총액(USD)": 1438803564334,
+ "완전희석가치 FDV(USD)": 1438803564334,
+ "24시간 거래대금(USD)": 28649638403,
+ "유통량": 20111181.0,
+ "총발행량": 20111181.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -43.30561,
+ "역대 최고가 대비(%)": -43.25322,
  "가격 변화(%)": {
-  "7d": -6.27883,
-  "30d": -14.10606,
-  "1y": -29.40987
+  "7d": -5.99347,
+  "30d": -14.17041,
+  "1y": -29.53861
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3773620567
+  "TVL(USD)": 3758738899
  }
 }
 ```
@@ -166,12 +166,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-12 04:03"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-   "요약": "The DRAM ETF jumps 8% and semiconductor stocks gain more than 4%, while bitcoin continues to test its 200-day moving average.",
-   "시각(UTC)": "11-11 12:21"
-  },
-  {
    "출처": "Cointelegraph",
    "제목": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
    "요약": "Bitcoin fell to its lowest leve since Aug. 20 as tech stocks slid following the resignation of Nvidia CEO Jensen Huang.",
@@ -212,9 +206,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY — How Bitcoin could carry state across transactions",
    "요약": "OP_CCV embeds contract state directly into Taproot output keys and enforces valid state transitions onchain. This makes it possible to achieve stateful contracts and compact fraud proofs.",
    "시각(UTC)": "11-11 13:26"
+  },
+  {
+   "출처": "Decrypt",
+   "제목": "Strategy Made $19.5 Billion in Profit. So Why Is MSCI Removing It From Stock Indexes?",
+   "요약": "Michael Saylor’s Bitcoin giant is being excluded from major investment benchmarks, raising questions about what qualifies as a business—and whether the decision could slow its Bitcoin buying.",
+   "시각(UTC)": "11-12 21:26"
   }
  ],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Kalshi ends Donald Trump Jr.’s advisory contract over 1789 Capital’s Polymarket investment",
+   "요약": "Trump Jr. joined Kalshi as a strategic adviser in January 2025, helping the prediction market expand its customer base and strengthen its market presence.",
+   "시각(UTC)": "11-12 21:07"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
@@ -256,12 +262,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
    "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
    "시각(UTC)": "11-12 12:04"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
-   "요약": "Ethlabs wants quantum-resistant accounts targeted for next year, even if wallet holders still have to switch signing methods themselves.",
-   "시각(UTC)": "11-12 11:43"
   }
  ]
 }
@@ -289,33 +289,33 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Binance (Futures)": 0.01,
    "OKX (Futures)": 0.01,
    "Bybit (Futures)": 0.01,
-   "Gate (Futures)": 0.0088,
+   "Gate (Futures)": 0.01,
    "MEXC (Futures)": 0.01,
    "CoinW (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 18851440819
+  "미결제약정 합계 USD(상위)": 18862984929
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 58.47,
+  "CoinGecko 이용자 투표 상승(%)": 57.07,
   "CoinGecko 인기 검색 코인": [
-   "SEPPUKU",
    "MIHAO",
+   "SEPPUKU",
    "DACITYCOIN",
    "ROCCO",
-   "NEAR",
    "PEARL",
-   "BTC",
-   "HYPE",
-   "PENGU",
-   "SOL",
-   "GRAM",
-   "DRV",
-   "LIT",
    "ZEC",
-   "XRP"
+   "PENGU",
+   "TAO",
+   "AAVE",
+   "SOL",
+   "QNT",
+   "UNI",
+   "BTC",
+   "SUI",
+   "AERO"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 246558374425,
- "완전희석가치 FDV(USD)": 246558374425,
- "24시간 거래대금(USD)": 10632108358,
+ "시가총액(USD)": 246511418219,
+ "완전희석가치 FDV(USD)": 246511418219,
+ "24시간 거래대금(USD)": 10690226919,
  "유통량": 122212724.4774798,
  "총발행량": 122212724.4774798,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -59.21224,
+ "역대 최고가 대비(%)": -59.21576,
  "가격 변화(%)": {
-  "7d": -10.69696,
-  "30d": -19.50935,
-  "1y": -40.75822
+  "7d": -10.19723,
+  "30d": -19.60683,
+  "1y": -40.93725
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 40546920843
+  "TVL(USD)": 40544467725
  }
 }
 ```
@@ -477,6 +477,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Kalshi ends Donald Trump Jr.’s advisory contract over 1789 Capital’s Polymarket investment",
+   "요약": "Trump Jr. joined Kalshi as a strategic adviser in January 2025, helping the prediction market expand its customer base and strengthen its market presence.",
+   "시각(UTC)": "11-12 21:07"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
    "요약": "The legal battle to head off the crypto transaction tax in Illinois has drawn up a hefty roster of industry opposition, and they're saying the tax won't work.",
    "시각(UTC)": "11-12 16:45"
@@ -516,12 +522,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin weakness erases September's bullish signal",
    "요약": "Your day-ahead look for Nov. 12, 2026",
    "시각(UTC)": "11-12 12:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
-   "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
-   "시각(UTC)": "11-12 12:04"
   }
  ]
 }
@@ -546,35 +546,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0066,
+   "Binance (Futures)": 0.0077,
    "CoinW (Futures)": 0.01,
    "WEEX (Futures)": 0.0,
-   "OKX (Futures)": 0.0073,
+   "OKX (Futures)": 0.0079,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12448200393
+  "미결제약정 합계 USD(상위)": 12391616760
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 76.6,
+  "CoinGecko 이용자 투표 상승(%)": 77.78,
   "CoinGecko 인기 검색 코인": [
-   "SEPPUKU",
    "MIHAO",
+   "SEPPUKU",
    "DACITYCOIN",
    "ROCCO",
-   "NEAR",
    "PEARL",
-   "BTC",
-   "HYPE",
-   "PENGU",
-   "SOL",
-   "GRAM",
-   "DRV",
-   "LIT",
    "ZEC",
-   "XRP"
+   "PENGU",
+   "TAO",
+   "AAVE",
+   "SOL",
+   "QNT",
+   "UNI",
+   "BTC",
+   "SUI",
+   "AERO"
   ],
   "ETH가 인기 검색에 있음": false
  }
@@ -668,20 +668,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 972,
- "시가총액(USD)": 14349861,
- "완전희석가치 FDV(USD)": 82116512,
- "24시간 거래대금(USD)": 45279496,
+ "시가총액 순위": 970,
+ "시가총액(USD)": 14412146,
+ "완전희석가치 FDV(USD)": 82472938,
+ "24시간 거래대금(USD)": 45090172,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -95.62269,
+ "역대 최고가 대비(%)": -95.59886,
  "가격 변화(%)": {
-  "7d": 17.01456,
-  "30d": 27.47691,
-  "1y": -64.53969
+  "7d": 16.73993,
+  "30d": 27.86524,
+  "1y": -64.94936
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -697,6 +697,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "ERA 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Kalshi ends Donald Trump Jr.’s advisory contract over 1789 Capital’s Polymarket investment",
+   "요약": "Trump Jr. joined Kalshi as a strategic adviser in January 2025, helping the prediction market expand its customer base and strengthen its market presence.",
+   "시각(UTC)": "11-12 21:07"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
@@ -738,12 +744,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin weakness erases September's bullish signal",
    "요약": "Your day-ahead look for Nov. 12, 2026",
    "시각(UTC)": "11-12 12:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
-   "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
-   "시각(UTC)": "11-12 12:04"
   }
  ]
 }
@@ -768,14 +768,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.08,
+   "OrangeX Futures": -0.0145,
    "XT.COM (Derivatives)": -0.0321,
-   "Binance (Futures)": -0.0775,
-   "Ourbit (Futures)": -0.078,
-   "Toobit Futures": -0.078,
-   "Bybit (Futures)": -0.0404
+   "Binance (Futures)": -0.0623,
+   "Ourbit (Futures)": -0.0622,
+   "Toobit Futures": -0.0623,
+   "Bybit (Futures)": -0.0067
   },
-  "미결제약정 합계 USD(상위)": 55418793
+  "미결제약정 합계 USD(상위)": 57586276
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -783,21 +783,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 50.0,
   "CoinGecko 인기 검색 코인": [
-   "SEPPUKU",
    "MIHAO",
+   "SEPPUKU",
    "DACITYCOIN",
    "ROCCO",
-   "NEAR",
    "PEARL",
-   "BTC",
-   "HYPE",
-   "PENGU",
-   "SOL",
-   "GRAM",
-   "DRV",
-   "LIT",
    "ZEC",
-   "XRP"
+   "PENGU",
+   "TAO",
+   "AAVE",
+   "SOL",
+   "QNT",
+   "UNI",
+   "BTC",
+   "SUI",
+   "AERO"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -892,19 +892,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 837,
- "시가총액(USD)": 18743524,
- "완전희석가치 FDV(USD)": 18743524,
- "24시간 거래대금(USD)": 10213605,
+ "시가총액 순위": 838,
+ "시가총액(USD)": 18655727,
+ "완전희석가치 FDV(USD)": 18655727,
+ "24시간 거래대금(USD)": 10407641,
  "유통량": 46903.32249267,
- "총발행량": 46903.32249267,
+ "총발행량": 47313.60078382,
  "최대발행량": null,
- "유통 비율(%)": 100.0,
+ "유통 비율(%)": 99.1,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -8.2229,
+ "역대 최고가 대비(%)": -8.65095,
  "가격 변화(%)": {
-  "7d": 16.01473,
-  "30d": 6.47793,
+  "7d": 15.74938,
+  "30d": 6.17055,
   "1y": null
  },
  "소개": ""
@@ -917,6 +917,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "TSLAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Kalshi ends Donald Trump Jr.’s advisory contract over 1789 Capital’s Polymarket investment",
+   "요약": "Trump Jr. joined Kalshi as a strategic adviser in January 2025, helping the prediction market expand its customer base and strengthen its market presence.",
+   "시각(UTC)": "11-12 21:07"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
@@ -958,12 +964,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin weakness erases September's bullish signal",
    "요약": "Your day-ahead look for Nov. 12, 2026",
    "시각(UTC)": "11-12 12:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
-   "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
-   "시각(UTC)": "11-12 12:04"
   }
  ]
 }
@@ -994,21 +994,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 0.0,
   "CoinGecko 인기 검색 코인": [
-   "SEPPUKU",
    "MIHAO",
+   "SEPPUKU",
    "DACITYCOIN",
    "ROCCO",
-   "NEAR",
    "PEARL",
-   "BTC",
-   "HYPE",
-   "PENGU",
-   "SOL",
-   "GRAM",
-   "DRV",
-   "LIT",
    "ZEC",
-   "XRP"
+   "PENGU",
+   "TAO",
+   "AAVE",
+   "SOL",
+   "QNT",
+   "UNI",
+   "BTC",
+   "SUI",
+   "AERO"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1103,19 +1103,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 180,
- "시가총액(USD)": 178567255,
- "완전희석가치 FDV(USD)": 178567255,
- "24시간 거래대금(USD)": 363512408,
+ "시가총액 순위": 177,
+ "시가총액(USD)": 181743479,
+ "완전희석가치 FDV(USD)": 184280884,
+ "24시간 거래대금(USD)": 374741264,
  "유통량": 1083209.97443671,
- "총발행량": 1083209.97443671,
+ "총발행량": 1098333.17487833,
  "최대발행량": null,
- "유통 비율(%)": 100.0,
+ "유통 비율(%)": 98.6,
  "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -32.09925,
+ "역대 최고가 대비(%)": -30.87157,
  "가격 변화(%)": {
-  "7d": -10.56231,
-  "30d": -27.86427,
+  "7d": -7.79872,
+  "30d": -26.79153,
   "1y": null
  },
  "소개": ""
@@ -1128,6 +1128,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "NVDAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Kalshi ends Donald Trump Jr.’s advisory contract over 1789 Capital’s Polymarket investment",
+   "요약": "Trump Jr. joined Kalshi as a strategic adviser in January 2025, helping the prediction market expand its customer base and strengthen its market presence.",
+   "시각(UTC)": "11-12 21:07"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
@@ -1169,12 +1175,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin weakness erases September's bullish signal",
    "요약": "Your day-ahead look for Nov. 12, 2026",
    "시각(UTC)": "11-12 12:15"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "UK bank Griffin raises $20 million to expand into stablecoin payments",
-   "요약": "The Series B funding round, led by Octagon Partners valued the London-based company at more than $100 million.",
-   "시각(UTC)": "11-12 12:04"
   }
  ]
 }
@@ -1205,21 +1205,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 0.0,
   "CoinGecko 인기 검색 코인": [
-   "SEPPUKU",
    "MIHAO",
+   "SEPPUKU",
    "DACITYCOIN",
    "ROCCO",
-   "NEAR",
    "PEARL",
-   "BTC",
-   "HYPE",
-   "PENGU",
-   "SOL",
-   "GRAM",
-   "DRV",
-   "LIT",
    "ZEC",
-   "XRP"
+   "PENGU",
+   "TAO",
+   "AAVE",
+   "SOL",
+   "QNT",
+   "UNI",
+   "BTC",
+   "SUI",
+   "AERO"
   ],
   "NVDAB가 인기 검색에 있음": false
  }
