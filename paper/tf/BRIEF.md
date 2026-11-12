@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-12 21:38 KST)
+# TF팀 회의 자료 (2026-11-12 22:55 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,19 +96,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1465258563329,
- "완전희석가치 FDV(USD)": 1465260603366,
- "24시간 거래대금(USD)": 23745797391,
- "유통량": 20111025.0,
- "총발행량": 20111053.0,
+ "시가총액(USD)": 1457743282612,
+ "완전희석가치 FDV(USD)": 1457743934974,
+ "24시간 거래대금(USD)": 25303823974,
+ "유통량": 20111053.0,
+ "총발행량": 20111062.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -42.21245,
+ "역대 최고가 대비(%)": -42.50343,
  "가격 변화(%)": {
-  "7d": -9.30333,
-  "30d": -12.51396,
-  "1y": -30.60315
+  "7d": -8.93644,
+  "30d": -12.95218,
+  "1y": -30.95495
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
@@ -137,8 +137,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
-   "요약": "Nasdaq 100 futures retreat after Wednesday’s rally, while AI stocks slide, Strategy falls 4% and gold trades below $4,000.",
+   "제목": "Live updates: Bitcoin slumps below $73,000 as Nvidia's Huang resigns",
+   "요약": "Nasdaq 100 futures are down more than 1% on reports that Nvidia's board is considering firing Jensen Huang after allegations about an additional affair.",
    "시각(UTC)": "11-12 09:15"
   },
   {
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.006,
-   "OKX (Futures)": 0.0073,
-   "Bybit (Futures)": 0.006,
-   "MEXC (Futures)": 0.0057,
-   "Gate (Futures)": 0.0095,
-   "CoinW (Futures)": 0.0051
+   "Binance (Futures)": 0.0076,
+   "OKX (Futures)": 0.007,
+   "Bybit (Futures)": 0.0053,
+   "Gate (Futures)": 0.008,
+   "MEXC (Futures)": 0.0075,
+   "CoinW (Futures)": 0.0075
   },
-  "미결제약정 합계 USD(상위)": 19140410576
+  "미결제약정 합계 USD(상위)": 19007656001
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 68.33,
+  "CoinGecko 이용자 투표 상승(%)": 68.0,
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
-   "ZIG",
+   "ROCCO",
    "BTC",
-   "ZEC",
+   "ZIG",
    "PENGU",
+   "ZEC",
+   "ETH",
+   "LIT",
+   "NEAR",
+   "BP",
+   "SUI",
+   "TAO",
+   "CARDS",
    "SOL",
-   "HYPE",
-   "EPIC",
-   "PEPE",
-   "AERO",
-   "JCT",
-   "MON",
-   "PEARL",
-   "ARB",
-   "AVAX"
+   "HYPE"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,19 +410,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 246918001334,
- "완전희석가치 FDV(USD)": 246918001334,
- "24시간 거래대금(USD)": 8708380748,
+ "시가총액(USD)": 245693963728,
+ "완전희석가치 FDV(USD)": 245693963728,
+ "24시간 거래대금(USD)": 10007011047,
  "유통량": 122212724.4774798,
  "총발행량": 122212724.4774798,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -59.1513,
+ "역대 최고가 대비(%)": -59.35792,
  "가격 변화(%)": {
-  "7d": -16.48383,
-  "30d": -19.1347,
-  "1y": -43.05249
+  "7d": -15.94709,
+  "30d": -19.67991,
+  "1y": -43.41023
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
@@ -445,6 +445,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
+   "제목": "Are Alt-L1s over? Security, costs drive smaller chains to Ethereum",
+   "요약": "L1 blockchains Zilliqa, Gnosis and Ronin join the Ethereum ecosystem as the costs of going it alone grow, and the security and liquidity advantages become too hard to resist.",
+   "시각(UTC)": "11-12 13:30"
+  },
+  {
+   "출처": "Cointelegraph",
    "제목": "Ethlabs drops Hegotá slot proposal in push for 2027 quantum readiness",
    "요약": "Ethlabs’ roadmap aims to help Ethereum withstand quantum attacks and give users a way to protect their accounts by 2027.",
    "시각(UTC)": "11-12 10:30"
@@ -454,12 +460,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Deutsche Bank launches crypto custody for companies and institutions",
    "요약": "Clients can store and transfer Bitcoin, Ether and select stablecoins through the bank, which manages their wallets and private keys.",
    "시각(UTC)": "11-11 14:02"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "Bitmine posts $6.3B net loss for fiscal 2026 as Ether prices slide",
-   "요약": "Bitmine booked $6.2 billion in unrealized losses on digital assets. It held 6.07 million ETH on Sunday, or 4.97% of Ether’s supply.",
-   "시각(UTC)": "11-11 09:58"
   },
   {
    "출처": "Decrypt",
@@ -513,8 +513,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
-   "요약": "Nasdaq 100 futures retreat after Wednesday’s rally, while AI stocks slide, Strategy falls 4% and gold trades below $4,000.",
+   "제목": "Live updates: Bitcoin slumps below $73,000 as Nvidia's Huang resigns",
+   "요약": "Nasdaq 100 futures are down more than 1% on reports that Nvidia's board is considering firing Jensen Huang after allegations about an additional affair.",
    "시각(UTC)": "11-12 09:15"
   },
   {
@@ -546,37 +546,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0032,
-   "CoinW (Futures)": 0.0051,
+   "Binance (Futures)": 0.0023,
+   "CoinW (Futures)": 0.0037,
    "WEEX (Futures)": 0.0001,
-   "OKX (Futures)": 0.0039,
+   "OKX (Futures)": 0.0027,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12641180379
+  "미결제약정 합계 USD(상위)": 12582822359
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 84.21,
+  "CoinGecko 이용자 투표 상승(%)": 83.33,
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
-   "ZIG",
+   "ROCCO",
    "BTC",
-   "ZEC",
+   "ZIG",
    "PENGU",
+   "ZEC",
+   "ETH",
+   "LIT",
+   "NEAR",
+   "BP",
+   "SUI",
+   "TAO",
+   "CARDS",
    "SOL",
-   "HYPE",
-   "EPIC",
-   "PEPE",
-   "AERO",
-   "JCT",
-   "MON",
-   "PEARL",
-   "ARB",
-   "AVAX"
+   "HYPE"
   ],
-  "ETH가 인기 검색에 있음": false
+  "ETH가 인기 검색에 있음": true
  }
 }
 ```
@@ -669,19 +669,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Rollups-as-a-Service (RaaS)"
  ],
  "시가총액 순위": 898,
- "시가총액(USD)": 16872903,
- "완전희석가치 FDV(USD)": 96554524,
- "24시간 거래대금(USD)": 38148263,
+ "시가총액(USD)": 16471105,
+ "완전희석가치 FDV(USD)": 94255248,
+ "24시간 거래대금(USD)": 38239498,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -94.85306,
+ "역대 최고가 대비(%)": -94.97301,
  "가격 변화(%)": {
-  "7d": 42.09934,
-  "30d": 50.74638,
-  "1y": -60.3089
+  "7d": 36.24726,
+  "30d": 46.97816,
+  "1y": -61.47804
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -741,8 +741,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
-   "요약": "Nasdaq 100 futures retreat after Wednesday’s rally, while AI stocks slide, Strategy falls 4% and gold trades below $4,000.",
+   "제목": "Live updates: Bitcoin slumps below $73,000 as Nvidia's Huang resigns",
+   "요약": "Nasdaq 100 futures are down more than 1% on reports that Nvidia's board is considering firing Jensen Huang after allegations about an additional affair.",
    "시각(UTC)": "11-12 09:15"
   }
  ]
@@ -768,14 +768,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.3208,
-   "Binance (Futures)": -0.126,
-   "XT.COM (Derivatives)": -0.1261,
-   "Ourbit (Futures)": -0.1248,
-   "Bybit (Futures)": -0.3066,
-   "Toobit Futures": -0.1255
+   "OrangeX Futures": -0.1855,
+   "Binance (Futures)": -0.1334,
+   "XT.COM (Derivatives)": -0.1334,
+   "Bybit (Futures)": -0.1599,
+   "Toobit Futures": -0.1333,
+   "WhiteBIT Futures": -0.3562
   },
-  "미결제약정 합계 USD(상위)": 51542137
+  "미결제약정 합계 USD(상위)": 57378639
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -784,20 +784,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 50.0,
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
-   "ZIG",
+   "ROCCO",
    "BTC",
-   "ZEC",
+   "ZIG",
    "PENGU",
+   "ZEC",
+   "ETH",
+   "LIT",
+   "NEAR",
+   "BP",
+   "SUI",
+   "TAO",
+   "CARDS",
    "SOL",
-   "HYPE",
-   "EPIC",
-   "PEPE",
-   "AERO",
-   "JCT",
-   "MON",
-   "PEARL",
-   "ARB",
-   "AVAX"
+   "HYPE"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -892,19 +892,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 865,
- "시가총액(USD)": 17800847,
- "완전희석가치 FDV(USD)": 17812542,
- "24시간 거래대금(USD)": 9041843,
- "유통량": 45965.60864547,
- "총발행량": 45995.80862205,
+ "시가총액 순위": 860,
+ "시가총액(USD)": 17838693,
+ "완전희석가치 FDV(USD)": 17838693,
+ "24시간 거래대금(USD)": 8614593,
+ "유통량": 46272.463525909996,
+ "총발행량": 46272.463525909996,
  "최대발행량": null,
- "유통 비율(%)": 99.9,
+ "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -11.06058,
+ "역대 최고가 대비(%)": -11.46253,
  "가격 변화(%)": {
-  "7d": 2.24691,
-  "30d": 3.29355,
+  "7d": 2.38772,
+  "30d": 2.99331,
   "1y": null
  },
  "소개": ""
@@ -961,8 +961,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
-   "요약": "Nasdaq 100 futures retreat after Wednesday’s rally, while AI stocks slide, Strategy falls 4% and gold trades below $4,000.",
+   "제목": "Live updates: Bitcoin slumps below $73,000 as Nvidia's Huang resigns",
+   "요약": "Nasdaq 100 futures are down more than 1% on reports that Nvidia's board is considering firing Jensen Huang after allegations about an additional affair.",
    "시각(UTC)": "11-12 09:15"
   }
  ]
@@ -995,20 +995,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 0.0,
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
-   "ZIG",
+   "ROCCO",
    "BTC",
-   "ZEC",
+   "ZIG",
    "PENGU",
+   "ZEC",
+   "ETH",
+   "LIT",
+   "NEAR",
+   "BP",
+   "SUI",
+   "TAO",
+   "CARDS",
    "SOL",
-   "HYPE",
-   "EPIC",
-   "PEPE",
-   "AERO",
-   "JCT",
-   "MON",
-   "PEARL",
-   "ARB",
-   "AVAX"
+   "HYPE"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1103,19 +1103,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 200,
- "시가총액(USD)": 148569331,
- "완전희석가치 FDV(USD)": 149369077,
- "24시간 거래대금(USD)": 182298343,
- "유통량": 928147.38369351,
- "총발행량": 933143.58492541,
+ "시가총액 순위": 199,
+ "시가총액(USD)": 149982147,
+ "완전희석가치 FDV(USD)": 149982147,
+ "24시간 거래대금(USD)": 210736076,
+ "유통량": 960437.75604864,
+ "총발행량": 960437.75604864,
  "최대발행량": null,
- "유통 비율(%)": 99.5,
+ "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -34.06779,
+ "역대 최고가 대비(%)": -35.59606,
  "가격 변화(%)": {
-  "7d": -19.35367,
-  "30d": -28.70931,
+  "7d": -20.51359,
+  "30d": -30.25118,
   "1y": null
  },
  "소개": ""
@@ -1172,8 +1172,8 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again",
-   "요약": "Nasdaq 100 futures retreat after Wednesday’s rally, while AI stocks slide, Strategy falls 4% and gold trades below $4,000.",
+   "제목": "Live updates: Bitcoin slumps below $73,000 as Nvidia's Huang resigns",
+   "요약": "Nasdaq 100 futures are down more than 1%, with Nvidia falling 10% on the news.",
    "시각(UTC)": "11-12 09:15"
   }
  ]
@@ -1206,20 +1206,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
    "SEPPUKU",
-   "ZIG",
+   "ROCCO",
    "BTC",
-   "ZEC",
+   "ZIG",
    "PENGU",
+   "ZEC",
+   "ETH",
+   "LIT",
+   "NEAR",
+   "BP",
+   "SUI",
+   "TAO",
+   "CARDS",
    "SOL",
-   "HYPE",
-   "EPIC",
-   "PEPE",
-   "AERO",
-   "JCT",
-   "MON",
-   "PEARL",
-   "ARB",
-   "AVAX"
+   "HYPE"
   ],
   "NVDAB가 인기 검색에 있음": false
  }
