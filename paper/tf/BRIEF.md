@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-13 13:37 KST)
+# TF팀 회의 자료 (2026-11-13 14:39 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1386434154819,
- "완전희석가치 FDV(USD)": 1386439118377,
- "24시간 거래대금(USD)": 35824237763,
+ "시가총액(USD)": 1375884767165,
+ "완전희석가치 FDV(USD)": 1375889898197,
+ "24시간 거래대금(USD)": 37221052604,
  "유통량": 20111231.0,
- "총발행량": 20111303.0,
+ "총발행량": 20111306.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -45.32456,
+ "역대 최고가 대비(%)": -45.73778,
  "가격 변화(%)": {
-  "7d": -9.06975,
-  "30d": -17.58176,
-  "1y": -32.4464
+  "7d": -9.63467,
+  "30d": -18.24216,
+  "1y": -32.97594
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3655736026
+  "TVL(USD)": 3643820162
  }
 }
 ```
@@ -123,6 +123,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+   "요약": "A deal could be announced as soon as December, putting $2.1 billion of bitcoin under one roof, a sliver of what the combined group would be worth.",
+   "시각(UTC)": "11-13 05:08"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
@@ -164,12 +170,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
    "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
    "시각(UTC)": "11-12 05:22"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
-   "요약": "Nvidia perps are down 7% on Hyperliquid as traders react to reports that CEO Jensen Huang may be removed. Bitcoin continues to trade in a familiar price range.",
-   "시각(UTC)": "11-12 04:03"
   },
   {
    "출처": "Cointelegraph",
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0046,
-   "OKX (Futures)": 0.0045,
-   "Bybit (Futures)": 0.0038,
-   "Gate (Futures)": 0.0012,
-   "MEXC (Futures)": 0.0047,
-   "XT.COM (Derivatives)": 0.0047
+   "Binance (Futures)": 0.0045,
+   "OKX (Futures)": 0.0007,
+   "Bybit (Futures)": 0.0003,
+   "Gate (Futures)": 0.0013,
+   "MEXC (Futures)": 0.0048,
+   "WEEX (Futures)": 0.0001
   },
-  "미결제약정 합계 USD(상위)": 18294534805
+  "미결제약정 합계 USD(상위)": 18043819187
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 58.58,
+  "CoinGecko 이용자 투표 상승(%)": 56.25,
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
    "BTC",
    "SANC",
-   "ZEC",
-   "PENGU",
+   "PEPE",
    "ETH",
-   "SOL",
-   "XRP",
-   "NEAR",
-   "TAO",
-   "PUMP",
    "PEARL",
    "HYPE",
-   "LIT",
-   "AERO"
+   "DNA",
+   "QNT",
+   "PENGU",
+   "ZEC",
+   "CRV",
+   "QTC",
+   "ALGO",
+   "XLM"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 236268495420,
- "완전희석가치 FDV(USD)": 236268495420,
- "24시간 거래대금(USD)": 12852648299,
+ "시가총액(USD)": 233881468267,
+ "완전희석가치 FDV(USD)": 233881468267,
+ "24시간 거래대금(USD)": 13290856237,
  "유통량": 122215668.80579185,
  "총발행량": 122215668.80579185,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -60.91404,
+ "역대 최고가 대비(%)": -61.30892,
  "가격 변화(%)": {
-  "7d": -13.41486,
-  "30d": -23.03774,
-  "1y": -43.94138
+  "7d": -14.22663,
+  "30d": -23.84393,
+  "1y": -45.02901
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 39768619278
+  "TVL(USD)": 39471577183
  }
 }
 ```
@@ -477,6 +477,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+   "요약": "A deal could be announced as soon as December, putting $2.1 billion of bitcoin under one roof, a sliver of what the combined group would be worth.",
+   "시각(UTC)": "11-13 05:08"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
    "요약": "Federal authorities say they've taken infrastructure used in the FaceStealer scheme used to steal as much as $400 million in crypto assets.",
    "시각(UTC)": "11-12 22:55"
@@ -516,12 +522,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
    "요약": "OSL offers a yield on USDGO only to professional investors, but Jupiter said its market lets other holders earn onchain at rates set by borrower demand.",
    "시각(UTC)": "11-12 14:45"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
-   "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
-   "시각(UTC)": "11-12 14:24"
   }
  ]
 }
@@ -546,35 +546,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0035,
+   "Binance (Futures)": 0.0029,
+   "OKX (Futures)": -0.0022,
    "WEEX (Futures)": 0.0,
-   "OKX (Futures)": 0.0001,
-   "CoinW (Futures)": 0.0037,
-   "MEXC (Futures)": 0.0037
+   "CoinW (Futures)": 0.0031,
+   "MEXC (Futures)": 0.0032
   },
-  "미결제약정 합계 USD(상위)": 11816413375
+  "미결제약정 합계 USD(상위)": 11771344579
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 73.21,
+  "CoinGecko 이용자 투표 상승(%)": 73.68,
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
    "BTC",
    "SANC",
-   "ZEC",
-   "PENGU",
+   "PEPE",
    "ETH",
-   "SOL",
-   "XRP",
-   "NEAR",
-   "TAO",
-   "PUMP",
    "PEARL",
    "HYPE",
-   "LIT",
-   "AERO"
+   "DNA",
+   "QNT",
+   "PENGU",
+   "ZEC",
+   "CRV",
+   "QTC",
+   "ALGO",
+   "XLM"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -668,20 +668,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 955,
- "시가총액(USD)": 14328592,
- "완전희석가치 FDV(USD)": 81994807,
- "24시간 거래대금(USD)": 37666530,
+ "시가총액 순위": 956,
+ "시가총액(USD)": 14270226,
+ "완전희석가치 FDV(USD)": 81660809,
+ "24시간 거래대금(USD)": 39205946,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -95.6364,
+ "역대 최고가 대비(%)": -95.64699,
  "가격 변화(%)": {
-  "7d": 11.53019,
-  "30d": 28.15032,
-  "1y": -65.79323
+  "7d": 8.57212,
+  "30d": 27.98434,
+  "1y": -65.73236
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -697,6 +697,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "ERA 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+   "요약": "A deal could be announced as soon as December, putting $2.1 billion of bitcoin under one roof, a sliver of what the combined group would be worth.",
+   "시각(UTC)": "11-13 05:08"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
@@ -738,12 +744,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Crypto for Advisors: The blockchain built to run financial markets",
    "요약": "",
    "시각(UTC)": "11-12 15:34"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
-   "요약": "OSL offers a yield on USDGO only to professional investors, but Jupiter said its market lets other holders earn onchain at rates set by borrower demand.",
-   "시각(UTC)": "11-12 14:45"
   }
  ]
 }
@@ -768,14 +768,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.1143,
-   "Binance (Futures)": -0.1426,
+   "OrangeX Futures": -0.1176,
+   "Binance (Futures)": -0.1465,
    "XT.COM (Derivatives)": -0.0321,
-   "Toobit Futures": -0.1426,
-   "Bybit (Futures)": -0.2128,
-   "KCEX (Futures)": -0.1416
+   "Toobit Futures": -0.1465,
+   "Bybit (Futures)": -0.1716,
+   "Ourbit (Futures)": -0.1465
   },
-  "미결제약정 합계 USD(상위)": 50553752
+  "미결제약정 합계 USD(상위)": 47092225
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -786,18 +786,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MIHAO",
    "BTC",
    "SANC",
-   "ZEC",
-   "PENGU",
+   "PEPE",
    "ETH",
-   "SOL",
-   "XRP",
-   "NEAR",
-   "TAO",
-   "PUMP",
    "PEARL",
    "HYPE",
-   "LIT",
-   "AERO"
+   "DNA",
+   "QNT",
+   "PENGU",
+   "ZEC",
+   "CRV",
+   "QTC",
+   "ALGO",
+   "XLM"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -892,19 +892,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 840,
- "시가총액(USD)": 18321141,
- "완전희석가치 FDV(USD)": 18321141,
- "24시간 거래대금(USD)": 10317430,
- "유통량": 46021.18905985,
- "총발행량": 46021.18905985,
+ "시가총액 순위": 841,
+ "시가총액(USD)": 18223823,
+ "완전희석가치 FDV(USD)": 18223823,
+ "24시간 거래대금(USD)": 9642075,
+ "유통량": 46022.192109469994,
+ "총발행량": 46022.192109469994,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -8.58201,
+ "역대 최고가 대비(%)": -9.05157,
  "가격 변화(%)": {
-  "7d": 14.66367,
-  "30d": 5.67576,
+  "7d": 13.81366,
+  "30d": 5.15954,
   "1y": null
  },
  "소개": ""
@@ -917,6 +917,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "TSLAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+   "요약": "A deal could be announced as soon as December, putting $2.1 billion of bitcoin under one roof, a sliver of what the combined group would be worth.",
+   "시각(UTC)": "11-13 05:08"
+  },
   {
    "출처": "CoinDesk",
    "제목": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
@@ -958,12 +964,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Crypto for Advisors: The blockchain built to run financial markets",
    "요약": "",
    "시각(UTC)": "11-12 15:34"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
-   "요약": "OSL offers a yield on USDGO only to professional investors, but Jupiter said its market lets other holders earn onchain at rates set by borrower demand.",
-   "시각(UTC)": "11-12 14:45"
   }
  ]
 }
@@ -997,18 +997,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MIHAO",
    "BTC",
    "SANC",
-   "ZEC",
-   "PENGU",
+   "PEPE",
    "ETH",
-   "SOL",
-   "XRP",
-   "NEAR",
-   "TAO",
-   "PUMP",
    "PEARL",
    "HYPE",
-   "LIT",
-   "AERO"
+   "DNA",
+   "QNT",
+   "PENGU",
+   "ZEC",
+   "CRV",
+   "QTC",
+   "ALGO",
+   "XLM"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1100,24 +1100,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 7,
- "시가총액(USD)": 46405517153,
- "완전희석가치 FDV(USD)": 50012978212,
- "24시간 거래대금(USD)": 2753344326,
- "유통량": 591511156.4310429,
- "총발행량": 637493910.0592042,
+ "시가총액(USD)": 46472868197,
+ "완전희석가치 FDV(USD)": 50085565966,
+ "24시간 거래대금(USD)": 2878545293,
+ "유통량": 591511131.6837605,
+ "총발행량": 637493895.9952643,
  "최대발행량": null,
  "유통 비율(%)": 92.8,
  "역대 최고가(USD)": 293.31,
- "역대 최고가 대비(%)": -73.25473,
+ "역대 최고가 대비(%)": -73.2198,
  "가격 변화(%)": {
-  "7d": -12.48142,
-  "30d": -27.20411,
-  "1y": -49.18565
+  "7d": -12.16229,
+  "30d": -27.18386,
+  "1y": -49.03116
  },
  "소개": "Solana is a high-performance Layer 1 blockchain designed for mass adoption by providing a fast, secure, and low-cost environment for decentralized applications. It distinguishes itself by scaling globally without the use of complex sharding or multiple layers, instead maintaining a single, unified ledger to avoid liquidity fragmentation. This architecture allows it to process thousands of transact",
  "체인 TVL (DefiLlama)": {
   "체인": "Solana",
-  "TVL(USD)": 4985936670
+  "TVL(USD)": 4937930155
  }
 }
 ```
@@ -1173,6 +1173,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+   "요약": "A deal could be announced as soon as December, putting $2.1 billion of bitcoin under one roof, a sliver of what the combined group would be worth.",
+   "시각(UTC)": "11-13 05:08"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "Bitcoin dips below $70,000 as Dollar Index hits 19-month high",
    "요약": "The crypto market selloff gathered pace early Friday. Bitcoin dropped below $70,000 and ether traded below $2,000, triggering large liquidations in futures market.",
    "시각(UTC)": "11-13 03:37"
@@ -1212,12 +1218,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
    "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
    "시각(UTC)": "11-12 14:24"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-   "요약": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
-   "시각(UTC)": "11-12 13:57"
   }
  ]
 }
@@ -1242,38 +1242,38 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.01,
-   "Gate (Futures)": 0.002,
-   "OKX (Futures)": 0.0084,
-   "Bybit (Futures)": -0.0007,
+   "Binance (Futures)": 0.0056,
+   "Gate (Futures)": -0.0035,
+   "OKX (Futures)": 0.002,
+   "Bybit (Futures)": -0.0075,
    "CoinUp.io (Futures)": 0.0071,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 2059656969
+  "미결제약정 합계 USD(상위)": 2066058606
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 69.44,
+  "CoinGecko 이용자 투표 상승(%)": 68.57,
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
    "BTC",
    "SANC",
-   "ZEC",
-   "PENGU",
+   "PEPE",
    "ETH",
-   "SOL",
-   "XRP",
-   "NEAR",
-   "TAO",
-   "PUMP",
    "PEARL",
    "HYPE",
-   "LIT",
-   "AERO"
+   "DNA",
+   "QNT",
+   "PENGU",
+   "ZEC",
+   "CRV",
+   "QTC",
+   "ALGO",
+   "XLM"
   ],
-  "SOL가 인기 검색에 있음": true
+  "SOL가 인기 검색에 있음": false
  }
 }
 ```
