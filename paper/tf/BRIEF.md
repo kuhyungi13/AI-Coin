@@ -1,15 +1,15 @@
-# TF팀 회의 자료 (2026-11-13 08:21 KST)
+# TF팀 회의 자료 (2026-11-13 09:21 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
 
-분석 대상: BTC, ETH, ERA, TSLAB, NVDAB
+분석 대상: BTC, ETH, ERA, TSLAB, SOL
 
 **지금까지 승률** ACE 40.9% (9/22), 채점 대기 0개 · 자세히는 `paper/tf/SCOREBOARD.md`, 교훈은 `aicoin/tf_team/LESSONS.md`
 
 **TRAINER 모의 계좌** 총자산 10,017.55 USDT (+0.18%), 보유 없음 · 자세히는 `paper/tf/trainer/TRAINER.md`
 
-**전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: ERA, TSLAB · 과매도 반등: NVDAB
+**전체 스캔 후보** (`paper/tf/SCAN.md`) 상승 추세: ERA, TSLAB · 과매도 반등: SOL
 
 ## BTC
 
@@ -21,36 +21,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "일봉": {
-  "기준일": "2026-11-11",
-  "종가": 74015.19,
+  "기준일": "2026-11-12",
+  "종가": 71460.0,
   "등락률(%)": {
-   "1일": 0.3,
-   "7일": -8.06,
-   "30일": -9.57,
-   "90일": 16.58
+   "1일": -3.45,
+   "7일": -6.08,
+   "30일": -14.08,
+   "90일": 13.35
   },
   "이동평균": {
-   "MA20": 77826.838,
-   "MA60": 80994.8915,
-   "MA120": 75467.819333
+   "MA20": 77340.3665,
+   "MA60": 80905.191333,
+   "MA120": 75523.683667
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -4.9,
-   "MA60": -8.62,
-   "MA120": -1.92
+   "MA20": -7.6,
+   "MA60": -11.67,
+   "MA120": -5.38
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 12
+   "며칠 전": 13
   },
-  "RSI14": 35.0,
-  "ATR14(%)": 3.3,
-  "거래량(20일 평균 대비 배수)": 1.11,
+  "RSI14": 29.5,
+  "ATR14(%)": 3.32,
+  "거래량(20일 평균 대비 배수)": 1.06,
   "30일 최고가": 84898.0,
-  "30일 최저가": 72727.27,
+  "30일 최저가": 71113.06,
   "최근 10일 종가": [
-   76816.0,
    77453.86,
    80504.01,
    76088.01,
@@ -59,26 +58,27 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    74851.44,
    75368.41,
    73796.06,
-   74015.19
+   74015.19,
+   71460.0
   ],
   "참고": "마감된 캔들만 사용 (일봉은 한국 시간 오전 9시 마감)"
  },
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -0.03,
-   "7일": -3.12,
-   "30일": -5.43,
-   "90일": -12.13
+   "1일": -0.32,
+   "7일": -3.95,
+   "30일": -5.81,
+   "90일": -12.15
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -3.01,
-   "MA60": -5.48,
-   "MA120": -7.67
+   "MA20": -3.05,
+   "MA60": -5.67,
+   "MA120": -7.86
   },
   "MA20>MA60": false,
   "최근 교차": null,
-  "RSI14": 27.1
+  "RSI14": 26.0
  }
 }
 ```
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1434065497713,
- "완전희석가치 FDV(USD)": 1434065497713,
- "24시간 거래대금(USD)": 27483766479,
- "유통량": 20111221.0,
- "총발행량": 20111221.0,
+ "시가총액(USD)": 1433340470434,
+ "완전희석가치 FDV(USD)": 1433340470434,
+ "24시간 거래대금(USD)": 27674735739,
+ "유통량": 20111231.0,
+ "총발행량": 20111231.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -43.44321,
+ "역대 최고가 대비(%)": -43.46137,
  "가격 변화(%)": {
-  "7d": -5.75802,
-  "30d": -14.56052,
-  "1y": -30.03203
+  "7d": -6.21228,
+  "30d": -14.2348,
+  "1y": -29.86201
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3758103816
+  "TVL(USD)": 3757612150
  }
 }
 ```
@@ -272,15 +272,15 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "공포·탐욕 지수": {
-  "오늘": "28 (Fear)",
+  "오늘": "20 (Extreme Fear)",
   "최근 7일": [
+   20,
    28,
    29,
    32,
    29,
    28,
-   25,
-   28
+   25
   ]
  },
  "선물 포지션": {
@@ -293,29 +293,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "MEXC (Futures)": 0.01,
    "CoinW (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 18930711827
+  "미결제약정 합계 USD(상위)": 18845263536
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 56.86,
+  "CoinGecko 이용자 투표 상승(%)": 56.22,
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
-   "SEPPUKU",
    "DACITYCOIN",
    "BTC",
+   "XRP",
+   "PENGU",
+   "SOL",
+   "SEPPUKU",
+   "PYTH",
+   "KNTQ",
    "ZEC",
    "PEARL",
-   "PENGU",
-   "XMR",
-   "XRP",
-   "SOL",
    "QNT",
-   "FET",
-   "NEAR",
-   "VVV",
-   "TAO"
+   "ONDO",
+   "CRO",
+   "LINK"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -332,36 +332,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "일봉": {
-  "기준일": "2026-11-11",
-  "종가": 2056.36,
+  "기준일": "2026-11-12",
+  "종가": 2019.74,
   "등락률(%)": {
-   "1일": 0.15,
-   "7일": -15.19,
-   "30일": -15.97,
-   "90일": 9.02
+   "1일": -1.78,
+   "7일": -9.75,
+   "30일": -19.14,
+   "90일": 7.31
   },
   "이동평균": {
-   "MA20": 2259.119,
-   "MA60": 2465.0545,
-   "MA120": 2295.990917
+   "MA20": 2240.726,
+   "MA60": 2457.431833,
+   "MA120": 2296.839917
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -8.98,
-   "MA60": -16.58,
-   "MA120": -10.44
+   "MA20": -9.86,
+   "MA60": -17.81,
+   "MA120": -12.06
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 22
+   "며칠 전": 23
   },
-  "RSI14": 29.9,
-  "ATR14(%)": 4.98,
-  "거래량(20일 평균 대비 배수)": 0.83,
-  "30일 최고가": 2538.52,
-  "30일 최저가": 2006.0,
+  "RSI14": 28.1,
+  "ATR14(%)": 4.85,
+  "거래량(20일 평균 대비 배수)": 1.05,
+  "30일 최고가": 2530.44,
+  "30일 최저가": 1983.82,
   "최근 10일 종가": [
-   2253.29,
    2274.77,
    2424.61,
    2238.01,
@@ -370,29 +369,30 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    2127.46,
    2135.24,
    2053.21,
-   2056.36
+   2056.36,
+   2019.74
   ],
   "참고": "마감된 캔들만 사용 (일봉은 한국 시간 오전 9시 마감)"
  },
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": 0.43,
-   "7일": -2.78,
-   "30일": -9.75,
-   "90일": -14.92
+   "1일": 0.1,
+   "7일": -2.82,
+   "30일": -9.84,
+   "90일": -14.41
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -2.56,
-   "MA60": -8.29,
-   "MA120": -10.49
+   "MA20": -2.16,
+   "MA60": -8.03,
+   "MA120": -10.28
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 28
+   "며칠 전": 29
   },
-  "RSI14": 31.2
+  "RSI14": 31.9
  }
 }
 ```
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 246061264445,
- "완전희석가치 FDV(USD)": 246061264445,
- "24시간 거래대금(USD)": 10254956648,
+ "시가총액(USD)": 246187460460,
+ "완전희석가치 FDV(USD)": 246187460460,
+ "24시간 거래대금(USD)": 10117452786,
  "유통량": 122212724.4774798,
  "총발행량": 122212724.4774798,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -59.29304,
+ "역대 최고가 대비(%)": -59.26939,
  "가격 변화(%)": {
-  "7d": -9.6753,
-  "30d": -19.75569,
-  "1y": -41.1273
+  "7d": -9.89457,
+  "30d": -19.30776,
+  "1y": -40.96619
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 40473756683
+  "TVL(USD)": 40380402302
  }
 }
 ```
@@ -532,49 +532,49 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "공포·탐욕 지수": {
-  "오늘": "28 (Fear)",
+  "오늘": "20 (Extreme Fear)",
   "최근 7일": [
+   20,
    28,
    29,
    32,
    29,
    28,
-   25,
-   28
+   25
   ]
  },
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0073,
-   "CoinW (Futures)": 0.0086,
+   "Binance (Futures)": 0.0072,
+   "CoinW (Futures)": 0.0095,
    "WEEX (Futures)": 0.0,
    "OKX (Futures)": 0.0062,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 12397365818
+  "미결제약정 합계 USD(상위)": 12423929724
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 78.0,
+  "CoinGecko 이용자 투표 상승(%)": 76.0,
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
-   "SEPPUKU",
    "DACITYCOIN",
    "BTC",
+   "XRP",
+   "PENGU",
+   "SOL",
+   "SEPPUKU",
+   "PYTH",
+   "KNTQ",
    "ZEC",
    "PEARL",
-   "PENGU",
-   "XMR",
-   "XRP",
-   "SOL",
    "QNT",
-   "FET",
-   "NEAR",
-   "VVV",
-   "TAO"
+   "ONDO",
+   "CRO",
+   "LINK"
   ],
   "ETH가 인기 검색에 있음": false
  }
@@ -591,36 +591,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "일봉": {
-  "기준일": "2026-11-11",
-  "종가": 0.0875,
+  "기준일": "2026-11-12",
+  "종가": 0.0799,
   "등락률(%)": {
-   "1일": 9.1,
-   "7일": 27.55,
-   "30일": 31.18,
-   "90일": 37.58
+   "1일": -8.69,
+   "7일": 13.66,
+   "30일": 23.88,
+   "90일": 31.85
   },
   "이동평균": {
-   "MA20": 0.073465,
-   "MA60": 0.068157,
-   "MA120": 0.066981
+   "MA20": 0.07365,
+   "MA60": 0.068515,
+   "MA120": 0.066973
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 19.1,
-   "MA60": 28.38,
-   "MA120": 30.63
+   "MA20": 8.49,
+   "MA60": 16.62,
+   "MA120": 19.3
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 45
+   "며칠 전": 46
   },
-  "RSI14": 64.3,
-  "ATR14(%)": 10.7,
-  "거래량(20일 평균 대비 배수)": 2.04,
+  "RSI14": 56.4,
+  "ATR14(%)": 12.65,
+  "거래량(20일 평균 대비 배수)": 1.84,
   "30일 최고가": 0.1031,
   "30일 최저가": 0.0564,
   "최근 10일 종가": [
-   0.0614,
    0.064,
    0.0686,
    0.0703,
@@ -629,29 +628,30 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    0.0756,
    0.0704,
    0.0802,
-   0.0875
+   0.0875,
+   0.0799
   ],
   "참고": "마감된 캔들만 사용 (일봉은 한국 시간 오전 9시 마감)"
  },
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -12.12,
-   "7일": 1.69,
-   "30일": 16.81,
-   "90일": 7.41
+   "1일": -4.99,
+   "7일": -7.52,
+   "30일": 10.36,
+   "90일": 3.1
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 3.02,
-   "MA60": 13.85,
-   "MA120": 12.38
+   "MA20": -2.51,
+   "MA60": 7.71,
+   "MA120": 6.72
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 33
+   "며칠 전": 34
   },
-  "RSI14": 53.3
+  "RSI14": 47.7
  }
 }
 ```
@@ -668,20 +668,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 975,
- "시가총액(USD)": 14126252,
- "완전희석가치 FDV(USD)": 80836924,
- "24시간 거래대금(USD)": 44558218,
+ "시가총액 순위": 973,
+ "시가총액(USD)": 14224624,
+ "완전희석가치 FDV(USD)": 81399852,
+ "24시간 거래대금(USD)": 42252115,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -95.6909,
+ "역대 최고가 대비(%)": -95.666,
  "가격 변화(%)": {
-  "7d": 14.26407,
-  "30d": 26.05776,
-  "1y": -66.08439
+  "7d": 15.87134,
+  "30d": 26.08681,
+  "1y": -65.57332
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -754,15 +754,15 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "공포·탐욕 지수": {
-  "오늘": "28 (Fear)",
+  "오늘": "20 (Extreme Fear)",
   "최근 7일": [
+   20,
    28,
    29,
    32,
    29,
    28,
-   25,
-   28
+   25
   ]
  },
  "선물 포지션": {
@@ -770,12 +770,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "거래소별 펀딩비(%)": {
    "OrangeX Futures": 0.01,
    "XT.COM (Derivatives)": -0.0321,
-   "Binance (Futures)": -0.0272,
-   "Ourbit (Futures)": -0.027,
-   "Toobit Futures": -0.0272,
-   "Bybit (Futures)": 0.005
+   "Binance (Futures)": -0.026,
+   "Ourbit (Futures)": -0.0244,
+   "Toobit Futures": -0.025,
+   "Bybit (Futures)": -0.0461
   },
-  "미결제약정 합계 USD(상위)": 55569138
+  "미결제약정 합계 USD(상위)": 53713222
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -784,20 +784,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 50.0,
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
-   "SEPPUKU",
    "DACITYCOIN",
    "BTC",
+   "XRP",
+   "PENGU",
+   "SOL",
+   "SEPPUKU",
+   "PYTH",
+   "KNTQ",
    "ZEC",
    "PEARL",
-   "PENGU",
-   "XMR",
-   "XRP",
-   "SOL",
    "QNT",
-   "FET",
-   "NEAR",
-   "VVV",
-   "TAO"
+   "ONDO",
+   "CRO",
+   "LINK"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -815,36 +815,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "일봉": {
-  "기준일": "2026-11-11",
-  "종가": 386.72,
+  "기준일": "2026-11-12",
+  "종가": 399.84,
   "등락률(%)": {
-   "1일": 1.41,
-   "7일": 1.07,
-   "30일": 2.59,
-   "90일": 13.15
+   "1일": 3.39,
+   "7일": 18.08,
+   "30일": 6.64,
+   "90일": 16.97
   },
   "이동평균": {
-   "MA20": 383.104,
-   "MA60": 373.937833,
-   "MA120": 359.702917
+   "MA20": 384.471,
+   "MA60": 374.556167,
+   "MA120": 359.74425
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 0.94,
-   "MA60": 3.42,
-   "MA120": 7.51
+   "MA20": 4.0,
+   "MA60": 6.75,
+   "MA120": 11.15
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 69
+   "며칠 전": 70
   },
-  "RSI14": 53.8,
-  "ATR14(%)": 4.1,
-  "거래량(20일 평균 대비 배수)": 0.86,
+  "RSI14": 58.6,
+  "ATR14(%)": 4.07,
+  "거래량(20일 평균 대비 배수)": 0.78,
   "30일 최고가": 414.93,
   "30일 최저가": 335.78,
   "최근 10일 종가": [
-   404.93,
    396.29,
    382.63,
    338.62,
@@ -853,29 +852,30 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    355.33,
    379.2,
    381.33,
-   386.72
+   386.72,
+   399.84
   ],
   "참고": "마감된 캔들만 사용 (일봉은 한국 시간 오전 9시 마감)"
  },
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -0.42,
-   "7일": -1.17,
-   "30일": 9.01,
-   "90일": -3.44
+   "1일": 2.38,
+   "7일": 2.02,
+   "30일": 11.53,
+   "90일": -0.6
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 1.6,
-   "MA60": 4.3,
-   "MA120": 1.71
+   "MA20": 3.76,
+   "MA60": 6.81,
+   "MA120": 4.07
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 5
+   "며칠 전": 6
   },
-  "RSI14": 63.4
+  "RSI14": 71.0
  }
 }
 ```
@@ -892,19 +892,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 832,
- "시가총액(USD)": 18827757,
- "완전희석가치 FDV(USD)": 18827757,
- "24시간 거래대금(USD)": 6588288,
+ "시가총액 순위": 830,
+ "시가총액(USD)": 18926554,
+ "완전희석가치 FDV(USD)": 18926554,
+ "24시간 거래대금(USD)": 10150333,
  "유통량": 47352.99224488,
  "총발행량": 47352.99224488,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -8.6859,
+ "역대 최고가 대비(%)": -8.20674,
  "가격 변화(%)": {
-  "7d": 17.46154,
-  "30d": 5.98198,
+  "7d": 18.24345,
+  "30d": 6.66821,
   "1y": null
  },
  "소개": ""
@@ -974,15 +974,15 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "공포·탐욕 지수": {
-  "오늘": "28 (Fear)",
+  "오늘": "20 (Extreme Fear)",
   "최근 7일": [
+   20,
    28,
    29,
    32,
    29,
    28,
-   25,
-   28
+   25
   ]
  },
  "선물 포지션": {
@@ -995,30 +995,29 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "CoinGecko 이용자 투표 상승(%)": 0.0,
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
-   "SEPPUKU",
    "DACITYCOIN",
    "BTC",
+   "XRP",
+   "PENGU",
+   "SOL",
+   "SEPPUKU",
+   "PYTH",
+   "KNTQ",
    "ZEC",
    "PEARL",
-   "PENGU",
-   "XMR",
-   "XRP",
-   "SOL",
    "QNT",
-   "FET",
-   "NEAR",
-   "VVV",
-   "TAO"
+   "ONDO",
+   "CRO",
+   "LINK"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
 }
 ```
 
-## NVDAB
+## SOL
 
 **수집 실패**
-- VIBE/선물 포지션: ValueError: NVDAB 무기한 선물 자료 없음
 - VIBE/커뮤니티 인기글(레딧): HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15
 
 ### TARO 자료 · 기술적 분석 (차트)
@@ -1026,67 +1025,64 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "일봉": {
-  "기준일": "2026-11-11",
-  "종가": 160.65,
+  "기준일": "2026-11-12",
+  "종가": 81.72,
   "등락률(%)": {
-   "1일": -5.66,
-   "7일": -20.18,
-   "30일": -28.51,
-   "90일": -28.84
+   "1일": -1.87,
+   "7일": -8.52,
+   "30일": -23.5,
+   "90일": 8.38
   },
   "이동평균": {
-   "MA20": 198.64,
-   "MA60": 215.9945,
-   "MA120": 215.770167
+   "MA20": 93.0965,
+   "MA60": 105.391667,
+   "MA120": 95.686917
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -19.13,
-   "MA60": -25.62,
-   "MA120": -25.55
+   "MA20": -12.22,
+   "MA60": -22.46,
+   "MA120": -14.6
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 18
+   "며칠 전": 19
   },
-  "RSI14": 20.7,
-  "ATR14(%)": 6.65,
-  "거래량(20일 평균 대비 배수)": 6.88,
-  "30일 최고가": 230.1,
-  "30일 최저가": 155.1,
+  "RSI14": 22.4,
+  "ATR14(%)": 5.36,
+  "거래량(20일 평균 대비 배수)": 0.99,
+  "30일 최고가": 109.2,
+  "30일 최저가": 80.46,
   "최근 10일 종가": [
-   203.91,
-   208.3,
-   201.26,
-   180.91,
-   188.27,
-   187.54,
-   179.43,
-   180.29,
-   170.28,
-   160.65
+   92.83,
+   95.61,
+   89.33,
+   90.13,
+   89.81,
+   86.54,
+   86.74,
+   83.35,
+   83.28,
+   81.72
   ],
   "참고": "마감된 캔들만 사용 (일봉은 한국 시간 오전 9시 마감)"
  },
  "4시간봉(요약)": {
   "기준일": "2026-11-12",
   "등락률(%)": {
-   "1일": -0.92,
-   "7일": -6.75,
-   "30일": -12.4,
-   "90일": -23.68
+   "1일": 0.1,
+   "7일": -3.69,
+   "30일": -9.01,
+   "90일": -20.23
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -4.17,
-   "MA60": -11.47,
-   "MA120": -17.11
+   "MA20": -2.49,
+   "MA60": -7.79,
+   "MA120": -12.77
   },
   "MA20>MA60": false,
-  "최근 교차": {
-   "종류": "데드크로스",
-   "며칠 전": 80
-  },
-  "RSI14": 36.7
+  "최근 교차": null,
+  "RSI14": 30.9
  }
 }
 ```
@@ -1095,30 +1091,34 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 ```json
 {
- "이름": "NVIDIA (bStocks Tokenized Stock)",
+ "이름": "Solana",
  "분류": [
-  "Tokenized Assets",
-  "BNB Chain Ecosystem",
-  "Tokenized Stocks",
-  "Real World Assets (RWA)",
-  "bStocks Ecosystem"
+  "Smart Contract Platform",
+  "Solana Ecosystem",
+  "Layer 1 (L1)",
+  "FTX Holdings",
+  "Multicoin Capital Portfolio"
  ],
- "시가총액 순위": 174,
- "시가총액(USD)": 183812639,
- "완전희석가치 FDV(USD)": 183812639,
- "24시간 거래대금(USD)": 337095276,
- "유통량": 1099379.6732680202,
- "총발행량": 1099379.6732680202,
+ "시가총액 순위": 7,
+ "시가총액(USD)": 48255364905,
+ "완전희석가치 FDV(USD)": 52006510928,
+ "24시간 거래대금(USD)": 2084084641,
+ "유통량": 591455596.2718714,
+ "총발행량": 637432583.7373241,
  "최대발행량": null,
- "유통 비율(%)": 100.0,
- "역대 최고가(USD)": 242.78,
- "역대 최고가 대비(%)": -31.1327,
+ "유통 비율(%)": 92.8,
+ "역대 최고가(USD)": 293.31,
+ "역대 최고가 대비(%)": -72.18842,
  "가격 변화(%)": {
-  "7d": -8.28198,
-  "30d": -27.09514,
-  "1y": null
+  "7d": -8.58111,
+  "30d": -23.58273,
+  "1y": -46.77311
  },
- "소개": ""
+ "소개": "Solana is a high-performance Layer 1 blockchain designed for mass adoption by providing a fast, secure, and low-cost environment for decentralized applications. It distinguishes itself by scaling globally without the use of complex sharding or multiple layers, instead maintaining a single, unified ledger to avoid liquidity fragmentation. This architecture allows it to process thousands of transact",
+ "체인 TVL (DefiLlama)": {
+  "체인": "Solana",
+  "TVL(USD)": 5018754337
+ }
 }
 ```
 
@@ -1126,7 +1126,50 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 
 ```json
 {
- "NVDAB 관련 기사": [],
+ "SOL 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
+   "요약": "The securities infrastructure giant plans to bring tokenized stocks, ETFs and U.S. Treasuries to Solana as it expands next year's roadmap beyond Stellar and Arc.",
+   "시각(UTC)": "11-12 15:45"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
+   "요약": "OSL offers a yield on USDGO only to professional investors, but Jupiter said its market lets other holders earn onchain at rates set by borrower demand.",
+   "시각(UTC)": "11-12 14:45"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "DTCC Plans Solana Expansion as Wallet Rules Limit Access",
+   "요약": "The US securities clearinghouse plans to bring tokenized stocks to Solana in 2027, but analysts say restrictions could limit adoption.",
+   "시각(UTC)": "11-12 20:07"
+  },
+  {
+   "출처": "Decrypt",
+   "제목": "SoFi Brings Its Bank-Issued Stablecoin to Polygon’s Payments Stack",
+   "요약": "SoFiUSD, the first stablecoin from a U.S. national bank, is now live on Polygon Open Money Stack alongside Ethereum and Solana.",
+   "시각(UTC)": "11-12 14:01"
+  },
+  {
+   "출처": "Decrypt",
+   "제목": "DTCC to Bring Tokenized Stocks and Treasuries to Solana in 2027",
+   "요약": "Wall Street's main settlement firm will add Solana to its tokenization service, which went live last month on Canton and a private network.",
+   "시각(UTC)": "11-12 13:25"
+  },
+  {
+   "출처": "Decrypt",
+   "제목": "What Are Solana Privacy Rings? Inside Helius’ Privacy Protocol for Solana",
+   "요약": "Solana Privacy Rings encrypt balances and transfer amounts without leaving Solana. Here's how they work, and how they compare.",
+   "시각(UTC)": "11-11 17:09"
+  },
+  {
+   "출처": "Decrypt",
+   "제목": "Decrypt Becomes First News Publisher to Offer Perps Trading, Powered by Solana's Phoenix",
+   "요약": "The integration brings perpetual futures trading into Decrypt, so readers can trade crypto, stocks and commodities without leaving the news.",
+   "시각(UTC)": "11-11 14:02"
+  }
+ ],
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
@@ -1154,27 +1197,27 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "CoinDesk",
-   "제목": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
-   "요약": "The securities infrastructure giant plans to bring tokenized stocks, ETFs and U.S. Treasuries to Solana as it expands next year's roadmap beyond Stellar and Arc.",
-   "시각(UTC)": "11-12 15:45"
-  },
-  {
-   "출처": "CoinDesk",
    "제목": "Crypto for Advisors: The blockchain built to run financial markets",
    "요약": "",
    "시각(UTC)": "11-12 15:34"
   },
   {
    "출처": "CoinDesk",
-   "제목": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
-   "요약": "OSL offers a yield on USDGO only to professional investors, but Jupiter said its market lets other holders earn onchain at rates set by borrower demand.",
-   "시각(UTC)": "11-12 14:45"
-  },
-  {
-   "출처": "CoinDesk",
    "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
    "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
    "시각(UTC)": "11-12 14:24"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
+   "요약": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
+   "시각(UTC)": "11-12 13:57"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin weakness erases September's bullish signal",
+   "요약": "Your day-ahead look for Nov. 12, 2026",
+   "시각(UTC)": "11-12 12:15"
   }
  ]
 }
@@ -1185,43 +1228,52 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "공포·탐욕 지수": {
-  "오늘": "28 (Fear)",
+  "오늘": "20 (Extreme Fear)",
   "최근 7일": [
+   20,
    28,
    29,
    32,
    29,
    28,
-   25,
-   28
+   25
   ]
  },
  "선물 포지션": {
-  "오류": "ValueError: NVDAB 무기한 선물 자료 없음"
+  "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
+  "거래소별 펀딩비(%)": {
+   "Binance (Futures)": 0.01,
+   "Gate (Futures)": 0.01,
+   "OKX (Futures)": 0.01,
+   "Bybit (Futures)": 0.01,
+   "CoinUp.io (Futures)": 0.0071,
+   "WhiteBIT Futures": 0.01
+  },
+  "미결제약정 합계 USD(상위)": 2144725150
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 0.0,
+  "CoinGecko 이용자 투표 상승(%)": 73.53,
   "CoinGecko 인기 검색 코인": [
    "MIHAO",
-   "SEPPUKU",
    "DACITYCOIN",
    "BTC",
+   "XRP",
+   "PENGU",
+   "SOL",
+   "SEPPUKU",
+   "PYTH",
+   "KNTQ",
    "ZEC",
    "PEARL",
-   "PENGU",
-   "XMR",
-   "XRP",
-   "SOL",
    "QNT",
-   "FET",
-   "NEAR",
-   "VVV",
-   "TAO"
+   "ONDO",
+   "CRO",
+   "LINK"
   ],
-  "NVDAB가 인기 검색에 있음": false
+  "SOL가 인기 검색에 있음": true
  }
 }
 ```
