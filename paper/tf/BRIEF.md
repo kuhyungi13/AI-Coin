@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-13 14:39 KST)
+# TF팀 회의 자료 (2026-11-13 15:41 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1375884767165,
- "완전희석가치 FDV(USD)": 1375889898197,
- "24시간 거래대금(USD)": 37221052604,
+ "시가총액(USD)": 1384681445707,
+ "완전희석가치 FDV(USD)": 1384688124268,
+ "24시간 거래대금(USD)": 40616264280,
  "유통량": 20111231.0,
- "총발행량": 20111306.0,
+ "총발행량": 20111328.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -45.73778,
+ "역대 최고가 대비(%)": -45.39085,
  "가격 변화(%)": {
-  "7d": -9.63467,
-  "30d": -18.24216,
-  "1y": -32.97594
+  "7d": -8.94798,
+  "30d": -17.43882,
+  "1y": -33.2686
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3643820162
+  "TVL(USD)": 3610442995
  }
 }
 ```
@@ -123,6 +123,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 ```json
 {
  "BTC 관련 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
+   "요약": "About 70% of the bitcoin treasury firm’s coins are pledged to the exchange, bought at roughly $118,000 each, and bitcoin now trades under $69,000.",
+   "시각(UTC)": "11-13 06:03"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+   "요약": "Recent rapid redemptions explain the market swoon. Bitcoin's spot price fell below $70,000 on Friday, the lowest since August.",
+   "시각(UTC)": "11-13 05:45"
+  },
   {
    "출처": "CoinDesk",
    "제목": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
@@ -166,16 +178,16 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-12 07:00"
   },
   {
-   "출처": "CoinDesk",
-   "제목": "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor",
-   "요약": "The flaw was fixed in October 2025 and kept quiet until Tuesday. It came out alongside a high-severity bug that could stop a miner from producing blocks until someone restarted it.",
-   "시각(UTC)": "11-12 05:22"
-  },
-  {
    "출처": "Cointelegraph",
    "제목": "Here’s what happened in crypto today",
    "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-   "시각(UTC)": "11-12 22:11"
+   "시각(UTC)": "11-13 06:16"
+  },
+  {
+   "출처": "Cointelegraph",
+   "제목": "Bitcoin slides below $70K amid thin liquidity, ETF outflows",
+   "요약": "Bitcoin fell below $70,000 as crypto sentiment hit its lowest level in more than four months, with analysts warning of institutional outflows, thinning liquidity and elevated leverage.",
+   "시각(UTC)": "11-13 06:00"
   },
   {
    "출처": "Cointelegraph",
@@ -196,22 +208,10 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "시각(UTC)": "11-12 08:06"
   },
   {
-   "출처": "Cointelegraph",
-   "제목": "US data center restrictions could give Bitcoin miners an edge in AI, though challenges remain",
-   "요약": "As US voters push back against new data centers, Bitcoin miners already expanding into AI could benefit from their existing facilities.",
-   "시각(UTC)": "11-11 20:43"
-  },
-  {
    "출처": "Decrypt",
    "제목": "Strategy Made $19.5 Billion in Profit. So Why Is MSCI Removing It From Stock Indexes?",
    "요약": "Michael Saylor’s Bitcoin giant is being excluded from major investment benchmarks, raising questions about what qualifies as a business—and whether the decision could slow its Bitcoin buying.",
    "시각(UTC)": "11-12 21:26"
-  },
-  {
-   "출처": "Decrypt",
-   "제목": "Why the Path to Quantum Resistance Runs Uphill for Bitcoin Wallet Makers",
-   "요약": "Trezor CTO Tomáš Sušánka explains the trade-offs of Bitcoin’s leading post-quantum signature scheme.",
-   "시각(UTC)": "11-12 20:36"
   }
  ],
  "시장 전반 기사": [
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0045,
-   "OKX (Futures)": 0.0007,
-   "Bybit (Futures)": 0.0003,
-   "Gate (Futures)": 0.0013,
-   "MEXC (Futures)": 0.0048,
-   "WEEX (Futures)": 0.0001
+   "Binance (Futures)": 0.0033,
+   "Bybit (Futures)": -0.0011,
+   "OKX (Futures)": -0.0027,
+   "Deepcoin (Derivatives)": 0.0089,
+   "MEXC (Futures)": 0.0032,
+   "Gate (Futures)": 0.0004
   },
-  "미결제약정 합계 USD(상위)": 18043819187
+  "미결제약정 합계 USD(상위)": 18399945776
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 56.25,
+  "CoinGecko 이용자 투표 상승(%)": 55.88,
   "CoinGecko 인기 검색 코인": [
-   "MIHAO",
+   "DACITYCOIN",
    "BTC",
    "SANC",
-   "PEPE",
-   "ETH",
+   "MIHAO",
+   "BP",
    "PEARL",
-   "HYPE",
-   "DNA",
-   "QNT",
-   "PENGU",
    "ZEC",
-   "CRV",
-   "QTC",
-   "ALGO",
-   "XLM"
+   "LINK",
+   "SOL",
+   "HYPE",
+   "ONDO",
+   "AKE",
+   "PENGU",
+   "NEAR",
+   "ZRO"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 233881468267,
- "완전희석가치 FDV(USD)": 233881468267,
- "24시간 거래대금(USD)": 13290856237,
+ "시가총액(USD)": 236436558260,
+ "완전희석가치 FDV(USD)": 236436558260,
+ "24시간 거래대금(USD)": 14678490665,
  "유통량": 122215668.80579185,
  "총발행량": 122215668.80579185,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -61.30892,
+ "역대 최고가 대비(%)": -60.88623,
  "가격 변화(%)": {
-  "7d": -14.22663,
-  "30d": -23.84393,
-  "1y": -45.02901
+  "7d": -12.98283,
+  "30d": -22.64556,
+  "1y": -45.1566
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 39471577183
+  "TVL(USD)": 39299520194
  }
 }
 ```
@@ -477,6 +477,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
+   "요약": "About 70% of the bitcoin treasury firm’s coins are pledged to the exchange, bought at roughly $118,000 each, and bitcoin now trades under $69,000.",
+   "시각(UTC)": "11-13 06:03"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+   "요약": "Recent rapid redemptions explain the market swoon. Bitcoin's spot price fell below $70,000 on Friday, the lowest since August.",
+   "시각(UTC)": "11-13 05:45"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
    "요약": "A deal could be announced as soon as December, putting $2.1 billion of bitcoin under one roof, a sliver of what the combined group would be worth.",
    "시각(UTC)": "11-13 05:08"
@@ -510,18 +522,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
    "요약": "The securities infrastructure giant plans to bring tokenized stocks, ETFs and U.S. Treasuries to Solana as it expands next year's roadmap beyond Stellar and Arc.",
    "시각(UTC)": "11-12 15:45"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto for Advisors: The blockchain built to run financial markets",
-   "요약": "",
-   "시각(UTC)": "11-12 15:34"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
-   "요약": "OSL offers a yield on USDGO only to professional investors, but Jupiter said its market lets other holders earn onchain at rates set by borrower demand.",
-   "시각(UTC)": "11-12 14:45"
   }
  ]
 }
@@ -546,37 +546,37 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0029,
-   "OKX (Futures)": -0.0022,
+   "Binance (Futures)": 0.0009,
+   "OKX (Futures)": -0.0051,
    "WEEX (Futures)": 0.0,
-   "CoinW (Futures)": 0.0031,
-   "MEXC (Futures)": 0.0032
+   "CoinW (Futures)": 0.0024,
+   "Toobit Futures": 0.0024
   },
-  "미결제약정 합계 USD(상위)": 11771344579
+  "미결제약정 합계 USD(상위)": 11787024504
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 73.68,
+  "CoinGecko 이용자 투표 상승(%)": 69.49,
   "CoinGecko 인기 검색 코인": [
-   "MIHAO",
+   "DACITYCOIN",
    "BTC",
    "SANC",
-   "PEPE",
-   "ETH",
+   "MIHAO",
+   "BP",
    "PEARL",
-   "HYPE",
-   "DNA",
-   "QNT",
-   "PENGU",
    "ZEC",
-   "CRV",
-   "QTC",
-   "ALGO",
-   "XLM"
+   "LINK",
+   "SOL",
+   "HYPE",
+   "ONDO",
+   "AKE",
+   "PENGU",
+   "NEAR",
+   "ZRO"
   ],
-  "ETH가 인기 검색에 있음": true
+  "ETH가 인기 검색에 있음": false
  }
 }
 ```
@@ -668,20 +668,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 956,
- "시가총액(USD)": 14270226,
- "완전희석가치 FDV(USD)": 81660809,
- "24시간 거래대금(USD)": 39205946,
+ "시가총액 순위": 961,
+ "시가총액(USD)": 14200118,
+ "완전희석가치 FDV(USD)": 81259618,
+ "24시간 거래대금(USD)": 35314810,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -95.64699,
+ "역대 최고가 대비(%)": -95.66837,
  "가격 변화(%)": {
-  "7d": 8.57212,
-  "30d": 27.98434,
-  "1y": -65.73236
+  "7d": 9.4567,
+  "30d": 28.27636,
+  "1y": -66.25147
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -697,6 +697,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "ERA 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
+   "요약": "About 70% of the bitcoin treasury firm’s coins are pledged to the exchange, bought at roughly $118,000 each, and bitcoin now trades under $69,000.",
+   "시각(UTC)": "11-13 06:03"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+   "요약": "Recent rapid redemptions explain the market swoon. Bitcoin's spot price fell below $70,000 on Friday, the lowest since August.",
+   "시각(UTC)": "11-13 05:45"
+  },
   {
    "출처": "CoinDesk",
    "제목": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
@@ -732,18 +744,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
    "요약": "The legal battle to head off the crypto transaction tax in Illinois has drawn up a hefty roster of industry opposition, and they're saying the tax won't work.",
    "시각(UTC)": "11-12 16:45"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
-   "요약": "The securities infrastructure giant plans to bring tokenized stocks, ETFs and U.S. Treasuries to Solana as it expands next year's roadmap beyond Stellar and Arc.",
-   "시각(UTC)": "11-12 15:45"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto for Advisors: The blockchain built to run financial markets",
-   "요약": "",
-   "시각(UTC)": "11-12 15:34"
   }
  ]
 }
@@ -768,14 +768,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.1176,
-   "Binance (Futures)": -0.1465,
+   "OrangeX Futures": -0.1099,
+   "Binance (Futures)": -0.132,
    "XT.COM (Derivatives)": -0.0321,
-   "Toobit Futures": -0.1465,
-   "Bybit (Futures)": -0.1716,
-   "Ourbit (Futures)": -0.1465
+   "Ourbit (Futures)": -0.1341,
+   "Toobit Futures": -0.1328,
+   "Bybit (Futures)": -0.136
   },
-  "미결제약정 합계 USD(상위)": 47092225
+  "미결제약정 합계 USD(상위)": 47116636
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -783,21 +783,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 0.0,
   "CoinGecko 인기 검색 코인": [
-   "MIHAO",
+   "DACITYCOIN",
    "BTC",
    "SANC",
-   "PEPE",
-   "ETH",
+   "MIHAO",
+   "BP",
    "PEARL",
-   "HYPE",
-   "DNA",
-   "QNT",
-   "PENGU",
    "ZEC",
-   "CRV",
-   "QTC",
-   "ALGO",
-   "XLM"
+   "LINK",
+   "SOL",
+   "HYPE",
+   "ONDO",
+   "AKE",
+   "PENGU",
+   "NEAR",
+   "ZRO"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -892,19 +892,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 841,
- "시가총액(USD)": 18223823,
- "완전희석가치 FDV(USD)": 18223823,
- "24시간 거래대금(USD)": 9642075,
+ "시가총액 순위": 845,
+ "시가총액(USD)": 18247721,
+ "완전희석가치 FDV(USD)": 18247721,
+ "24시간 거래대금(USD)": 10458514,
  "유통량": 46022.192109469994,
  "총발행량": 46022.192109469994,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -9.05157,
+ "역대 최고가 대비(%)": -8.93993,
  "가격 변화(%)": {
-  "7d": 13.81366,
-  "30d": 5.15954,
+  "7d": 14.35137,
+  "30d": 5.66858,
   "1y": null
  },
  "소개": ""
@@ -917,6 +917,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
 {
  "TSLAB 관련 기사": [],
  "시장 전반 기사": [
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
+   "요약": "About 70% of the bitcoin treasury firm’s coins are pledged to the exchange, bought at roughly $118,000 each, and bitcoin now trades under $69,000.",
+   "시각(UTC)": "11-13 06:03"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+   "요약": "Recent rapid redemptions explain the market swoon. Bitcoin's spot price fell below $70,000 on Friday, the lowest since August.",
+   "시각(UTC)": "11-13 05:45"
+  },
   {
    "출처": "CoinDesk",
    "제목": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
@@ -952,18 +964,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
    "요약": "The legal battle to head off the crypto transaction tax in Illinois has drawn up a hefty roster of industry opposition, and they're saying the tax won't work.",
    "시각(UTC)": "11-12 16:45"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout",
-   "요약": "The securities infrastructure giant plans to bring tokenized stocks, ETFs and U.S. Treasuries to Solana as it expands next year's roadmap beyond Stellar and Arc.",
-   "시각(UTC)": "11-12 15:45"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto for Advisors: The blockchain built to run financial markets",
-   "요약": "",
-   "시각(UTC)": "11-12 15:34"
   }
  ]
 }
@@ -994,21 +994,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 0.0,
   "CoinGecko 인기 검색 코인": [
-   "MIHAO",
+   "DACITYCOIN",
    "BTC",
    "SANC",
-   "PEPE",
-   "ETH",
+   "MIHAO",
+   "BP",
    "PEARL",
-   "HYPE",
-   "DNA",
-   "QNT",
-   "PENGU",
    "ZEC",
-   "CRV",
-   "QTC",
-   "ALGO",
-   "XLM"
+   "LINK",
+   "SOL",
+   "HYPE",
+   "ONDO",
+   "AKE",
+   "PENGU",
+   "NEAR",
+   "ZRO"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1100,24 +1100,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 7,
- "시가총액(USD)": 46472868197,
- "완전희석가치 FDV(USD)": 50085565966,
- "24시간 거래대금(USD)": 2878545293,
- "유통량": 591511131.6837605,
- "총발행량": 637493895.9952643,
+ "시가총액(USD)": 47269433034,
+ "완전희석가치 FDV(USD)": 50944054662,
+ "24시간 거래대금(USD)": 3028336453,
+ "유통량": 591511105.74744,
+ "총발행량": 637493876.4868191,
  "최대발행량": null,
  "유통 비율(%)": 92.8,
  "역대 최고가(USD)": 293.31,
- "역대 최고가 대비(%)": -73.2198,
+ "역대 최고가 대비(%)": -72.75492,
  "가격 변화(%)": {
-  "7d": -12.16229,
-  "30d": -27.18386,
-  "1y": -49.03116
+  "7d": -10.55885,
+  "30d": -25.38245,
+  "1y": -48.86259
  },
  "소개": "Solana is a high-performance Layer 1 blockchain designed for mass adoption by providing a fast, secure, and low-cost environment for decentralized applications. It distinguishes itself by scaling globally without the use of complex sharding or multiple layers, instead maintaining a single, unified ledger to avoid liquidity fragmentation. This architecture allows it to process thousands of transact",
  "체인 TVL (DefiLlama)": {
   "체인": "Solana",
-  "TVL(USD)": 4937930155
+  "TVL(USD)": 4933467038
  }
 }
 ```
@@ -1173,6 +1173,18 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "시장 전반 기사": [
   {
    "출처": "CoinDesk",
+   "제목": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
+   "요약": "About 70% of the bitcoin treasury firm’s coins are pledged to the exchange, bought at roughly $118,000 each, and bitcoin now trades under $69,000.",
+   "시각(UTC)": "11-13 06:03"
+  },
+  {
+   "출처": "CoinDesk",
+   "제목": "Bitcoin ETFs are now down over $1.5 billion in net outflows for the year",
+   "요약": "Recent rapid redemptions explain the market swoon. Bitcoin's spot price fell below $70,000 on Friday, the lowest since August.",
+   "시각(UTC)": "11-13 05:45"
+  },
+  {
+   "출처": "CoinDesk",
    "제목": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
    "요약": "A deal could be announced as soon as December, putting $2.1 billion of bitcoin under one roof, a sliver of what the combined group would be worth.",
    "시각(UTC)": "11-13 05:08"
@@ -1206,18 +1218,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Illinois crypto tax is impossible to enforce as written, crypto industry tells court",
    "요약": "The legal battle to head off the crypto transaction tax in Illinois has drawn up a hefty roster of industry opposition, and they're saying the tax won't work.",
    "시각(UTC)": "11-12 16:45"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "Crypto for Advisors: The blockchain built to run financial markets",
-   "요약": "",
-   "시각(UTC)": "11-12 15:34"
-  },
-  {
-   "출처": "CoinDesk",
-   "제목": "The next Congress will write rules for AI and emerging tech. They should use the stuff first.",
-   "요약": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
-   "시각(UTC)": "11-12 14:24"
   }
  ]
 }
@@ -1242,14 +1242,14 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0056,
-   "Gate (Futures)": -0.0035,
-   "OKX (Futures)": 0.002,
-   "Bybit (Futures)": -0.0075,
+   "Binance (Futures)": 0.0006,
+   "Gate (Futures)": -0.0051,
+   "OKX (Futures)": -0.0019,
+   "Bybit (Futures)": -0.0086,
    "CoinUp.io (Futures)": 0.0071,
-   "WhiteBIT Futures": 0.01
+   "Toobit Futures": 0.0006
   },
-  "미결제약정 합계 USD(상위)": 2066058606
+  "미결제약정 합계 USD(상위)": 2094068547
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
@@ -1257,23 +1257,23 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 68.57,
   "CoinGecko 인기 검색 코인": [
-   "MIHAO",
+   "DACITYCOIN",
    "BTC",
    "SANC",
-   "PEPE",
-   "ETH",
+   "MIHAO",
+   "BP",
    "PEARL",
-   "HYPE",
-   "DNA",
-   "QNT",
-   "PENGU",
    "ZEC",
-   "CRV",
-   "QTC",
-   "ALGO",
-   "XLM"
+   "LINK",
+   "SOL",
+   "HYPE",
+   "ONDO",
+   "AKE",
+   "PENGU",
+   "NEAR",
+   "ZRO"
   ],
-  "SOL가 인기 검색에 있음": false
+  "SOL가 인기 검색에 있음": true
  }
 }
 ```
