@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-13 18:37 KST)
+# TF팀 회의 자료 (2026-11-13 19:39 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1388087047005,
- "완전희석가치 FDV(USD)": 1388096502813,
- "24시간 거래대금(USD)": 44929870246,
- "유통량": 20111231.0,
- "총발행량": 20111368.0,
+ "시가총액(USD)": 1393221555125,
+ "완전희석가치 FDV(USD)": 1393221555125,
+ "24시간 거래대금(USD)": 45835528272,
+ "유통량": 20111393.0,
+ "총발행량": 20111393.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -45.25654,
+ "역대 최고가 대비(%)": -45.05449,
  "가격 변화(%)": {
-  "7d": -8.6995,
-  "30d": -17.20925,
-  "1y": -33.43583
+  "7d": -8.96018,
+  "30d": -16.72238,
+  "1y": -32.65902
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3616266998
+  "TVL(USD)": 3623872601
  }
 }
 ```
@@ -179,6 +179,12 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
+   "제목": "Bitcoin returns to 200-week trend line as analyst sees risk of $57.7K next",
+   "요약": "Bitcoin price action interacted with its 200-week simple moving average for the first time since mid-August as it fell below $68,000.",
+   "시각(UTC)": "11-13 09:39"
+  },
+  {
+   "출처": "Cointelegraph",
    "제목": "Jane Street boosts Fidelity Bitcoin ETF holdings nearly 8x, trims IBIT",
    "요약": "Jane Street ended Q3 with 19% fewer shares in BlackRock’s Bitcoin ETF, and a higher share price lifted the stake’s value to $957 million.",
    "시각(UTC)": "11-13 09:05"
@@ -206,12 +212,6 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "제목": "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down",
    "요약": "Bitcoin fell to its lowest leve since Aug. 20 as tech stocks slid following the resignation of Nvidia CEO Jensen Huang.",
    "시각(UTC)": "11-12 15:46"
-  },
-  {
-   "출처": "Cointelegraph",
-   "제목": "BlackRock Bitcoin ETF outflows hit $2B over nine sessions",
-   "요약": "US spot Bitcoin ETF outflows rose to nearly $300 million on Wednesday, up from $95 million a day earlier, as five-session withdrawals reached $1.44 billion.",
-   "시각(UTC)": "11-12 08:06"
   }
  ],
  "시장 전반 기사": [
@@ -286,36 +286,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0012,
-   "Bybit (Futures)": -0.0062,
-   "OKX (Futures)": -0.0074,
-   "Deepcoin (Derivatives)": 0.0117,
-   "MEXC (Futures)": 0.001,
-   "Gate (Futures)": 0.0
+   "Binance (Futures)": 0.0007,
+   "Bybit (Futures)": -0.0041,
+   "OKX (Futures)": -0.0069,
+   "Deepcoin (Derivatives)": 0.0133,
+   "MEXC (Futures)": 0.0007,
+   "Gate (Futures)": 0.0018
   },
-  "미결제약정 합계 USD(상위)": 18515375450
+  "미결제약정 합계 USD(상위)": 18633725538
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 54.87,
+  "CoinGecko 이용자 투표 상승(%)": 54.46,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "PEARL",
-   "XRP",
+   "SEPPUKU",
    "AKE",
+   "BTC",
+   "SOL",
+   "XRP",
+   "NEAR",
+   "ZEC",
    "PENGU",
-   "HYPE",
-   "ENA",
-   "ETH",
    "LIT",
-   "SANC",
-   "LINK",
-   "AERO",
-   "FET",
-   "APT",
-   "ZEC"
+   "UNI",
+   "ONDO",
+   "INJ",
+   "AAVE",
+   "TAO",
+   "ENA"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 237045397585,
- "완전희석가치 FDV(USD)": 237045397585,
- "24시간 거래대금(USD)": 15595097750,
+ "시가총액(USD)": 238469785368,
+ "완전희석가치 FDV(USD)": 238469785368,
+ "24시간 거래대금(USD)": 15930694932,
  "유통량": 122215668.80579185,
  "총발행량": 122215668.80579185,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -60.78551,
+ "역대 최고가 대비(%)": -60.54988,
  "가격 변화(%)": {
-  "7d": -12.80593,
-  "30d": -22.54863,
-  "1y": -44.97077
+  "7d": -12.76115,
+  "30d": -21.81029,
+  "1y": -44.0826
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 39396171729
+  "TVL(USD)": 39393714681
  }
 }
 ```
@@ -553,36 +553,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": -0.0022,
-   "OKX (Futures)": -0.0106,
+   "OKX (Futures)": -0.0108,
    "WEEX (Futures)": 0.0001,
-   "CoinW (Futures)": -0.0005,
-   "Toobit Futures": -0.0008
+   "CoinW (Futures)": -0.0004,
+   "Toobit Futures": -0.0004
   },
-  "미결제약정 합계 USD(상위)": 11859241505
+  "미결제약정 합계 USD(상위)": 11943457004
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 68.25,
+  "CoinGecko 이용자 투표 상승(%)": 66.67,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "PEARL",
-   "XRP",
+   "SEPPUKU",
    "AKE",
+   "BTC",
+   "SOL",
+   "XRP",
+   "NEAR",
+   "ZEC",
    "PENGU",
-   "HYPE",
-   "ENA",
-   "ETH",
    "LIT",
-   "SANC",
-   "LINK",
-   "AERO",
-   "FET",
-   "APT",
-   "ZEC"
+   "UNI",
+   "ONDO",
+   "INJ",
+   "AAVE",
+   "TAO",
+   "ENA"
   ],
-  "ETH가 인기 검색에 있음": true
+  "ETH가 인기 검색에 있음": false
  }
 }
 ```
@@ -674,20 +674,20 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Base Ecosystem",
   "Rollups-as-a-Service (RaaS)"
  ],
- "시가총액 순위": 966,
- "시가총액(USD)": 14184922,
- "완전희석가치 FDV(USD)": 81172657,
- "24시간 거래대금(USD)": 33969258,
+ "시가총액 순위": 993,
+ "시가총액(USD)": 13508878,
+ "완전희석가치 FDV(USD)": 77304021,
+ "24시간 거래대금(USD)": 30489561,
  "유통량": 174750000.0,
  "총발행량": 1000000000.0,
  "최대발행량": 1000000000.0,
  "유통 비율(%)": 17.5,
  "역대 최고가(USD)": 1.88,
- "역대 최고가 대비(%)": -95.67261,
+ "역대 최고가 대비(%)": -95.88257,
  "가격 변화(%)": {
-  "7d": 7.71248,
-  "30d": 25.17453,
-  "1y": -66.42545
+  "7d": 2.79668,
+  "30d": 20.64007,
+  "1y": -68.07589
  },
  "소개": "Caldera is a rollup platform on Ethereum that enables horizontal scaling and interoperability between rollups. Instead of optimizing a single blockchain, Caldera allows projects to launch customizable rollups while maintaining Ethereum's security and decentralization. The platform introduces the Metalayer, a unifying layer designed to connect rollups across Optimistic and Zero-Knowledge (ZK) frame",
  "체인 TVL (DefiLlama)": {
@@ -774,36 +774,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "OrangeX Futures": -0.0674,
-   "Binance (Futures)": -0.0846,
+   "OrangeX Futures": -0.1005,
+   "Binance (Futures)": -0.1039,
    "XT.COM (Derivatives)": -0.0321,
-   "Ourbit (Futures)": -0.0842,
-   "Bybit (Futures)": -0.1373,
-   "Toobit Futures": -0.0846
+   "Bybit (Futures)": -0.2072,
+   "Toobit Futures": -0.1039,
+   "KCEX (Futures)": -0.1039
   },
-  "미결제약정 합계 USD(상위)": 42804026
+  "미결제약정 합계 USD(상위)": 39686165
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 50.0,
+  "CoinGecko 이용자 투표 상승(%)": 100.0,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "PEARL",
-   "XRP",
+   "SEPPUKU",
    "AKE",
+   "BTC",
+   "SOL",
+   "XRP",
+   "NEAR",
+   "ZEC",
    "PENGU",
-   "HYPE",
-   "ENA",
-   "ETH",
    "LIT",
-   "SANC",
-   "LINK",
-   "AERO",
-   "FET",
-   "APT",
-   "ZEC"
+   "UNI",
+   "ONDO",
+   "INJ",
+   "AAVE",
+   "TAO",
+   "ENA"
   ],
   "ERA가 인기 검색에 있음": false
  }
@@ -898,19 +898,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 841,
- "시가총액(USD)": 18247482,
- "완전희석가치 FDV(USD)": 18247482,
- "24시간 거래대금(USD)": 9761147,
- "유통량": 45955.28810423,
- "총발행량": 45955.28810423,
+ "시가총액 순위": 838,
+ "시가총액(USD)": 18346951,
+ "완전희석가치 FDV(USD)": 18371751,
+ "24시간 거래대금(USD)": 9759582,
+ "유통량": 45978.10910376,
+ "총발행량": 46040.25969865001,
  "최대발행량": null,
- "유통 비율(%)": 100.0,
+ "유통 비율(%)": 99.9,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -8.80851,
+ "역대 최고가 대비(%)": -8.35508,
  "가격 변화(%)": {
-  "7d": 14.07139,
-  "30d": 5.7898,
+  "7d": 13.44951,
+  "30d": 6.28744,
   "1y": null
  },
  "소개": ""
@@ -998,23 +998,23 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 0.0,
+  "CoinGecko 이용자 투표 상승(%)": null,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "PEARL",
-   "XRP",
+   "SEPPUKU",
    "AKE",
+   "BTC",
+   "SOL",
+   "XRP",
+   "NEAR",
+   "ZEC",
    "PENGU",
-   "HYPE",
-   "ENA",
-   "ETH",
    "LIT",
-   "SANC",
-   "LINK",
-   "AERO",
-   "FET",
-   "APT",
-   "ZEC"
+   "UNI",
+   "ONDO",
+   "INJ",
+   "AAVE",
+   "TAO",
+   "ENA"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1106,24 +1106,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 7,
- "시가총액(USD)": 47273544031,
- "완전희석가치 FDV(USD)": 50948482843,
- "24시간 거래대금(USD)": 3387517811,
- "유통량": 591511071.2857066,
- "총발행량": 637493809.3611314,
+ "시가총액(USD)": 47506124997,
+ "완전희석가치 FDV(USD)": 51199144016,
+ "24시간 거래대금(USD)": 3459203382,
+ "유통량": 591511057.5565226,
+ "총발행량": 637493793.1576079,
  "최대발행량": null,
  "유통 비율(%)": 92.8,
  "역대 최고가(USD)": 293.31,
- "역대 최고가 대비(%)": -72.75313,
+ "역대 최고가 대비(%)": -72.61584,
  "가격 변화(%)": {
-  "7d": -10.68833,
-  "30d": -25.28256,
-  "1y": -48.74383
+  "7d": -10.72289,
+  "30d": -24.63219,
+  "1y": -48.1375
  },
  "소개": "Solana is a high-performance Layer 1 blockchain designed for mass adoption by providing a fast, secure, and low-cost environment for decentralized applications. It distinguishes itself by scaling globally without the use of complex sharding or multiple layers, instead maintaining a single, unified ledger to avoid liquidity fragmentation. This architecture allows it to process thousands of transact",
  "체인 TVL (DefiLlama)": {
   "체인": "Solana",
-  "TVL(USD)": 4966168192
+  "TVL(USD)": 4965179858
  }
 }
 ```
@@ -1248,38 +1248,38 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.0078,
-   "Gate (Futures)": -0.0036,
-   "OKX (Futures)": -0.0088,
-   "Bybit (Futures)": -0.0108,
-   "Toobit Futures": -0.0079,
+   "Binance (Futures)": -0.007,
+   "Gate (Futures)": -0.0014,
+   "OKX (Futures)": -0.0073,
+   "Bybit (Futures)": -0.0119,
+   "Toobit Futures": -0.007,
    "CoinUp.io (Futures)": -0.0214
   },
-  "미결제약정 합계 USD(상위)": 2080417209
+  "미결제약정 합계 USD(상위)": 2099627252
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 65.71,
+  "CoinGecko 이용자 투표 상승(%)": 64.71,
   "CoinGecko 인기 검색 코인": [
-   "BTC",
-   "PEARL",
-   "XRP",
+   "SEPPUKU",
    "AKE",
+   "BTC",
+   "SOL",
+   "XRP",
+   "NEAR",
+   "ZEC",
    "PENGU",
-   "HYPE",
-   "ENA",
-   "ETH",
    "LIT",
-   "SANC",
-   "LINK",
-   "AERO",
-   "FET",
-   "APT",
-   "ZEC"
+   "UNI",
+   "ONDO",
+   "INJ",
+   "AAVE",
+   "TAO",
+   "ENA"
   ],
-  "SOL가 인기 검색에 있음": false
+  "SOL가 인기 검색에 있음": true
  }
 }
 ```
