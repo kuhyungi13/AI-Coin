@@ -1,4 +1,4 @@
-# TF팀 회의 자료 (2026-11-14 20:16 KST)
+# TF팀 회의 자료 (2026-11-14 21:16 KST)
 
 GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방법은 `aicoin/tf_team/PLAYBOOK.md`.
 자료에 없는 숫자는 쓰지 않습니다. 실패한 자료는 아래 '수집 실패'에 있습니다.
@@ -66,19 +66,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-14",
   "등락률(%)": {
-   "1일": 0.61,
-   "7일": -2.61,
-   "30일": -9.08,
-   "90일": -14.09
+   "1일": 0.16,
+   "7일": -1.93,
+   "30일": -9.55,
+   "90일": -13.06
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -5.84,
-   "MA60": -9.93,
-   "MA120": -12.48
+   "MA20": -5.26,
+   "MA60": -9.56,
+   "MA120": -12.21
   },
   "MA20>MA60": false,
   "최근 교차": null,
-  "RSI14": 22.3
+  "RSI14": 23.4
  }
 }
 ```
@@ -96,24 +96,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Bitcoin Ecosystem"
  ],
  "시가총액 순위": 1,
- "시가총액(USD)": 1351623431325,
- "완전희석가치 FDV(USD)": 1351623431325,
- "24시간 거래대금(USD)": 32673529855,
+ "시가총액(USD)": 1350635238641,
+ "완전희석가치 FDV(USD)": 1350636716083,
+ "24시간 거래대금(USD)": 32238923668,
  "유통량": 20111771.0,
- "총발행량": 20111771.0,
+ "총발행량": 20111793.0,
  "최대발행량": 21000000.0,
  "유통 비율(%)": 95.8,
  "역대 최고가(USD)": 126080,
- "역대 최고가 대비(%)": -46.69603,
+ "역대 최고가 대비(%)": -46.735,
  "가격 변화(%)": {
-  "7d": -11.48441,
-  "30d": -16.99389,
-  "1y": -30.49248
+  "7d": -11.54573,
+  "30d": -16.99392,
+  "1y": -30.0216
  },
  "소개": "Bitcoin is the world's first decentralized cryptocurrency, created in 2009 by the pseudonymous Satoshi Nakamoto. It enables peer-to-peer electronic cash transactions without intermediaries like banks or governments, operating on a blockchain secured by Proof of Work mining and the SHA-256 cryptographic algorithm. \n\nWith a fixed supply cap of 21 million coins and programmatic halvings every four ye",
  "체인 TVL (DefiLlama)": {
   "체인": "Bitcoin",
-  "TVL(USD)": 3549107823
+  "TVL(USD)": 3545190078
  }
 }
 ```
@@ -197,15 +197,15 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   },
   {
    "출처": "Cointelegraph",
-   "제목": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
-   "요약": "US spot Bitcoin ETFs recorded $185.4 million in net outflows Friday, with BlackRock’s IBIT accounting for $143.5 million and Fidelity’s FBTC shedding $41.9 million.",
-   "시각(UTC)": "11-14 06:33"
+   "제목": "Here’s what happened in crypto today",
+   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+   "시각(UTC)": "11-14 11:28"
   },
   {
    "출처": "Cointelegraph",
-   "제목": "Here’s what happened in crypto today",
-   "요약": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-   "시각(UTC)": "11-13 22:08"
+   "제목": "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock’s losing streak hits 11",
+   "요약": "US spot Bitcoin ETFs recorded $185.4 million in net outflows Friday, with BlackRock’s IBIT accounting for $143.5 million and Fidelity’s FBTC shedding $41.9 million.",
+   "시각(UTC)": "11-14 06:33"
   },
   {
    "출처": "Cointelegraph",
@@ -287,35 +287,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
    "Binance (Futures)": 0.0032,
-   "Bybit (Futures)": -0.001,
-   "OKX (Futures)": -0.0009,
-   "MEXC (Futures)": 0.0031,
-   "Gate (Futures)": 0.0012,
+   "Bybit (Futures)": 0.0001,
+   "OKX (Futures)": 0.0012,
+   "MEXC (Futures)": 0.0032,
+   "Gate (Futures)": 0.0025,
    "WEEX (Futures)": 0.0001
   },
-  "미결제약정 합계 USD(상위)": 16894106158
+  "미결제약정 합계 USD(상위)": 16875336787
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 53.18,
+  "CoinGecko 이용자 투표 상승(%)": 53.96,
   "CoinGecko 인기 검색 코인": [
-   "AKE",
    "BTC",
-   "SOL",
-   "HYPE",
-   "ETH",
-   "PENGU",
-   "XRP",
-   "AVAX",
    "KAVA",
-   "PUMP",
-   "TAO",
-   "LIT",
+   "HYPE",
+   "PENGU",
+   "SOL",
+   "QNT",
+   "AKE",
    "ADA",
+   "ASTER",
+   "XRP",
+   "ETH",
    "SUI",
-   "NEAR"
+   "PUMP",
+   "AAVE",
+   "BP"
   ],
   "BTC가 인기 검색에 있음": true
  }
@@ -377,22 +377,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-14",
   "등락률(%)": {
-   "1일": 0.73,
-   "7일": -1.88,
-   "30일": -9.35,
-   "90일": -15.15
+   "1일": 0.64,
+   "7일": -1.24,
+   "30일": -9.6,
+   "90일": -14.58
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -5.1,
-   "MA60": -11.71,
-   "MA120": -14.6
+   "MA20": -4.12,
+   "MA60": -10.85,
+   "MA120": -13.91
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 37
+   "며칠 전": 38
   },
-  "RSI14": 28.3
+  "RSI14": 31.4
  }
 }
 ```
@@ -410,24 +410,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 2,
- "시가총액(USD)": 232923160233,
- "완전희석가치 FDV(USD)": 232923160233,
- "24시간 거래대금(USD)": 11714351224,
+ "시가총액(USD)": 233002095856,
+ "완전희석가치 FDV(USD)": 233002095856,
+ "24시간 거래대금(USD)": 11566184222,
  "유통량": 122218624.4003947,
  "총발행량": 122218624.4003947,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 4946.05,
- "역대 최고가 대비(%)": -61.46839,
+ "역대 최고가 대비(%)": -61.45533,
  "가격 변화(%)": {
-  "7d": -15.09638,
-  "30d": -19.44519,
-  "1y": -39.93311
+  "7d": -15.01578,
+  "30d": -19.25884,
+  "1y": -39.19994
  },
  "소개": "Ethereum is a global, open-source platform for decentralized applications. In other words, it is a decentralized blockchain platform that enables developers to build and deploy smart contracts and applications without central authority control. Unlike Bitcoin, which primarily functions as digital currency, Ethereum operates as a programmable global computer where developers can create any type of ",
  "체인 TVL (DefiLlama)": {
   "체인": "Ethereum",
-  "TVL(USD)": 38800089876
+  "TVL(USD)": 38851559092
  }
 }
 ```
@@ -534,35 +534,35 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": 0.0006,
-   "OKX (Futures)": -0.002,
+   "Binance (Futures)": 0.0007,
+   "OKX (Futures)": -0.0018,
    "WEEX (Futures)": 0.0,
    "CoinW (Futures)": 0.0063,
    "WhiteBIT Futures": 0.01
   },
-  "미결제약정 합계 USD(상위)": 11568904947
+  "미결제약정 합계 USD(상위)": 11574370222
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 69.81,
+  "CoinGecko 이용자 투표 상승(%)": 69.23,
   "CoinGecko 인기 검색 코인": [
-   "AKE",
    "BTC",
-   "SOL",
-   "HYPE",
-   "ETH",
-   "PENGU",
-   "XRP",
-   "AVAX",
    "KAVA",
-   "PUMP",
-   "TAO",
-   "LIT",
+   "HYPE",
+   "PENGU",
+   "SOL",
+   "QNT",
+   "AKE",
    "ADA",
+   "ASTER",
+   "XRP",
+   "ETH",
    "SUI",
-   "NEAR"
+   "PUMP",
+   "AAVE",
+   "BP"
   ],
   "ETH가 인기 검색에 있음": true
  }
@@ -624,22 +624,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-14",
   "등락률(%)": {
-   "1일": 0.55,
-   "7일": 9.41,
-   "30일": 0.28,
-   "90일": 9.97
+   "1일": -0.15,
+   "7일": 7.18,
+   "30일": -0.69,
+   "90일": 10.75
   },
   "종가와 이평선 거리(%)": {
-   "MA20": 2.56,
-   "MA60": -0.24,
-   "MA120": 2.92
+   "MA20": 2.7,
+   "MA60": -0.45,
+   "MA120": 2.73
   },
   "MA20>MA60": false,
   "최근 교차": {
    "종류": "데드크로스",
-   "며칠 전": 9
+   "며칠 전": 10
   },
-  "RSI14": 53.2
+  "RSI14": 52.9
  }
 }
 ```
@@ -657,24 +657,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Solana Ecosystem"
  ],
  "시가총액 순위": 79,
- "시가총액(USD)": 793690473,
- "완전희석가치 FDV(USD)": 793690473,
- "24시간 거래대금(USD)": 158175957,
+ "시가총액(USD)": 796810813,
+ "완전희석가치 FDV(USD)": 796810813,
+ "24시간 거래대금(USD)": 152958265,
  "유통량": 100000000.0,
  "총발행량": 100000000.0,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 52.62,
- "역대 최고가 대비(%)": -84.91675,
+ "역대 최고가 대비(%)": -84.85746,
  "가격 변화(%)": {
-  "7d": -2.82819,
-  "30d": 10.92399,
-  "1y": 14.43963
+  "7d": -2.6586,
+  "30d": 10.82339,
+  "1y": 15.7411
  },
  "소개": "Injective is an interoperable Layer 1 blockchain designed for DeFi applications. It provides developers with on-chain financial infrastructure modules to build dApps such as decentralized exchanges, prediction markets, and lending protocols. Its decentralized cross-chain bridging infrastructure offers compatibility with most blockchains, including EVM chains like Ethereum and non-EVM chains like S",
  "체인 TVL (DefiLlama)": {
   "체인": "Injective",
-  "TVL(USD)": 21601066
+  "TVL(USD)": 21537919
  }
 }
 ```
@@ -759,33 +759,33 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
    "Tapbit (Futures)": 0.01,
    "OrangeX Futures": 0.01,
    "Binance (Futures)": 0.01,
-   "MEXC (Futures)": 0.0213,
-   "Gate (Futures)": 0.0003,
-   "Bybit (Futures)": 0.0064
+   "MEXC (Futures)": 0.021,
+   "Gate (Futures)": 0.0027,
+   "Bybit (Futures)": 0.01
   },
-  "미결제약정 합계 USD(상위)": 183319968
+  "미결제약정 합계 USD(상위)": 180840672
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 75.0,
+  "CoinGecko 이용자 투표 상승(%)": 76.19,
   "CoinGecko 인기 검색 코인": [
-   "AKE",
    "BTC",
-   "SOL",
-   "HYPE",
-   "ETH",
-   "PENGU",
-   "XRP",
-   "AVAX",
    "KAVA",
-   "PUMP",
-   "TAO",
-   "LIT",
+   "HYPE",
+   "PENGU",
+   "SOL",
+   "QNT",
+   "AKE",
    "ADA",
+   "ASTER",
+   "XRP",
+   "ETH",
    "SUI",
-   "NEAR"
+   "PUMP",
+   "AAVE",
+   "BP"
   ],
   "INJ가 인기 검색에 있음": false
  }
@@ -848,22 +848,22 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-14",
   "등락률(%)": {
-   "1일": 0.02,
-   "7일": -2.57,
-   "30일": 8.96,
-   "90일": -1.99
+   "1일": 0.32,
+   "7일": -2.33,
+   "30일": 8.06,
+   "90일": -1.52
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -0.84,
-   "MA60": 3.69,
-   "MA120": 0.55
+   "MA20": -0.57,
+   "MA60": 3.98,
+   "MA120": 0.84
   },
   "MA20>MA60": true,
   "최근 교차": {
    "종류": "골든크로스",
-   "며칠 전": 14
+   "며칠 전": 15
   },
-  "RSI14": 51.4
+  "RSI14": 52.9
  }
 }
 ```
@@ -880,19 +880,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Real World Assets (RWA)",
   "bStocks Ecosystem"
  ],
- "시가총액 순위": 832,
- "시가총액(USD)": 18137970,
- "완전희석가치 FDV(USD)": 18137970,
- "24시간 거래대금(USD)": 7173882,
- "유통량": 46661.48415090999,
- "총발행량": 46661.48415090999,
+ "시가총액 순위": 834,
+ "시가총액(USD)": 18138810,
+ "완전희석가치 FDV(USD)": 18138810,
+ "24시간 거래대금(USD)": 7714314,
+ "유통량": 46661.584945639996,
+ "총발행량": 46661.584945639996,
  "최대발행량": null,
  "유통 비율(%)": 100.0,
  "역대 최고가(USD)": 435.42,
- "역대 최고가 대비(%)": -10.72769,
+ "역대 최고가 대비(%)": -10.72374,
  "가격 변화(%)": {
-  "7d": 8.2555,
-  "30d": 7.5487,
+  "7d": 8.36408,
+  "30d": 7.45517,
   "1y": null
  },
  "소개": ""
@@ -982,21 +982,21 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "군중 심리(CoinGecko)": {
   "CoinGecko 이용자 투표 상승(%)": 0.0,
   "CoinGecko 인기 검색 코인": [
-   "AKE",
    "BTC",
-   "SOL",
-   "HYPE",
-   "ETH",
-   "PENGU",
-   "XRP",
-   "AVAX",
    "KAVA",
-   "PUMP",
-   "TAO",
-   "LIT",
+   "HYPE",
+   "PENGU",
+   "SOL",
+   "QNT",
+   "AKE",
    "ADA",
+   "ASTER",
+   "XRP",
+   "ETH",
    "SUI",
-   "NEAR"
+   "PUMP",
+   "AAVE",
+   "BP"
   ],
   "TSLAB가 인기 검색에 있음": false
  }
@@ -1058,19 +1058,19 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "4시간봉(요약)": {
   "기준일": "2026-11-14",
   "등락률(%)": {
-   "1일": 0.24,
-   "7일": -4.09,
-   "30일": -12.05,
-   "90일": -22.69
+   "1일": 0.94,
+   "7일": -4.7,
+   "30일": -11.78,
+   "90일": -21.33
   },
   "종가와 이평선 거리(%)": {
-   "MA20": -7.39,
-   "MA60": -13.23,
-   "MA120": -18.31
+   "MA20": -6.09,
+   "MA60": -12.11,
+   "MA120": -17.35
   },
   "MA20>MA60": false,
   "최근 교차": null,
-  "RSI14": 24.2
+  "RSI14": 28.2
  }
 }
 ```
@@ -1088,24 +1088,24 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
   "Multicoin Capital Portfolio"
  ],
  "시가총액 순위": 7,
- "시가총액(USD)": 44835139712,
- "완전희석가치 FDV(USD)": 48320018601,
- "24시간 거래대금(USD)": 3324390185,
- "유통량": 591573864.3667856,
- "총발행량": 637554835.6385782,
+ "시가총액(USD)": 44794546314,
+ "완전희석가치 FDV(USD)": 48276270524,
+ "24시간 거래대금(USD)": 3306885666,
+ "유통량": 591573847.9904956,
+ "총발행량": 637554824.6451732,
  "최대발행량": null,
  "유통 비율(%)": 92.8,
  "역대 최고가(USD)": 293.31,
- "역대 최고가 대비(%)": -74.16073,
+ "역대 최고가 대비(%)": -74.18926,
  "가격 변화(%)": {
-  "7d": -15.70538,
-  "30d": -25.904,
-  "1y": -46.59029
+  "7d": -15.80456,
+  "30d": -25.87081,
+  "1y": -46.04286
  },
  "소개": "Solana is a high-performance Layer 1 blockchain designed for mass adoption by providing a fast, secure, and low-cost environment for decentralized applications. It distinguishes itself by scaling globally without the use of complex sharding or multiple layers, instead maintaining a single, unified ledger to avoid liquidity fragmentation. This architecture allows it to process thousands of transact",
  "체인 TVL (DefiLlama)": {
   "체인": "Solana",
-  "TVL(USD)": 4844223170
+  "TVL(USD)": 4837944001
  }
 }
 ```
@@ -1224,36 +1224,36 @@ GitHub Actions가 무료 공개 API로 모은 자료입니다. 회의 진행 방
  "선물 포지션": {
   "출처": "CoinGecko (거래소별 무기한 선물, 미결제약정 큰 순)",
   "거래소별 펀딩비(%)": {
-   "Binance (Futures)": -0.0064,
-   "Gate (Futures)": -0.0014,
-   "OKX (Futures)": -0.0021,
+   "Binance (Futures)": -0.0065,
+   "Gate (Futures)": -0.0028,
+   "OKX (Futures)": -0.0027,
    "Toobit Futures": -0.0064,
-   "Bybit (Futures)": -0.0074,
+   "Bybit (Futures)": -0.0066,
    "CoinUp.io (Futures)": -0.0225
   },
-  "미결제약정 합계 USD(상위)": 1991622193
+  "미결제약정 합계 USD(상위)": 2007947925
  },
  "커뮤니티 인기글(레딧)": {
   "오류": "HTTPError: 403 Client Error: Blocked for url: https://www.reddit.com/r/CryptoCurrency/hot.json?limit=15"
  },
  "군중 심리(CoinGecko)": {
-  "CoinGecko 이용자 투표 상승(%)": 75.0,
+  "CoinGecko 이용자 투표 상승(%)": 76.47,
   "CoinGecko 인기 검색 코인": [
-   "AKE",
    "BTC",
-   "SOL",
-   "HYPE",
-   "ETH",
-   "PENGU",
-   "XRP",
-   "AVAX",
    "KAVA",
-   "PUMP",
-   "TAO",
-   "LIT",
+   "HYPE",
+   "PENGU",
+   "SOL",
+   "QNT",
+   "AKE",
    "ADA",
+   "ASTER",
+   "XRP",
+   "ETH",
    "SUI",
-   "NEAR"
+   "PUMP",
+   "AAVE",
+   "BP"
   ],
   "SOL가 인기 검색에 있음": true
  }
