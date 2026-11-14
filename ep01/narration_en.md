@@ -1,58 +1,90 @@
 # EP.01 — English narration script (TTS input)
 
-**Voice direction:** low, calm, unhurried documentary male or female narrator.
-No dramatic rise at the end of sentences. Pause ~0.5 s between scenes.
-Target pace ≈ 2.5 words/sec. Total ≈ 96 s.
+**Voice direction:** low, calm, unhurried documentary narrator.
+No dramatic rise at the end of sentences. Target pace ≈ 2.5 words/sec.
+Audio total ≈ 71 s, finished video ≈ 75 s (each shot = its audio + 0.5 s).
 
-Render each scene as its own audio file so you can re-do one line without
-re-rendering the whole track. File names match the Blender shot names.
+Render each scene as its own audio file so one line can be redone without
+re-rendering the whole track. File names match the Blender shot names, and go
+in `ep01/audio/` (see `DUBBING.md`).
 
-| file | target length |
+This file is also the **single source for the subtitles**: every line under a
+`## sNN` heading is one subtitle cue, and `build_srt.py` turns them into
+`ep01_en.srt`. Edit the words here, never in the `.srt`.
+
+| file | target audio |
 |---|---|
 | `s01.wav` | 8.0 s |
-| `s02.wav` | 8.5 s |
-| `s03.wav` | 11.5 s |
-| `s04.wav` | 11.0 s |
-| `s05.wav` | 7.5 s |
-| `s06.wav` | 7.5 s |
-| `s07.wav` | 11.5 s |
-| `s08.wav` | 17.5 s |
-| `s09.wav` | 9.0 s |
+| `s02.wav` | 7.5 s |
+| `s03.wav` | 8.0 s |
+| `s04.wav` | 7.0 s |
+| `s05.wav` | 6.5 s |
+| `s06.wav` | 8.0 s |
+| `s07.wav` | 7.5 s |
+| `s08.wav` | 9.0 s |
+| `s09.wav` | 9.5 s |
 
 ---
 
 ## s01 — Hook
-August 2003. A pizza delivery man walks into a bank in Pennsylvania, with a live bomb locked around his neck.
+August 2003. A pizza delivery man walks into a bank in Erie, Pennsylvania,
+with a bomb locked around his neck.
 
 ## s02 — The order
-Brian Wells was an ordinary delivery driver. That afternoon, an order came in, to an empty TV tower site outside town.
+His name was Brian Wells.
+That afternoon, he took an order to an empty TV tower site outside town.
 
 ## s03 — The collar
-There, a device was locked onto his neck. He was ordered to rob a bank and follow a set of written instructions. He later told police he was forced.
+There, a metal collar was locked onto his neck.
+He was told to rob a bank and follow a set of written instructions.
 
 ## s04 — The robbery
-He walked out with about eighty-seven hundred dollars. But this was only the first step. More instructions, like a scavenger hunt, were waiting for him.
+He walked out with about eighty-seven hundred dollars,
+and a trail of notes, like a scavenger hunt.
 
 ## s05 — Surrounded
-Minutes after leaving the bank, police stopped him. They waited for the bomb squad. There wasn't enough time.
+Minutes later, police stopped him.
+He told them he had been forced. They called the bomb squad.
 
 ## s06 — The end (no on-screen violence)
-On live camera, the device went off. Brian Wells died, still waiting for someone to save him.
+It was still on its way when the device went off, in front of news cameras.
+Brian Wells was forty-six.
 
 ## s07 — The investigation
-The investigation took years. At its center was Marjorie Diehl-Armstrong, who had a documented history of mental illness, and an earlier death linked to her.
+The investigation took years.
+At its center was Marjorie Diehl-Armstrong,
+already tied to the death of a former boyfriend.
 
 ## s08 — Sentencing
-In 2007, accomplice Kenneth Barnes pleaded guilty. In 2010, Diehl-Armstrong was sentenced to forty-five years for conspiracy and related charges. She died in prison in 2017. Another figure, William Rothstein, died of illness before trial.
+Accomplice Kenneth Barnes pleaded guilty.
+In 2011, Diehl-Armstrong was sentenced to life plus thirty years.
+She died in prison in 2017.
 
 ## s09 — Closing
-Whether Wells was an accomplice or a victim is still debated. What we know is that he was waiting for help until the very end.
+Whether Wells was part of the plot or only its victim is still debated.
+What we know is that he died waiting for help.
 
 ---
 
 ## TTS notes
-- Numbers are already spelled out where a TTS engine usually gets them wrong
-  (`$8,700` → "eighty-seven hundred dollars", `45` → "forty-five").
-- "Diehl-Armstrong" is commonly read as **DEEL-Armstrong**. Check your engine's
-  output and fall back to a phonetic spelling (`Deel Armstrong`) if it mangles it.
+- Numbers are spelled out where TTS engines usually stumble. `build_srt.py`
+  turns them back into digits for the subtitles (`eighty-seven hundred dollars`
+  → `$8,700`, `forty-six` → `46`, `thirty years` → `30 years`).
+- A line break inside a scene is only a subtitle break. Paste each scene into the
+  TTS as one paragraph (line breaks joined with a space).
+- "Diehl-Armstrong" is commonly read as **DEEL-Armstrong**. If the engine mangles
+  it, feed it `Deel Armstrong` — the subtitle still comes from this file.
 - Keep one consistent voice across all episodes — it becomes the channel's signature.
+
+## What changed from the first draft (and why)
+- **Shorter: 96 s → ~75 s.** The series format targets 60–90 s for shorts;
+  this leaves margin for the 0.5 s gaps and a title card. Cut William
+  Rothstein (a third name the viewer can't hold onto in a short) and the
+  duplicate "waiting for someone to save him" line.
+- **Facts corrected** (checked against Wikipedia "Pizza bomber" and CBS News, Feb 2011):
+  - Diehl-Armstrong was sentenced in **2011 to life plus 30 years**, not 45 years in 2010.
+    The 45 years was **Barnes's** sentence (pleaded guilty 2008, later reduced
+    after he testified), so the script now just says he pleaded guilty.
+  - Wells told police he was forced **while handcuffed at the scene**, not "later".
+  - The bomb went off **before the bomb squad arrived**, in front of news cameras.
+  - Added the city (Erie) and the amount stays "about $8,700" (actual $8,702).

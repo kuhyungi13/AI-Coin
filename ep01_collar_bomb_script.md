@@ -22,7 +22,7 @@
 
 ### SCENE 3 · 목에 채워진 장치
 - **뷰**: 숲속 공터, 멀리서 두 개의 실루엣. 장치는 클로즈업 없이 실루엣으로만.
-- **KR**: 그곳에서 그는 폭탄 장치를 목에 채워졌고, 은행을 털고 지시문에 적힌 대로 움직이라는 명령을 받았습니다. 웰스는 이후 경찰에게 "강요당했다"고 말했습니다.
+- **KR**: 그곳에서 그는 폭탄 장치를 목에 채워졌고, 은행을 털고 지시문에 적힌 대로 움직이라는 명령을 받았습니다. 웰스는 붙잡힌 직후 경찰에게 "강요당했다"고 말했습니다.
 - **EN**: There, a device was locked onto his neck. He was ordered to rob a bank and follow a set of written instructions. He later told police he was forced.
 
 ### SCENE 4 · 은행 강도
@@ -46,8 +46,8 @@
 - **EN**: The investigation took years. At its center was Marjorie Diehl-Armstrong, who had a documented history of mental illness and had been involved in an earlier death.
 
 ### SCENE 8 · 처벌
-- **KR**: 2007년, 공범 케네스 반스는 유죄를 인정했고, 2010년 디일-암스트롱은 은행강도 공모 등으로 45년형을 선고받았습니다. 그녀는 2017년 수감 중 사망했습니다. 또 다른 관련자 윌리엄 로스스타인은 재판 전에 병으로 사망했습니다.
-- **EN**: In 2007, accomplice Kenneth Barnes pleaded guilty. In 2010, Diehl-Armstrong was sentenced to 45 years for conspiracy and related charges. She died in prison in 2017. Another figure, William Rothstein, died of illness before trial.
+- **KR**: 2008년, 공범 케네스 반스는 유죄를 인정하고 45년형을 받았습니다(증언 후 감형). 디일-암스트롱은 2010년 유죄 평결을 받고 2011년 종신형에 30년이 더해진 형을 선고받았습니다. 그녀는 2017년 수감 중 사망했습니다. 또 다른 관련자 윌리엄 로스스타인은 기소 전인 2004년 병으로 사망했습니다.
+- **EN**: In 2008, accomplice Kenneth Barnes pleaded guilty and was sentenced to 45 years, later reduced after he testified. Diehl-Armstrong was convicted in 2010 and in 2011 sentenced to life plus 30 years. She died in prison in 2017. Another figure, William Rothstein, died of illness in 2004, before anyone was charged.
 
 ### SCENE 9 · 엔딩
 - **KR**: 웰스가 공범이었는지, 피해자였는지는 지금까지도 논쟁이 이어지고 있습니다. 확실한 건 하나, 그가 마지막까지 도움을 기다렸다는 사실입니다.
@@ -56,7 +56,7 @@
 ---
 
 ## 팩트체크 포인트 (업로드 전 필수)
-1. 형량: 반스 선고 연도/기간, 디일-암스트롱 45년형과 사망 연도(2017) 재확인
+1. 형량: 반스 2008년 유죄 인정·45년형(2011년 감형), 디일-암스트롱 2011년 종신+30년, 2017년 사망 — 2026-11-14 Wikipedia·CBS로 확인. 숏폼 영어판(`ep01/narration_en.md`)은 반스 형량과 로스스타인을 생략
 2. 폭발 직전 경과 시간, 구체 금액(약 $8,702)
 3. 웰스의 공모 여부는 "논쟁 중"으로만 표기 (단정 금지)
 4. 실존 인물 실명 사용 시 보도 기준·출처 자막 병기 권장

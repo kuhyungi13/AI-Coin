@@ -1,0 +1,89 @@
+{
+  "fps": 24,
+  "pad": 0.5,
+  "total_seconds": 75.5,
+  "total_frames": 1812,
+  "shots": [
+    {
+      "shot": "s01",
+      "start": 0.0,
+      "length": 8.5,
+      "start_frame": 1,
+      "frames": 204,
+      "audio_seconds": 8.0,
+      "audio_source": "target"
+    },
+    {
+      "shot": "s02",
+      "start": 8.5,
+      "length": 8.0,
+      "start_frame": 205,
+      "frames": 192,
+      "audio_seconds": 7.5,
+      "audio_source": "target"
+    },
+    {
+      "shot": "s03",
+      "start": 16.5,
+      "length": 8.5,
+      "start_frame": 397,
+      "frames": 204,
+      "audio_seconds": 8.0,
+      "audio_source": "target"
+    },
+    {
+      "shot": "s04",
+      "start": 25.0,
+      "length": 7.5,
+      "start_frame": 601,
+      "frames": 180,
+      "audio_seconds": 7.0,
+      "audio_source": "target"
+    },
+    {
+      "shot": "s05",
+      "start": 32.5,
+      "length": 7.0,
+      "start_frame": 781,
+      "frames": 168,
+      "audio_seconds": 6.5,
+      "audio_source": "target"
+    },
+    {
+      "shot": "s06",
+      "start": 39.5,
+      "length": 8.5,
+      "start_frame": 949,
+      "frames": 204,
+      "audio_seconds": 8.0,
+      "audio_source": "target"
+    },
+    {
+      "shot": "s07",
+      "start": 48.0,
+      "length": 8.0,
+      "start_frame": 1153,
+      "frames": 192,
+      "audio_seconds": 7.5,
+      "audio_source": "target"
+    },
+    {
+      "shot": "s08",
+      "start": 56.0,
+      "length": 9.5,
+      "start_frame": 1345,
+      "frames": 228,
+      "audio_seconds": 9.0,
+      "audio_source": "target"
+    },
+    {
+      "shot": "s09",
+      "start": 65.5,
+      "length": 10.0,
+      "start_frame": 1573,
+      "frames": 240,
+      "audio_seconds": 9.5,
+      "audio_source": "target"
+    }
+  ]
+}

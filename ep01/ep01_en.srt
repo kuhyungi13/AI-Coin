@@ -1,104 +1,91 @@
 1
-00:00:00,000 --> 00:00:04,000
-August 2003. A pizza delivery man
-walks into a bank in Pennsylvania —
+00:00:00,000 --> 00:00:05,431
+August 2003. A pizza delivery man walks
+into a bank in Erie, Pennsylvania,
 
 2
-00:00:04,000 --> 00:00:08,000
-— with a live bomb locked around his neck.
+00:00:05,431 --> 00:00:08,000
+with a bomb locked around his neck.
 
 3
-00:00:08,500 --> 00:00:12,500
-Brian Wells was an ordinary delivery driver.
+00:00:08,500 --> 00:00:10,433
+His name was Brian Wells.
 
 4
-00:00:12,500 --> 00:00:17,000
-That afternoon, an order came in —
-to an empty TV tower site outside town.
+00:00:10,433 --> 00:00:16,000
+That afternoon, he took an order to
+an empty TV tower site outside town.
 
 5
-00:00:17,500 --> 00:00:21,500
-There, a device was locked onto his neck.
+00:00:16,500 --> 00:00:19,798
+There, a metal collar
+was locked onto his neck.
 
 6
-00:00:21,500 --> 00:00:26,000
-He was ordered to rob a bank and follow
+00:00:19,798 --> 00:00:24,500
+He was told to rob a bank and follow
 a set of written instructions.
 
 7
-00:00:26,000 --> 00:00:29,000
-He later told police he was forced.
+00:00:25,000 --> 00:00:28,857
+He walked out with about $8,700,
 
 8
-00:00:29,500 --> 00:00:33,000
-He walked out with about $8,700.
+00:00:28,857 --> 00:00:32,000
+and a trail of notes,
+like a scavenger hunt.
 
 9
-00:00:33,000 --> 00:00:36,500
-But this was only the first step.
+00:00:32,500 --> 00:00:34,851
+Minutes later, police stopped him.
 
 10
-00:00:36,500 --> 00:00:40,500
-More instructions, like a scavenger hunt,
-were waiting for him.
+00:00:34,851 --> 00:00:39,000
+He told them he had been forced.
+They called the bomb squad.
 
 11
-00:00:41,000 --> 00:00:45,000
-Minutes after leaving the bank,
-police stopped him.
+00:00:39,500 --> 00:00:45,441
+It was still on its way when the device
+went off, in front of news cameras.
 
 12
-00:00:45,000 --> 00:00:48,500
-They waited for the bomb squad.
-There wasn't enough time.
+00:00:45,441 --> 00:00:47,500
+Brian Wells was 46.
 
 13
-00:00:49,000 --> 00:00:52,500
-On live camera, the device went off.
-
-14
-00:00:52,500 --> 00:00:56,500
-Brian Wells died, still waiting
-for someone to save him.
-
-15
-00:00:57,000 --> 00:01:00,000
+00:00:48,000 --> 00:00:49,812
 The investigation took years.
 
+14
+00:00:49,812 --> 00:00:52,500
+At its center was
+Marjorie Diehl-Armstrong,
+
+15
+00:00:52,500 --> 00:00:55,500
+already tied to the death
+of a former boyfriend.
+
 16
-00:01:00,000 --> 00:01:04,000
-At its center was Marjorie Diehl-Armstrong,
+00:00:56,000 --> 00:00:58,774
+Accomplice Kenneth Barnes pleaded guilty.
 
 17
-00:01:04,000 --> 00:01:08,500
-who had a documented history of mental illness,
-and an earlier death linked to her.
+00:00:58,774 --> 00:01:03,173
+In 2011, Diehl-Armstrong was
+sentenced to life plus 30 years.
 
 18
-00:01:09,000 --> 00:01:13,000
-In 2007, accomplice Kenneth Barnes
-pleaded guilty.
-
-19
-00:01:13,000 --> 00:01:18,500
-In 2010, Diehl-Armstrong was sentenced to 45 years
-for conspiracy and related charges.
-
-20
-00:01:18,500 --> 00:01:22,000
+00:01:03,173 --> 00:01:05,000
 She died in prison in 2017.
 
-21
-00:01:22,000 --> 00:01:26,500
-Another figure, William Rothstein,
-died of illness before trial.
+19
+00:01:05,500 --> 00:01:11,265
+Whether Wells was part of the plot
+or only its victim is still debated.
 
-22
-00:01:27,000 --> 00:01:31,500
-Whether Wells was an accomplice
-or a victim is still debated.
-
-23
-00:01:31,500 --> 00:01:36,000
-What we know is that he was waiting
-for help until the very end.
+20
+00:01:11,265 --> 00:01:15,000
+What we know is that he
+died waiting for help.
